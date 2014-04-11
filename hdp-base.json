@@ -1,0 +1,124 @@
+{
+  "apache":{
+    "accumulo":{
+      "repo-url":"git://git.apache.org/accumulo.git",
+      "branch":"branch-3.4",
+      "version":"1.5.1",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper" ]
+    },
+    "falcon":{
+      "repo-url":"git://git.apache.org/incubator-falcon.git",
+      "internal-repo-name":"falcon",
+      "branch":"master",
+      "version":"0.5.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "hbase", "hive", "oozie" ]
+    },
+    "flume":{
+      "repo-url":"git://git.apache.org/flume.git",
+      "branch":"master",
+      "version":"1.4.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper", "hbase", "hive", "tez" ]
+    },
+    "hadoop":{
+      "repo-url":"git://git.apache.org/hadoop-common.git",
+      "internal-repo-name":"hadoop",
+      "branch":"branch-2.4",
+      "version":"2.4.0",
+      "enable-merge":false,
+      "depends-on":[ "zookeeper" ]
+    },
+    "hbase":{
+      "repo-url":"git://git.apache.org/hbase.git",
+      "branch":"0.98",
+      "version":"0.98.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper" ]
+    },
+    "hive":{
+      "repo-url":"git://git.apache.org/hive.git",
+      "branch":"trunk",
+      "version":"0.13.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper", "hbase", "tez" ]
+    },
+    "hue":{
+      "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
+      "enable-push":false,
+      "branch":"master",
+      "version":"2.3.1",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper", "hive" ]
+    },
+    "knox":{
+      "repo-url":"git://git.apache.org/knox.git",
+      "branch":"master",
+      "version":"0.4.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop" ]
+    },
+    "mahout":{
+      "repo-url":"git://git.apache.org/mahout.git",
+      "branch":"master",
+      "version":"0.9.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "hbase" ]
+    },
+    "oozie":{
+      "repo-url":"git://git.apache.org/oozie.git",
+      "branch":"branch-4.0",
+      "version":"4.1.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper", "hbase", "tez", "hive", "pig", "sqoop" ]
+    },
+    "phoenix":{
+      "repo-url":"git://git.apache.org/incubator-phoenix.git",
+      "internal-repo-name":"phoenix",
+      "branch":"master",
+      "version":"4.0.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper", "hbase", "pig", "flume" ]
+    },
+    "pig":{
+      "repo-url":"git://git.apache.org/pig.git",
+      "branch":"trunk",
+      "version":"0.12.1",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper", "hbase", "tez", "hive" ]
+    },
+    "sqoop":{
+      "repo-url":"git://git.apache.org/sqoop.git",
+      "branch":"branch-1.4.0",
+      "version":"1.4.4",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "hbase", "hive", "accumulo"
+      ]
+    },
+    "storm":{
+      "repo-url":"git://git.apache.org/incubator-storm.git",
+      "internal-repo-name":"storm",
+      "branch":"master",
+      "version":"0.9.0",
+      "enable-merge":false,
+      "depends-on":[ "zookeeper" ]
+    },
+    "tez":{
+      "repo-url":"git://git.apache.org/incubator-tez.git",
+      "internal-repo-name":"mrx",
+      "branch":"master",
+      "version":"0.4.0",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper" ]
+    },
+    "zookeeper":{
+      "repo-url":"git://git.apache.org/zookeeper.git",
+      "branch":"branch-3.4",
+      "version":"3.4.5",
+      "enable-merge":false,
+      "depends-on":null
+    }
+  }
+}
+
