@@ -19,7 +19,7 @@
       "repo-url":"git://git.apache.org/flume.git",
       "branch":"flume-1.5",
       "version":"1.5.0",
-      "enable-merge":false,
+      "enable-merge":true,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "hive", "tez" ]
     },
     "hadoop":{
