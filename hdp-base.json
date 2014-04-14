@@ -91,8 +91,8 @@
     "sqoop":{
       "repo-url":"git://git.apache.org/sqoop.git",
       "branch":"branch-1.4.0",
-      "version":"1.4.4",
-      "enable-merge":false,
+      "version":"1.4.5",
+      "enable-merge":true,
       "depends-on":[ "hadoop", "hbase", "hive", "accumulo"
       ]
     },
