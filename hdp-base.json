@@ -69,7 +69,7 @@
     "oozie":{
       "repo-url":"git://git.apache.org/oozie.git",
       "branch":"branch-4.0",
-      "version":"4.1.0",
+      "version":"4.0.0",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "tez", "hive", "pig", "sqoop" ]
     },
