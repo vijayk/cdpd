@@ -27,7 +27,7 @@
       "internal-repo-name":"hadoop",
       "branch":"branch-2",
       "version":"2.5.0",
-      "enable-merge":false,
+      "enable-merge":true,
       "depends-on":[ "zookeeper" ]
     },
     "hbase":{
