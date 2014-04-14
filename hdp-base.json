@@ -40,7 +40,7 @@
     "hive":{
       "repo-url":"git://git.apache.org/hive.git",
       "branch":"trunk",
-      "version":"0.13.0",
+      "version":"0.14.0",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "tez" ]
     },
