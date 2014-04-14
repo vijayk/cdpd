@@ -90,11 +90,10 @@
     },
     "sqoop":{
       "repo-url":"git://git.apache.org/sqoop.git",
-      "branch":"branch-1.4.0",
+      "branch":"trunk",
       "version":"1.4.5",
       "enable-merge":true,
-      "depends-on":[ "hadoop", "hbase", "hive", "accumulo"
-      ]
+      "depends-on":[ "hadoop", "hbase", "hive", "accumulo" ]
     },
     "storm":{
       "repo-url":"git://git.apache.org/incubator-storm.git",
