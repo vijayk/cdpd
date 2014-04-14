@@ -99,7 +99,7 @@
       "repo-url":"git://git.apache.org/incubator-storm.git",
       "internal-repo-name":"storm",
       "branch":"master",
-      "version":"0.9.0",
+      "version":"0.9.1",
       "enable-merge":false,
       "depends-on":[ "zookeeper" ]
     },
