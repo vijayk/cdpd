@@ -25,8 +25,8 @@
     "hadoop":{
       "repo-url":"git://git.apache.org/hadoop-common.git",
       "internal-repo-name":"hadoop",
-      "branch":"branch-2.4",
-      "version":"2.4.0",
+      "branch":"branch-2",
+      "version":"2.5.0",
       "enable-merge":false,
       "depends-on":[ "zookeeper" ]
     },
