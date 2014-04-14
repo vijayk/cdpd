@@ -17,8 +17,8 @@
     },
     "flume":{
       "repo-url":"git://git.apache.org/flume.git",
-      "branch":"master",
-      "version":"1.4.0",
+      "branch":"flume-1.5",
+      "version":"1.5.0",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "hive", "tez" ]
     },
