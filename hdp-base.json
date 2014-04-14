@@ -84,8 +84,8 @@
     "pig":{
       "repo-url":"git://git.apache.org/pig.git",
       "branch":"trunk",
-      "version":"0.12.1",
-      "enable-merge":false,
+      "version":"0.13.0",
+      "enable-merge":true,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "tez", "hive" ]
     },
     "sqoop":{
