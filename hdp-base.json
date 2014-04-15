@@ -77,8 +77,8 @@
       "repo-url":"git://git.apache.org/incubator-phoenix.git",
       "internal-repo-name":"phoenix",
       "branch":"master",
-      "version":"4.0.0",
-      "enable-merge":false,
+      "version":"4.1.0",
+      "enable-merge":true,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "pig", "flume" ]
     },
     "pig":{
