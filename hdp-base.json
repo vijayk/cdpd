@@ -2,8 +2,8 @@
   "apache":{
     "accumulo":{
       "repo-url":"git://git.apache.org/accumulo.git",
-      "branch":"branch-1.5.1",
-      "version":"1.5.1",
+      "branch":"1.6.0-snapshot",
+      "version":"1.6.0",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper" ]
     },
@@ -33,7 +33,7 @@
     "hbase":{
       "repo-url":"git://git.apache.org/hbase.git",
       "branch":"0.98",
-      "version":"0.98.0",
+      "version":"0.98.2",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper" ]
     },
@@ -41,7 +41,7 @@
       "repo-url":"git://git.apache.org/hive.git",
       "branch":"trunk",
       "version":"0.14.0",
-      "enable-merge":false,
+      "enable-merge":true,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "tez" ]
     },
     "hue":{
