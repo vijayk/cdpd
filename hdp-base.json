@@ -61,9 +61,9 @@
     },
     "mahout":{
       "repo-url":"git://git.apache.org/mahout.git",
-      "branch":"master",
-      "version":"0.9.0",
-      "enable-merge":false,
+      "branch":"trunk",
+      "version":"1.0.0",
+      "enable-merge":true,
       "depends-on":[ "hadoop", "hbase" ]
     },
     "oozie":{
