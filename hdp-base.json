@@ -2,7 +2,7 @@
   "apache":{
     "accumulo":{
       "repo-url":"git://git.apache.org/accumulo.git",
-      "branch":"1.6.0-snapshot",
+      "branch":"1.6.0-SNAPSHOT",
       "version":"1.6.0",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper" ]
