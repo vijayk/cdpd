@@ -86,7 +86,7 @@
       "branch":"trunk",
       "version":"0.13.0",
       "enable-merge":true,
-      "depends-on":[ "hadoop", "zookeeper", "hbase", "tez", "hive" ]
+      "depends-on":[ "hadoop", "zookeeper", "accumulo", "hbase", "tez", "hive" ]
     },
     "sqoop":{
       "repo-url":"git://git.apache.org/sqoop.git",
