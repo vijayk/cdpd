@@ -11,7 +11,7 @@
       "repo-url":"git://git.apache.org/incubator-falcon.git",
       "internal-repo-name":"falcon",
       "branch":"master",
-      "version":"0.5.0",
+      "version":"0.6.0",
       "enable-merge":false,
       "depends-on":[ "hadoop", "hbase", "hive", "oozie" ]
     },
