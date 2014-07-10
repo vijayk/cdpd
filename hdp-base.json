@@ -88,6 +88,14 @@
       "enable-merge":true,
       "depends-on":[ "hadoop", "zookeeper", "accumulo", "hbase", "tez", "hive" ]
     },
+    "slider":{
+      "repo-url":"git://git.apache.org/incubator-slider.git",
+      "internal-repo-name":"slider",
+      "branch":"develop",
+      "version":"0.31.0",
+      "enable-merge":true,
+      "depends-on":[ "hadoop", "hbase", "accumulo" ]
+    },
     "sqoop":{
       "repo-url":"git://git.apache.org/sqoop.git",
       "branch":"trunk",
