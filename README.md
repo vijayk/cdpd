@@ -3,7 +3,6 @@
 ```
 cat hdp-base.json |python -mjson.tool
 ```
-
 ###Example
 
 ```
