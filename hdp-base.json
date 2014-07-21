@@ -68,7 +68,7 @@
     },
     "oozie":{
       "repo-url":"git://git.apache.org/oozie.git",
-      "branch":"master",
+      "branch":"branch-4.1",
       "version":"4.1.0",
       "enable-merge":true,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "tez", "hive", "pig", "sqoop" ]
