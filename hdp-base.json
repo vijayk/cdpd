@@ -7,6 +7,13 @@
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper" ]
     },
+    "datafu":{
+      "repo-url":"git://git.apache.org/incubator-datafu.git",
+      "branch":"1.6.1-SNAPSHOT",
+      "version":"1.6.1",
+      "enable-merge":false,
+      "depends-on":[ "hadoop", "zookeeper" ]
+    },
     "falcon":{
       "repo-url":"git://git.apache.org/incubator-falcon.git",
       "internal-repo-name":"falcon",
