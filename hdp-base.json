@@ -81,7 +81,7 @@
       "depends-on":[ "hadoop", "zookeeper", "hbase", "tez", "hive", "pig", "sqoop" ]
     },
     "phoenix":{
-      "repo-url":"git://git.apache.org/incubator-phoenix.git",
+      "repo-url":"git://git.apache.org/phoenix.git",
       "internal-repo-name":"phoenix",
       "branch":"4.0",
       "version":"4.1.0",
