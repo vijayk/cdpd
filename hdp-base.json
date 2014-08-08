@@ -19,7 +19,7 @@
       "internal-repo-name":"falcon",
       "branch":"master",
       "version":"0.6.0",
-      "enable-merge":false,
+      "enable-merge":true,
       "depends-on":[ "hadoop", "hbase", "hive", "oozie" ]
     },
     "flume":{
