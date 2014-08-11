@@ -2,15 +2,15 @@
   "apache":{
     "accumulo":{
       "repo-url":"git://git.apache.org/accumulo.git",
-      "branch":"1.6.1-SNAPSHOT",
-      "version":"1.6.1",
+      "branch":"1.6.1",
+      "version":"1.6.1-SNAPSHOT",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper" ]
     },
     "datafu":{
       "repo-url":"git://git.apache.org/incubator-datafu.git",
-      "branch":"1.6.1-SNAPSHOT",
-      "version":"1.6.1",
+      "branch":"1.2.0",
+      "version":"1.2.0-SNAPSHOT",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper" ]
     },
