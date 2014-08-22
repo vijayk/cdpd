@@ -7,6 +7,13 @@
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper" ]
     },
+    "argus":{
+      "repo-url":"git://git.apache.org/incubator-argus.git",
+      "branch":"master",
+      "version":"0.1.0",
+      "enable-merge":true,
+      "depends-on":null
+    }
     "datafu":{
       "repo-url":"git://git.apache.org/incubator-datafu.git",
       "branch":"1.2.0",
@@ -133,13 +140,6 @@
       "enable-merge":false,
       "depends-on":null
     },
-    "argus":{
-      "repo-url":"git://git.apache.org/incubator-argus.git",
-      "branch":"master",
-      "version":"0.1.0",
-      "enable-merge":true,
-      "depends-on":null
-    }
   }
 }
 
