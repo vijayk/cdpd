@@ -32,7 +32,7 @@
     "flume":{
       "repo-url":"git://git.apache.org/flume.git",
       "branch":"flume-1.5",
-      "version":"1.5.0",
+      "version":"1.5.0.1",
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "hive", "tez" ]
     },
