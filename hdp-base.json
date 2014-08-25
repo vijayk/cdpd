@@ -126,10 +126,10 @@
       "depends-on":[ "zookeeper" ]
     },
     "tez":{
-      "repo-url":"git://git.apache.org/incubator-tez.git",
-      "internal-repo-name":"mrx",
+      "repo-url":"git://git.apache.org/tez.git",
+      "internal-repo-name":"tez",
       "branch":"master",
-      "version":"0.5.0",
+      "version":"0.6.0",
       "enable-merge":true,
       "depends-on":[ "hadoop", "zookeeper" ]
     },
