@@ -66,6 +66,13 @@
       "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper", "hive" ]
     },
+    "kafka":{
+      "repo-url":"git://git.apache.org/kafka.git",
+      "branch":"0.8.1",
+      "version":"0.8.1.1",
+      "enable-merge":true,
+      "depends-on":null
+    },
     "knox":{
       "repo-url":"git://git.apache.org/knox.git",
       "branch":"master",
