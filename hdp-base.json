@@ -113,7 +113,7 @@
       "repo-url":"git://git.apache.org/incubator-slider.git",
       "internal-repo-name":"slider",
       "branch":"develop",
-      "version":"0.31.0",
+      "version":"0.51.0",
       "enable-merge":true,
       "depends-on":[ "hadoop", "hbase", "accumulo" ]
     },
