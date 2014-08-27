@@ -121,7 +121,7 @@
       "repo-url":"git://git.apache.org/sqoop.git",
       "branch":"branch-1.4.5",
       "version":"1.4.5",
-      "enable-merge":true,
+      "enable-merge":false,
       "depends-on":[ "hadoop", "hbase", "hive", "accumulo" ]
     },
     "storm":{
