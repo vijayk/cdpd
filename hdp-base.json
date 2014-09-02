@@ -37,7 +37,7 @@
       "depends-on":[ "hadoop", "zookeeper", "hbase", "hive", "tez" ]
     },
     "hadoop":{
-      "repo-url":"git://git.apache.org/hadoop-common.git",
+      "repo-url":"git@github.com:apache/hadoop.git",
       "internal-repo-name":"hadoop",
       "branch":"branch-2",
       "version":"2.6.0",
