@@ -13,7 +13,7 @@
       "version":"0.1.0",
       "enable-merge":true,
       "depends-on":[ "hadoop", "hbase", "hive", "knox", "storm" ]
-    }
+    },
     "datafu":{
       "repo-url":"git://git.apache.org/incubator-datafu.git",
       "branch":"1.2.0",
