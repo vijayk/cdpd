@@ -94,6 +94,13 @@
       "enable-merge":true,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "tez", "hive", "pig", "sqoop" ]
     },
+    "optiq":{
+      "repo-url":"git://git.apache.org/incubator-optiq.git",
+      "branch":"master",
+      "version":"0.9.1",
+      "enable-merge":true,
+      "depends-on":null
+    },
     "phoenix":{
       "repo-url":"git://git.apache.org/phoenix.git",
       "internal-repo-name":"phoenix",
