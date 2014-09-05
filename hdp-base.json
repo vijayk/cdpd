@@ -55,7 +55,7 @@
       "repo-url":"git://git.apache.org/hive.git",
       "branch":"trunk",
       "version":"0.14.0",
-      "enable-merge":true,
+      "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "tez" ]
     },
     "hue":{
