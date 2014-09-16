@@ -10,7 +10,7 @@
     "argus":{
       "repo-url":"git://git.apache.org/incubator-argus.git",
       "branch":"master",
-      "version":"0.1.0",
+      "version":"0.4.0",
       "enable-merge":true,
       "depends-on":[ "hadoop", "hbase", "hive", "knox", "storm" ]
     },
