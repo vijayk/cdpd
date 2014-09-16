@@ -27,7 +27,7 @@
       "branch":"master",
       "version":"0.6.0",
       "enable-merge":true,
-      "depends-on":[ "hadoop", "hbase", "hive", "oozie" ]
+      "depends-on":[ "hadoop", "hive", "oozie" ]
     },
     "flume":{
       "repo-url":"git://git.apache.org/flume.git",
