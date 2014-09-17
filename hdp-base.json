@@ -106,7 +106,7 @@
       "internal-repo-name":"phoenix",
       "branch":"4.0",
       "version":"4.1.0",
-      "enable-merge":true,
+      "enable-merge":false,
       "depends-on":[ "hadoop", "zookeeper", "hbase", "pig", "flume" ]
     },
     "pig":{
