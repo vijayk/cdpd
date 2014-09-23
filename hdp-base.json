@@ -41,7 +41,7 @@
       "internal-repo-name":"hadoop",
       "branch":"branch-2",
       "version":"2.6.0",
-      "enable-merge":true,
+      "enable-merge":false,
       "depends-on":[ "zookeeper" ]
     },
     "hbase":{
@@ -70,7 +70,7 @@
       "repo-url":"git://git.apache.org/kafka.git",
       "branch":"0.8.1",
       "version":"0.8.1.1",
-      "enable-merge":true,
+      "enable-merge":false,
       "depends-on":null
     },
     "knox":{
@@ -84,7 +84,7 @@
       "repo-url":"git://git.apache.org/mahout.git",
       "branch":"master",
       "version":"1.0.0",
-      "enable-merge":true,
+      "enable-merge":false,
       "depends-on":[ "hadoop", "hbase" ]
     },
     "oozie":{
