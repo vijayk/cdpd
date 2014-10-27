@@ -1,0 +1,1127 @@
+{
+  "apache": {
+    "accumulo": {
+      "branch": "1.6.1-SNAPSHOT", 
+      "co-dev": {
+        "hwx": {
+            "longwing": {
+                "enable-merge": [
+                    "champlain"
+                ],
+                "enable-sync": [
+                    "champlain"
+                ]
+            },
+            "tigereye": {
+                "enable-merge": [
+                    "champlain"
+                ],
+                "enable-sync": [
+                    "champlain"
+                ]
+            }
+        }
+        },
+      "depends-on": [
+        "hadoop", 
+        "zookeeper"
+      ], 
+      "enable-merge": false, 
+      "partner-repos": [
+        "hwx", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/accumulo.git", 
+      "version": "1.6.1"
+    }, 
+    "argus": {
+      "branch": "master", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "hbase", 
+        "hive", 
+        "knox", 
+        "storm"
+      ], 
+      "enable-merge": true, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/incubator-argus.git", 
+      "version": "0.4.0"
+    }, 
+    "datafu": {
+      "branch": "1.2.0", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper"
+      ], 
+      "enable-merge": false, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/incubator-datafu.git", 
+      "version": "1.2.0"
+    }, 
+    "falcon": {
+      "branch": "master", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "hive", 
+        "oozie"
+      ], 
+      "enable-merge": true, 
+      "internal-repo-name": "falcon", 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/incubator-falcon.git", 
+      "version": "0.6.0"
+    }, 
+    "flume": {
+      "branch": "flume-1.5", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper", 
+        "hbase", 
+        "hive", 
+        "tez"
+      ], 
+      "enable-merge": false, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/flume.git", 
+      "version": "1.5.0.1"
+    }, 
+     "hadoop": {
+      "branch": "branch-2", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "zookeeper"
+      ], 
+      "enable-merge": false, 
+      "internal-repo-name": "hadoop", 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git@github.com:apache/hadoop.git", 
+      "version": "2.6.0"
+    }, 
+    "hbase": {
+      "branch": "0.98", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper"
+      ], 
+      "enable-merge": false, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/hbase.git", 
+      "version": "0.98.4"
+    }, 
+    "hive": {
+      "branch": "branch-0.14", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper", 
+        "hbase", 
+        "tez", 
+        "optiq"
+      ], 
+      "enable-merge": true, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/hive.git", 
+      "version": "0.14.0"
+    }, 
+    "hue": {
+      "branch": "champlain", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper", 
+        "hive"
+      ], 
+      "enable-merge": false, 
+      "enable-sync": false,
+      "partner-repos": [
+        "hwx", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git@github.com:hortonworks/sandbox-shared.git", 
+      "version": "2.6.1"
+    }, 
+    "kafka": {
+      "branch": "0.8.1", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": null, 
+      "enable-merge": false, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/kafka.git", 
+      "version": "0.8.1.1"
+    }, 
+    "knox": {
+      "branch": "v0.5.0", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop"
+      ], 
+      "enable-merge": true, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/knox.git", 
+      "version": "0.5.0"
+    }, 
+    "mahout": {
+      "branch": "master", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "hbase"
+      ], 
+      "enable-merge": false, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/mahout.git", 
+      "version": "1.0.0"
+    }, 
+    "oozie": {
+      "branch": "branch-4.1", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper", 
+        "hbase", 
+        "tez", 
+        "hive", 
+        "pig", 
+        "sqoop"
+      ], 
+      "enable-merge": true, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/oozie.git", 
+      "version": "4.1.0"
+    }, 
+    "optiq": {
+      "branch": "master", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": null, 
+      "enable-merge": true, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/incubator-optiq.git", 
+      "version": "0.9.1"
+    }, 
+    "phoenix": {
+      "branch": "4.0", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper", 
+        "hbase", 
+        "pig", 
+        "flume"
+      ], 
+      "enable-merge": false, 
+      "internal-repo-name": "phoenix", 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/phoenix.git", 
+      "version": "4.2.0"
+    }, 
+    "pig": {
+      "branch": "branch-0.14", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper", 
+        "accumulo", 
+        "hbase", 
+        "tez", 
+        "hive"
+      ], 
+      "enable-merge": true, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/pig.git", 
+      "version": "0.14.0"
+    }, 
+    "slider": {
+      "branch": "develop", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "hbase", 
+        "accumulo"
+      ], 
+      "enable-merge": true, 
+      "internal-repo-name": "slider", 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/incubator-slider.git", 
+      "version": "0.51.0"
+    }, 
+    "sqoop": {
+      "branch": "branch-1.4.5", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "hbase", 
+        "hive", 
+        "accumulo"
+      ], 
+      "enable-merge": false, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/sqoop.git", 
+      "version": "1.4.5"
+    }, 
+    "storm": {
+      "branch": "master", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "zookeeper"
+      ], 
+      "enable-merge": false, 
+      "internal-repo-name": "storm", 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/incubator-storm.git", 
+      "version": "0.9.3"
+    }, 
+    "tez": {
+      "branch": "master", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": [
+        "hadoop", 
+        "zookeeper"
+      ], 
+      "enable-merge": true, 
+      "internal-repo-name": "tez", 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/tez.git", 
+      "version": "0.6.0"
+    }, 
+    "zookeeper": {
+      "branch": "branch-3.4", 
+      "co-dev": {
+        "hwx": {
+          "longwing": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "monarch": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }, 
+          "tigereye": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }, 
+        "monarch": {
+          "hwx": {
+            "enable-merge": [
+              "champlain"
+            ], 
+            "enable-sync": [
+              "champlain"
+            ]
+          }
+        }
+      }, 
+      "depends-on": null, 
+      "enable-merge": false, 
+      "partner-repos": [
+        "hwx", 
+        "monarch", 
+        "tigereye", 
+        "longwing"
+      ], 
+      "repo-url": "git://git.apache.org/zookeeper.git", 
+      "version": "3.4.6"
+    }
+  }, 
+  "remotes": {
+    "hwx": "git@github.com:hortonworks/%s.git", 
+    "longwing": "git@github.com:hortonworks/%s-longwing.git", 
+    "monarch": "git@github.com:hortonworks/%s-monarch.git", 
+    "tigereye": "git@github.com:hortonworks/%s-tigereye.git"
+  }
+}
