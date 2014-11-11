@@ -1,0 +1,751 @@
+---
+  apache: 
+    accumulo: 
+      repo-url: "git://git.apache.org/accumulo.git"
+      branch: "1.6.1"
+      version: "1.6.1"
+      enable-merge: false
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+      partner-repos:
+        - "hwx"
+        - "tigereye"
+        - "longwing"
+    ranger: 
+      repo-url: "git://git.apache.org/incubator-argus.git"
+      branch: "ranger-0.4"
+      version: "0.4.0"
+      enable-merge: true
+      internal-repo-name: "ranger"
+      depends-on: 
+        - "hadoop"
+        - "hbase"
+        - "hive"
+        - "knox"
+        - "storm"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    calcite: 
+      repo-url: "git://git.apache.org/incubator-calcite.git"
+      branch: "master"
+      version: "0.9.1"
+      enable-merge: false
+      depends-on: null
+      internal-repo-name: "calcite"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    datafu: 
+      repo-url: "git://git.apache.org/incubator-datafu.git"
+      branch: "1.2.0"
+      version: "1.2.0"
+      enable-merge: false
+      internal-repo-name: "datafu"
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    falcon: 
+      repo-url: "git://git.apache.org/incubator-falcon.git"
+      internal-repo-name: "falcon"
+      branch: "master"
+      version: "0.6.0"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+        - "hive"
+        - "oozie"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    flume: 
+      repo-url: "git://git.apache.org/flume.git"
+      branch: "flume-1.5"
+      version: "1.5.1"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+        - "hbase"
+        - "hive"
+        - "tez"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    hadoop: 
+      repo-url: "git@github.com:apache/hadoop.git"
+      branch: "branch-2"
+      version: "2.6.0"
+      enable-merge: false
+      depends-on: 
+        - "zookeeper"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    hbase: 
+      repo-url: "git://git.apache.org/hbase.git"
+      branch: "0.98"
+      version: "0.98.4"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    hive: 
+      repo-url: "git://git.apache.org/hive.git"
+      branch: "branch-0.14"
+      version: "0.14.0"
+      enable-merge: true
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+        - "hbase"
+        - "tez"
+        - "calcite"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    hue: 
+      repo-url: "git@github.com:hortonworks/sandbox-shared.git"
+      enable-sync: false
+      branch: "champlain"
+      version: "2.6.1"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+        - "hive"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "tigereye"
+        - "longwing"
+    kafka: 
+      repo-url: "git://git.apache.org/kafka.git"
+      branch: "0.8.1"
+      version: "0.8.1.1"
+      enable-merge: false
+      depends-on: null
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "tigereye"
+        - "longwing"
+    knox: 
+      repo-url: "git://git.apache.org/knox.git"
+      branch: "v0.5.0"
+      version: "0.5.0"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    mahout: 
+      repo-url: "git://git.apache.org/mahout.git"
+      branch: "master"
+      version: "1.0.0"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+        - "hbase"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    oozie: 
+      repo-url: "git://git.apache.org/oozie.git"
+      branch: "branch-4.1"
+      version: "4.1.0"
+      enable-merge: true
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+        - "hbase"
+        - "tez"
+        - "hive"
+        - "pig"
+        - "sqoop"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    phoenix: 
+      repo-url: "git://git.apache.org/phoenix.git"
+      branch: "4.0"
+      version: "4.2.0"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+        - "hbase"
+        - "pig"
+        - "flume"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    pig: 
+      repo-url: "git://git.apache.org/pig.git"
+      branch: "branch-0.14"
+      version: "0.14.0"
+      enable-merge: true
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+        - "accumulo"
+        - "hbase"
+        - "tez"
+        - "hive"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    slider: 
+      repo-url: "git://git.apache.org/incubator-slider.git"
+      internal-repo-name: "slider"
+      branch: "releases/slider-0.60"
+      version: "0.60.0"
+      enable-merge: true
+      depends-on: 
+        - "hadoop"
+        - "hbase"
+        - "accumulo"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    sqoop: 
+      repo-url: "git://git.apache.org/sqoop.git"
+      branch: "branch-1.4.5"
+      version: "1.4.5"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+        - "hbase"
+        - "hive"
+        - "accumulo"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    storm: 
+      repo-url: "git://git.apache.org/storm.git"
+      branch: "master"
+      version: "0.9.3"
+      enable-merge: false
+      depends-on: 
+        - "zookeeper"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    tez: 
+      repo-url: "git://git.apache.org/tez.git"
+      branch: "branch-0.5"
+      version: "0.5.2"
+      enable-merge: false
+      depends-on: 
+        - "hadoop"
+        - "zookeeper"
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+    zookeeper: 
+      repo-url: "git://git.apache.org/zookeeper.git"
+      branch: "branch-3.4"
+      version: "3.4.6"
+      enable-merge: false
+      depends-on: null
+      co-dev:
+        hwx:
+          longwing:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          monarch:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+          tigereye:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+        monarch:
+          hwx:
+            enable-merge:
+              - "champlain"
+            enable-sync:
+              - "champlain"
+      partner-repos:
+        - "hwx"
+        - "monarch"
+        - "tigereye"
+        - "longwing"
+  remotes:
+    hwx: "git@github.com:hortonworks/%s.git"
+    longwing: "git@github.com:hortonworks/%s-longwing.git"
+    monarch: "git@github.com:hortonworks/%s-monarch.git"
+    tigereye: "git@github.com:hortonworks/%s-tigereye.git"
+
