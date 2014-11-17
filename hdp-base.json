@@ -55,7 +55,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git://git.apache.org/flume.git",
-            "version":"1.5.1"
+            "version":"1.5.2"
         },
         "hadoop":{
             "branch":"branch-2",
@@ -141,7 +141,7 @@
                 "pig",
                 "sqoop"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git://git.apache.org/oozie.git",
             "version":"4.1.0"
         },
@@ -168,7 +168,7 @@
                 "tez",
                 "hive"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git://git.apache.org/pig.git",
             "version":"0.14.0"
         },
