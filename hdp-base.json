@@ -10,7 +10,7 @@
             "no-partner":[
                 "monarch"
             ],
-            "repo-url":"git://git.apache.org/accumulo.git",
+            "repo-url":"git@github.com:apache/accumulo.git",
             "version":"1.6.1"
         },
         "calcite":{
@@ -18,7 +18,7 @@
             "depends-on":null,
             "enable-merge":false,
             "internal-repo-name":"calcite",
-            "repo-url":"git://git.apache.org/incubator-calcite.git",
+            "repo-url":"git@github.com:apache/incubator-calcite.git",
             "version":"0.9.1"
         },
         "datafu":{
@@ -29,7 +29,7 @@
             ],
             "enable-merge":false,
             "internal-repo-name":"datafu",
-            "repo-url":"git://git.apache.org/incubator-datafu.git",
+            "repo-url":"git@github.com:apache/incubator-datafu.git",
             "version":"1.2.0"
         },
         "falcon":{
@@ -41,7 +41,7 @@
             ],
             "enable-merge":false,
             "internal-repo-name":"falcon",
-            "repo-url":"git://git.apache.org/incubator-falcon.git",
+            "repo-url":"git@github.com:apache/incubator-falcon.git",
             "version":"0.6.0"
         },
         "flume":{
@@ -54,7 +54,7 @@
                 "tez"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/flume.git",
+            "repo-url":"git@github.com:apache/flume.git",
             "version":"1.5.2"
         },
         "hadoop":{
@@ -73,7 +73,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/hbase.git",
+            "repo-url":"git@github.com:apache/hbase.git",
             "version":"0.98.4"
         },
         "hive":{
@@ -86,7 +86,7 @@
                 "calcite"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/hive.git",
+            "repo-url":"git@github.com:apache/hive.git",
             "version":"0.14.0"
         },
         "hue":{
@@ -108,7 +108,7 @@
             "branch":"0.8.1",
             "depends-on":null,
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/kafka.git",
+            "repo-url":"git@github.com:apache/kafka.git",
             "version":"0.8.1.1"
         },
         "knox":{
@@ -117,7 +117,7 @@
                 "hadoop"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/knox.git",
+            "repo-url":"git@github.com:apache/knox.git",
             "version":"0.5.0"
         },
         "mahout":{
@@ -127,7 +127,7 @@
                 "hbase"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/mahout.git",
+            "repo-url":"git@github.com:apache/mahout.git",
             "version":"1.0.0"
         },
         "oozie":{
@@ -142,7 +142,7 @@
                 "sqoop"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/oozie.git",
+            "repo-url":"git@github.com:apache/oozie.git",
             "version":"4.1.0"
         },
         "phoenix":{
@@ -155,7 +155,7 @@
                 "flume"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/phoenix.git",
+            "repo-url":"git@github.com:apache/phoenix.git",
             "version":"4.2.0"
         },
         "pig":{
@@ -169,7 +169,7 @@
                 "hive"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/pig.git",
+            "repo-url":"git@github.com:apache/pig.git",
             "version":"0.14.0"
         },
         "ranger":{
@@ -183,7 +183,7 @@
             ],
             "enable-merge":false,
             "internal-repo-name":"ranger",
-            "repo-url":"git://git.apache.org/incubator-argus.git",
+            "repo-url":"git@github.com:apache/incubator-ranger.git",
             "version":"0.4.0"
         },
         "slider":{
@@ -195,7 +195,7 @@
             ],
             "enable-merge":false,
             "internal-repo-name":"slider",
-            "repo-url":"git://git.apache.org/incubator-slider.git",
+            "repo-url":"git@github.com:apache/incubator-slider.git",
             "version":"0.60.0"
         },
         "sqoop":{
@@ -207,7 +207,7 @@
                 "accumulo"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/sqoop.git",
+            "repo-url":"git@github.com:apache/sqoop.git",
             "version":"1.4.5"
         },
         "storm":{
@@ -216,7 +216,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/storm.git",
+            "repo-url":"git@github.com:apache/storm.git",
             "version":"0.9.3"
         },
         "tez":{
@@ -226,14 +226,14 @@
                 "zookeeper"
             ],
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/tez.git",
+            "repo-url":"git@github.com:apache/tez.git",
             "version":"0.5.2"
         },
         "zookeeper":{
             "branch":"branch-3.4",
             "depends-on":null,
             "enable-merge":false,
-            "repo-url":"git://git.apache.org/zookeeper.git",
+            "repo-url":"git@github.com:apache/zookeeper.git",
             "version":"3.4.6"
         }
     },
