@@ -173,7 +173,7 @@
             "version":"0.14.0"
         },
         "ranger":{
-            "branch":"ranger-0.4",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "hbase",
@@ -181,10 +181,10 @@
                 "knox",
                 "storm"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/incubator-ranger.git",
-            "version":"0.4.0"
+            "version":"0.5.0"
         },
         "slider":{
             "branch":"releases/slider-0.60",
