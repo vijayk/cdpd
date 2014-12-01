@@ -193,7 +193,7 @@
                 "hbase",
                 "accumulo"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
             "version":"0.60.0"
