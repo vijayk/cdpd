@@ -159,7 +159,7 @@
             "version":"4.2.0"
         },
         "pig":{
-            "branch":"branch-0.14",
+            "branch":"trunk",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
@@ -168,9 +168,9 @@
                 "tez",
                 "hive"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/pig.git",
-            "version":"0.14.0"
+            "version":"0.15.0"
         },
         "ranger":{
             "branch":"master",
