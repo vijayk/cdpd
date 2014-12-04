@@ -168,7 +168,7 @@
                 "tez",
                 "hive"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git@github.com:apache/pig.git",
             "version":"0.15.0"
         },
