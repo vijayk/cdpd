@@ -42,7 +42,7 @@
             "enable-merge":false,
             "internal-repo-name":"falcon",
             "repo-url":"git@github.com:apache/incubator-falcon.git",
-            "version":"0.6.0"
+            "version":"0.7.0"
         },
         "flume":{
             "branch":"flume-1.5",
