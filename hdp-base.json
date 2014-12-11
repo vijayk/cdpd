@@ -6,7 +6,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "no-partner":[
                 "monarch"
             ],
@@ -77,7 +77,7 @@
             "version":"0.98.4"
         },
         "hive":{
-            "branch":"branch-0.14",
+            "branch":"trunk",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
@@ -85,7 +85,7 @@
                 "tez",
                 "calcite"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"0.14.0"
         },
@@ -131,7 +131,7 @@
             "version":"1.0.0"
         },
         "oozie":{
-            "branch":"branch-4.1",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
@@ -141,7 +141,7 @@
                 "pig",
                 "sqoop"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/oozie.git",
             "version":"4.1.0"
         },
@@ -154,7 +154,7 @@
                 "pig",
                 "flume"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/phoenix.git",
             "version":"4.2.0"
         },
@@ -168,7 +168,7 @@
                 "tez",
                 "hive"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/pig.git",
             "version":"0.15.0"
         },
@@ -199,14 +199,14 @@
             "version":"0.60.0"
         },
         "sqoop":{
-            "branch":"branch-1.4.5",
+            "branch":"trunk",
             "depends-on":[
                 "hadoop",
                 "hbase",
                 "hive",
                 "accumulo"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/sqoop.git",
             "version":"1.4.5"
         },
