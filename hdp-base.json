@@ -87,7 +87,7 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/hive.git",
-            "version":"0.14.0"
+            "version":"0.15.0"
         },
         "hue":{
             "branch":"champlain",
@@ -143,7 +143,7 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/oozie.git",
-            "version":"4.1.0"
+            "version":"5.0.0"
         },
         "phoenix":{
             "branch":"4.0",
@@ -208,7 +208,7 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/sqoop.git",
-            "version":"1.4.5"
+            "version":"1.4.6"
         },
         "storm":{
             "branch":"master",
