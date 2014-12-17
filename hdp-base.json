@@ -105,11 +105,11 @@
             "version":"2.6.1"
         },
         "kafka":{
-            "branch":"0.8.1",
+            "branch":"0.8.2",
             "depends-on":null,
             "enable-merge":false,
             "repo-url":"git@github.com:apache/kafka.git",
-            "version":"0.8.1.1"
+            "version":"0.8.2"
         },
         "knox":{
             "branch":"master",
