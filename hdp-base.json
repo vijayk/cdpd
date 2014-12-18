@@ -154,7 +154,7 @@
                 "pig",
                 "flume"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git@github.com:apache/phoenix.git",
             "version":"4.2.0"
         },
