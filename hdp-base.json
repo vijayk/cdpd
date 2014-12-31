@@ -19,7 +19,7 @@
             "enable-merge":false,
             "internal-repo-name":"calcite",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"0.9.1"
+            "version":"1.0.0"
         },
         "datafu":{
             "branch":"1.2.0",
