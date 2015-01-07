@@ -225,7 +225,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/tez.git",
             "version":"0.7.0"
         },
