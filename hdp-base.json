@@ -107,7 +107,7 @@
         "kafka":{
             "branch":"0.8.2",
             "depends-on":null,
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git@github.com:apache/kafka.git",
             "version":"0.8.2"
         },
