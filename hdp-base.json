@@ -22,7 +22,7 @@
             "version":"1.0.0"
         },
         "datafu":{
-            "branch":"1.3.0",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
