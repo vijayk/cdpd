@@ -239,15 +239,17 @@
     },
     "co-dev":{
         "ro-partners":[
+            "longwing",
             "monarch",
-            "tigereye",
-            "longwing"
+            "peacock",
+            "tigereye"
         ]
     },
     "remotes":{
         "hwx":"git@github.com:hortonworks/%s.git",
         "longwing":"git@github.com:hortonworks/%s-longwing.git",
         "monarch":"git@github.com:hortonworks/%s-monarch.git",
+        "peacock":"git@github.com:hortonworks/%s-peacock.git",
         "tigereye":"git@github.com:hortonworks/%s-tigereye.git"
     }
 }
