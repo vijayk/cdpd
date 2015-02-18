@@ -97,10 +97,6 @@
                 "hive"
             ],
             "enable-merge":false,
-            "enable-sync":false,
-            "no-partner":[
-                "monarch"
-            ],
             "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
             "version":"2.6.1"
         },
