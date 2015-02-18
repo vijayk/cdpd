@@ -90,7 +90,7 @@
             "version":"0.15.0"
         },
         "hue":{
-            "branch":"champlain",
+            "branch":"dal",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
