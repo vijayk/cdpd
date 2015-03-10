@@ -50,7 +50,7 @@
                 "hadoop",
                 "zookeeper",
                 "hbase",
-                "hive",
+                "hive"
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/flume.git",
