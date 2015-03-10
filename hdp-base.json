@@ -25,7 +25,7 @@
             "branch":"master",
             "depends-on":[
                 "hadoop",
-                "zookeeper"
+                "pig"
             ],
             "enable-merge":false,
             "internal-repo-name":"datafu",
@@ -51,7 +51,6 @@
                 "zookeeper",
                 "hbase",
                 "hive",
-                "tez"
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/flume.git",
@@ -83,7 +82,8 @@
                 "zookeeper",
                 "hbase",
                 "tez",
-                "calcite"
+                "calcite",
+                "accumulo"
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/hive.git",
@@ -103,7 +103,11 @@
         },
         "kafka":{
             "branch":"0.8.2",
-            "depends-on":null,
+            "depends-on":[
+                "hadoop",
+                "zookeeper",
+                "pig"
+            ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/kafka.git",
             "version":"0.8.2"
@@ -131,7 +135,6 @@
             "branch":"master",
             "depends-on":[
                 "hadoop",
-                "zookeeper",
                 "hbase",
                 "tez",
                 "hive",
@@ -146,7 +149,6 @@
             "branch":"4.0",
             "depends-on":[
                 "hadoop",
-                "zookeeper",
                 "hbase",
                 "pig",
                 "flume"
@@ -188,7 +190,8 @@
             "depends-on":[
                 "hadoop",
                 "hbase",
-                "accumulo"
+                "accumulo",
+                "zookeeper"
             ],
             "enable-merge":true,
             "internal-repo-name":"slider",
@@ -201,7 +204,8 @@
                 "hadoop",
                 "hbase",
                 "hive",
-                "accumulo"
+                "accumulo",
+                "zookeeper"
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/sqoop.git",
@@ -210,7 +214,11 @@
         "storm":{
             "branch":"master",
             "depends-on":[
-                "zookeeper"
+                "zookeeper",
+                "hadoop",
+                "hive",
+                "hbase",
+                "kafka"
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/storm.git",
