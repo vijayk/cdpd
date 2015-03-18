@@ -39,9 +39,9 @@
                 "hive",
                 "oozie"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "internal-repo-name":"falcon",
-            "repo-url":"git@github.com:apache/incubator-falcon.git",
+            "repo-url":"git@github.com:apache/falcon.git",
             "version":"0.7.0"
         },
         "flume":{
