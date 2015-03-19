@@ -87,7 +87,7 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/hive.git",
-            "version":"0.15.0"
+            "version":"1.2.0"
         },
         "hue":{
             "branch":"dal",
