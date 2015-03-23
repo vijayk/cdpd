@@ -146,7 +146,7 @@
             "version":"4.2.0"
         },
         "phoenix":{
-            "branch":"4.0",
+            "branch":"4.x-HBase-0.98",
             "depends-on":[
                 "hadoop",
                 "hbase",
