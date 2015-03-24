@@ -144,7 +144,7 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/oozie.git",
-            "version":"4.2.0"
+            "version":"4.1.0"
         },
         "phoenix":{
             "branch":"4.x-HBase-0.98",
