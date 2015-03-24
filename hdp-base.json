@@ -197,7 +197,7 @@
             "enable-merge":true,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
-            "version":"0.62.0-SNAPSHOT"
+            "version":"0.70.1"
         },
         "sqoop":{
             "branch":"trunk",
