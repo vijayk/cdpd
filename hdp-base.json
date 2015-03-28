@@ -257,6 +257,7 @@
         "longwing":"git@github.com:hortonworks/%s-longwing.git",
         "monarch":"git@github.com:hortonworks/%s-monarch.git",
         "peacock":"git@github.com:hortonworks/%s-peacock.git",
-        "tigereye":"git@github.com:hortonworks/%s-tigereye.git"
+        "tigereye":"git@github.com:hortonworks/%s-tigereye.git",
+        "yoma":"git@github.com:hortonworks/%s-yoma.git"
     }
 }
