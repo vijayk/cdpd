@@ -249,7 +249,7 @@
             "monarch",
             "peacock",
             "tigereye",
-            "yoma"
+            "sasakia"
         ]
     },
     "remotes":{
@@ -258,6 +258,6 @@
         "monarch":"git@github.com:hortonworks/%s-monarch.git",
         "peacock":"git@github.com:hortonworks/%s-peacock.git",
         "tigereye":"git@github.com:hortonworks/%s-tigereye.git",
-        "yoma":"git@github.com:hortonworks/%s-yoma.git"
+        "sasakia":"git@github.com:hortonworks/%s-sasakia.git"
     }
 }
