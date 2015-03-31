@@ -58,7 +58,7 @@
             "version":"1.5.2"
         },
         "hadoop":{
-            "branch":"branch-2",
+            "branch":"branch-2.7",
             "depends-on":[
                 "zookeeper"
             ],
