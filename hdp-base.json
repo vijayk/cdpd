@@ -223,7 +223,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/storm.git",
-            "version":"0.9.3"
+            "version":"0.10.0"
         },
         "tez":{
             "branch":"master",
