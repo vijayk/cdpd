@@ -235,6 +235,21 @@
             "repo-url":"git@github.com:apache/tez.git",
             "version":"0.7.0"
         },
+        "zeppelin":{
+            "branch":"master",
+            "depends-on":null,
+            "enable-merge":false,
+            "repo-url":"git@github.com:apache/incubator-zeppelin.git",
+            "internal-repo-name":"zeppelin",
+            "version":"0.5.0",
+            "no-partner":[
+                "longwing",
+                "monarch",
+                "peacock",
+                "tigereye",
+                "sasakia"
+            ]
+        },
         "zookeeper":{
             "branch":"branch-3.4",
             "depends-on":null,
