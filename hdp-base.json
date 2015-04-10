@@ -200,7 +200,7 @@
             "version":"0.70.1"
         },
         "sqoop":{
-            "branch":"trunk",
+            "branch":"branch-1.4.6",
             "depends-on":[
                 "hadoop",
                 "hbase",
