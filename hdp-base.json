@@ -64,7 +64,7 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/hadoop.git",
-            "version":"2.7.0"
+            "version":"2.7.1"
         },
         "hbase":{
             "branch":"branch-1",
