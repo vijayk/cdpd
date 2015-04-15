@@ -114,13 +114,13 @@
             "version":"0.8.2"
         },
         "knox":{
-            "branch":"master",
+            "branch":"v0.6.0",
             "depends-on":[
                 "hadoop"
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/knox.git",
-            "version":"v0.6.0"
+            "version":"0.6.0"
         },
         "mahout":{
             "branch":"master",
