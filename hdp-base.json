@@ -14,13 +14,12 @@
             "version":"1.7.0"
         },
         "calcite":{
-            "branch":"calcite-1.0.0-incubating",
+            "branch":"branch-release",
             "depends-on":null,
-	    "enable-sync":false,
-            "enable-merge":false,
+            "enable-merge":true,
             "internal-repo-name":"calcite",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"1.0.0"
+            "version":"1.2.0"
         },
         "datafu":{
             "branch":"master",
