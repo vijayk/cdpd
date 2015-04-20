@@ -71,7 +71,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/hbase.git",
             "version":"1.1.0"
         },
