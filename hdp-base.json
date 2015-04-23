@@ -85,7 +85,7 @@
                 "calcite",
                 "accumulo"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"1.2.0"
         },
