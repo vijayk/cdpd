@@ -61,7 +61,7 @@
             "depends-on":[
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git@github.com:apache/hadoop.git",
             "version":"2.7.1"
         },
