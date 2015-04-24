@@ -158,7 +158,7 @@
             "version":"4.4.0"
         },
         "pig":{
-            "branch":"trunk",
+            "branch":"branch-0.15",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
