@@ -86,7 +86,7 @@
                 "accumulo"
             ],
             "enable-merge":true,
-            "repo-url":"git@github.com:apache/hive.git",
+            "repo-url":"https://git-wip-us.apache.org/repos/asf/hive.git",
             "version":"1.2.0"
         },
         "hue":{
