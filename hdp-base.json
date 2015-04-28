@@ -198,6 +198,17 @@
             "repo-url":"git@github.com:apache/incubator-slider.git",
             "version":"0.80.0"
         },
+       "spark":{
+            "branch":"branch-1.3",
+            "depends-on":[
+                "hadoop",
+                "tez",
+                "hive"
+            ],
+            "enable-merge":false,
+            "repo-url":"git@github.com:apache/spark.git",
+            "version":"1.3.1"
+        },
         "sqoop":{
             "branch":"branch-1.4.6",
             "depends-on":[
