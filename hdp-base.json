@@ -218,7 +218,8 @@
                 "hbase",
                 "hive",
                 "knox",
-                "storm"
+                "storm",
+                "kafka"
             ],
             "enable-merge":true,
             "internal-repo-name":"ranger",
