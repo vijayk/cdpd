@@ -342,6 +342,7 @@
     },
     "remotes":{
         "hwx":"git@github.com:hortonworks/%s.git",
+        "isilon":"git@github.com:hortonworks/%s-isilon.git",
         "longwing":"git@github.com:hortonworks/%s-longwing.git",
         "monarch":"git@github.com:hortonworks/%s-monarch.git",
         "peacock":"git@github.com:hortonworks/%s-peacock.git",
