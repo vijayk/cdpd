@@ -342,7 +342,7 @@
     },
     "remotes":{
         "hwx":"git@github.com:hortonworks/%s.git",
-        "lo ngwing":"git@github.com:hortonworks/%s-longwing.git",
+        "longwing":"git@github.com:hortonworks/%s-longwing.git",
         "monarch":"git@github.com:hortonworks/%s-monarch.git",
         "peacock":"git@github.com:hortonworks/%s-peacock.git",
         "tigereye":"git@github.com:hortonworks/%s-tigereye.git",
