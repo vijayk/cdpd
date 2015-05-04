@@ -8,7 +8,8 @@
             ],
             "enable-merge":true,
             "no-partner":[
-                "monarch"
+                "monarch",
+                "isilon"
             ],
             "repo-url":"git@github.com:apache/accumulo.git",
             "version":"1.7.0"
@@ -19,7 +20,10 @@
             "enable-merge":true,
             "internal-repo-name":"calcite",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"1.2.0"
+            "version":"1.2.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "datafu":{
             "branch":"master",
@@ -30,7 +34,10 @@
             "enable-merge":false,
             "internal-repo-name":"datafu",
             "repo-url":"git@github.com:apache/incubator-datafu.git",
-            "version":"1.3.0"
+            "version":"1.3.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "falcon":{
             "branch":"master",
@@ -42,7 +49,10 @@
             "enable-merge":true,
             "internal-repo-name":"falcon",
             "repo-url":"git@github.com:apache/falcon.git",
-            "version":"0.7.0"
+            "version":"0.7.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "flume":{
             "branch":"flume-1.5",
@@ -54,7 +64,10 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/flume.git",
-            "version":"1.5.2"
+            "version":"1.5.2",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "hadoop":{
             "branch":"branch-2.7",
@@ -73,7 +86,10 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/hbase.git",
-            "version":"1.1.0"
+            "version":"1.1.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "hive":{
             "branch":"branch-1.2",
@@ -87,7 +103,10 @@
             ],
             "enable-merge":true,
             "repo-url":"https://git-wip-us.apache.org/repos/asf/hive.git",
-            "version":"1.2.0"
+            "version":"1.2.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "hue":{
             "branch":"dal",
@@ -99,7 +118,10 @@
             "enable-merge":false,
             "enable-sync":false,
             "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
-            "version":"2.6.1"
+            "version":"2.6.1",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "kafka":{
             "branch":"0.8.2",
@@ -110,7 +132,10 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/kafka.git",
-            "version":"0.8.2"
+            "version":"0.8.2",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "knox":{
             "branch":"v0.6.0",
@@ -119,7 +144,10 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/knox.git",
-            "version":"0.6.0"
+            "version":"0.6.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "mahout":{
             "branch":"master",
@@ -129,7 +157,10 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/mahout.git",
-            "version":"1.0.0"
+            "version":"1.0.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "oozie":{
             "branch":"master",
@@ -143,7 +174,10 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/oozie.git",
-            "version":"4.1.0"
+            "version":"4.1.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "phoenix":{
             "branch":"master",
@@ -155,7 +189,10 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/phoenix.git",
-            "version":"4.4.0"
+            "version":"4.4.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "pig":{
             "branch":"branch-0.15",
@@ -169,7 +206,10 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/pig.git",
-            "version":"0.15.0"
+            "version":"0.15.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "ranger":{
             "branch":"master",
@@ -183,7 +223,10 @@
             "enable-merge":true,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/incubator-ranger.git",
-            "version":"0.5.0"
+            "version":"0.5.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "slider":{
             "branch":"develop",
@@ -196,7 +239,10 @@
             "enable-merge":true,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
-            "version":"0.80.0"
+            "version":"0.80.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
        "spark":{
             "branch":"branch-1.3",
@@ -207,7 +253,10 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/spark.git",
-            "version":"1.3.1"
+            "version":"1.3.1",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "sqoop":{
             "branch":"branch-1.4.6",
@@ -220,7 +269,10 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/sqoop.git",
-            "version":"1.4.6"
+            "version":"1.4.6",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "storm":{
             "branch":"master",
@@ -233,7 +285,10 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/storm.git",
-            "version":"0.10.0"
+            "version":"0.10.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "tez":{
             "branch":"master",
@@ -243,7 +298,10 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/tez.git",
-            "version":"0.7.0"
+            "version":"0.7.0",
+            "no-partner":[
+                "isilon"
+            ]
         },
         "zeppelin":{
             "branch":"master",
@@ -257,7 +315,8 @@
                 "monarch",
                 "peacock",
                 "tigereye",
-                "sasakia"
+                "sasakia",
+                "isilon"
             ]
         },
         "zookeeper":{
@@ -265,11 +324,15 @@
             "depends-on":null,
             "enable-merge":false,
             "repo-url":"git@github.com:apache/zookeeper.git",
-            "version":"3.4.6"
+            "version":"3.4.6",
+            "no-partner":[
+                "isilon"
+            ]
         }
     },
     "co-dev":{
         "ro-partners":[
+            "isilon",
             "longwing",
             "monarch",
             "peacock",
