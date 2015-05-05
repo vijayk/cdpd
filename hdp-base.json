@@ -25,6 +25,25 @@
                 "ulysses"
             ]
         },
+        "cascading":{
+            "branch":"3.0-wip",
+            "depends-on":[
+                "hadoop",
+                "tez"
+                ],
+            "enable-merge":true,
+            "internal-repo-name":"cascading",
+            "repo-url":"git@github.com:cwensel/cascading.git",
+            "version":"3.0.0",
+            "no-partner":[
+                "ulysses",
+                "longwing",
+                "monarch",
+                "peacock",
+                "tigereye",
+                "sasakia"
+            ]
+        },
         "datafu":{
             "branch":"master",
             "depends-on":[
