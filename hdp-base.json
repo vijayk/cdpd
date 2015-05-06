@@ -292,7 +292,7 @@
             ]
         },
         "tez":{
-            "branch":"master",
+            "branch":"branch-0.7",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
