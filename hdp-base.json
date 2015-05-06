@@ -31,6 +31,7 @@
                 "hadoop",
                 "tez"
                 ],
+            "enable-sync":false,
             "enable-merge":true,
             "internal-repo-name":"cascading",
             "repo-url":"git@github.com:cwensel/cascading.git",
