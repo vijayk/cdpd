@@ -350,6 +350,20 @@
                 "ulysses"
             ]
         }
+        "atlas":{
+            "branch":"dal",
+            "depends-on":[
+                "hadoop",
+                "hive"
+            ],
+            "enable-merge":false,
+            "enable-sync":false,
+            "repo-url":"git@github.com:hortonworks/metadata.git",
+            "version":"0.5.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
     },
     "co-dev":{
         "ro-partners":[
