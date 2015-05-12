@@ -349,7 +349,7 @@
             "no-partner":[
                 "ulysses"
             ]
-        }
+        },
         "atlas":{
             "branch":"dal",
             "depends-on":[
@@ -363,7 +363,7 @@
             "no-partner":[
                 "ulysses"
             ]
-        },
+        }
     },
     "co-dev":{
         "ro-partners":[
