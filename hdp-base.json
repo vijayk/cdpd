@@ -361,7 +361,12 @@
             "repo-url":"git@github.com:hortonworks/metadata.git",
             "version":"0.5.0",
             "no-partner":[
-                "ulysses"
+                "ulysses",
+                "longwing",
+                "monarch",
+                "peacock",
+                "sasakia",
+                "tigereye"
             ]
         }
     },
