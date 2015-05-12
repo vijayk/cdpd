@@ -1,7 +1,7 @@
 {
     "apache":{
         "accumulo":{
-            "branch":"1.7",
+            "branch":"branch-1.7.0",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
