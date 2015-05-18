@@ -6,7 +6,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "no-partner":[
                 "monarch",
                 "ulysses"
