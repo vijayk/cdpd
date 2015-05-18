@@ -183,7 +183,7 @@
             ]
         },
         "oozie":{
-            "branch":"master",
+            "branch":"branch-4.2",
             "depends-on":[
                 "hadoop",
                 "hbase",
