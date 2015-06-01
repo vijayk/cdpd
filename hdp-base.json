@@ -192,7 +192,7 @@
                 "pig",
                 "sqoop"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "repo-url":"git@github.com:apache/oozie.git",
             "version":"4.2.0",
             "no-partner":[
