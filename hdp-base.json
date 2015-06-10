@@ -232,7 +232,7 @@
             ]
         },
         "ranger":{
-            "branch":"master",
+            "branch":"ranger-0.5",
             "depends-on":[
                 "hadoop",
                 "hbase",
