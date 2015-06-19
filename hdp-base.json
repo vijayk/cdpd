@@ -123,7 +123,7 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/hive.git",
-            "version":"1.2.0",
+            "version":"1.2.1",
             "no-partner":[
                 "ulysses"
             ]
