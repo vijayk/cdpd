@@ -289,7 +289,7 @@
                 "accumulo",
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git@github.com:apache/sqoop.git",
             "version":"1.4.6",
             "no-partner":[
