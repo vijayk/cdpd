@@ -141,7 +141,8 @@
             "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
             "version":"2.6.1",
             "no-partner":[
-                "ulysses"
+                "ulysses",
+                "essex"
             ]
         },
         "kafka":{
@@ -338,7 +339,8 @@
                 "peacock",
                 "tigereye",
                 "sasakia",
-                "ulysses"
+                "ulysses",
+                "essex"
             ]
         },
         "zookeeper":{
@@ -378,10 +380,12 @@
             "monarch",
             "peacock",
             "tigereye",
-            "sasakia"
+            "sasakia",
+            "essex"
         ]
     },
     "remotes":{
+        "essex":"git@github.com:hortonworks/%s-essex.git",
         "hwx":"git@github.com:hortonworks/%s.git",
         "longwing":"git@github.com:hortonworks/%s-longwing.git",
         "monarch":"git@github.com:hortonworks/%s-monarch.git",
