@@ -107,7 +107,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/hbase.git",
-            "version":"1.1.1",
+            "version":"1.1.2",
             "no-partner":[
                 "ulysses"
             ]
