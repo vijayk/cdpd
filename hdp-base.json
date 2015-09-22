@@ -43,7 +43,8 @@
                 "monarch",
                 "peacock",
                 "tigereye",
-                "sasakia"
+                "sasakia",
+                "baronia"
             ]
         },
         "datafu":{
@@ -142,7 +143,8 @@
             "version":"2.6.1",
             "no-partner":[
                 "ulysses",
-                "essex"
+                "essex",
+                "baronia"
             ]
         },
         "kafka":{
@@ -370,7 +372,8 @@
                 "monarch",
                 "peacock",
                 "sasakia",
-                "tigereye"
+                "tigereye",
+                "baronia"
             ]
         }
     },
@@ -382,11 +385,13 @@
             "peacock",
             "tigereye",
             "sasakia",
-            "essex"
+            "essex",
+            "baronia"
         ]
     },
     "remotes":{
         "essex":"git@github.com:hortonworks/%s-essex.git",
+        "baronia":"git@github.com:hortonworks/%s-baronia.git",
         "hwx":"git@github.com:hortonworks/%s.git",
         "longwing":"git@github.com:hortonworks/%s-longwing.git",
         "monarch":"git@github.com:hortonworks/%s-monarch.git",
