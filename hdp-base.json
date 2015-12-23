@@ -33,7 +33,7 @@
                 "tez"
                 ],
             "enable-sync":false,
-            "enable-merge":true,
+            "enable-merge":false,
             "internal-repo-name":"cascading",
             "repo-url":"git@github.com:cwensel/cascading.git",
             "version":"3.0.0",
