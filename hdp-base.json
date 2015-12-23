@@ -334,7 +334,7 @@
             "enable-merge":false,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
-            "version":"0.5.0",
+            "version":"0.6.0",
             "no-partner":[
                 "longwing",
                 "monarch",
