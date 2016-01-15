@@ -34,6 +34,7 @@
                 ],
             "enable-sync":false,
             "enable-merge":false,
+            "enable-build":false,
             "internal-repo-name":"cascading",
             "repo-url":"git@github.com:cwensel/cascading.git",
             "version":"3.0.0",
@@ -269,7 +270,7 @@
                 "ulysses"
             ]
         },
-       "spark":{
+        "spark":{
             "branch":"branch-1.4",
             "depends-on":[
                 "hadoop",
@@ -376,6 +377,55 @@
                 "tigereye",
                 "baronia"
             ]
+        },
+        "build-support":{
+            "enable-merge": false,
+            "enable-sync": false,
+            "poll": false,
+            "repo-url": "git@github.com:hortonworks/build-support.git"
+        },
+        "bigtop-new":{
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:hortonworks/bigtop-new.git"
+        },
+        "Monarch":{
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:hortonworks/Monarch.git"
+        },
+        "microsoft-sqoop-connector": {
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:hortonworks/microsoft-sqoop-connector.git"
+        },
+        "snappy-dll": {
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-branch": "master",
+            "repo-url": "git@github.com:hortonworks/snappy-dll.git"
+        },
+        "headnode-HA-monarch": {
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-branch": "master",
+            "repo-url": "git@github.com:hortonworks/headnode-HA-monarch.git"
+        },
+        "hadoop-lzo":{
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-branch": "master",
+            "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
+        },
+        "eventhubspout-monarch": {
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:hortonworks/eventhubspout-monarch.git"
+        },
+        "HDP": {
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:hortonworks/hdp.git"
         }
     },
     "co-dev":{
@@ -388,6 +438,18 @@
             "sasakia",
             "essex",
             "baronia"
+        ]
+    },
+    "hwx": {
+        "stack-version": "2.4.0.0",
+        "poll-frequency": "60",
+        "platforms": [
+             "centos6",
+             "debian6",
+             "debian7",
+             "suse11sp3",
+             "ubuntu12",
+             "windows"
         ]
     },
     "remotes":{
