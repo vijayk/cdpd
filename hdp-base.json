@@ -429,6 +429,23 @@
             "internal-repo-name":"hadoop-lzo",
             "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
         },
+        "teradata_connector":{
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-branch": "tdch-1.4.1",
+            "branch":"tdch-1.4.1",
+            "version":"1.4.1",
+            "internal-repo-name":"teradata-connector",
+            "repo-url": "git@github.com:hortonworks/teradata-connector.git"
+        },
+        "manual_Install":{
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-branch": "bigwheel-M10-2.0.8.0",
+            "branch":"bigwheel-M10-2.0.8.0",
+            "internal-repo-name":"manual_Install",
+            "repo-url": "git@github.com:hortonworks/manual_Install.git"
+        },
         "eventhubspout-monarch": {
             "enable-merge": false,
             "enable-sync": false,
