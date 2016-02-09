@@ -417,6 +417,18 @@
             "internal-branch": "master",
             "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
         },
+        "hadooplzo":{
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-branch": "2.4-maint",
+            "branch":"2.4-maint",
+            "depends-on":[
+                "hadoop"
+            ],
+            "version":"0.6.0",
+            "internal-repo-name":"hadoop-lzo",
+            "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
+        },
         "eventhubspout-monarch": {
             "enable-merge": false,
             "enable-sync": false,
