@@ -441,8 +441,8 @@
         "manual_Install":{
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "bigwheel-M10-2.0.8.0",
-            "branch":"bigwheel-M10-2.0.8.0",
+            "internal-branch": "2.4-maint",
+            "branch":"2.4-maint",
             "internal-repo-name":"manual_Install",
             "repo-url": "git@github.com:hortonworks/manual_Install.git"
         },
