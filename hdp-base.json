@@ -405,13 +405,11 @@
             "enable-merge": false,
             "enable-sync": false,
             "poll": false,
-            "repo-url": "git@github.com:hortonworks/build-support.git",
-            "internal-branch": "2.4-maint"
+            "repo-url": "git@github.com:hortonworks/build-support.git"
         },
         "bigtop-new":{
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "2.4-maint",
             "repo-url": "git@github.com:hortonworks/bigtop-new.git"
         },
         "Monarch":{
