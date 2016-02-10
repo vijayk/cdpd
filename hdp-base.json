@@ -296,6 +296,7 @@
                 "hive"
             ],
             "enable-merge":false,
+             "internal-branch": "2.5-maint",
             "repo-url":"git@github.com:apache/spark.git",
             "version":"1.4.1",
             "no-partner":[
@@ -356,6 +357,7 @@
             "enable-merge":true,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
+            "internal-branch": "2.5-maint",
             "version":"0.6.0",
             "no-partner":[
                 "longwing",
@@ -495,7 +497,7 @@
         ]
     },
     "hwx": {
-        "stack-version": "2.5.0.0",
+        "stack-version": "2.6.0.0",
         "poll-frequency": "60",
         "platforms": [
              "centos6",
