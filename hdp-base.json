@@ -13,6 +13,7 @@
                 "ulysses"
             ],
             "repo-url":"git@github.com:apache/accumulo.git",
+            "internal-branch": "2.4-maint",
             "version":"1.7.0"
         },
         "calcite":{
@@ -21,6 +22,7 @@
             "enable-merge":false,
             "internal-repo-name":"calcite",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
+            "internal-branch": "2.4-maint",
             "version":"1.2.0",
             "no-partner":[
                 "ulysses"
@@ -37,6 +39,7 @@
             "enable-build":false,
             "internal-repo-name":"cascading",
             "repo-url":"git@github.com:cwensel/cascading.git",
+            "internal-branch": "2.4-maint",
             "version":"3.0.0",
             "no-partner":[
                 "ulysses",
@@ -57,6 +60,7 @@
             "enable-merge":false,
             "internal-repo-name":"datafu",
             "repo-url":"git@github.com:apache/incubator-datafu.git",
+            "internal-branch": "2.4-maint",
             "version":"1.3.0",
             "no-partner":[
                 "ulysses"
@@ -72,6 +76,7 @@
             "enable-merge":false,
             "internal-repo-name":"falcon",
             "repo-url":"git@github.com:apache/falcon.git",
+            "internal-branch": "2.4-maint",
             "version":"0.6.1",
             "no-partner":[
                 "ulysses"
@@ -87,6 +92,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/flume.git",
+            "internal-branch": "2.4-maint",
             "version":"1.5.2",
             "no-partner":[
                 "ulysses"
@@ -99,6 +105,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/hadoop.git",
+            "internal-branch": "2.4-maint",
             "version":"2.7.1"
         },
         "hbase":{
@@ -109,6 +116,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/hbase.git",
+            "internal-branch": "2.4-maint",
             "version":"1.1.2",
             "no-partner":[
                 "ulysses"
@@ -126,6 +134,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/hive.git",
+            "internal-branch": "2.4-maint",
             "version":"1.2.1000",
             "no-partner":[
                 "ulysses"
@@ -141,6 +150,7 @@
             "enable-merge":false,
             "enable-sync":false,
             "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
+            "internal-branch": "2.4-maint",
             "version":"2.6.1",
             "no-partner":[
                 "ulysses",
@@ -157,6 +167,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/kafka.git",
+            "internal-branch": "2.4-maint",
             "version":"0.9.0",
             "no-partner":[
                 "ulysses"
@@ -169,6 +180,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/knox.git",
+            "internal-branch": "2.4-maint",
             "version":"0.6.0",
             "no-partner":[
                 "ulysses"
@@ -182,6 +194,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/mahout.git",
+            "internal-branch": "2.4-maint",
             "version":"0.9.0",
             "no-partner":[
                 "ulysses"
@@ -199,6 +212,7 @@
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/oozie.git",
+            "internal-branch": "2.4-maint",
             "version":"4.2.0",
             "no-partner":[
                 "ulysses"
@@ -214,6 +228,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/phoenix.git",
+            "internal-branch": "2.4-maint",
             "version":"4.4.0",
             "no-partner":[
                 "ulysses"
@@ -231,6 +246,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/pig.git",
+            "internal-branch": "2.4-maint",
             "version":"0.15.0",
             "no-partner":[
                 "ulysses"
@@ -249,6 +265,7 @@
             "enable-merge":false,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/incubator-ranger.git",
+            "internal-branch": "2.4-maint",
             "version":"0.5.0",
             "no-partner":[
                 "ulysses"
@@ -265,6 +282,7 @@
             "enable-merge":false,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
+            "internal-branch": "2.4-maint",
             "version":"0.80.0",
             "no-partner":[
                 "ulysses"
@@ -295,6 +313,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/sqoop.git",
+            "internal-branch": "2.4-maint",
             "version":"1.4.6",
             "no-partner":[
                 "ulysses"
@@ -311,6 +330,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/storm.git",
+            "internal-branch": "2.4-maint",
             "version":"0.10.0",
             "no-partner":[
                 "ulysses"
@@ -324,6 +344,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/tez.git",
+            "internal-branch": "2.4-maint",
             "version":"0.7.0",
             "no-partner":[
                 "ulysses"
@@ -352,6 +373,7 @@
             "depends-on":null,
             "enable-merge":false,
             "repo-url":"git@github.com:apache/zookeeper.git",
+            "internal-branch": "2.4-maint",
             "version":"3.4.6",
             "no-partner":[
                 "ulysses"
@@ -366,6 +388,7 @@
             "enable-merge":false,
             "enable-sync":false,
             "repo-url":"git@github.com:hortonworks/atlas.git",
+            "internal-branch": "2.4-maint",
             "version":"0.5.0",
             "no-partner":[
                 "ulysses",
@@ -382,21 +405,25 @@
             "enable-merge": false,
             "enable-sync": false,
             "poll": false,
-            "repo-url": "git@github.com:hortonworks/build-support.git"
+            "repo-url": "git@github.com:hortonworks/build-support.git",
+            "internal-branch": "2.4-maint"
         },
         "bigtop-new":{
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "2.4-maint",
             "repo-url": "git@github.com:hortonworks/bigtop-new.git"
         },
         "Monarch":{
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "2.4-maint",
             "repo-url": "git@github.com:hortonworks/Monarch.git"
         },
         "microsoft-sqoop-connector": {
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "2.4-maint",
             "repo-url": "git@github.com:hortonworks/microsoft-sqoop-connector.git"
         },
         "snappy-dll": {
