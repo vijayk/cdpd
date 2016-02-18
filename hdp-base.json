@@ -504,8 +504,7 @@
              "debian6",
              "debian7",
              "suse11sp3",
-             "ubuntu12",
-             "windows"
+             "ubuntu12"
         ]
     },
     "remotes":{
