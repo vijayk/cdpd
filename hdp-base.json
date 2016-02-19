@@ -368,7 +368,7 @@
             "repo-url":"git@github.com:hortonworks/itez.git",
             "repo-url":"git@github.com:apache/tez.git",
             "internal-branch": "master",
-            "version":"0.7.0",
+            "version":"0.8.0",
             "no-partner":[
                 "ulysses"
             ]
