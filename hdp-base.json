@@ -358,7 +358,22 @@
                 "ulysses"
             ]
         },
-        "zeppelin":{
+        "itez":{
+            "branch":"branch-0.7",
+            "depends-on":[
+                "hadoop",
+                "zookeeper"
+            ],
+            "enable-merge":false,
+            "repo-url":"git@github.com:hortonworks/itez.git",
+            "repo-url":"git@github.com:apache/tez.git",
+            "internal-branch": "master",
+            "version":"0.7.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
+         "zeppelin":{
             "branch":"master",
             "depends-on": [
                 "hadoop",
