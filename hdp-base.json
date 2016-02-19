@@ -142,7 +142,7 @@
             ]
         },
         "ihive":{
-            "branch":"branch-1.2",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
@@ -154,7 +154,7 @@
             "enable-merge":false,
             "repo-url":"git@github.com:hortonworks.com/ihive.git",
             "internal-branch": "master",
-            "version":"2.0.0",
+            "version":"2.1.0",
             "no-partner":[
                 "ulysses"
             ]
@@ -377,16 +377,15 @@
             ]
         },
         "itez":{
-            "branch":"branch-0.7",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:hortonworks/itez.git",
-            "repo-url":"git@github.com:apache/tez.git",
             "internal-branch": "master",
-            "version":"0.8.0",
+            "version":"0.8.3",
             "no-partner":[
                 "ulysses"
             ]
