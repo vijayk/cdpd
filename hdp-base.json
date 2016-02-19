@@ -71,7 +71,8 @@
             "depends-on":[
                 "hadoop",
                 "hive",
-                "oozie"
+                "oozie",
+                "zookeeper"
             ],
             "enable-merge":false,
             "internal-repo-name":"falcon",
@@ -224,7 +225,8 @@
                 "hadoop",
                 "hbase",
                 "pig",
-                "flume"
+                "flume",
+                "calcite"
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/phoenix.git",
@@ -260,7 +262,10 @@
                 "hive",
                 "knox",
                 "storm",
-                "kafka"
+                "kafka",
+                "tez",
+                "calcite",
+                "zookeeper"
             ],
             "enable-merge":false,
             "internal-repo-name":"ranger",
@@ -292,8 +297,10 @@
             "branch":"branch-1.4",
             "depends-on":[
                 "hadoop",
-                "tez",
-                "hive"
+                "hbase",
+                "zookeeper",
+                "flume",
+                "kafka"
             ],
             "enable-merge":false,
              "internal-branch": "2.5-maint",
@@ -353,7 +360,12 @@
         },
         "zeppelin":{
             "branch":"master",
-            "depends-on":null,
+            "depends-on": [
+                "hadoop",
+                "hbase",
+                "spark",
+                "zookeeper"
+            ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
@@ -385,7 +397,10 @@
             "branch":"dal",
             "depends-on":[
                 "hadoop",
-                "hive"
+                "hive",
+                "hbase",
+                "calcite",
+                "zookeeper"
             ],
             "enable-merge":false,
             "enable-sync":false,
