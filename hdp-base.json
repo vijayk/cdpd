@@ -141,7 +141,25 @@
                 "ulysses"
             ]
         },
-        "hue":{
+        "ihive":{
+            "branch":"branch-1.2",
+            "depends-on":[
+                "hadoop",
+                "zookeeper",
+                "hbase",
+                "itez",
+                "calcite",
+                "accumulo"
+            ],
+            "enable-merge":false,
+            "repo-url":"git@github.com:hortonworks.com/ihive.git",
+            "internal-branch": "2.4-maint",
+            "version":"2.0.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
+         "hue":{
             "branch":"dal",
             "depends-on":[
                 "hadoop",
