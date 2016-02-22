@@ -273,7 +273,7 @@
             ]
         },
         "ranger":{
-            "branch":"ranger-0.5",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "hbase",
@@ -285,11 +285,11 @@
                 "calcite",
                 "zookeeper"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/incubator-ranger.git",
-            "internal-branch": "2.4-maint",
-            "version":"0.5.0",
+            "internal-branch": "2.6-maint",
+            "version":"0.6.0",
             "no-partner":[
                 "ulysses"
             ]
