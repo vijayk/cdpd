@@ -402,7 +402,7 @@
             ]
         },
         "atlas":{
-            "branch":"dal",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "hive",
