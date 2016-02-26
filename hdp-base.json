@@ -132,7 +132,7 @@
                 "ulysses"
             ]
         },
-        "ihive":{
+        "hive2":{
             "branch":"master",
             "depends-on":[
                 "hadoop",
@@ -143,7 +143,7 @@
                 "accumulo"
             ],
             "enable-merge":false,
-            "repo-url":"git@github.com:hortonworks.com/ihive.git",
+            "repo-url":"git@github.com:hortonworks.com/hive2.git",
             "internal-branch": "master",
             "version":"2.1.0",
             "no-partner":[
