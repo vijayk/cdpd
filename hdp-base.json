@@ -138,7 +138,7 @@
                 "hadoop",
                 "zookeeper",
                 "hbase",
-                "itez",
+                "tez_hive2",
                 "calcite",
                 "accumulo"
             ],
@@ -354,14 +354,14 @@
                 "ulysses"
             ]
         },
-        "itez":{
+        "tez_hive2":{
             "branch":"master",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
             ],
             "enable-merge":false,
-            "repo-url":"git@github.com:hortonworks/itez.git",
+            "repo-url":"git@github.com:hortonworks/tez_hive2.git",
             "internal-branch": "master",
             "version":"0.8.3",
             "no-partner":[
