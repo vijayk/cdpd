@@ -151,7 +151,7 @@
             ]
         },
          "hue":{
-            "branch":"dal",
+            "branch":"2.6-maint",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
@@ -160,7 +160,7 @@
             "enable-merge":false,
             "enable-sync":false,
             "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
-            "version":"2.6.1",
+            "version":"2.6.0",
             "no-partner":[
                 "ulysses",
                 "essex",
