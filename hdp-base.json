@@ -362,7 +362,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:hortonworks/tez_hive2.git",
-            "internal-branch": "master",
+            "internal-branch": "hive2_2.6-maint",
             "version":"0.8.3",
             "no-partner":[
                 "ulysses"
