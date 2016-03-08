@@ -294,7 +294,8 @@
                 "hadoop",
                 "hbase",
                 "accumulo",
-                "zookeeper"
+                "zookeeper",
+                "phoenix"
             ],
             "enable-merge":false,
             "internal-repo-name":"slider",
