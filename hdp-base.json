@@ -153,9 +153,10 @@
                 "calcite",
                 "accumulo"
             ],
-            "enable-merge":false,
-            "repo-url":"git@github.com:hortonworks.com/hive2.git",
-            "internal-branch": "master",
+            "enable-merge":true,
+            "internal-repo-name":"hive2",
+            "repo-url":"git@github.com:apache/hive.git",
+            "internal-branch": "hive2_2.6-maint",
             "version":"2.1.0",
             "no-partner":[
                 "ulysses"
@@ -372,8 +373,9 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
-            "repo-url":"git@github.com:hortonworks/tez_hive2.git",
+            "enable-merge":true,
+            "internal-repo-name":"tez_hive2",
+            "repo-url":"git@github.com:apache/tez.git",
             "internal-branch": "hive2_2.6-maint",
             "version":"0.8.3",
             "no-partner":[
