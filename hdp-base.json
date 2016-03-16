@@ -536,7 +536,6 @@
         "poll-frequency": "60",
         "platforms": [
              "centos6",
-             "debian6",
              "debian7",
              "suse11sp3",
              "ubuntu12"
