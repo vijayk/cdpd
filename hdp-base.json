@@ -156,7 +156,7 @@
             "enable-merge":true,
             "internal-repo-name":"hive2",
             "repo-url":"git@github.com:apache/hive.git",
-            "internal-branch": "hive2_2.6-maint",
+            "internal-branch": "hive2_erie",
             "version":"2.1.0",
             "no-partner":[
                 "ulysses"
@@ -376,7 +376,7 @@
             "enable-merge":true,
             "internal-repo-name":"tez_hive2",
             "repo-url":"git@github.com:apache/tez.git",
-            "internal-branch": "hive2_2.6-maint",
+            "internal-branch": "hive2_erie",
             "version":"0.8.3",
             "no-partner":[
                 "ulysses"
@@ -458,7 +458,6 @@
         "microsoft-sqoop-connector": {
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "2.4-maint",
             "repo-url": "git@github.com:hortonworks/microsoft-sqoop-connector.git"
         },
         "snappy-dll": {
@@ -482,7 +481,6 @@
         "hadooplzo":{
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "2.4-maint",
             "branch":"2.4-maint",
             "depends-on":[
                 "hadoop"
@@ -503,7 +501,6 @@
         "manual_Install":{
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "2.4-maint",
             "branch":"2.4-maint",
             "internal-repo-name":"manual_Install",
             "repo-url": "git@github.com:hortonworks/manual_Install.git"
@@ -532,7 +529,7 @@
         ]
     },
     "hwx": {
-        "stack-version": "2.6.0.0",
+        "stack-version": "2.5.0.0",
         "poll-frequency": "60",
         "platforms": [
              "centos6",
