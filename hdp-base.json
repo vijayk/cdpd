@@ -297,7 +297,8 @@
                 "hbase",
                 "accumulo",
                 "zookeeper",
-                "phoenix"
+                "phoenix",
+                "storm"
             ],
             "enable-merge":false,
             "internal-repo-name":"slider",
