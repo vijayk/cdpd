@@ -438,9 +438,9 @@
                 "calcite",
                 "zookeeper"
             ],
-            "enable-merge":false,
-            "enable-sync":false,
-            "repo-url":"git@github.com:hortonworks/atlas.git",
+            "enable-merge":true,
+            "enable-sync":true,
+            "repo-url":"git@github.com:apache/incubator-atlas.gitt",
             "version":"0.7.0",
             "no-partner":[
                 "ulysses",
