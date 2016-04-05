@@ -440,7 +440,8 @@
             ],
             "enable-merge":true,
             "enable-sync":true,
-            "repo-url":"git@github.com:apache/incubator-atlas.gitt",
+            "repo-url":"git@github.com:apache/incubator-atlas.git",
+            "internal-repo-name":"atlas",
             "version":"0.7.0",
             "no-partner":[
                 "ulysses",
