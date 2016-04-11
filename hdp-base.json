@@ -38,6 +38,18 @@
                 "ulysses"
             ]
         },
+	"calcite_avatica":{
+            "branch":"branch-release",
+            "depends-on":null,
+            "enable-merge":false,
+            "internal-repo-name":"calcite_avatica",
+            "internal-branch": "erie",
+            "repo-url":"git@github.com:apache/incubator-calcite.git",
+            "version":"1.2.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
         "cascading":{
             "branch":"wip-3.0",
             "depends-on":[
