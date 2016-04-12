@@ -45,7 +45,7 @@
             "internal-repo-name":"calcite_avatica",
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"1.2.0",
+            "version":"1.7.1",
             "no-partner":[
                 "ulysses"
             ]
