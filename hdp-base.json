@@ -108,6 +108,7 @@
                 "hadoop",
                 "zookeeper",
                 "hbase",
+                "kafka",
                 "hive"
             ],
             "enable-merge":false,
