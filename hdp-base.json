@@ -38,7 +38,7 @@
                 "ulysses"
             ]
         },
-	"calcite_avatica":{
+	"avatica":{
             "branch":"branch-release",
             "depends-on":null,
             "enable-merge":false,
