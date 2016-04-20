@@ -168,7 +168,8 @@
                 "hbase",
                 "tez_hive2",
                 "calcite",
-                "accumulo"
+                "accumulo",
+                "slider"
             ],
             "enable-merge":true,
             "internal-repo-name":"hive2",
