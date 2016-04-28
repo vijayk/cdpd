@@ -90,7 +90,7 @@
             ]
         },
         "falcon":{
-            "branch":"0.6.1",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "hive",
@@ -100,7 +100,7 @@
             "enable-merge":false,
             "internal-repo-name":"falcon",
             "repo-url":"git@github.com:apache/falcon.git",
-            "version":"0.6.1",
+            "version":"0.10.0",
             "no-partner":[
                 "ulysses"
             ]
