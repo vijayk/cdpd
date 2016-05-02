@@ -504,24 +504,28 @@
         "Monarch":{
             "enable-merge": false,
             "enable-sync": false,
-            "repo-url": "git@github.com:hortonworks/Monarch.git"
+            "repo-url": "git@github.com:hortonworks/Monarch.git",
+            "specific-platform": "windows"
         },
         "microsoft-sqoop-connector": {
             "enable-merge": false,
             "enable-sync": false,
-            "repo-url": "git@github.com:hortonworks/microsoft-sqoop-connector.git"
+            "repo-url": "git@github.com:hortonworks/microsoft-sqoop-connector.git",
+            "specific-platform": "windows"
         },
         "snappy-dll": {
             "enable-merge": false,
             "enable-sync": false,
             "internal-branch": "master",
-            "repo-url": "git@github.com:hortonworks/snappy-dll.git"
+            "repo-url": "git@github.com:hortonworks/snappy-dll.git",
+            "specific-platform": "windows"
         },
         "headnode-HA-monarch": {
             "enable-merge": false,
             "enable-sync": false,
             "internal-branch": "master",
-            "repo-url": "git@github.com:hortonworks/headnode-HA-monarch.git"
+            "repo-url": "git@github.com:hortonworks/headnode-HA-monarch.git",
+            "specific-platform": "windows"
         },
         "hadoop-lzo":{
             "enable-merge": false,
@@ -554,7 +558,8 @@
         "eventhubspout-monarch": {
             "enable-merge": false,
             "enable-sync": false,
-            "repo-url": "git@github.com:hortonworks/eventhubspout-monarch.git"
+            "repo-url": "git@github.com:hortonworks/eventhubspout-monarch.git",
+            "specific-platform": "windows"
         },
         "HDP": {
             "enable-merge": false,
