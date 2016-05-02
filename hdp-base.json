@@ -526,13 +526,13 @@
         "hadoop-lzo":{
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "master",
+            "branch":"master",
             "depends-on":[
                 "hadoop"
             ],
             "version":"0.6.0",
             "internal-repo-name":"hadoop-lzo",
-            "internal-branch": "master",
-            "branch":"master",
             "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
         },
         "teradata_connector":{
