@@ -17,12 +17,11 @@
         },
         "calcite":{
             "branch":"branch-release",
-            "depends-on":null,
             "enable-merge":false,
             "internal-repo-name":"calcite",
-	    "depends-on":[
-		"avatica"
-	    ],
+	        "depends-on":[
+		        "avatica"
+	        ],
             "repo-url":"git@github.com:apache/incubator-calcite.git",
             "version":"1.2.0",
             "no-partner":[
@@ -505,27 +504,31 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/Monarch.git",
-            "specific-platform": "windows"
+            "specific-platform": "windows",
+            "platforms": ["windows"]
         },
         "microsoft-sqoop-connector": {
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/microsoft-sqoop-connector.git",
-            "specific-platform": "windows"
+            "specific-platform": "windows",
+            "platforms": ["windows"]
         },
         "snappy-dll": {
             "enable-merge": false,
             "enable-sync": false,
             "internal-branch": "master",
             "repo-url": "git@github.com:hortonworks/snappy-dll.git",
-            "specific-platform": "windows"
+            "specific-platform": "windows",
+            "platforms": ["windows"]
         },
         "headnode-HA-monarch": {
             "enable-merge": false,
             "enable-sync": false,
             "internal-branch": "master",
             "repo-url": "git@github.com:hortonworks/headnode-HA-monarch.git",
-            "specific-platform": "windows"
+            "specific-platform": "windows",
+            "platforms": ["windows"]
         },
         "hadoop-lzo":{
             "enable-merge": false,
@@ -559,7 +562,8 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/eventhubspout-monarch.git",
-            "specific-platform": "windows"
+            "specific-platform": "windows",
+            "platforms": ["windows"]
         },
         "HDP": {
             "enable-merge": false,
