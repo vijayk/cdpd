@@ -530,7 +530,16 @@
             "specific-platform": "windows",
             "platforms": ["windows"]
         },
-        "hadoop-lzo":{
+        "bigtop-tomcat": {
+            "version": "6.0.44",
+            "repo-url":"git@github.com:apache/accumulo.git"
+        },
+        "bigtop-jsvc": {
+            "version": "1.0.10",
+            "repo-url":"git@github.com:apache/accumulo.git"
+        },
+
+        "hadooplzo":{
             "enable-merge": false,
             "enable-sync": false,
             "internal-branch": "master",
