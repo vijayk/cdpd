@@ -255,7 +255,8 @@
                 "tez",
                 "hive",
                 "pig",
-                "sqoop"
+                "sqoop",
+                "spark"
             ],
             "enable-merge":true,
             "repo-url":"git@github.com:apache/oozie.git",
