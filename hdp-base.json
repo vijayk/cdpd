@@ -565,6 +565,7 @@
             "enable-sync": false,
             "branch":"2.4-maint",
             "internal-repo-name":"manual_Install",
+            "internal-branch": "master",
             "repo-url": "git@github.com:hortonworks/manual_Install.git"
         },
         "eventhubspout-monarch": {
