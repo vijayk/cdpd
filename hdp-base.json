@@ -472,7 +472,11 @@
                 "hive",
                 "hbase",
                 "calcite",
-                "zookeeper"
+                "zookeeper",
+                "falcon",
+                "storm",
+                "sqoop",
+                "kafka"
             ],
             "enable-merge":true,
             "enable-sync":true,
