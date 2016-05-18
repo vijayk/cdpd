@@ -188,6 +188,7 @@
             ],
             "enable-merge":false,
             "enable-sync":false,
+            "enable-build":false,
             "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
             "version":"2.6.0",
             "no-partner":[
@@ -542,6 +543,7 @@
         "hadooplzo":{
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build":false,
             "internal-branch": "master",
             "branch":"master",
             "depends-on":[
