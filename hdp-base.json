@@ -559,6 +559,7 @@
         "teradata_connector":{
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-branch": "tdch-1.4.1",
             "branch":"tdch-1.4.1",
             "version":"1.4.1",
@@ -568,6 +569,7 @@
         "manual_Install":{
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "branch":"2.4-maint",
             "internal-repo-name":"manual_Install",
             "internal-branch": "master",
