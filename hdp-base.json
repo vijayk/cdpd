@@ -547,7 +547,6 @@
         "hadooplzo":{
             "enable-merge": false,
             "enable-sync": false,
-            "enable-build":false,
             "internal-branch": "master",
             "branch":"master",
             "depends-on":[
