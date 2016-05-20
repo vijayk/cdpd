@@ -509,14 +509,12 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/Monarch.git",
-            "specific-platform": "windows",
             "platforms": ["windows"]
         },
         "microsoft-sqoop-connector": {
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/microsoft-sqoop-connector.git",
-            "specific-platform": "windows",
             "platforms": ["windows"]
         },
         "snappy-dll": {
@@ -524,7 +522,6 @@
             "enable-sync": false,
             "internal-branch": "master",
             "repo-url": "git@github.com:hortonworks/snappy-dll.git",
-            "specific-platform": "windows",
             "platforms": ["windows"]
         },
         "headnode-HA-monarch": {
@@ -532,10 +529,22 @@
             "enable-sync": false,
             "internal-branch": "master",
             "repo-url": "git@github.com:hortonworks/headnode-HA-monarch.git",
-            "specific-platform": "windows",
             "platforms": ["windows"]
         },
         "hadoop-lzo":{
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-branch": "master",
+            "branch":"master",
+            "depends-on":[
+                "hadoop"
+            ],
+            "version":"0.6.0",
+            "platforms": ["windows"],
+            "internal-repo-name":"hadoop-lzo",
+            "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
+        },
+	"hadooplzo":{
             "enable-merge": false,
             "enable-sync": false,
             "internal-branch": "master",
@@ -550,6 +559,7 @@
         "teradata_connector":{
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-branch": "tdch-1.4.1",
             "branch":"tdch-1.4.1",
             "version":"1.4.1",
@@ -559,6 +569,7 @@
         "manual_Install":{
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "branch":"2.4-maint",
             "internal-repo-name":"manual_Install",
             "repo-url": "git@github.com:hortonworks/manual_Install.git"
@@ -567,7 +578,6 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/eventhubspout-monarch.git",
-            "specific-platform": "windows",
             "platforms": ["windows"]
         },
         "HDP": {
