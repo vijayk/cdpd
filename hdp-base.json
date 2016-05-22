@@ -588,16 +588,6 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/hdp.git"
-        },
-        "bigtop-tomcat": {
-            "version": "6.0.44",
-            "repo-url":"git@github.com:apache/accumulo.git",
-            "platforms": ["centos6", "suse11sp3"]
-        },
-        "bigtop-jsvc": {
-            "version": "1.0.10",
-            "repo-url":"git@github.com:apache/accumulo.git",
-            "platforms": ["centos6", "suse11sp3"]
         }
     },
     "co-dev":{
