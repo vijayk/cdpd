@@ -34,7 +34,7 @@
             "enable-merge":false,
             "internal-repo-name":"calcite_hive2",
             "internal-branch": "hive2_erie",
-            "repo-url":"git@github.com:apache/calcite_hive2.git",
+            "repo-url":"git@github.com:apache/calcite.git",
             "version":"1.6.0",
             "no-partner":[
                 "ulysses"
