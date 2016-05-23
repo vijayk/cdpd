@@ -592,10 +592,14 @@
         },
         "bigtop-tomcat": {
             "version": "6.0.44",
+            "enable-sync": false,
+            "enable-merge": false,
             "repo-url":"git@github.com:apache/accumulo.git"
         },
         "bigtop-jsvc": {
             "version": "1.0.10",
+            "enable-sync": false,
+            "enable-merge": false,
             "repo-url":"git@github.com:apache/accumulo.git"
         }
     },
