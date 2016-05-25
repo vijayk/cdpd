@@ -200,7 +200,7 @@
             "platforms": ["centos6", "suse11sp3"]
         },
         "kafka":{
-            "branch":"0.9.0",
+            "branch":"0.10.0",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
