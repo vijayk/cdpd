@@ -518,7 +518,7 @@
             "enable-sync": false,
             "enable-merge": false,
             "repo-url":"git@github.com:apache/bigtop-new.git",
-            "platforms": ["ubuntu12"]
+            "platforms": ["debian7", "ubuntu12"]
         },
         "microsoft-sqoop-connector": {
             "enable-merge": false,
@@ -608,13 +608,6 @@
             "enable-sync": false,
             "enable-merge": false,
             "repo-url":"git@github.com:apache/accumulo.git"
-        },
-        "hdp-select": {
-            "version": "0.0.0",
-            "enable-sync": false,
-            "enable-merge": false,
-            "repo-url":"git@github.com:apache/bigtop-new.git",
-            "platforms": ["debian7", "ubuntu12"]
         },
          "bigtop-jsvc": {
             "version": "1.0.10",
