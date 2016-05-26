@@ -516,6 +516,7 @@
             "version": "0.0.0",
             "enable-sync": false,
             "enable-merge": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/bigtop-new.git"
         },
         "microsoft-sqoop-connector": {
@@ -611,7 +612,8 @@
             "version": "0.0.0",
             "enable-sync": false,
             "enable-merge": false,
-            "repo-url":"git@github.com:apache/bigtop-new.git"
+            "repo-url":"git@github.com:apache/bigtop-new.git",
+            "platforms": ["debian7", "ubuntu12"]
         },
          "bigtop-jsvc": {
             "version": "1.0.10",
