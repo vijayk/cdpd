@@ -38,8 +38,7 @@
             "version":"1.6.0",
             "no-partner":[
                 "ulysses"
-            ],
-            "platforms": ["centos6", "suse11sp3"]
+            ]
         },
 	"avatica":{
             "branch":"branch-release",
@@ -178,8 +177,7 @@
             "version":"2.1.0",
             "no-partner":[
                 "ulysses"
-            ],
-            "platforms": ["centos6", "suse11sp3"]
+            ]
         },
          "hue":{
             "branch":"2.6-maint",
@@ -373,8 +371,7 @@
             "version":"2.0.0",
             "no-partner":[
                 "ulysses"
-            ],
-            "platforms": ["centos6", "suse11sp3"]
+            ]
         },
          "sqoop":{
             "branch":"branch-1.4.6",
@@ -434,8 +431,7 @@
             "version":"0.8.4",
             "no-partner":[
                 "ulysses"
-            ],
-            "platforms": ["centos6", "suse11sp3"]
+            ]
         },
          "zeppelin":{
             "branch":"master",
@@ -516,6 +512,12 @@
             "repo-url": "git@github.com:hortonworks/Monarch.git",
             "platforms": ["windows"]
         },
+        "hdp_select": {
+            "version": "0.0.0",
+            "enable-sync": false,
+            "enable-merge": false,
+            "repo-url":"git@github.com:apache/bigtop-new.git"
+        },
         "microsoft-sqoop-connector": {
             "enable-merge": false,
             "enable-sync": false,
@@ -544,7 +546,6 @@
             "version": "1.0.10",
             "repo-url":"git@github.com:apache/accumulo.git"
         },
-
         "hadooplzo":{
             "enable-merge": false,
             "enable-sync": false,
