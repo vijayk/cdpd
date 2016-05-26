@@ -19,9 +19,9 @@
             "branch":"branch-release",
             "enable-merge":false,
             "internal-repo-name":"calcite",
-	        "depends-on":[
-		        "avatica"
-	        ],
+            "depends-on":[
+                "avatica"
+            ],
             "repo-url":"git@github.com:apache/incubator-calcite.git",
             "version":"1.2.0",
             "no-partner":[
@@ -36,15 +36,17 @@
             "internal-branch": "hive2_erie",
             "repo-url":"git@github.com:apache/calcite.git",
             "version":"1.6.0",
+            "maven-group-id": "calcite",
             "no-partner":[
                 "ulysses"
             ]
         },
-	"avatica":{
+        "avatica":{
             "branch":"branch-release",
             "depends-on":null,
             "enable-merge":false,
             "internal-repo-name":"calcite_avatica",
+            "maven-group-id": "calcite",
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
             "version":"1.7.1",
@@ -172,6 +174,7 @@
             ],
             "enable-merge":true,
             "internal-repo-name":"hive2",
+            "maven-group-id": "hive",
             "repo-url":"git@github.com:apache/hive.git",
             "internal-branch": "hive2_erie",
             "version":"2.1.0",
@@ -269,7 +272,7 @@
         "phoenix":{
             "branch":"master",
             "depends-on":[
-		"avatica",
+                "avatica",
                 "hadoop",
                 "hbase",
                 "pig",
@@ -367,6 +370,7 @@
             "enable-sync":true,
             "enable-merge":false,
             "internal-repo-name": "spark2",
+            "maven-group-id": "spark",
             "repo-url":"git@github.com:apache/spark.git",
             "version":"2.0.0",
             "no-partner":[
@@ -427,6 +431,7 @@
             ],
             "enable-merge":true,
             "internal-repo-name":"tez_hive2",
+            "maven-group-id": "tez",
             "repo-url":"git@github.com:apache/tez.git",
             "internal-branch": "hive2_erie",
             "version":"0.8.4",
@@ -540,14 +545,6 @@
             "repo-url": "git@github.com:hortonworks/headnode-HA-monarch.git",
             "platforms": ["windows"]
         },
-        "bigtop-tomcat": {
-            "version": "6.0.44",
-            "repo-url":"git@github.com:apache/accumulo.git"
-        },
-        "bigtop-jsvc": {
-            "version": "1.0.10",
-            "repo-url":"git@github.com:apache/accumulo.git"
-        },
         "hadooplzo":{
             "enable-merge": false,
             "enable-sync": false,
@@ -558,18 +555,6 @@
             ],
             "version":"0.6.0",
             "platforms": ["windows"],
-            "internal-repo-name":"hadoop-lzo",
-            "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
-        },
-	"hadooplzo":{
-            "enable-merge": false,
-            "enable-sync": false,
-            "internal-branch": "master",
-            "branch":"master",
-            "depends-on":[
-                "hadoop"
-            ],
-            "version":"0.6.0",
             "internal-repo-name":"hadoop-lzo",
             "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
         },
