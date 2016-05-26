@@ -284,7 +284,7 @@
             ]
         },
         "pig":{
-            "branch":"branch-0.15",
+            "branch":"branch-0.16",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
