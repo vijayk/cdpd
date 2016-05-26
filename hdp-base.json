@@ -298,7 +298,7 @@
             ],
             "enable-merge":false,
             "repo-url":"git@github.com:apache/pig.git",
-            "version":"0.15.0",
+            "version":"0.16.0",
             "no-partner":[
                 "ulysses"
             ]
