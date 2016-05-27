@@ -168,9 +168,10 @@
                 "zookeeper",
                 "hbase",
                 "tez_hive2",
-                "calcite",
+                "calcite_hive2",
                 "accumulo",
-                "slider"
+                "slider",
+                "avatica"
             ],
             "enable-merge":true,
             "internal-repo-name":"hive2",
