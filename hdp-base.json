@@ -378,7 +378,6 @@
             "no-partner":[
                 "ulysses"
             ],
-            "platforms": ["centos6", "suse11sp3"]
         },
          "sqoop":{
             "branch":"branch-1.4.6",
