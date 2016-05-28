@@ -39,7 +39,8 @@
             "maven-group-id": "calcite",
             "no-partner":[
                 "ulysses"
-            ]
+            ],
+            "depends-on": ["avatica"]
         },
         "avatica":{
             "branch":"branch-release",
