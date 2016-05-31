@@ -184,7 +184,25 @@
                 "ulysses"
             ]
         },
-         "hue":{
+        "spark-llap":{
+            "branch":"master",
+            "depends-on":[
+                "hadoop",
+                "zookeeper",
+                "tez_hive2",
+                "calcite_hive2"
+            ],
+            "enable-merge":false,
+            "internal-repo-name":"spark-llap",
+            "maven-group-id": "spark-llap",
+            "repo-url":"git@github.com:apache/spark-llap.git",
+            "internal-branch": "erie",
+            "version":"1.0.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
+          "hue":{
             "branch":"2.6-maint",
             "depends-on":[
                 "hadoop",
