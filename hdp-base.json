@@ -189,6 +189,7 @@
             "depends-on":[
                 "hadoop",
                 "zookeeper",
+                "hive2",
                 "tez_hive2",
                 "calcite_hive2"
             ],
