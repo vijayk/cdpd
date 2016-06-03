@@ -163,7 +163,7 @@
             ]
         },
         "hive2":{
-            "branch":"master",
+            "branch":"branch-2.1",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
