@@ -50,7 +50,7 @@
             "maven-group-id": "org/apache/calcite",
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"1.7.1",
+            "version":"1.8.0",
             "no-partner":[
                 "ulysses"
             ]
