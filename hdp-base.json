@@ -444,7 +444,7 @@
             ]
         },
         "tez_hive2":{
-            "branch":"branch-0.8",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
@@ -454,7 +454,7 @@
             "maven-group-id": "org/apache/tez",
             "repo-url":"git@github.com:apache/tez.git",
             "internal-branch": "hive2_erie",
-            "version":"0.8.4",
+            "version":"0.9.0",
             "no-partner":[
                 "ulysses"
             ]
