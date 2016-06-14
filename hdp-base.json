@@ -78,7 +78,7 @@
             ]
         },
         "datafu":{
-            "branch":"master",
+            "branch":"1.3.0",
             "depends-on":[
                 "hadoop",
                 "pig"
