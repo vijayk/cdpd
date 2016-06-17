@@ -467,7 +467,7 @@
                 "spark",
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
             "version":"0.6.0",
