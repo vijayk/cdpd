@@ -493,7 +493,7 @@
             ]
         },
         "atlas":{
-            "branch":"master",
+            "branch":"0.7-incubating",
             "depends-on":[
                 "hadoop",
                 "hive",
