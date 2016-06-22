@@ -359,6 +359,24 @@
                 "ulysses"
             ]
         },
+        "slider-app-packages":{
+            "branch":"develop",
+            "depends-on":[
+                "hadoop",
+                "hbase",
+                "accumulo",
+                "zookeeper",
+                "phoenix",
+                "storm"
+            ],
+            "enable-merge":false,
+            "internal-repo-name":"slider",
+            "repo-url":"git@github.com:apache/incubator-slider.git",
+            "version":"0.80.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
         "spark":{
             "branch":"branch-1.4",
             "depends-on":[
