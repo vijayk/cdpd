@@ -367,7 +367,8 @@
                 "accumulo",
                 "zookeeper",
                 "phoenix",
-                "storm"
+                "storm",
+                "slider"
             ],
             "enable-merge":false,
             "internal-repo-name":"slider",
