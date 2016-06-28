@@ -596,9 +596,9 @@
             "enable-merge": false,
             "enable-sync": false,
             "enable-build": false,
-            "internal-branch": "tdch-1.4.1",
-            "branch":"tdch-1.4.1",
-            "version":"1.4.1",
+            "internal-branch": "tdch-1.4.3",
+            "branch":"tdch-1.4.3",
+            "version":"1.4.3",
             "internal-repo-name":"teradata-connector",
             "repo-url": "git@github.com:hortonworks/teradata-connector.git"
         },
