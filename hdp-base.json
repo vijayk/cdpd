@@ -92,7 +92,7 @@
             ]
         },
         "falcon":{
-            "branch":"master",
+            "branch":"0.10",
             "depends-on":[
                 "hadoop",
                 "hive",
