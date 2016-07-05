@@ -197,7 +197,7 @@
             "enable-sync": false,
             "internal-repo-name":"spark-llap",
             "maven-group-id": "com/hortonworks/spark-llap",
-            "repo-url":"git@github.com:apache/spark-llap.git",
+            "repo-url":"git@github.com:hortonworks/spark-llap.git",
             "internal-branch": "erie",
             "version":"1.0.0",
             "no-partner":[
