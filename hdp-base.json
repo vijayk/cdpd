@@ -345,7 +345,7 @@
                 "calcite",
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/incubator-ranger.git",
             "version":"0.6.0",
