@@ -657,7 +657,7 @@
     },
     "hwx": {
         "stack-version": "2.5.0.0",
-        "poll-frequency": "60",
+        "poll-frequency": "120",
         "platforms": [
              "centos6",
              "debian7",
