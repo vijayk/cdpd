@@ -304,6 +304,7 @@
                 "avatica",
                 "hadoop",
                 "hbase",
+                "hive",
                 "pig",
                 "flume",
                 "calcite"
