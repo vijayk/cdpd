@@ -604,11 +604,13 @@
         "teradata_connector":{
             "enable-merge": false,
             "enable-sync": false,
-            "enable-build": false,
-            "internal-branch": "tdch-1.4.3",
-            "branch":"tdch-1.4.3",
-            "version":"1.4.3",
+            "enable-build": true,
+            "internal-branch": "tdch-1.5.0",
+            "branch":"tdch-1.5.0",
+            "version":"1.5.0",
             "internal-repo-name":"teradata-connector",
+            "depends-on": ["hadoop", "hive", "sqoop"],
+            "platforms": ["centos6"],
             "repo-url": "git@github.com:hortonworks/teradata-connector.git"
         },
         "manual_Install":{
