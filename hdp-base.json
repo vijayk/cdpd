@@ -473,7 +473,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "internal-repo-name":"tez_hive2",
             "maven-group-id": "org/apache/tez",
             "repo-url":"git@github.com:apache/tez.git",
