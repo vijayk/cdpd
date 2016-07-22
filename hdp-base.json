@@ -174,7 +174,7 @@
                 "slider",
                 "avatica"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "internal-repo-name":"hive2",
             "maven-group-id": "org/apache/hive",
             "repo-url":"git@github.com:apache/hive.git",
