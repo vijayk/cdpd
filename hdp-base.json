@@ -97,7 +97,7 @@
                 "ulysses"
             ]
         },
-        "fenton":{
+        "druid":{
             "branch":"master",
             "enable-merge": true,
             "enable-build": false,
