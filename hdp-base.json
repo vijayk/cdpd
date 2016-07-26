@@ -95,7 +95,7 @@
         },
         "fenton":{
             "branch":"master",
-            "enable-merge":false,
+            "enable-merge": true,
             "enable-build": false,
             "internal-repo-name":"druid",
             "repo-url": "git@github.com:druid-io/druid.git",
