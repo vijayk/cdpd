@@ -2,13 +2,13 @@
     "apache":{
         "accumulo":{
             "branch":"branch-1.7.0",
-            "enable-sync":false,
+            "enable-sync": false,
+            "enable-merge": false,
             "internal-branch": "erie",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
             "no-partner":[
                 "monarch",
                 "ulysses"
@@ -19,6 +19,7 @@
         "calcite":{
             "branch":"branch-release",
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"calcite",
             "internal-branch": "erie",
             "depends-on":[
@@ -33,6 +34,7 @@
          "calcite_hive2":{
             "branch":"branch-1.6",
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"calcite_hive2",
             "internal-branch": "hive2_erie",
             "repo-url":"git@github.com:apache/calcite.git",
@@ -47,6 +49,7 @@
             "branch":"branch-release",
             "depends-on":null,
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"calcite_avatica",
             "maven-group-id": "org/apache/calcite",
             "internal-branch": "erie",
@@ -85,6 +88,7 @@
                 "pig"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"datafu",
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/incubator-datafu.git",
@@ -124,6 +128,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"falcon",
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/falcon.git",
@@ -142,6 +147,7 @@
                 "hive"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/flume.git",
             "version":"1.5.2",
@@ -155,6 +161,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/hadoop.git",
             "version":"2.7.3"
@@ -166,6 +173,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/hbase.git",
             "version":"1.1.2",
             "internal-branch": "erie",
@@ -184,6 +192,7 @@
                 "accumulo"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"1.2.1000",
             "internal-branch": "erie",
@@ -204,6 +213,7 @@
                 "avatica"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"hive2",
             "maven-group-id": "org/apache/hive",
             "repo-url":"git@github.com:apache/hive.git",
@@ -267,6 +277,7 @@
                 "pig"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/kafka.git",
             "version":"0.10.0",
@@ -279,7 +290,8 @@
             "depends-on":[
                 "hadoop"
             ],
-            "enable-merge":true,
+            "enable-merge": false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/knox.git",
             "version":"0.9.0",
@@ -293,6 +305,7 @@
                 "spark"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:cloudera/livy.git",
             "version":"0.2.0",
@@ -307,6 +320,7 @@
                 "hbase"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/mahout.git",
             "version":"0.9.0",
@@ -325,7 +339,8 @@
                 "sqoop",
                 "spark"
             ],
-            "enable-merge":true,
+            "enable-merge": false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/oozie.git",
             "version":"4.2.0",
@@ -345,6 +360,7 @@
                 "calcite"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/phoenix.git",
             "version":"4.7.0",
@@ -363,6 +379,7 @@
                 "hive"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/pig.git",
             "version":"0.16.0",
@@ -384,6 +401,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"ranger",
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/incubator-ranger.git",
@@ -399,6 +417,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"slider",
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/incubator-slider.git",
@@ -419,6 +438,7 @@
                 "slider"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"slider",
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/incubator-slider.git",
@@ -437,6 +457,7 @@
                 "kafka"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/spark.git",
             "version":"1.6.2",
@@ -453,7 +474,7 @@
                 "flume",
                 "kafka"
             ],
-            "enable-sync":true,
+            "enable-sync": false,
             "enable-merge":false,
             "internal-repo-name": "spark2",
             "internal-branch": "erie",
@@ -473,7 +494,8 @@
                 "accumulo",
                 "zookeeper"
             ],
-            "enable-merge":false,
+            "enable-merge": false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/sqoop.git",
             "version":"1.4.6",
@@ -491,6 +513,7 @@
                 "kafka"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-branch": "erie",
             "repo-url":"git@github.com:apache/storm.git",
             "version":"1.0.1",
@@ -505,6 +528,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/tez.git",
             "version":"0.7.0",
             "internal-branch": "erie",
@@ -519,6 +543,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "internal-repo-name":"tez_hive2",
             "maven-group-id": "org/apache/tez",
             "repo-url":"git@github.com:apache/tez.git",
@@ -537,6 +562,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
             "internal-branch": "erie",
@@ -556,6 +582,7 @@
             "branch":"branch-3.4",
             "depends-on":null,
             "enable-merge":false,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/zookeeper.git",
             "version":"3.4.6",
             "internal-branch": "erie",
@@ -576,8 +603,8 @@
                 "sqoop",
                 "kafka"
             ],
-            "enable-merge":true,
-            "enable-sync":true,
+            "enable-merge": false,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/incubator-atlas.git",
             "internal-repo-name":"atlas",
             "internal-branch": "erie",
