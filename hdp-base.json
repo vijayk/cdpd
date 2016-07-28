@@ -106,7 +106,8 @@
             "version":"0.9.2",
             "depends-on":[
                 "hadoop",
-                "zookeeper"
+                "zookeeper", 
+                "hive2"
             ],
             "no-partner":[
                 "ulysses",
