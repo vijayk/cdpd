@@ -2,7 +2,6 @@
     "apache":{
         "accumulo":{
             "branch":"branch-1.7.0",
-            "enable-sync": false,
             "enable-merge": false,
             "internal-branch": "2.5-maint",
             "depends-on":[
