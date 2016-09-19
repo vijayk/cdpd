@@ -388,7 +388,7 @@
             ]
         },
         "ranger":{
-            "branch":"ranger-0.6",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "hbase",
@@ -400,10 +400,10 @@
                 "calcite",
                 "zookeeper"
             ],
-            "enable-merge":false,
-            "enable-sync": false,
+            "enable-merge": true,
+            "enable-sync": true,
             "internal-repo-name":"ranger",
-            "internal-branch": "2.5-maint",
+            "internal-branch": "fenton",
             "repo-url":"git@github.com:apache/incubator-ranger.git",
             "version":"0.6.0",
             "no-partner":[
