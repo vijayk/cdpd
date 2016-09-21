@@ -102,6 +102,7 @@
             "enable-merge": true,
             "enable-build": true,
             "internal-repo-name":"druid",
+            "maven-group-id": "io/druid",
             "repo-url": "git@github.com:druid-io/druid.git",
             "version":"0.9.2",
             "depends-on":[
