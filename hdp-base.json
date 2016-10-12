@@ -565,7 +565,7 @@
             "enable-sync": false,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
-            "internal-branch": "2.5-maint",
+            "internal-branch": "fenton",
             "version":"0.6.0",
             "no-partner":[
                 "longwing",
