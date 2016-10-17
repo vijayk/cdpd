@@ -730,6 +730,7 @@
         "docker_install": {
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "depends-on": [
                 "images_hwx_qeinfra@qeinfra-centos6:0.1.0.0-LATEST",
                 "images_hwx_qeinfra@qeinfra-centos7:0.1.0.0-LATEST",
