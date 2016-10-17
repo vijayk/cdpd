@@ -726,19 +726,6 @@
             "enable-merge": false,
             "internal-branch": "2.5-maint",
             "repo-url":"git@github.com:apache/accumulo.git"
-        },
-        "docker_install": {
-            "enable-merge": false,
-            "enable-sync": false,
-            "enable-build": false,
-            "depends-on": [
-                "images_hwx_qeinfra@qeinfra-centos6:0.1.0.0-LATEST",
-                "images_hwx_qeinfra@qeinfra-centos7:0.1.0.0-LATEST",
-                "images_hwx_qeinfra@qeinfra-debian7:0.1.0.0-LATEST",
-                "images_hwx_qeinfra@qeinfra-ubuntu12:0.1.0.0-LATEST"
-            ],
-            "internal-repo-name": "hdp",
-            "repo-url": "git@github.com:hortonworks/hdp.git"
         }
     },
     "co-dev":{
