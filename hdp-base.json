@@ -623,7 +623,6 @@
         "build-support":{
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "pixie_dust",
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
