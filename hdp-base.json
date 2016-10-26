@@ -457,7 +457,7 @@
             "internal-repo-name": "spark2",
             "maven-group-id": "org/apache/spark",
             "repo-url":"git@github.com:apache/spark.git",
-            "version":"2.0.0",
+            "version":"2.0.1",
             "no-partner":[
                 "ulysses"
             ]
