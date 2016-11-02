@@ -710,8 +710,7 @@
         "stack-version": "2.6.0.0",
         "poll-frequency": "1440",
         "platforms": [
-             "centos6",
-             "snapshot"
+             "centos6"
         ]
     },
     "remotes":{
