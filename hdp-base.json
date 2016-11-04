@@ -444,7 +444,7 @@
             ]
         },
         "spark2":{
-            "branch":"branch-2.0",
+            "branch":"branch-2.1",
             "depends-on":[
                 "hadoop",
                 "hbase",
