@@ -452,7 +452,7 @@
                 "flume",
                 "kafka"
             ],
-            "enable-sync": false,
+            "enable-sync": true,
             "enable-merge":false,
             "internal-repo-name": "spark2",
             "maven-group-id": "org/apache/spark",
