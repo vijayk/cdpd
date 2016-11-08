@@ -575,8 +575,8 @@
                 "sqoop",
                 "kafka"
             ],
-            "enable-merge": false,
-            "enable-sync": false,
+            "enable-merge": true,
+            "enable-sync": true,
             "repo-url":"git@github.com:apache/incubator-atlas.git",
             "internal-repo-name":"atlas",
             "version":"0.7.0",
