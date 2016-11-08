@@ -372,6 +372,7 @@
         "ranger":{
             "branch":"master",
             "depends-on":[
+                "atlas",
                 "hadoop",
                 "hbase",
                 "hive",
