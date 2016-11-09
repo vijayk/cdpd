@@ -535,11 +535,11 @@
                 "spark",
                 "zookeeper"
             ],
-            "enable-merge":false,
-            "enable-sync": false,
+            "enable-merge":true,
+            "enable-sync": true,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
-            "version":"0.6.0",
+            "version":"0.7.0",
             "no-partner":[
                 "longwing",
                 "monarch",
