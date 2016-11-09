@@ -114,7 +114,8 @@
                 "sasakia",
                 "essex",
                 "baronia"
-            ]
+            ],
+            "platforms": ["centos6", "suse11sp3"]
         },
         "falcon":{
             "branch":"0.10",
