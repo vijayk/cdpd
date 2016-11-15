@@ -289,7 +289,8 @@
         "livy":{
             "branch":"master",
             "depends-on":[
-                "spark"
+                "spark",
+                "spark2"
             ],
             "enable-merge":false,
             "enable-sync": false,
