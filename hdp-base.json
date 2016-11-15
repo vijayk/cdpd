@@ -710,7 +710,7 @@
     },
     "hwx": {
         "stack-version": "2.6.0.0",
-        "poll-frequency": "1440",
+        "poll-frequency": "240",
         "platforms": [
              "centos6",
              "debian7",
