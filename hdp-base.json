@@ -15,6 +15,20 @@
             "repo-url":"git@github.com:apache/accumulo.git",
             "version":"1.7.0"
         },
+        "beacon":{
+            "branch":"branch-release",
+            "enable-merge":false,
+            "enable-sync": false,
+            "internal-repo-name":"beacon",
+            "depends-on":[
+                "hadoop"
+            ],
+            "repo-url":"git@github.com:apache/beacon.git",
+            "version":"1.0.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
         "calcite":{
             "branch":"branch-release",
             "enable-merge":false,
