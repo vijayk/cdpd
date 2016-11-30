@@ -502,7 +502,8 @@
                 "hadoop",
                 "hive",
                 "hbase",
-                "kafka"
+                "kafka",
+                "calcite"
             ],
             "enable-merge":false,
             "enable-sync": false,
