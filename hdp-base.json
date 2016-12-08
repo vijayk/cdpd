@@ -309,7 +309,7 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:cloudera/livy.git",
-            "version":"0.2.0",
+            "version":"0.3.0",
             "no-partner":[
                 "ulysses"
             ]
