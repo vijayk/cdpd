@@ -13,7 +13,6 @@
                 "ulysses"
             ],
             "repo-url":"git@github.com:apache/accumulo.git",
-            "internal-branch": "fenton",
             "version":"1.7.0"
         },
         "beacon":{
@@ -25,7 +24,6 @@
                 "hadoop"
             ],
             "repo-url":"git@github.com:apache/beacon.git",
-            "internal-branch": "fenton",
             "version":"1.0.0",
             "no-partner":[
                 "ulysses"
@@ -36,7 +34,6 @@
             "enable-merge":false,
             "enable-sync": false,
             "internal-repo-name":"calcite",
-            "internal-branch": "fenton",
             "depends-on":[
                 "avatica"
             ],
@@ -47,13 +44,12 @@
             ]
         },
          "calcite_hive2":{
-            "branch":"branch-1.6",
+            "branch":"branch-1.10",
             "enable-merge":false,
             "enable-sync": false,
             "internal-repo-name":"calcite_hive2",
-            "internal-branch": "fenton",
             "repo-url":"git@github.com:apache/calcite.git",
-            "version":"1.6.0",
+            "version":"1.10.0",
             "maven-group-id": "org/apache/calcite",
             "no-partner":[
                 "ulysses"
@@ -69,7 +65,6 @@
             "maven-group-id": "org/apache/calcite",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
             "version":"1.8.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -86,7 +81,6 @@
             "internal-repo-name":"cascading",
             "repo-url":"git@github.com:cwensel/cascading.git",
             "version":"3.0.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses",
                 "longwing",
@@ -108,20 +102,18 @@
             "internal-repo-name":"datafu",
             "repo-url":"git@github.com:apache/incubator-datafu.git",
             "version":"1.3.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
         },
         "druid":{
             "branch":"0.9.2",
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-build": true,
             "internal-repo-name":"druid",
             "maven-group-id": "io/druid",
             "repo-url": "git@github.com:druid-io/druid.git",
             "version":"0.9.2",
-            "internal-branch": "fenton",
             "depends-on":[
                 "hadoop",
                 "zookeeper", 
@@ -151,7 +143,6 @@
             "internal-repo-name":"falcon",
             "repo-url":"git@github.com:apache/falcon.git",
             "version":"0.10.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -169,7 +160,6 @@
             "enable-sync": false,
             "repo-url":"git@github.com:apache/flume.git",
             "version":"1.5.2",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -182,7 +172,6 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/hadoop.git",
-            "internal-branch": "apache-ref/trunk",
             "version":"3.0.0"
         },
         "hbase":{
@@ -194,7 +183,6 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/hbase.git",
-            "internal-branch": "fenton",
             "version":"1.1.2",
             "no-partner":[
                 "ulysses"
@@ -214,7 +202,6 @@
             "enable-sync": false,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"1.2.1000",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -237,7 +224,6 @@
             "maven-group-id": "org/apache/hive",
             "repo-url":"git@github.com:apache/hive.git",
             "version":"2.1.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -257,7 +243,6 @@
             "maven-group-id": "com/hortonworks/spark-llap",
             "repo-url":"git@github.com:hortonworks/spark-llap.git",
             "version":"1.0.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses",
                 "essex",
@@ -280,7 +265,6 @@
             "enable-sync":false,
             "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
             "version":"2.6.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses",
                 "essex",
@@ -299,7 +283,6 @@
             "enable-sync": false,
             "repo-url":"git@github.com:apache/kafka.git",
             "version":"0.10.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -313,7 +296,6 @@
             "enable-sync": true,
             "repo-url":"git@github.com:apache/knox.git",
             "version":"0.11.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -328,7 +310,6 @@
             "enable-sync": false,
             "repo-url":"git@github.com:cloudera/livy.git",
             "version":"0.3.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -343,7 +324,6 @@
             "enable-sync": false,
             "repo-url":"git@github.com:apache/mahout.git",
             "version":"0.9.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -362,7 +342,6 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/oozie.git",
-            "internal-branch": "fenton",
             "version":"4.2.0",
             "no-partner":[
                 "ulysses"
@@ -383,7 +362,6 @@
             "enable-sync": false,
             "repo-url":"git@github.com:apache/phoenix.git",
             "version":"4.7.0",
-            "internal-branch": "fenton",
             "no-partner":[
                 "ulysses"
             ]
@@ -401,7 +379,6 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/pig.git",
-            "internal-branch": "fenton",
             "version":"0.16.0",
             "no-partner":[
                 "ulysses"
@@ -425,7 +402,6 @@
             "enable-sync": true,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/incubator-ranger.git",
-            "internal-branch": "fenton",
             "version":"0.7.0",
             "no-partner":[
                 "ulysses"
@@ -441,7 +417,6 @@
             "enable-sync": false,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
-            "internal-branch": "fenton",
             "version":"0.91.0",
             "no-partner":[
                 "ulysses"
@@ -462,7 +437,6 @@
             "enable-sync": false,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
-            "internal-branch": "fenton",
             "version":"0.91.0",
             "no-partner":[
                 "ulysses"
@@ -480,7 +454,6 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/spark.git",
-            "internal-branch": "fenton",
             "version":"1.6.3",
             "no-partner":[
                 "ulysses"
@@ -498,7 +471,6 @@
             "enable-sync": true,
             "enable-merge":false,
             "internal-repo-name": "spark2",
-            "internal-branch": "fenton",
             "maven-group-id": "org/apache/spark",
             "repo-url":"git@github.com:apache/spark.git",
             "version":"2.1.0",
@@ -518,7 +490,6 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/sqoop.git",
-            "internal-branch": "fenton",
             "version":"1.4.6",
             "no-partner":[
                 "ulysses"
@@ -536,7 +507,6 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/storm.git",
-            "internal-branch": "fenton",
             "version":"1.0.1",
             "no-partner":[
                 "ulysses"
@@ -551,7 +521,6 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/tez.git",
-            "internal-branch": "fenton",
             "version":"0.7.0",
             "no-partner":[
                 "ulysses"
@@ -568,7 +537,6 @@
             "internal-repo-name":"tez_hive2",
             "maven-group-id": "org/apache/tez",
             "repo-url":"git@github.com:apache/tez.git",
-            "internal-branch": "fenton",
             "version":"0.8.4",
             "no-partner":[
                 "ulysses"
@@ -585,7 +553,6 @@
             "enable-merge":false,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
-            "internal-branch": "fenton",
             "internal-repo-name":"zeppelin",
             "version":"0.7.0",
             "no-partner":[
@@ -605,7 +572,6 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/zookeeper.git",
-            "internal-branch": "fenton",
             "version":"3.4.6",
             "no-partner":[
                 "ulysses"
@@ -627,7 +593,6 @@
             "enable-merge": true,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/incubator-atlas.git",
-            "internal-branch": "fenton",
             "internal-repo-name":"atlas",
             "version":"0.8.0",
             "no-partner":[
@@ -650,7 +615,6 @@
         "bigtop-new":{
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "fenton",
             "repo-url": "git@github.com:hortonworks/bigtop-new.git"
         },
         "Monarch":{
@@ -737,14 +701,12 @@
             "version": "6.0.44",
             "enable-sync": false,
             "enable-merge": false,
-            "internal-branch": "fenton",
             "repo-url":"git@github.com:apache/accumulo.git"
         },
          "bigtop-jsvc": {
             "version": "1.0.10",
             "enable-sync": false,
             "enable-merge": false,
-            "internal-branch": "fenton",
             "repo-url":"git@github.com:apache/accumulo.git"
         }
     },
@@ -764,10 +726,7 @@
         "stack-version": "3.0.0.0",
         "poll-frequency": "240",
         "platforms": [
-             "centos6",
-             "debian7",
-             "suse11sp3",
-             "ubuntu12"
+             "centos6"
         ]
     },
     "remotes":{
