@@ -546,6 +546,7 @@
             "enable-sync": false,
             "repo-url":"git@github.com:apache/tez.git",
             "version":"0.7.0",
+            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
