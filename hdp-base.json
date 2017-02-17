@@ -172,7 +172,7 @@
             ]
         },
         "hadoop":{
-            "branch":"trunk",
+            "branch":"branch-3.0.0-alpha2",
             "depends-on":[
                 "zookeeper"
             ],
