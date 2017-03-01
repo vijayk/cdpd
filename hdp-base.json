@@ -176,8 +176,8 @@
             "depends-on":[
                 "zookeeper"
             ],
-            "enable-merge":false,
-            "enable-sync": false,
+            "enable-merge":true,
+            "enable-sync": true,
             "repo-url":"git@github.com:apache/hadoop.git",
             "version":"3.0.0"
         },
@@ -537,16 +537,15 @@
             ]
         },
         "tez":{
-            "branch":"branch-0.7",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
-            "enable-sync": false,
+            "enable-merge":true,
+            "enable-sync": true,
             "repo-url":"git@github.com:apache/tez.git",
             "version":"0.7.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
