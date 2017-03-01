@@ -304,8 +304,8 @@
             "depends-on":[
                 "hadoop"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
+            "enable-merge": false,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/knox.git",
             "version":"0.11.0",
             "no-partner":[
@@ -415,8 +415,8 @@
                 "calcite",
                 "zookeeper"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
+            "enable-merge": false,
+            "enable-sync": false,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/ranger.git",
             "version":"0.7.0",
@@ -576,7 +576,7 @@
                 "zookeeper"
             ],
             "enable-merge":false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
             "version":"0.7.0",
@@ -616,8 +616,8 @@
                 "sqoop",
                 "kafka"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
+            "enable-merge": false,
+            "enable-sync": false,
             "repo-url":"git@github.com:apache/incubator-atlas.git",
             "internal-repo-name":"atlas",
             "version":"0.8.0",
