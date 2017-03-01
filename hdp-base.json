@@ -545,7 +545,7 @@
             "enable-merge":true,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/tez.git",
-            "version":"0.7.0",
+            "version":"0.9.0",
             "no-partner":[
                 "ulysses"
             ]
