@@ -436,7 +436,6 @@
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
             "version":"0.91.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
