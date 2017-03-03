@@ -483,10 +483,7 @@
             "branch":"branch-2.1",
             "depends-on":[
                 "hadoop",
-                "hbase",
-                "zookeeper",
-                "flume",
-                "kafka"
+                "zookeeper"
             ],
             "enable-sync": true,
             "enable-merge":false,
@@ -494,7 +491,6 @@
             "maven-group-id": "org/apache/spark",
             "repo-url":"git@github.com:apache/spark.git",
             "version":"2.1.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
