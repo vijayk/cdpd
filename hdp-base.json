@@ -51,7 +51,6 @@
             "internal-repo-name":"calcite_hive2",
             "repo-url":"git@github.com:apache/calcite.git",
             "version":"1.10.0",
-            "platforms": ["ubuntu12"],
             "maven-group-id": "org/apache/calcite",
             "no-partner":[
                 "ulysses"
@@ -220,8 +219,7 @@
             "depends-on":[
                 "hadoop",
                 "zookeeper",
-                "hbase",
-                "tez_hive2",
+                "tez",
                 "calcite_hive2",
                 "accumulo",
                 "slider",
@@ -232,8 +230,7 @@
             "internal-repo-name":"hive2",
             "maven-group-id": "org/apache/hive",
             "repo-url":"git@github.com:apache/hive.git",
-            "version":"2.1.0",
-            "platforms": ["ubuntu12"],
+            "version":"2.2.0",
             "no-partner":[
                 "ulysses"
             ]
