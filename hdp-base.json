@@ -431,8 +431,8 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
-            "enable-sync": false,
+            "enable-merge":true,
+            "enable-sync": true,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
             "version":"0.91.0",
