@@ -215,7 +215,7 @@
             ]
         },
         "hive2":{
-            "branch":"branch-2.1",
+            "branch":"master",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
@@ -226,7 +226,7 @@
                 "avatica"
             ],
             "enable-merge":false,
-            "enable-sync": false,
+            "enable-sync": true,
             "internal-repo-name":"hive2",
             "maven-group-id": "org/apache/hive",
             "repo-url":"git@github.com:apache/hive.git",
