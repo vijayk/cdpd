@@ -225,7 +225,7 @@
                 "slider",
                 "avatica"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "enable-sync": true,
             "internal-repo-name":"hive2",
             "maven-group-id": "org/apache/hive",
