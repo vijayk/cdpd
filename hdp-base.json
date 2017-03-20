@@ -743,7 +743,7 @@
     },
     "hwx": {
         "stack-version": "3.0.0.0",
-        "poll-frequency": "240",
+        "poll-frequency": "720",
         "platforms": [
              "centos6"
         ]
