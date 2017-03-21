@@ -214,6 +214,36 @@
                 "ulysses"
             ]
         },
+        "storage_api":{
+            "branch":"master",
+            "depends-on":[
+                "hadoop"
+            ],
+            "enable-merge":true,
+            "enable-sync": true,
+            "maven-group-id": "org/apache/hive",
+            "repo-url":"git@github.com:apache/hive.git",
+            "version":"2.3.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
+        "orc":{
+            "branch":"master",
+            "depends-on":[
+                "zookeeper",
+                "hadoop",
+                "storage_api"
+            ],
+            "enable-merge":true,
+            "enable-sync": true,
+            "maven-group-id": "org/apache/orc",
+            "repo-url":"git@github.com:apache/orc.git",
+            "version":"1.4.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
         "hive2":{
             "branch":"master",
             "depends-on":[
@@ -223,7 +253,9 @@
                 "calcite_hive2",
                 "accumulo",
                 "slider",
-                "avatica"
+                "avatica",
+                "storage_api",
+                "orc"
             ],
             "enable-merge":true,
             "enable-sync": true,
