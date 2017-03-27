@@ -226,7 +226,14 @@
             "repo-url":"git@github.com:apache/hive.git",
             "version":"2.3.0",
             "no-partner":[
-                "ulysses"
+                "ulysses",
+                "longwing",
+                "monarch",
+                "peacock",
+                "tigereye",
+                "sasakia",
+                "essex",
+                "baronia"
             ]
         },
         "orc":{
@@ -242,7 +249,14 @@
             "repo-url":"git@github.com:apache/orc.git",
             "version":"1.4.0",
             "no-partner":[
-                "ulysses"
+                "ulysses",
+                "longwing",
+                "monarch",
+                "peacock",
+                "tigereye",
+                "sasakia",
+                "essex",
+                "baronia"
             ]
         },
         "hive2":{
