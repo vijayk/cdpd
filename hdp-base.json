@@ -531,6 +531,7 @@
             ],
             "enable-sync": true,
             "enable-merge":false,
+            "internal-merge": "hdp-master",
             "internal-repo-name": "spark2",
             "maven-group-id": "org/apache/spark",
             "repo-url":"git@github.com:apache/spark.git",
