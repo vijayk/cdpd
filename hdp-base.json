@@ -121,7 +121,7 @@
             "depends-on":[
                 "hadoop",
                 "zookeeper", 
-                "hive2"
+                "hive"
             ],
             "no-partner":[
                 "ulysses",
@@ -195,25 +195,6 @@
                 "ulysses"
             ]
         },
-        "hive":{
-            "branch":"branch-1.2",
-            "depends-on":[
-                "hadoop",
-                "zookeeper",
-                "hbase",
-                "tez",
-                "calcite",
-                "accumulo"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "repo-url":"git@github.com:apache/hive.git",
-            "version":"1.2.1000",
-            "platforms": ["ubuntu12"],
-            "no-partner":[
-                "ulysses"
-            ]
-        },
         "storage_api":{
             "branch":"master",
             "depends-on":[
@@ -259,7 +240,7 @@
                 "baronia"
             ]
         },
-        "hive2":{
+        "hive":{
             "branch":"master",
             "depends-on":[
                 "hadoop",
@@ -274,8 +255,6 @@
             ],
             "enable-merge":true,
             "enable-sync": true,
-            "internal-repo-name":"hive2",
-            "maven-group-id": "org/apache/hive",
             "repo-url":"git@github.com:apache/hive.git",
             "version":"2.2.0",
             "no-partner":[
@@ -287,8 +266,8 @@
             "depends-on":[
                 "hadoop",
                 "zookeeper",
-                "hive2",
-                "tez_hive2",
+                "hive",
+                "tez",
                 "calcite_hive2"
             ],
             "enable-merge":false,
