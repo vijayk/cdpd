@@ -327,8 +327,8 @@
             "depends-on":[
                 "hadoop"
             ],
-            "enable-merge": false,
-            "enable-sync": false,
+            "enable-merge": true,
+            "enable-sync": true,
             "repo-url":"git@github.com:apache/knox.git",
             "version":"0.11.0",
             "no-partner":[
