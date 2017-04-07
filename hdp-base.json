@@ -118,7 +118,6 @@
             "maven-group-id": "io/druid",
             "repo-url": "git@github.com:druid-io/druid.git",
             "version":"0.10.0",
-            "platforms": ["ubuntu12"],
             "depends-on":[
                 "hadoop",
                 "zookeeper", 
