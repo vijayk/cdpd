@@ -4,6 +4,7 @@
             "branch":"branch-1.7.0",
             "enable-sync": false,
             "enable-merge": false,
+            "enable-build": false,
             "depends-on":[
                 "hadoop",
                 "zookeeper"
@@ -19,13 +20,13 @@
             "branch":"branch-release",
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"beacon",
             "depends-on":[
                 "hadoop"
             ],
             "repo-url":"git@github.com:apache/beacon.git",
             "version":"1.0.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -34,6 +35,7 @@
             "branch":"branch-release",
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"calcite",
             "depends-on":[
                 "avatica"
@@ -48,6 +50,7 @@
             "branch":"branch-1.10",
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"calcite_hive2",
             "repo-url":"git@github.com:apache/calcite.git",
             "version":"1.10.0",
@@ -62,6 +65,7 @@
             "depends-on":null,
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"calcite_avatica",
             "maven-group-id": "org/apache/calcite",
             "repo-url":"git@github.com:apache/incubator-calcite.git",
@@ -101,6 +105,7 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"datafu",
             "repo-url":"git@github.com:apache/incubator-datafu.git",
             "version":"1.3.0",
@@ -114,11 +119,11 @@
             "enable-merge": true,
             "enable-build": false,
             "enable-sync": true,
+            "enable-build": false,
             "internal-repo-name":"druid",
             "maven-group-id": "io/druid",
             "repo-url": "git@github.com:druid-io/druid.git",
             "version":"0.10.0",
-            "platforms": ["ubuntu12"],
             "depends-on":[
                 "hadoop",
                 "zookeeper", 
@@ -145,6 +150,7 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"falcon",
             "repo-url":"git@github.com:apache/falcon.git",
             "version":"0.10.0",
@@ -164,6 +170,7 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/flume.git",
             "version":"1.5.2",
             "platforms": ["ubuntu12"],
@@ -178,6 +185,7 @@
             ],
             "enable-merge":true,
             "enable-sync": true,
+            "enable-build": true,
             "repo-url":"git@github.com:apache/hadoop.git",
             "version":"3.0.0"
         },
@@ -189,9 +197,9 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": true,
             "repo-url":"git@github.com:apache/hbase.git",
             "version":"1.1.2",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -203,6 +211,7 @@
             ],
             "enable-merge":true,
             "enable-sync": true,
+            "enable-build": false,
             "internal-repo-name":"storage_api",
             "maven-group-id": "org/apache/hive",
             "repo-url":"git@github.com:apache/hive.git",
@@ -227,6 +236,7 @@
             ],
             "enable-merge":true,
             "enable-sync": true,
+            "enable-build": false,
             "maven-group-id": "org/apache/orc",
             "repo-url":"git@github.com:apache/orc.git",
             "version":"1.4.0",
@@ -247,15 +257,11 @@
                 "hadoop",
                 "zookeeper",
                 "tez",
-                "calcite_hive2",
-                "accumulo",
-                "slider",
-                "avatica",
-                "storage_api",
-                "orc"
+                "slider"
             ],
             "enable-merge":true,
             "enable-sync": true,
+            "enable-build": true,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"2.2.0",
             "no-partner":[
@@ -273,11 +279,11 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"spark-llap",
             "maven-group-id": "com/hortonworks/spark-llap",
             "repo-url":"git@github.com:hortonworks/spark-llap.git",
             "version":"1.0.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses",
                 "essex",
@@ -298,14 +304,14 @@
             ],
             "enable-merge":false,
             "enable-sync":false,
+            "enable-build": false,
             "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
             "version":"2.6.0",
             "no-partner":[
                 "ulysses",
                 "essex",
                 "baronia"
-            ],
-            "platforms": ["ubuntu12"]
+            ]
         },
         "kafka":{
             "branch":"0.10.0",
@@ -316,9 +322,9 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/kafka.git",
             "version":"0.10.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -330,6 +336,7 @@
             ],
             "enable-merge": true,
             "enable-sync": true,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/knox.git",
             "version":"0.11.0",
             "no-partner":[
@@ -344,9 +351,9 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:cloudera/livy.git",
             "version":"0.3.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -359,9 +366,9 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/mahout.git",
             "version":"0.9.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -379,9 +386,9 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/oozie.git",
             "version":"4.2.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -399,9 +406,9 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/phoenix.git",
             "version":"4.7.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -418,9 +425,9 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/pig.git",
             "version":"0.16.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -441,10 +448,10 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/ranger.git",
             "version":"0.7.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -457,6 +464,7 @@
             ],
             "enable-merge":true,
             "enable-sync": true,
+            "enable-build": true,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
             "version":"0.91.0",
@@ -477,10 +485,10 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
             "version":"0.91.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -496,9 +504,9 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/spark.git",
             "version":"1.6.3",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -511,6 +519,7 @@
             ],
             "enable-sync": true,
             "enable-merge":false,
+            "enable-build": true,
             "internal-merge": "hdp-master",
             "internal-repo-name": "spark2",
             "maven-group-id": "org/apache/spark",
@@ -531,9 +540,9 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/sqoop.git",
             "version":"1.4.6",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -549,9 +558,9 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/storm.git",
             "version":"1.0.1",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses"
             ]
@@ -564,6 +573,7 @@
             ],
             "enable-merge":true,
             "enable-sync": true,
+            "enable-build": true,
             "repo-url":"git@github.com:apache/tez.git",
             "version":"0.9.0",
             "no-partner":[
@@ -578,6 +588,7 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "internal-repo-name":"tez_hive2",
             "maven-group-id": "org/apache/tez",
             "repo-url":"git@github.com:apache/tez.git",
@@ -597,6 +608,7 @@
             ],
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/incubator-zeppelin.git",
             "internal-repo-name":"zeppelin",
             "version":"0.7.0",
@@ -617,6 +629,7 @@
             "depends-on":null,
             "enable-merge":false,
             "enable-sync": false,
+            "enable-build": true,
             "repo-url":"git@github.com:apache/zookeeper.git",
             "version":"3.4.6",
             "no-partner":[
@@ -638,10 +651,10 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": false,
             "repo-url":"git@github.com:apache/incubator-atlas.git",
             "internal-repo-name":"atlas",
             "version":"0.8.0",
-            "platforms": ["ubuntu12"],
             "no-partner":[
                 "ulysses",
                 "essex",
@@ -702,6 +715,7 @@
         "hadooplzo":{
             "enable-merge": false,
             "enable-sync": false,
+            "enable-build": true,
             "internal-branch": "master",
             "branch":"master",
             "depends-on":[
