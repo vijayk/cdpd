@@ -256,7 +256,6 @@
             "depends-on":[
                 "hadoop",
                 "zookeeper",
-                "tez",
                 "slider"
             ],
             "enable-merge":true,
