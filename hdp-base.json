@@ -183,7 +183,7 @@
             "depends-on":[
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
             "enable-build": true,
             "repo-url":"git@github.com:apache/hadoop.git",
@@ -258,7 +258,7 @@
                 "zookeeper",
                 "slider"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
             "enable-build": true,
             "repo-url":"git@github.com:apache/hive.git",
@@ -570,7 +570,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
             "enable-build": true,
             "repo-url":"git@github.com:apache/tez.git",
