@@ -461,6 +461,7 @@
             "branch":"develop",
             "depends-on":[
                 "hadoop",
+                "hbase",
                 "zookeeper"
             ],
             "enable-merge":true,
