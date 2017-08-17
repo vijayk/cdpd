@@ -190,7 +190,7 @@
             "version":"3.0.0"
         },
         "hbase":{
-            "branch":"branch-1.1",
+            "branch":"branch-2",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
