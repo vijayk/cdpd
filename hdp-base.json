@@ -464,9 +464,9 @@
                 "hbase",
                 "zookeeper"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
-            "enable-build": true,
+            "enable-build": false,
             "internal-repo-name":"slider",
             "repo-url":"git@github.com:apache/incubator-slider.git",
             "version":"0.91.0",
