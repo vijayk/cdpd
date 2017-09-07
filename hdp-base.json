@@ -357,7 +357,10 @@
             "version":"0.3.0",
             "no-partner":[
                 "ulysses"
-            ]
+            ],
+            "internal-repo-name": "livy",
+            "repo-url": "git@github.com:apache/incubator-livy.git",
+            "version": "0.3.0"
         },
         "mahout":{
             "branch":"master",
