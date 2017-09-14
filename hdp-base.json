@@ -794,6 +794,7 @@
         "poll-frequency": "240",
         "platforms": [
              "centos6",
+             "centos7",
              "snapshot"
         ]
     },
