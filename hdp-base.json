@@ -195,11 +195,11 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
+            "enable-merge": true,
             "enable-sync": true,
             "enable-build": true,
             "repo-url":"git@github.com:apache/hbase.git",
-            "version":"1.1.2",
+            "version":"2.0.0",
             "no-partner":[
                 "ulysses"
             ]
