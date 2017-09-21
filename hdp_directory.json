@@ -1,0 +1,42 @@
+{
+  "components": {
+    "accumulo": [ "ACCUMULO" ],
+    "atlas": [ "ATLAS" ],
+    "calcite": [ ],
+    "cascading": [ ],
+    "datafu": [ ],
+    "druid" : ["DRUID"],
+    "falcon": [ "FALCON" ],
+    "flume": [ "FLUME" ],
+    "hadoop": [ "HDFS", "YARN", "MAPREDUCE2" ],
+    "hbase": [ "HBASE" ],
+    "hive": [ "HIVE" ],
+    "kafka": [ "KAFKA" ],
+    "knox": [ "KNOX" ],
+    "mahout": [ "MAHOUT" ],
+    "oozie": [ "OOZIE" ],
+    "phoenix": [ ],
+    "pig": [ "PIG" ],
+    "ranger": [ "RANGER", "RANGER_KMS" ],
+    "slider": [ "SLIDER" ],
+    "spark": [ "SPARK" ],
+    "spark2": [ "SPARK2" ],
+    "sqoop": [ "SQOOP" ],
+    "storm": [ "STORM" ],
+    "tez": [ "TEZ" ],
+    "zeppelin": [ "ZEPPELIN" ],
+    "zookeeper": [ "ZOOKEEPER" ]
+  },
+  "platforms": {
+    "centos6": "redhat6",
+    "centos7": "redhat7",
+    "centos7-ppc": "redhat-ppc7",
+    "debian7": "debian7",
+    "ubuntu12": "ubuntu12",
+    "ubuntu14": "ubuntu14",
+    "ubuntu16": "ubuntu16",
+    "suse11sp3": "suse11",
+    "sles12": "suse12"
+  },
+  "compatible-with": "3\\.\\d+\\.\\d+\\.\\d+"
+}
