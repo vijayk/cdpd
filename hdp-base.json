@@ -32,33 +32,17 @@
             ]
         },
         "calcite":{
-            "branch":"branch-release",
-            "enable-merge":false,
+            "branch":"master",
+            "enable-merge":true,
             "enable-sync": false,
-            "enable-build": false,
+            "enable-build": true,
             "internal-repo-name":"calcite",
-            "depends-on":[
-                "avatica"
-            ],
+            "depends-on":null,
             "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"1.2.0",
+            "version":"1.15.0",
             "no-partner":[
                 "ulysses"
             ]
-        },
-         "calcite_hive2":{
-            "branch":"branch-1.10",
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "internal-repo-name":"calcite_hive2",
-            "repo-url":"git@github.com:apache/calcite.git",
-            "version":"1.10.0",
-            "maven-group-id": "org/apache/calcite",
-            "no-partner":[
-                "ulysses"
-            ],
-            "depends-on": ["avatica"]
         },
         "avatica":{
             "branch":"branch-release",
@@ -276,7 +260,7 @@
                 "zookeeper",
                 "hive",
                 "tez",
-                "calcite_hive2"
+                "calcite"
             ],
             "enable-merge":false,
             "enable-sync": false,
@@ -577,7 +561,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "enable-sync": true,
             "enable-build": true,
             "repo-url":"git@github.com:apache/tez.git",
@@ -586,25 +570,7 @@
                 "ulysses"
             ]
         },
-        "tez_hive2":{
-            "branch":"branch-0.8",
-            "depends-on":[
-                "hadoop",
-                "zookeeper"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "internal-repo-name":"tez_hive2",
-            "maven-group-id": "org/apache/tez",
-            "repo-url":"git@github.com:apache/tez.git",
-            "version":"0.8.4",
-            "platforms": ["ubuntu12"],
-            "no-partner":[
-                "ulysses"
-            ]
-        },
-         "zeppelin":{
+        "zeppelin":{
             "branch":"master",
             "depends-on": [
                 "hadoop",
