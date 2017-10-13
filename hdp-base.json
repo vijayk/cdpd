@@ -100,7 +100,7 @@
         },
         "druid":{
             "branch":"0.10.0",
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-build": false,
             "enable-sync": true,
             "enable-build": false,
