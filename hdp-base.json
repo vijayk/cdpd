@@ -612,18 +612,12 @@
             "branch":"master",
             "depends-on":[
                 "hadoop",
-                "hive",
                 "hbase",
                 "calcite",
-                "zookeeper",
-                "falcon",
-                "storm",
-                "sqoop",
-                "kafka"
+                "zookeeper"
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "enable-build": false,
             "repo-url":"git@github.com:apache/atlas.git",
             "internal-repo-name":"atlas",
             "version":"1.0.0",
