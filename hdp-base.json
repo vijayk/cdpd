@@ -611,7 +611,8 @@
                 "hadoop",
                 "hbase",
                 "calcite",
-                "zookeeper"
+                "zookeeper",
+                "hive"
             ],
             "enable-merge": false,
             "enable-sync": false,
