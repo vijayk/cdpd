@@ -193,7 +193,6 @@
             ],
             "enable-merge":true,
             "enable-sync": true,
-            "enable-build": false,
             "internal-repo-name":"storage_api",
             "maven-group-id": "org/apache/hive",
             "repo-url":"git@github.com:apache/hive.git",
