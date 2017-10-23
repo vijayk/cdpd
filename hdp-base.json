@@ -39,7 +39,7 @@
             "internal-repo-name":"calcite",
             "depends-on":null,
             "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"1.15.0",
+            "version":"1.2.0",
             "no-partner":[
                 "ulysses"
             ]
@@ -103,7 +103,6 @@
             "enable-merge": false,
             "enable-build": false,
             "enable-sync": true,
-            "enable-build": false,
             "internal-repo-name":"druid",
             "maven-group-id": "io/druid",
             "repo-url": "git@github.com:druid-io/druid.git",
@@ -314,19 +313,20 @@
                 "ulysses"
             ]
         },
-        "knox":{
-            "branch":"master",
-            "depends-on":[
-                "hadoop"
+         "knox": {
+            "branch": "v0.12.0",
+            "depends-on": [
+                "hadoop",
+                "zookeeper"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/knox.git",
-            "version":"0.11.0",
-            "no-partner":[
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "internal-branch": "atlantic",
+            "repo-url": "git@github.com:apache/knox.git",
+            "version": "0.12.0"
         },
         "livy":{
             "branch":"master",
@@ -342,9 +342,7 @@
             "no-partner":[
                 "ulysses"
             ],
-            "internal-repo-name": "livy",
-            "repo-url": "git@github.com:apache/incubator-livy.git",
-            "version": "0.3.0"
+            "internal-repo-name": "livy"
         },
         "mahout":{
             "branch":"master",

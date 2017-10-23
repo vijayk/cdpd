@@ -1,7 +1,15 @@
 {
   "components": {
+    "accumulo": [ "ACCUMULO" ],
+    "atlas": [ "ATLAS" ],
+    "calcite": [ ],
+    "datafu": [ ],
+    "druid" : ["DRUID"],
     "hadoop": [ "HDFS", "YARN", "MAPREDUCE2" ],
     "hbase": [ "HBASE" ],
+    "hive": [ "HIVE" ],
+    "knox": [ "KNOX" ],
+    "pig": [ "PIG" ],
     "spark2": [ "SPARK2" ],
     "tez": [ "TEZ" ],
     "zookeeper": [ "ZOOKEEPER" ]
