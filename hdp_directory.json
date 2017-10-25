@@ -8,7 +8,6 @@
     "hadoop": [ "HDFS", "YARN", "MAPREDUCE2" ],
     "hbase": [ "HBASE" ],
     "hive": [ "HIVE" ],
-    "pig": [ "PIG" ],
     "spark2": [ "SPARK2" ],
     "tez": [ "TEZ" ],
     "zookeeper": [ "ZOOKEEPER" ]
