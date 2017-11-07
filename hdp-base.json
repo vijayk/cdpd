@@ -298,8 +298,7 @@
             "branch":"0.10.0",
             "depends-on":[
                 "hadoop",
-                "zookeeper",
-                "pig"
+                "zookeeper"
             ],
             "enable-merge":false,
             "enable-sync": false,
