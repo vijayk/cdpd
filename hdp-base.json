@@ -605,7 +605,8 @@
                 "hbase",
                 "calcite",
                 "zookeeper",
-                "hive"
+                "hive",
+                "kafka"
             ],
             "enable-merge": false,
             "enable-sync": false,
