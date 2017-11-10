@@ -241,10 +241,10 @@
                 "slider",
                 "storage_api"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/hive.git",
-            "version":"2.2.0",
+            "version":"3.0.0",
             "no-partner":[
                 "ulysses"
             ]
