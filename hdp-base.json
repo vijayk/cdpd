@@ -309,7 +309,7 @@
             ]
         },
          "knox": {
-            "branch": "v0.12.0",
+            "branch": "master",
             "depends-on": [
                 "hadoop",
                 "zookeeper"
@@ -322,7 +322,7 @@
             ],
             "internal-branch": "atlantic",
             "repo-url": "git@github.com:apache/knox.git",
-            "version": "0.12.0"
+            "version": "1.0.0"
         },
         "livy":{
             "branch":"master",
