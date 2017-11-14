@@ -314,8 +314,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": false,
-            "enable-build": false,
+            "enable-merge": true,
             "enable-sync": true,
             "no-partner": [
                 "ulysses"
@@ -421,6 +420,7 @@
                 "hadoop",
                 "hbase",
                 "hive",
+                "knox",
                 "tez",
                 "calcite",
                 "zookeeper"
