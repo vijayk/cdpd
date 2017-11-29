@@ -57,29 +57,6 @@
                 "ulysses"
             ]
         },
-        "cascading":{
-            "branch":"wip-3.0",
-            "depends-on":[
-                "hadoop",
-                "tez"
-                ],
-            "enable-sync":false,
-            "enable-merge":false,
-            "enable-build":false,
-            "internal-repo-name":"cascading",
-            "repo-url":"git@github.com:cwensel/cascading.git",
-            "version":"3.0.0",
-            "platforms": ["ubuntu12"],
-            "no-partner":[
-                "ulysses",
-                "longwing",
-                "monarch",
-                "peacock",
-                "tigereye",
-                "sasakia",
-                "baronia"
-            ]
-        },
         "datafu":{
             "branch":"1.3.0",
             "depends-on":[
@@ -469,24 +446,6 @@
                 "ulysses"
             ]
         },
-        "spark":{
-            "branch":"branch-1.6",
-            "depends-on":[
-                "hadoop",
-                "hbase",
-                "zookeeper",
-                "flume",
-                "kafka"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/spark.git",
-            "version":"1.6.3",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
         "spark2":{
             "branch":"branch-2.1",
             "depends-on":[
@@ -632,40 +591,12 @@
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/bigtop-new.git"
         },
-        "Monarch":{
-            "enable-merge": false,
-            "enable-sync": false,
-            "internal-branch": "2.5-maint",
-            "repo-url": "git@github.com:hortonworks/Monarch.git",
-            "platforms": ["windows"]
-        },
         "hdp_select": {
             "version": "0.0.0",
             "enable-sync": false,
             "enable-merge": false,
             "repo-url":"git@github.com:apache/bigtop-new.git",
             "platforms": ["debian7", "ubuntu12"]
-        },
-        "microsoft-sqoop-connector": {
-            "enable-merge": false,
-            "enable-sync": false,
-            "internal-branch": "2.5-maint",
-            "repo-url": "git@github.com:hortonworks/microsoft-sqoop-connector.git",
-            "platforms": ["windows"]
-        },
-        "snappy-dll": {
-            "enable-merge": false,
-            "enable-sync": false,
-            "internal-branch": "master",
-            "repo-url": "git@github.com:hortonworks/snappy-dll.git",
-            "platforms": ["windows"]
-        },
-        "headnode-HA-monarch": {
-            "enable-merge": false,
-            "enable-sync": false,
-            "internal-branch": "master",
-            "repo-url": "git@github.com:hortonworks/headnode-HA-monarch.git",
-            "platforms": ["windows"]
         },
         "hadooplzo":{
             "enable-merge": false,
@@ -679,34 +610,6 @@
             "version":"0.6.0",
             "internal-repo-name":"hadoop-lzo",
             "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
-        },
-        "teradata_connector":{
-            "enable-merge": false,
-            "enable-sync": false,
-            "enable-build": true,
-            "internal-branch": "tdch-1.5.0",
-            "branch":"tdch-1.5.0",
-            "version":"1.5.0",
-            "internal-repo-name":"teradata-connector",
-            "depends-on": ["hadoop", "hive", "sqoop"],
-            "platforms": ["ubuntu12"],
-            "repo-url": "git@github.com:hortonworks/teradata-connector.git"
-        },
-        "manual_Install":{
-            "enable-merge": false,
-            "enable-sync": false,
-            "enable-build": false,
-            "branch":"2.4-maint",
-            "internal-repo-name":"manual_Install",
-            "internal-branch": "master",
-            "repo-url": "git@github.com:hortonworks/manual_Install.git"
-        },
-        "eventhubspout-monarch": {
-            "enable-merge": false,
-            "enable-sync": false,
-            "internal-branch": "2.5-maint",
-            "repo-url": "git@github.com:hortonworks/eventhubspout-monarch.git",
-            "platforms": ["windows"]
         },
         "HDP": {
             "enable-merge": false,
