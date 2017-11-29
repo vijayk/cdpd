@@ -9,6 +9,7 @@
     "hbase": [ "HBASE" ],
     "hive": [ "HIVE" ],
     "knox": [ "KNOX" ],
+    "phoenix": [ ],
     "ranger": [ "RANGER", "RANGER_KMS" ],
     "spark2": [ "SPARK2" ],
     "tez": [ "TEZ" ],
