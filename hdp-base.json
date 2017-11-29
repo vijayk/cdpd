@@ -326,7 +326,6 @@
         "livy":{
             "branch":"master",
             "depends-on":[
-                "spark",
                 "spark2"
             ],
             "enable-merge":false,
