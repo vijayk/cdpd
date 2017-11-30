@@ -356,8 +356,6 @@
                 "hadoop",
                 "hbase",
                 "hive",
-                "pig",
-                "flume",
                 "calcite"
             ],
             "enable-merge":false,
