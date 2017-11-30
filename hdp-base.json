@@ -36,7 +36,7 @@
             "enable-sync": false,
             "enable-build": true,
             "internal-repo-name":"calcite",
-            "depends-on":null,
+            "depends-on":["avatica"],
             "repo-url":"git@github.com:apache/incubator-calcite.git",
             "version":"1.2.0",
             "no-partner":[
