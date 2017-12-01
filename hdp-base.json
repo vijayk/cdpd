@@ -32,13 +32,13 @@
         },
         "calcite":{
             "branch":"master",
-            "enable-merge":true,
-            "enable-sync": false,
+            "enable-merge":false,
+            "enable-sync": true,
             "enable-build": true,
             "internal-repo-name":"calcite",
             "depends-on":["avatica"],
-            "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"1.2.0",
+            "repo-url":"git@github.com:apache/calcite.git",
+            "version":"1.14.0",
             "no-partner":[
                 "ulysses"
             ]
@@ -47,12 +47,12 @@
             "branch":"branch-release",
             "depends-on":null,
             "enable-merge":false,
-            "enable-sync": false,
+            "enable-sync": true,
             "enable-build": true,
             "internal-repo-name":"calcite_avatica",
             "maven-group-id": "org/apache/calcite",
-            "repo-url":"git@github.com:apache/incubator-calcite.git",
-            "version":"1.8.0",
+            "repo-url":"git@github.com:apache/calcite-avatica.git",
+            "version":"1.10.0",
             "no-partner":[
                 "ulysses"
             ]
@@ -358,10 +358,10 @@
                 "hive",
                 "calcite"
             ],
-            "enable-merge":false,
-            "enable-sync": false,
+            "enable-merge": true,
+            "enable-sync": true,
             "repo-url":"git@github.com:apache/phoenix.git",
-            "version":"4.7.0",
+            "version":"5.0.0",
             "no-partner":[
                 "ulysses"
             ]
