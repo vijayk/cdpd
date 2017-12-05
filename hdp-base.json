@@ -350,7 +350,7 @@
             ]
         },
         "phoenix":{
-            "branch":"master",
+            "branch":"5.x-HBase-2.0",
             "depends-on":[
                 "avatica",
                 "hadoop",
