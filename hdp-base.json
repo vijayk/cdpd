@@ -15,21 +15,6 @@
             "repo-url":"git@github.com:apache/accumulo.git",
             "version":"1.7.0"
         },
-        "beacon":{
-            "branch":"branch-release",
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "internal-repo-name":"beacon",
-            "depends-on":[
-                "hadoop"
-            ],
-            "repo-url":"git@github.com:apache/beacon.git",
-            "version":"1.0.0",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
         "calcite":{
             "branch":"master",
             "enable-merge":false,
@@ -57,23 +42,6 @@
                 "ulysses"
             ]
         },
-        "datafu":{
-            "branch":"1.3.0",
-            "depends-on":[
-                "hadoop",
-                "pig"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "internal-repo-name":"datafu",
-            "repo-url":"git@github.com:apache/incubator-datafu.git",
-            "version":"1.3.0",
-            "platforms": ["ubuntu12"],
-            "no-partner":[
-                "ulysses"
-            ]
-        },
         "druid":{
             "branch":"0.10.0",
             "enable-merge": false,
@@ -96,44 +64,6 @@
                 "sasakia",
                 "essex",
                 "baronia"
-            ]
-        },
-        "falcon":{
-            "branch":"0.10",
-            "depends-on":[
-                "hadoop",
-                "hive",
-                "oozie",
-                "zookeeper"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "internal-repo-name":"falcon",
-            "repo-url":"git@github.com:apache/falcon.git",
-            "version":"0.10.0",
-            "platforms": ["ubuntu12"],
-            "no-partner":[
-                "ulysses"
-            ]
-        },
-        "flume":{
-            "branch":"flume-1.5",
-            "depends-on":[
-                "hadoop",
-                "zookeeper",
-                "hbase",
-                "kafka",
-                "hive"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/flume.git",
-            "version":"1.5.2",
-            "platforms": ["ubuntu12"],
-            "no-partner":[
-                "ulysses"
             ]
         },
         "hadoop":{
@@ -184,30 +114,6 @@
                 "baronia"
             ]
         },
-        "orc":{
-            "branch":"master",
-            "depends-on":[
-                "zookeeper",
-                "hadoop",
-                "storage_api"
-            ],
-            "enable-merge":true,
-            "enable-sync": true,
-            "enable-build": false,
-            "maven-group-id": "org/apache/orc",
-            "repo-url":"git@github.com:apache/orc.git",
-            "version":"1.4.0",
-            "no-partner":[
-                "ulysses",
-                "longwing",
-                "monarch",
-                "peacock",
-                "tigereye",
-                "sasakia",
-                "essex",
-                "baronia"
-            ]
-        },
         "hive":{
             "branch":"master",
             "depends-on":[
@@ -224,51 +130,6 @@
             "version":"3.0.0",
             "no-partner":[
                 "ulysses"
-            ]
-        },
-        "spark-llap":{
-            "branch":"master",
-            "depends-on":[
-                "hadoop",
-                "zookeeper",
-                "hive",
-                "tez",
-                "calcite"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "internal-repo-name":"spark-llap",
-            "maven-group-id": "com/hortonworks/spark-llap",
-            "repo-url":"git@github.com:hortonworks/spark-llap.git",
-            "version":"1.0.0",
-            "no-partner":[
-                "ulysses",
-                "essex",
-                "longwing",
-                "monarch",
-                "peacock",
-                "sasakia",
-                "tigereye",
-                "baronia"
-            ]
-        },
-        "hue":{
-            "branch":"2.6-maint",
-            "depends-on":[
-                "hadoop",
-                "zookeeper",
-                "hive"
-            ],
-            "enable-merge":false,
-            "enable-sync":false,
-            "enable-build": false,
-            "repo-url":"git@github.com:hortonworks/sandbox-shared.git",
-            "version":"2.6.0",
-            "no-partner":[
-                "ulysses",
-                "essex",
-                "baronia"
             ]
         },
         "kafka":{
@@ -314,41 +175,6 @@
             ],
             "internal-repo-name": "livy"
         },
-        "mahout":{
-            "branch":"master",
-            "depends-on":[
-                "hadoop",
-                "hbase"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/mahout.git",
-            "version":"0.9.0",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
-        "oozie":{
-            "branch":"branch-4.2",
-            "depends-on":[
-                "hadoop",
-                "hbase",
-                "tez",
-                "hive",
-                "pig",
-                "sqoop",
-                "spark"
-            ],
-            "enable-merge": false,
-            "enable-sync": false,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/oozie.git",
-            "version":"4.2.0",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
         "phoenix":{
             "branch":"5.x-HBase-2.0",
             "depends-on":[
@@ -362,25 +188,6 @@
             "enable-sync": true,
             "repo-url":"git@github.com:apache/phoenix.git",
             "version":"5.0.0",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
-        "pig":{
-            "branch":"branch-0.16",
-            "depends-on":[
-                "hadoop",
-                "zookeeper",
-                "accumulo",
-                "hbase",
-                "tez",
-                "hive"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/pig.git",
-            "version":"0.16.0",
             "no-partner":[
                 "ulysses"
             ]
@@ -402,44 +209,6 @@
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/ranger.git",
             "version":"1.0.0",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
-        "slider":{
-            "branch":"develop",
-            "depends-on":[
-                "hadoop",
-                "hbase",
-                "zookeeper"
-            ],
-            "enable-merge":false,
-            "enable-sync": true,
-            "enable-build": false,
-            "internal-repo-name":"slider",
-            "repo-url":"git@github.com:apache/incubator-slider.git",
-            "version":"0.91.0",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
-        "slider-app-packages":{
-            "branch":"develop",
-            "depends-on":[
-                "hadoop",
-                "hbase",
-                "accumulo",
-                "zookeeper",
-                "phoenix",
-                "storm",
-                "slider"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "internal-repo-name":"slider",
-            "repo-url":"git@github.com:apache/incubator-slider.git",
-            "version":"0.91.0",
             "no-partner":[
                 "ulysses"
             ]
@@ -490,42 +259,6 @@
                 "ulysses"
             ]
         },
-         "sqoop":{
-            "branch":"branch-1.4.6",
-            "depends-on":[
-                "hadoop",
-                "hbase",
-                "hive",
-                "accumulo",
-                "zookeeper"
-            ],
-            "enable-merge": false,
-            "enable-sync": false,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/sqoop.git",
-            "version":"1.4.6",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
-        "storm":{
-            "branch":"master",
-            "depends-on":[
-                "zookeeper",
-                "hadoop",
-                "hive",
-                "hbase",
-                "kafka"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/storm.git",
-            "version":"1.0.1",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
         "tez":{
             "branch":"master",
             "depends-on":[
@@ -539,32 +272,6 @@
             "version":"0.9.0",
             "no-partner":[
                 "ulysses"
-            ]
-        },
-        "zeppelin":{
-            "branch":"master",
-            "depends-on": [
-                "hadoop",
-                "hbase",
-                "spark",
-                "zookeeper"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": false,
-            "repo-url":"git@github.com:apache/incubator-zeppelin.git",
-            "internal-repo-name":"zeppelin",
-            "version":"0.7.0",
-            "platforms": ["ubuntu12"],
-            "no-partner":[
-                "longwing",
-                "monarch",
-                "peacock",
-                "tigereye",
-                "sasakia",
-                "ulysses",
-                "essex",
-                "baronia"
             ]
         },
         "zookeeper":{
