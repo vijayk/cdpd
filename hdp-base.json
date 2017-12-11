@@ -121,7 +121,6 @@
                 "zookeeper",
                 "hbase",
                 "tez",
-                "slider",
                 "storage_api"
             ],
             "enable-merge":true,
