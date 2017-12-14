@@ -223,8 +223,9 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "internal-branch": "release-1.2.1-spark2-atlantic",
+            "internal-repo-name": "spark_hive2",
             "maven-group-id": "org/spark-project/hive",
-            "internal-branch": "release-1.2.1-spark2",
             "no-partner": [
                 "ulysses",
                 "essex",
