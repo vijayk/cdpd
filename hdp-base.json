@@ -240,7 +240,7 @@
             "version": "1.21.2"
         },
         "spark2":{
-            "branch":"master",
+            "branch":"branch-2.1",
             "depends-on":[
                 "hadoop",
                 "hbase",
@@ -254,7 +254,7 @@
             "internal-repo-name": "spark2",
             "maven-group-id": "org/apache/spark",
             "repo-url":"git@github.com:apache/spark.git",
-            "version":"2.3.0",
+            "version":"2.1.0",
             "no-partner":[
                 "ulysses"
             ]
