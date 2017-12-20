@@ -160,19 +160,20 @@
             "repo-url": "git@github.com:apache/knox.git",
             "version": "1.0.0"
         },
-        "livy":{
-            "branch":"master",
-            "depends-on":[
-                "spark2"
-            ],
-            "enable-merge":false,
-            "enable-sync": false,
-            "repo-url":"git@github.com:cloudera/livy.git",
-            "version":"0.3.0",
-            "no-partner":[
-                "ulysses"
-            ],
-            "internal-repo-name": "livy"
+        "livy": {             
+          "branch": "branch-0.4",             
+          "depends-on": [                 
+                "spark2"             
+          ],             
+          "enable-merge": false,             
+          "enable-sync": true,             
+          "internal-repo-name": "livy",             
+          "maven-group-id": "org/apache/livy",             
+          "no-partner": [                 
+                "ulysses"             
+          ],             
+          "repo-url": "git@github.com:apache/incubator-livy.git",             
+          "version": "0.4.0"         
         },
         "phoenix":{
             "branch":"5.x-HBase-2.0",
@@ -236,16 +237,17 @@
                 "tigereye",
                 "baronia"
             ],
-            "repo-url": "git@github.com:hortonworks/SparkHive.git",
+            "repo-url": "git@github.com:hortonworks/spark_hive2.git",
             "version": "1.21.2"
         },
         "spark2":{
-            "branch":"branch-2.1",
+            "branch":"branch-2.2",
             "depends-on":[
                 "hadoop",
                 "hbase",
                 "spark_hive2",
-                "zookeeper"
+                "zookeeper",
+                "kafka"
             ],
             "enable-sync": true,
             "enable-merge":false,
@@ -254,10 +256,36 @@
             "internal-repo-name": "spark2",
             "maven-group-id": "org/apache/spark",
             "repo-url":"git@github.com:apache/spark.git",
-            "version":"2.1.0",
+            "version":"2.2.0",
             "no-partner":[
                 "ulysses"
             ]
+        },
+        "qe-examples": {             
+          "branch": "master",             
+          "depends-on": [                 
+              "hadoop",                 
+              "hbase",                 
+              "zookeeper",                 
+              "kafka",                 
+              "calcite",                 
+              "spark2"             
+          ],             
+          "enable-merge": false,             
+          "enable-sync": false,             
+          "maven-group-id": "com/hortonworks/qe-examples/spark2-examples-assembly",             
+          "no-partner": [                 
+              "longwing",                 
+              "monarch",                 
+              "peacock",                 
+              "tigereye",                 
+              "sasakia",                 
+              "ulysses",                 
+              "essex",                 
+              "baronia"             
+              ],             
+          "repo-url": "git@github.com:hortonworks/qe-examples.git",             
+          "version": "0.1.0"         
         },
         "tez":{
             "branch":"master",
