@@ -169,7 +169,7 @@
                 "hive",
                 "calcite"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/phoenix.git",
             "version":"5.0.0",
