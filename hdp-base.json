@@ -225,20 +225,21 @@
             "repo-url": "git@github.com:hortonworks/spark_hive2.git",
             "version": "1.21.2"
         },
-        "livy": {             
-          "branch": "branch-0.4",             
-          "depends-on": [                 
-                "spark2"             
-          ],             
-          "enable-merge": false,             
-          "enable-sync": true,             
-          "internal-repo-name": "livy",             
-          "maven-group-id": "org/apache/livy",             
-          "no-partner": [                 
-                "ulysses"             
-          ],             
-          "repo-url": "git@github.com:apache/incubator-livy.git",             
-          "version": "0.4.0"         
+        "livy": {
+          "branch": "branch-0.5",
+          "depends-on": [
+                "spark2"
+          ],
+          "enable-merge": false,
+          "enable-sync": true,
+          "internal-repo-name": "livy",
+          "internal-branch": "hdp-branch-0.5",
+          "maven-group-id": "org/apache/livy",
+          "no-partner": [
+                "ulysses"
+          ],
+          "repo-url": "git@github.com:apache/incubator-livy.git",
+          "version": "0.5.0"
         },
         "spark2":{
             "branch":"branch-2.3",
