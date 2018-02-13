@@ -233,7 +233,6 @@
           "enable-merge": false,
           "enable-sync": true,
           "internal-repo-name": "livy",
-          "internal-branch": "hdp-branch-0.5",
           "maven-group-id": "org/apache/livy",
           "no-partner": [
                 "ulysses"
