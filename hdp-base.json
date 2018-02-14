@@ -311,7 +311,7 @@
               "baronia"             
           ],             
           "repo-url": "git@github.com:apache/zeppelin.git",             
-          "version": "0.7.3"         
+          "version": "0.8.0"         
         },
         "tez":{
             "branch":"master",
