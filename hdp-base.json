@@ -114,6 +114,22 @@
                 "baronia"
             ]
         },
+        "orc":{
+            "branch":"master",
+            "depends-on":[
+                "zookeeper",
+                "hadoop",
+                "storage_api"
+            ],
+            "enable-merge":true,
+            "enable-sync": true,
+            "maven-group-id": "org/apache/orc",
+            "repo-url":"git@github.com:apache/orc.git",
+            "version":"1.4.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
         "hive":{
             "branch":"master",
             "depends-on":[
@@ -121,6 +137,7 @@
                 "zookeeper",
                 "hbase",
                 "tez",
+                "orc",
                 "storage_api"
             ],
             "enable-merge":true,
