@@ -115,7 +115,7 @@
             ]
         },
         "orc":{
-            "branch":"master",
+            "branch":"branch-1.4",
             "depends-on":[
                 "zookeeper",
                 "hadoop",
