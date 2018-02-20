@@ -252,6 +252,7 @@
             ],
             "enable-merge": true,
             "enable-sync": true,
+            "enable-build": false,
             "maven-group-id": "com/hortonworks/shc",
             "no-partner": [
                 "ulysses",
