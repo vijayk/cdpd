@@ -293,6 +293,23 @@
             "repo-url": "git@github.com:hortonworks-spark/spark-llap.git",
             "version": "1.0.0"
         },
+        "storm": {
+            "branch": "master",
+            "depends-on": [
+                "zookeeper",
+                "hadoop",
+                "hive",
+                "hbase",
+                "kafka"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "no-partner": [
+                "ulysses"
+            ],
+            "repo-url": "git@github.com:apache/storm.git",
+            "version": "1.2.1"
+        },
         "livy": {
           "branch": "branch-0.5",
           "depends-on": [
