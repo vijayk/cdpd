@@ -126,7 +126,7 @@
             "enable-build": false,
             "maven-group-id": "org/apache/orc",
             "repo-url":"git@github.com:apache/orc.git",
-            "version":"1.4.0",
+            "version":"1.4.3",
             "no-partner":[
                 "ulysses"
             ]
