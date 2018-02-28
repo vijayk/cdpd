@@ -364,31 +364,54 @@
                 "ulysses"
             ]
         },
-        "qe-examples": {             
-          "branch": "master",             
-          "depends-on": [                 
-              "hadoop",                 
-              "hbase",                 
-              "zookeeper",                 
-              "kafka",                 
-              "calcite",                 
-              "spark2"             
-          ],             
-          "enable-merge": false,             
-          "enable-sync": false,             
-          "maven-group-id": "com/hortonworks/qe-examples/spark2-examples-assembly",             
-          "no-partner": [                 
-              "longwing",                 
-              "monarch",                 
-              "peacock",                 
-              "tigereye",                 
-              "sasakia",                 
-              "ulysses",                 
-              "essex",                 
-              "baronia"             
-              ],             
-          "repo-url": "git@github.com:hortonworks/qe-examples.git",             
-          "version": "0.1.0"         
+        "superset": {
+            "branch": "master",
+            "depends-on": null,
+            "enable-build": true,
+            "enable-merge": false,
+            "internal-repo-name": "superset",
+            "no-partner": [
+                "ulysses",
+                "longwing",
+                "monarch",
+                "peacock",
+                "tigereye",
+                "sasakia",
+                "essex",
+                "baronia"
+            ],
+            "platforms": [
+                "centos6",
+                "centos7"
+            ],
+            "repo-url": "git@github.com:airbnb/superset.git",
+            "version": "0.15.0"
+        },
+        "qe-examples": {
+          "branch": "master",
+          "depends-on": [
+              "hadoop",
+              "hbase",
+              "zookeeper",
+              "kafka",
+              "calcite",
+              "spark2"
+          ],
+          "enable-merge": false,
+          "enable-sync": false,
+          "maven-group-id": "com/hortonworks/qe-examples/spark2-examples-assembly",
+          "no-partner": [
+              "longwing",
+              "monarch",
+              "peacock",
+              "tigereye",
+              "sasakia",
+              "ulysses",
+              "essex",
+              "baronia"
+              ],
+          "repo-url": "git@github.com:hortonworks/qe-examples.git",
+          "version": "0.1.0"
         },
         "zeppelin": {             
           "branch": "branch-0.7",             
