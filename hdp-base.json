@@ -382,7 +382,12 @@
             ],
             "platforms": [
                 "centos6",
-                "centos7"
+                "centos7",
+                "centos7-ppc",
+                "debian7",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16"
             ],
             "repo-url": "git@github.com:airbnb/superset.git",
             "version": "0.15.0"
@@ -508,7 +513,11 @@
             "enable-sync": false,
             "enable-merge": false,
             "repo-url":"git@github.com:apache/bigtop-new.git",
-            "platforms": ["debian7", "ubuntu12"]
+            "platforms": [
+                "debian7",
+                "ubuntu12",
+                "ubuntu16"
+            ]
         },
         "hadooplzo":{
             "enable-merge": false,
@@ -557,9 +566,15 @@
         "stack-version": "3.0.0.2",
         "poll-frequency": "240",
         "platforms": [
-             "centos6",
-             "centos7",
-             "snapshot"
+            "centos6",
+            "centos7",
+            "centos7-ppc",
+            "debian7",
+            "suse11sp3",
+            "sles12",
+            "ubuntu12",
+            "ubuntu16",
+            "snapshot"
         ]
     },
     "remotes":{
