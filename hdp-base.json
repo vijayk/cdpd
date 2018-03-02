@@ -380,10 +380,11 @@
             ]
         },
         "superset": {
-            "branch": "master",
+            "branch": "0.23",
             "depends-on": null,
             "enable-build": true,
-            "enable-merge": false,
+            "enable-sync": true,
+            "enable-merge": true,
             "internal-repo-name": "superset",
             "no-partner": [
                 "ulysses",
@@ -404,8 +405,8 @@
                 "ubuntu12",
                 "ubuntu16"
             ],
-            "repo-url": "git@github.com:airbnb/superset.git",
-            "version": "0.15.0"
+            "repo-url": "git@github.com:apache/incubator-superset.git",
+            "version": "0.23.0"
         },
         "qe-examples": {
           "branch": "master",
