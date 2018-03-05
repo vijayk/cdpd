@@ -444,6 +444,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
+            "enable-build": false,
             "enable-sync": true,
             "no-partner": [
                 "ulysses"
