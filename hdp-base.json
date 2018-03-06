@@ -301,7 +301,7 @@
             "version": "1.1.0"
         },
         "spark_llap": {
-            "branch": "branch-2.2",
+            "branch": "branch-2.3",
             "depends-on": [
                 "hadoop",
                 "zookeeper",
