@@ -436,7 +436,7 @@
           "version": "0.1.0"
         },
         "sqoop": {
-            "branch": "branch-1.4.6",
+            "branch": "branch-1.4.7",
             "depends-on": [
                 "hadoop",
                 "hbase",
@@ -445,13 +445,12 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-build": false,
             "enable-sync": true,
             "no-partner": [
                 "ulysses"
             ],
             "repo-url": "git@github.com:apache/sqoop.git",
-            "version": "1.4.6"
+            "version": "1.4.7"
         },
         "zeppelin": {             
           "branch": "branch-0.7",             
