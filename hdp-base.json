@@ -164,7 +164,7 @@
             ]
         },
         "kafka":{
-            "branch":"0.11.0",
+            "branch":"1.0",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
@@ -172,7 +172,7 @@
             "enable-merge":false,
             "enable-sync": false,
             "repo-url":"git@github.com:apache/kafka.git",
-            "version":"0.10.1",
+            "version":"1.0.0",
             "no-partner":[
                 "ulysses"
             ]
