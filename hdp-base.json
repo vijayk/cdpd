@@ -452,32 +452,32 @@
             "repo-url": "git@github.com:apache/sqoop.git",
             "version": "1.4.7"
         },
-        "zeppelin": {             
-          "branch": "branch-0.7",             
-          "depends-on": [                 
-              "hadoop",                 
-              "hbase",                 
-              "spark2",                 
-              "zookeeper",                 
-              "hive",                 
-              "phoenix"             
-          ],             
-          "enable-build": false,
-          "enable-merge": false,             
-          "enable-sync": true,             
-          "internal-repo-name": "zeppelin",             
-          "no-partner": [                 
-              "longwing",                 
-              "monarch",                 
-              "peacock",                 
-              "tigereye",                 
-              "sasakia",                 
-              "ulysses",                 
-              "essex",                 
-              "baronia"             
-          ],             
-          "repo-url": "git@github.com:apache/zeppelin.git",             
-          "version": "0.8.0"         
+        "zeppelin": {
+          "branch": "branch-0.7",
+          "depends-on": [
+              "hadoop",
+              "hbase",
+              "spark2",
+              "zookeeper",
+              "hive",
+              "phoenix"
+          ],
+          "enable-build": true,
+          "enable-merge": false,
+          "enable-sync": true,
+          "internal-repo-name": "zeppelin",
+          "no-partner": [
+              "longwing",
+              "monarch",
+              "peacock",
+              "tigereye",
+              "sasakia",
+              "ulysses",
+              "essex",
+              "baronia"
+          ],
+          "repo-url": "git@github.com:apache/zeppelin.git",
+          "version": "0.8.0"
         },
         "tez":{
             "branch":"master",
