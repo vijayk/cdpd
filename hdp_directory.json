@@ -8,12 +8,16 @@
     "hadoop": [ "HDFS", "YARN", "MAPREDUCE2" ],
     "hbase": [ "HBASE" ],
     "hive": [ "HIVE" ],
+    "kafka": [ "KAFKA" ],
     "knox": [ "KNOX" ],
     "phoenix": [ ],
+    "pig": [ "PIG" ],
     "ranger": [ "RANGER", "RANGER_KMS" ],
     "spark2": [ "SPARK2" ],
-    "pig": [ "PIG" ],
+    "sqoop": [ "SQOOP" ],
+    "storm": [ "STORM" ],
     "tez": [ "TEZ" ],
+    "zeppelin": [ "ZEPPELIN" ],
     "zookeeper": [ "ZOOKEEPER" ]
   },
   "platforms": {
