@@ -167,7 +167,8 @@
             "branch":"1.0",
             "depends-on":[
                 "hadoop",
-                "zookeeper"
+                "zookeeper",
+                "pig"
             ],
             "enable-merge":false,
             "enable-sync": false,
@@ -199,7 +200,8 @@
                 "hadoop",
                 "hbase",
                 "hive",
-                "calcite"
+                "calcite",
+                "pig"
             ],
             "enable-merge": true,
             "enable-sync": true,
