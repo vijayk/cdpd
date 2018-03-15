@@ -25,6 +25,7 @@
     "centos7": "redhat7",
     "centos7-ppc": "redhat-ppc7",
     "debian7": "debian7",
+    "debian9": "debian9",
     "ubuntu12": "ubuntu12",
     "ubuntu14": "ubuntu14",
     "ubuntu16": "ubuntu16",
