@@ -221,7 +221,6 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "enable-build": false,
             "no-partner": [
                 "ulysses"
             ],
