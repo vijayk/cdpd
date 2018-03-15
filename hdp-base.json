@@ -103,6 +103,17 @@
             "enable-build": true,
             "repo-url":"git@github.com:apache/hbase.git",
             "version":"2.0.0",
+            "platforms": [
+                "centos6",
+                "centos7",
+                "debian7",
+                "debian9",
+                "suse11sp3",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16",
+                "snapshot"
+            ],
             "no-partner":[
                 "ulysses"
             ]
@@ -159,6 +170,17 @@
             "enable-sync": true,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"3.0.0",
+            "platforms": [
+                "centos6",
+                "centos7",
+                "debian7",
+                "debian9",
+                "suse11sp3",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16",
+                "snapshot"
+            ],
             "no-partner":[
                 "ulysses"
             ]
@@ -447,6 +469,17 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "platforms": [
+                "centos6",
+                "centos7",
+                "debian7",
+                "debian9",
+                "suse11sp3",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16",
+                "snapshot"
+            ],
             "no-partner": [
                 "ulysses"
             ],
@@ -467,6 +500,17 @@
           "enable-merge": false,
           "enable-sync": true,
           "internal-repo-name": "zeppelin",
+            "platforms": [
+                "centos6",
+                "centos7",
+                "debian7",
+                "debian9",
+                "suse11sp3",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16",
+                "snapshot"
+            ],
           "no-partner": [
               "longwing",
               "monarch",
@@ -522,6 +566,17 @@
             "repo-url":"git@github.com:apache/atlas.git",
             "internal-repo-name":"atlas",
             "version":"1.0.0",
+            "platforms": [
+                "centos6",
+                "centos7",
+                "debian7",
+                "debian9",
+                "suse11sp3",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16",
+                "snapshot"
+            ],
             "no-partner":[
                 "ulysses",
                 "essex",
