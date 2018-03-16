@@ -252,7 +252,8 @@
                 "accumulo",
                 "hbase",
                 "tez",
-                "hive"
+                "hive",
+                "orc"
             ],
             "enable-merge": false,
             "enable-sync": true,
