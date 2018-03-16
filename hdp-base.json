@@ -152,6 +152,17 @@
             "maven-group-id": "org/apache/orc",
             "repo-url":"git@github.com:apache/orc.git",
             "version":"1.4.3",
+            "platforms": [
+                "centos6",
+                "centos7",
+                "debian7",
+                "debian9",
+                "suse11sp3",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16",
+                "snapshot"
+            ],
             "no-partner":[
                 "ulysses"
             ]
