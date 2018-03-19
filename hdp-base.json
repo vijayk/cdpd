@@ -147,7 +147,7 @@
                 "hadoop",
                 "storage_api"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
             "maven-group-id": "org/apache/orc",
             "repo-url":"git@github.com:apache/orc.git",
