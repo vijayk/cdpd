@@ -234,7 +234,8 @@
                 "hbase",
                 "hive",
                 "calcite",
-                "pig"
+                "pig",
+                "spark2"
             ],
             "enable-merge": true,
             "enable-sync": true,
