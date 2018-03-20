@@ -10,6 +10,7 @@
     "hive": [ "HIVE" ],
     "kafka": [ "KAFKA" ],
     "knox": [ "KNOX" ],
+    "oozie": [ "OOZIE" ],
     "phoenix": [ ],
     "pig": [ "PIG" ],
     "ranger": [ "RANGER", "RANGER_KMS" ],
