@@ -36,11 +36,8 @@
             "internal-repo-name":"atlas",
             "version":"1.0.0",
             "platforms": [
-                "centos6",
                 "centos7",
-                "debian7",
                 "debian9",
-                "suse11sp3",
                 "sles12",
                 "ubuntu12",
                 "ubuntu16",
@@ -191,7 +188,6 @@
             "enable-merge": false,
             "repo-url":"git@github.com:apache/bigtop-new.git",
             "platforms": [
-                "debian7",
                 "debian9",
                 "ubuntu12",
                 "ubuntu16"
@@ -212,11 +208,8 @@
             "repo-url":"git@github.com:apache/hive.git",
             "version":"3.0.0",
             "platforms": [
-                "centos6",
                 "centos7",
-                "debian7",
                 "debian9",
-                "suse11sp3",
                 "sles12",
                 "ubuntu12",
                 "ubuntu16",
@@ -303,11 +296,8 @@
             "repo-url":"git@github.com:apache/orc.git",
             "version":"1.4.3",
             "platforms": [
-                "centos6",
                 "centos7",
-                "debian7",
                 "debian9",
-                "suse11sp3",
                 "sles12",
                 "ubuntu12",
                 "ubuntu16",
@@ -557,10 +547,8 @@
                 "baronia"
             ],
             "platforms": [
-                "centos6",
                 "centos7",
                 "centos7-ppc",
-                "debian7",
                 "debian9",
                 "sles12",
                 "ubuntu12",
@@ -581,11 +569,8 @@
             "enable-merge": false,
             "enable-sync": true,
             "platforms": [
-                "centos6",
                 "centos7",
-                "debian7",
                 "debian9",
-                "suse11sp3",
                 "sles12",
                 "ubuntu12",
                 "ubuntu16",
@@ -627,11 +612,8 @@
           "enable-sync": true,
           "internal-repo-name": "zeppelin",
             "platforms": [
-                "centos6",
                 "centos7",
-                "debian7",
                 "debian9",
-                "suse11sp3",
                 "sles12",
                 "ubuntu12",
                 "ubuntu16",
@@ -679,12 +661,9 @@
         "stack-version": "3.0.0.0",
         "poll-frequency": "240",
         "platforms": [
-            "centos6",
             "centos7",
             "centos7-ppc",
-            "debian7",
             "debian9",
-            "suse11sp3",
             "sles12",
             "ubuntu12",
             "ubuntu16",
