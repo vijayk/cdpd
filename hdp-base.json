@@ -423,8 +423,7 @@
                 "hadoop",
                 "hbase",
                 "zookeeper",
-                "accumulo",
-                "kafka"
+                "accumulo"
             ],
             "enable-merge": false,
             "enable-sync": true,
