@@ -35,14 +35,6 @@
             "repo-url":"git@github.com:apache/atlas.git",
             "internal-repo-name":"atlas",
             "version":"1.0.0",
-            "platforms": [
-                "centos7",
-                "debian9",
-                "sles12",
-                "ubuntu12",
-                "ubuntu16",
-                "snapshot"
-            ],
             "no-partner":[
                 "ulysses",
                 "essex",
@@ -207,14 +199,6 @@
             "enable-sync": true,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"3.0.0",
-            "platforms": [
-                "centos7",
-                "debian9",
-                "sles12",
-                "ubuntu12",
-                "ubuntu16",
-                "snapshot"
-            ],
             "no-partner":[
                 "ulysses"
             ]
@@ -296,14 +280,6 @@
             "maven-group-id": "org/apache/orc",
             "repo-url":"git@github.com:apache/orc.git",
             "version":"1.4.3",
-            "platforms": [
-                "centos7",
-                "debian9",
-                "sles12",
-                "ubuntu12",
-                "ubuntu16",
-                "snapshot"
-            ],
             "no-partner":[
                 "ulysses"
             ]
@@ -611,14 +587,6 @@
           "enable-merge": false,
           "enable-sync": true,
           "internal-repo-name": "zeppelin",
-            "platforms": [
-                "centos7",
-                "debian9",
-                "sles12",
-                "ubuntu12",
-                "ubuntu16",
-                "snapshot"
-            ],
           "no-partner": [
               "longwing",
               "monarch",
