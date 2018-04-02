@@ -163,7 +163,6 @@
             "branch":"branch-2.0",
             "depends-on":[
                 "hadoop",
-                "spark2",
                 "zookeeper"
             ],
             "enable-merge": true,
@@ -489,6 +488,7 @@
             "branch":"branch-2.3",
             "depends-on":[
                 "hadoop",
+                "hbase",
                 "spark_hive2",
                 "zookeeper",
                 "kafka"
