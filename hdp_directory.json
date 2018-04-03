@@ -24,6 +24,7 @@
   "platforms": {
     "centos6": "redhat6",
     "centos7": "redhat7",
+    "amazon2": "amazon2",
     "centos7-ppc": "redhat-ppc7",
     "debian7": "debian7",
     "debian9": "debian9",

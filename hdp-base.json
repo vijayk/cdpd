@@ -525,6 +525,7 @@
             ],
             "platforms": [
                 "centos7",
+                "amazon2",
                 "centos7-ppc",
                 "debian9",
                 "sles12",
@@ -547,6 +548,7 @@
             "enable-sync": true,
             "platforms": [
                 "centos7",
+                "amazon2",
                 "debian9",
                 "sles12",
                 "ubuntu12",
@@ -636,6 +638,7 @@
             "sles12",
             "ubuntu12",
             "ubuntu16",
+            "amazon2",
             "snapshot"
         ]
     },
