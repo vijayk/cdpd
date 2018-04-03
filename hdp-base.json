@@ -84,8 +84,8 @@
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
         "calcite":{
-            "branch":"master",
-            "enable-merge":false,
+            "branch":"branch-1.16",
+            "enable-merge":true,
             "enable-sync": true,
             "enable-build": true,
             "internal-repo-name":"calcite",
@@ -192,6 +192,7 @@
                 "zookeeper",
                 "hbase",
                 "tez",
+                "calcite",
                 "orc",
                 "storage_api"
             ],
