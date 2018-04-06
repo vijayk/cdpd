@@ -371,7 +371,7 @@
             ]
         },
         "shc": {
-            "branch": "master",
+            "branch": "branch-2.3_HBase2",
             "depends-on": [
                 "spark2",
                 "hbase",
@@ -379,7 +379,6 @@
             ],
             "enable-merge": true,
             "enable-sync": true,
-            "enable-build": false,
             "maven-group-id": "com/hortonworks/shc",
             "no-partner": [
                 "ulysses",
