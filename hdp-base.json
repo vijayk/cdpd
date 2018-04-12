@@ -235,7 +235,7 @@
             "repo-url": "git@github.com:apache/knox.git",
             "version": "1.0.0"
         },
-          "knox": {
+        "kite": {
             "branch": "master",
             "depends-on": [
                 "hive"
