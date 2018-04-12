@@ -186,7 +186,7 @@
             ]
         },
         "hive":{
-            "branch":"master",
+            "branch":"branch-3",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
@@ -196,7 +196,7 @@
                 "orc",
                 "storage_api"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"3.0.0",
