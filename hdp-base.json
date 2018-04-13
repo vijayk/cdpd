@@ -236,16 +236,15 @@
             "version": "1.0.0"
         },
         "kite": {
-            "branch": "master",
+            "branch": "atlantic",
+            "enable-merge": false,
+            "enable-sync": false,
             "depends-on": [
                 "hive"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
             "no-partner": [
                 "ulysses"
             ],
-            "internal-branch": "atlantic",
             "repo-url": "git@github.com:apache/kite.git",
             "version": "1.0.0"
         },
