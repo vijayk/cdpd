@@ -121,8 +121,7 @@
             "version":"0.12.0",
             "depends-on":[
                 "hadoop",
-                "zookeeper", 
-                "hive"
+                "zookeeper"
             ],
             "no-partner":[
                 "ulysses",
@@ -194,6 +193,7 @@
                 "tez",
                 "calcite",
                 "orc",
+                "druid",
                 "storage_api"
             ],
             "enable-merge":true,
