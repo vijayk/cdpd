@@ -235,20 +235,6 @@
             "repo-url": "git@github.com:apache/knox.git",
             "version": "1.0.0"
         },
-        "kite": {
-            "branch": "atlantic",
-            "enable-merge": false,
-            "enable-sync": false,
-            "maven-group-id": "org/kitesdk",
-            "depends-on": [
-                "hive"
-            ],
-            "no-partner": [
-                "ulysses"
-            ],
-            "repo-url": "git@github.com:apache/kite.git",
-            "version": "1.0.0"
-        },
         "livy": {
           "branch": "branch-0.5",
           "depends-on": [
@@ -553,7 +539,6 @@
             "depends-on": [
                 "hadoop",
                 "hbase",
-                "kite",
                 "hive",
                 "accumulo",
                 "zookeeper"
