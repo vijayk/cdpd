@@ -239,6 +239,7 @@
             "branch": "atlantic",
             "enable-merge": false,
             "enable-sync": false,
+            "maven-group-id": "org/kitesdk",
             "depends-on": [
                 "hive"
             ],
