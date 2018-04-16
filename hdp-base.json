@@ -205,16 +205,15 @@
             ]
         },
         "kafka":{
-            "branch":"1.0",
+            "branch":"hdp-hdf-common",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
                 "pig"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "enable-sync": false,
-            "internal-branch": "hdp-hdf-common",
-            "repo-url":"git@github.com:apache/kafka.git",
+            "repo-url":"git@github.com:hortonworks/kafka.git",
             "version":"1.0.0",
             "no-partner":[
                 "ulysses"
