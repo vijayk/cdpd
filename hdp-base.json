@@ -194,7 +194,8 @@
                 "calcite",
                 "orc",
                 "druid",
-                "storage_api"
+                "storage_api",
+                "accumulo"
             ],
             "enable-merge":true,
             "enable-sync": true,
