@@ -525,7 +525,7 @@
             "depends-on": null,
             "enable-build": true,
             "enable-sync": true,
-            "enable-merge": true,
+            "enable-merge": false,
             "internal-repo-name": "superset",
             "no-partner": [
                 "ulysses",
