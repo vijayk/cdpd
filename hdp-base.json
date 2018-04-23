@@ -547,7 +547,7 @@
                 "ubuntu16"
             ],
             "repo-url": "git@github.com:apache/incubator-superset.git",
-            "version": "0.23.3"
+            "version": "0.23.0"
         },
         "sqoop": {
             "branch": "branch-1.4.7",
