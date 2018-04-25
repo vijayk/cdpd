@@ -216,7 +216,7 @@
             "enable-sync": false,
             "internal-branch": "hdp-hdf-common",
             "repo-url":"git@github.com:apache/kafka.git",
-            "version":"1.0.0",
+            "version":"1.0.1",
             "no-partner":[
                 "ulysses"
             ]
