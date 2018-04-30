@@ -112,13 +112,13 @@
             "version": "1.3.0"
         },
         "druid":{
-            "branch":"0.12.0",
+            "branch":"0.12.1",
             "enable-merge": true,
             "enable-sync": true,
             "internal-repo-name":"druid",
             "maven-group-id": "io/druid",
             "repo-url": "git@github.com:druid-io/druid.git",
-            "version":"0.12.0",
+            "version":"0.12.1",
             "depends-on":[
                 "hadoop",
                 "zookeeper"
