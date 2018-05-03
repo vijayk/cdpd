@@ -445,6 +445,7 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "enable-build": false,
             "internal-repo-name": "spark-llap",
             "maven-group-id": "com/hortonworks/spark/spark-llap_2.11",
             "no-partner": [
