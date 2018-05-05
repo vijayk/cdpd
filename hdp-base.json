@@ -134,6 +134,16 @@
                 "baronia"
             ]
         },
+        "gcs": {
+            "branch": "master",
+            "depends-on": [
+                "hadoop"
+            ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:GoogleCloudPlatform/bigdata-interop.git",
+            "version": "1.9.0"
+        },
         "hadoop":{
             "branch":"branch-3.1",
             "depends-on":[
