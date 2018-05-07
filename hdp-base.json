@@ -301,7 +301,7 @@
           "version": "0.5.0"
         },
         "oozie": {
-            "branch": "branch-4.2",
+            "branch": "branch-4.3",
             "depends-on": [
                 "hadoop",
                 "hbase",
@@ -317,7 +317,7 @@
                 "ulysses"
             ],
             "repo-url": "git@github.com:apache/oozie.git",
-            "version": "4.2.0"
+            "version": "4.3.1"
         },
         "orc":{
             "branch":"branch-1.4",
