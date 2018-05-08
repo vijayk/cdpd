@@ -572,15 +572,6 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "platforms": [
-                "centos7",
-                "amazonlinux2",
-                "debian9",
-                "sles12",
-                "ubuntu12",
-                "ubuntu16",
-                "snapshot"
-            ],
             "no-partner": [
                 "ulysses"
             ],
