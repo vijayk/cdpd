@@ -3,6 +3,7 @@
         "HDP": {
             "enable-merge": false,
             "enable-sync": false,
+            "enable-blackduck-scan": false,
             "repo-url": "git@github.com:hortonworks/hdp.git"
         },
         "accumulo":{
