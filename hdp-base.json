@@ -154,7 +154,8 @@
             "branch":"branch-3.1",
             "depends-on":[
                 "zookeeper",
-                "gcs"
+                "gcs",
+                "isa_l"
             ],
             "enable-merge": true,
             "enable-sync": true,
@@ -223,6 +224,14 @@
             "no-partner":[
                 "ulysses"
             ]
+        },
+        "isa_l": {
+            "branch": "master",
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-branch": "master",
+            "repo-url": "git@github.com:01org/isa-l.git",
+            "version": "2.0.22"
         },
         "kafka":{
             "branch":"1.0",
