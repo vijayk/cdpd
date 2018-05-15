@@ -66,7 +66,7 @@
             "branch":"apache-arrow-0.8.0",
             "depends-on":null,
             "enable-merge":false,
-            "enable-sync": true,
+            "enable-sync": false,
             "enable-build": true,
             "enable-blackduck-scan": false,
             "internal-repo-name":"arrow",
