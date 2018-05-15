@@ -62,6 +62,21 @@
                 "ulysses"
             ]
         },
+        "arrow":{
+            "branch":"apache-arrow-0.8.0",
+            "depends-on":null,
+            "enable-merge":false,
+            "enable-sync": true,
+            "enable-build": true,
+            "enable-blackduck-scan": false,
+            "internal-repo-name":"arrow",
+            "maven-group-id": "org/apache/arrow",
+            "repo-url":"git@github.com:apache/arrow.git",
+            "version":"0.8.0",
+            "no-partner":[
+                "ulysses"
+            ]
+        },
         "bigtop-jsvc": {
             "version": "1.0.10",
             "enable-sync": false,
