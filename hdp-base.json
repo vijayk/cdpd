@@ -231,7 +231,13 @@
             "enable-sync": false,
             "internal-branch": "master",
             "repo-url": "git@github.com:01org/isa-l.git",
-            "version": "2.0.22"
+            "version": "2.0.22",
+            "platforms": [
+                "centos7",
+                "debian9",
+                "sles12",
+                "ubuntu16"
+            ]
         },
         "kafka":{
             "branch":"1.0",
