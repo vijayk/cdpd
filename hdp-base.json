@@ -64,15 +64,15 @@
         },
         "arrow":{
             "branch":"apache-arrow-0.8.0",
-            "depends-on":null,
             "enable-merge":false,
             "enable-sync": false,
             "enable-build": true,
             "enable-blackduck-scan": false,
-            "internal-repo-name":"arrow",
-            "maven-group-id": "org/apache/arrow",
             "repo-url":"git@github.com:apache/arrow.git",
             "version":"0.8.0",
+            "depends-on":[
+                "hadoop"
+            ],
             "no-partner":[
                 "ulysses",
                 "essex",
@@ -237,7 +237,8 @@
                 "orc",
                 "druid",
                 "storage_api",
-                "accumulo"
+                "accumulo",
+                "arrow"
             ],
             "enable-merge":false,
             "enable-sync": true,
@@ -572,7 +573,8 @@
                 "hbase",
                 "spark_hive2",
                 "zookeeper",
-                "kafka"
+                "kafka",
+                "arrow"
             ],
             "enable-sync": true,
             "enable-merge":false,
