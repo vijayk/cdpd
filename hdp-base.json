@@ -120,7 +120,7 @@
             "internal-repo-name":"calcite",
             "depends-on":["avatica"],
             "repo-url":"git@github.com:apache/calcite.git",
-            "version":"1.14.0",
+            "version":"1.16.0",
             "no-partner":[
                 "ulysses"
             ]
