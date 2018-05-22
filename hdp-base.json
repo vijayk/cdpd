@@ -476,6 +476,7 @@
             "depends-on": [
                 "hadoop",
                 "hbase",
+                "hive",
                 "zookeeper",
                 "accumulo"
             ],
