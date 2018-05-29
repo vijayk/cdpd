@@ -330,6 +330,7 @@
             "branch": "branch-4.3",
             "depends-on": [
                 "hadoop",
+                "gcs",
                 "hbase",
                 "tez",
                 "hive",
@@ -640,6 +641,7 @@
             "branch":"master",
             "depends-on":[
                 "hadoop",
+                "gcs",
                 "zookeeper"
             ],
             "enable-merge":false,
@@ -655,6 +657,7 @@
           "branch": "branch-0.7",
           "depends-on": [
               "hadoop",
+              "gcs",
               "hbase",
               "spark2",
               "zookeeper",
