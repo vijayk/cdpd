@@ -500,7 +500,7 @@
             "repo-url": "git@github.com:hortonworks/spark_hive2.git",
             "version": "1.21.2"
         },
-        "spark_llap": {
+        "hive_warehouse_connector": {
             "branch": "branch-2.3",
             "depends-on": [
                 "hadoop",
@@ -511,10 +511,9 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "enable-build": false,
             "enable-blackduck-scan": false,
-            "internal-repo-name": "spark-llap",
-            "maven-group-id": "com/hortonworks/spark/spark-llap_2.11",
+            "internal-repo-name": "hive-warehouse-connector",
+            "maven-group-id": "com/hortonworks/hive",
             "no-partner": [
                 "ulysses",
                 "essex",
@@ -525,7 +524,7 @@
                 "tigereye",
                 "baronia"
             ],
-            "repo-url": "git@github.com:hortonworks-spark/spark-llap.git",
+            "repo-url": "git@github.com:hortonworks/hive-warehouse-connector.git",
             "version": "1.0.0"
         },
         "storage_api":{
