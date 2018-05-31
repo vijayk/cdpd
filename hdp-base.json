@@ -353,7 +353,7 @@
                 "hadoop",
                 "storage_api"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
             "enable-blackduck-scan": false,
             "maven-group-id": "org/apache/orc",
