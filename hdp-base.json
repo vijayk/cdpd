@@ -228,6 +228,7 @@
         },
         "hive":{
             "branch":"branch-3",
+            "internal-branch": "atlantic-pre-orc15",
             "depends-on":[
                 "hadoop",
                 "zookeeper",
