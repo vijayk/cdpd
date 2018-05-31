@@ -401,6 +401,19 @@
             "repo-url": "git@github.com:apache/pig.git",
             "version": "0.16.0"
        },
+	"pydruid":{
+            "branch": "0.4",
+            "depends-on": null,
+            "enable-merge": false,
+            "enable-sync": false,
+            "enable-build": true,
+            "enable-blackduck-scan": false,
+            "repo-url": "git@github.com/druid-io/pydruid",
+            "version": "0.4.2",
+            "no-partner": [
+                "ulysses"
+            ]
+        },
        "qe-examples": {
           "branch": "master",
           "depends-on": [
