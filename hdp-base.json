@@ -638,6 +638,7 @@
                 "hbase",
                 "kite",
                 "hive",
+                "orc",
                 "accumulo",
                 "zookeeper"
             ],
