@@ -240,7 +240,7 @@
                 "accumulo",
                 "arrow"
             ],
-            "enable-merge":false,
+            "enable-merge":true,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/hive.git",
             "version":"3.0.0",
