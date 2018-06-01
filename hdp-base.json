@@ -567,6 +567,7 @@
             "branch": "master",
             "depends-on": [
                 "zookeeper",
+                "gcs",
                 "hadoop",
                 "hive",
                 "hbase",
