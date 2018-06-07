@@ -205,7 +205,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "enable-build": true,
             "repo-url":"git@github.com:apache/hbase.git",
