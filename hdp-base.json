@@ -467,6 +467,7 @@
             "depends-on": [
                 "spark2",
                 "hbase",
+                "hive",
                 "phoenix"
             ],
             "enable-merge": true,
