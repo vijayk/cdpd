@@ -150,7 +150,8 @@
             "version":"0.12.1",
             "depends-on":[
                 "hadoop",
-                "zookeeper"
+                "zookeeper",
+                "kafka"
             ],
             "no-partner":[
                 "ulysses",
@@ -269,8 +270,7 @@
             "branch":"1.0",
             "depends-on":[
                 "hadoop",
-                "zookeeper",
-                "pig"
+                "zookeeper"
             ],
             "enable-merge":false,
             "enable-sync": false,
