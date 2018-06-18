@@ -184,7 +184,7 @@
             "enable-sync": true,
             "enable-build": true,
             "repo-url":"git@github.com:apache/hadoop.git",
-            "version":"3.1.0"
+            "version":"3.0.0"
         },
         "hadooplzo":{
             "enable-merge": false,
