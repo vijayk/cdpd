@@ -239,7 +239,8 @@
                 "druid",
                 "storage_api",
                 "accumulo",
-                "arrow"
+                "arrow",
+                "parquet"
             ],
             "enable-merge":true,
             "enable-sync": true,
@@ -414,26 +415,29 @@
                 "ulysses"
             ]
         },
-	"parquet":{
+        "parquet":{
             "branch": "apache-parquet-1.10.0",
-            "depends-on": null,
+            "depends-on": [
+                "hadoop"
+            ],
             "enable-merge": false,
             "enable-sync": false,
             "enable-build": true,
             "enable-blackduck-scan": false,
-	    "internal-repo-name":"parquet-mr",
+            "internal-repo-name":"parquet-mr",
             "repo-url": "git@github.com/hortonworks/parquet-mr.git",
             "version": "1.10.0",
             "no-partner": [
                 "ulysses"
             ],
-	    "platforms": [
-		"centos7",
-		"debian9",
-		"sles12",
-		"ubuntu16",
-		"amazonlinux2"
-	    ]
+            "platforms": [
+                "centos7",
+                "centos7-ppc",
+                "debian9",
+                "sles12",
+                "ubuntu16",
+                "amazonlinux2"
+            ]
         },
        "qe-examples": {
           "branch": "master",
