@@ -436,7 +436,8 @@
                 "debian9",
                 "sles12",
                 "ubuntu16",
-                "amazonlinux2"
+                "amazonlinux2",
+                "snapshot"
             ]
         },
        "qe-examples": {
