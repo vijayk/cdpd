@@ -242,10 +242,10 @@
                 "arrow",
                 "parquet"
             ],
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/hive.git",
-            "version":"3.0.0",
+            "version":"3.1.0",
             "no-partner":[
                 "ulysses"
             ]
