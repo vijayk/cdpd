@@ -468,7 +468,7 @@
           "version": "0.1.0"
         },
         "ranger":{
-            "branch":"master",
+            "branch":"ranger-1.1",
             "depends-on":[
                 "atlas",
                 "hadoop",
@@ -483,7 +483,7 @@
             "enable-sync": false,
             "internal-repo-name":"ranger",
             "repo-url":"git@github.com:apache/ranger.git",
-            "version":"1.0.0",
+            "version":"1.1.0",
             "no-partner":[
                 "ulysses"
             ]
