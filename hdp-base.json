@@ -631,7 +631,9 @@
         },
         "superset": {
             "branch": "0.23",
-            "depends-on": null,
+            "depends-on":[
+		"pydruid"
+	     ],
             "enable-build": true,
             "enable-sync": true,
             "enable-merge": false,
