@@ -348,7 +348,7 @@
             "version": "4.3.1"
         },
         "orc":{
-            "branch":"branch-1.4",
+            "branch":"branch-1.5",
             "depends-on":[
                 "zookeeper",
                 "hadoop",
@@ -359,7 +359,7 @@
             "enable-blackduck-scan": false,
             "maven-group-id": "org/apache/orc",
             "repo-url":"git@github.com:apache/orc.git",
-            "version":"1.4.3",
+            "version":"1.5.1",
             "no-partner":[
                 "ulysses"
             ]
