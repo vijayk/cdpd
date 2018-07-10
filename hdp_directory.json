@@ -1,4 +1,5 @@
 {
+  "patched-services": [],
   "components": {
     "accumulo": [ "ACCUMULO" ],
     "atlas": [ "ATLAS" ],
@@ -35,4 +36,11 @@
     "sles12": "suse12"
   },
   "compatible-with": "3\\.\\d+\\.\\d+\\.\\d+"
+  "upgrade-dependencies": {
+    "ATLAS": ["STORM"],
+    "HIVE": ["TEZ", "MAPREDUCE2", "SQOOP"],
+    "MAPREDUCE2": ["HIVE", "TEZ", "SQOOP"],
+    "OOZIE": ["HIVE", "MAPREDUCE2", "TEZ", "SQOOP"],
+    "TEZ": ["HIVE", "MAPREDUCE2", "SQOOP"]
+  }
 }
