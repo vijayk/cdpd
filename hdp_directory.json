@@ -35,7 +35,7 @@
     "suse11sp3": "suse11",
     "sles12": "suse12"
   },
-  "compatible-with": "3\\.\\d+\\.\\d+\\.\\d+"
+  "compatible-with": "3\\.\\d+\\.\\d+\\.\\d+",
   "upgrade-dependencies": {
     "ATLAS": ["STORM"],
     "HIVE": ["TEZ", "MAPREDUCE2", "SQOOP"],
