@@ -113,7 +113,7 @@
         },
         "calcite":{
             "branch":"branch-1.16",
-            "enable-merge":true,
+            "enable-merge":false,
             "enable-sync": true,
             "enable-build": true,
             "enable-blackduck-scan": false,
@@ -142,7 +142,7 @@
         },
         "druid":{
             "branch":"0.12.1",
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name":"druid",
             "maven-group-id": "io/druid",
@@ -206,7 +206,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "enable-build": true,
             "repo-url":"git@github.com:apache/hbase.git",
@@ -288,7 +288,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "no-partner": [
                 "ulysses"
@@ -375,7 +375,7 @@
                 "pig",
                 "spark2"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "repo-url":"git@github.com:apache/phoenix.git",
             "version":"5.0.0",
@@ -495,7 +495,7 @@
                 "hbase",
                 "phoenix"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "maven-group-id": "com/hortonworks/shc",
             "no-partner": [
@@ -571,7 +571,7 @@
             "depends-on":[
                 "hadoop"
             ],
-            "enable-merge":true,
+            "enable-merge": false,
             "enable-sync": true,
             "enable-blackduck-scan": false,
             "internal-repo-name":"hive",
