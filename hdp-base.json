@@ -1,29 +1,51 @@
 {
-    "apache":{
+    "apache": {
         "HDP": {
+            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "enable-blackduck-scan": false,
             "repo-url": "git@github.com:hortonworks/hdp.git"
         },
-        "accumulo":{
-            "branch":"branch-1.7.0",
-            "enable-sync": false,
-            "enable-merge": false,
-            "depends-on":[
+        "accumulo": {
+            "branch": "branch-1.7.0",
+            "depends-on": [
                 "hadoop",
                 "zookeeper"
             ],
-            "no-partner":[
+            "enable-merge": false,
+            "enable-sync": false,
+            "no-partner": [
                 "monarch",
                 "ulysses"
             ],
-            "repo-url":"git@github.com:apache/accumulo.git",
-            "version":"1.7.0"
+            "repo-url": "git@github.com:apache/accumulo.git",
+            "version": "1.7.0"
         },
-        "atlas":{
-            "branch":"master",
-            "depends-on":[
+        "arrow": {
+            "branch": "apache-arrow-0.8.0",
+            "depends-on": [
+                "hadoop"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": false,
+            "no-partner": [
+                "ulysses",
+                "essex",
+                "longwing",
+                "monarch",
+                "peacock",
+                "sasakia",
+                "tigereye",
+                "baronia"
+            ],
+            "repo-url": "git@github.com:apache/arrow.git",
+            "version": "0.8.0"
+        },
+        "atlas": {
+            "branch": "master",
+            "depends-on": [
                 "hadoop",
                 "hbase",
                 "calcite",
@@ -33,10 +55,8 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "repo-url":"git@github.com:apache/atlas.git",
-            "internal-repo-name":"atlas",
-            "version":"1.0.0",
-            "no-partner":[
+            "internal-repo-name": "atlas",
+            "no-partner": [
                 "ulysses",
                 "essex",
                 "longwing",
@@ -45,85 +65,67 @@
                 "sasakia",
                 "tigereye",
                 "baronia"
-            ]
-        },
-        "avatica":{
-            "branch":"branch-release",
-            "depends-on":null,
-            "enable-merge":false,
-            "enable-sync": true,
-            "enable-build": true,
-            "enable-blackduck-scan": false,
-            "internal-repo-name":"calcite_avatica",
-            "maven-group-id": "org/apache/calcite",
-            "repo-url":"git@github.com:apache/calcite-avatica.git",
-            "version":"1.10.0",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
-        "arrow":{
-            "branch":"apache-arrow-0.8.0",
-            "enable-merge":false,
-            "enable-sync": false,
-            "enable-build": true,
-            "enable-blackduck-scan": false,
-            "repo-url":"git@github.com:apache/arrow.git",
-            "version":"0.8.0",
-            "depends-on":[
-                "hadoop"
             ],
-            "no-partner":[
-                "ulysses",
-                "essex",
-                "longwing",
-                "monarch",
-                "peacock",
-                "sasakia",
-                "tigereye",
-                "baronia"
-            ]
+            "repo-url": "git@github.com:apache/atlas.git",
+            "version": "1.0.0"
+        },
+        "avatica": {
+            "branch": "branch-release",
+            "depends-on": null,
+            "enable-blackduck-scan": false,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "calcite_avatica",
+            "maven-group-id": "org/apache/calcite",
+            "no-partner": [
+                "ulysses"
+            ],
+            "repo-url": "git@github.com:apache/calcite-avatica.git",
+            "version": "1.10.0"
         },
         "bigtop-jsvc": {
-            "version": "1.0.10",
-            "enable-sync": false,
-            "enable-merge": false,
             "enable-blackduck-scan": false,
-            "repo-url":"git@github.com:apache/accumulo.git"
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:apache/accumulo.git",
+            "version": "1.0.10"
         },
-        "bigtop-new":{
+        "bigtop-new": {
+            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "enable-blackduck-scan": false,
             "repo-url": "git@github.com:hortonworks/bigtop-new.git"
         },
         "bigtop-tomcat": {
-            "version": "6.0.44",
-            "enable-sync": false,
-            "enable-merge": false,
             "enable-blackduck-scan": false,
-            "repo-url":"git@github.com:apache/accumulo.git"
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:apache/accumulo.git",
+            "version": "6.0.44"
         },
-        "build-support":{
+        "build-support": {
+            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "enable-blackduck-scan": false,
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
-        "calcite":{
-            "branch":"branch-1.16",
-            "enable-merge":false,
-            "enable-sync": true,
-            "enable-build": true,
+        "calcite": {
+            "branch": "branch-1.16",
+            "depends-on": [
+                "avatica"
+            ],
             "enable-blackduck-scan": false,
-            "internal-repo-name":"calcite",
-            "depends-on":["avatica"],
-            "repo-url":"git@github.com:apache/calcite.git",
-            "version":"1.16.0",
-            "no-partner":[
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "calcite",
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/calcite.git",
+            "version": "1.16.0"
         },
         "datafu": {
             "branch": "1.3.0",
@@ -140,20 +142,18 @@
             "repo-url": "git@github.com:apache/incubator-datafu.git",
             "version": "1.3.0"
         },
-        "druid":{
-            "branch":"0.12.1",
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name":"druid",
-            "maven-group-id": "io/druid",
-            "repo-url": "git@github.com:druid-io/druid.git",
-            "version":"0.12.1",
-            "depends-on":[
+        "druid": {
+            "branch": "0.12.1",
+            "depends-on": [
                 "hadoop",
                 "zookeeper",
                 "kafka"
             ],
-            "no-partner":[
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "druid",
+            "maven-group-id": "io/druid",
+            "no-partner": [
                 "ulysses",
                 "longwing",
                 "monarch",
@@ -162,74 +162,75 @@
                 "sasakia",
                 "essex",
                 "baronia"
-            ]
+            ],
+            "repo-url": "git@github.com:druid-io/druid.git",
+            "version": "0.12.1"
         },
         "gcs": {
             "branch": "master",
+            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "enable-blackduck-scan": false,
             "maven-group-id": "com/google",
             "repo-url": "git@github.com:GoogleCloudPlatform/bigdata-interop.git",
             "version": "1.9.0"
         },
-        "hadoop":{
-            "branch":"branch-3.1",
-            "depends-on":[
+        "hadoop": {
+            "branch": "branch-3.1",
+            "depends-on": [
                 "zookeeper",
                 "gcs",
                 "isa_l"
             ],
+            "enable-build": true,
             "enable-merge": false,
             "enable-sync": true,
-            "enable-build": true,
-            "repo-url":"git@github.com:apache/hadoop.git",
-            "version":"3.1.0"
+            "repo-url": "git@github.com:apache/hadoop.git",
+            "version": "3.1.0"
         },
-        "hadooplzo":{
-            "enable-merge": false,
-            "enable-sync": false,
-            "enable-build": true,
-            "enable-blackduck-scan": false,
-            "internal-branch": "master",
-            "branch":"master",
-            "depends-on":[
+        "hadooplzo": {
+            "branch": "master",
+            "depends-on": [
                 "hadoop"
             ],
-            "version":"0.6.0",
-            "internal-repo-name":"hadoop-lzo",
-            "repo-url": "git@github.com:hortonworks/hadoop-lzo.git"
+            "enable-blackduck-scan": false,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-repo-name": "hadoop-lzo",
+            "repo-url": "git@github.com:hortonworks/hadoop-lzo.git",
+            "version": "0.6.0"
         },
-        "hbase":{
-            "branch":"branch-2.0",
-            "depends-on":[
+        "hbase": {
+            "branch": "branch-2.0",
+            "depends-on": [
                 "hadoop",
                 "zookeeper"
             ],
+            "enable-build": true,
             "enable-merge": false,
             "enable-sync": true,
-            "enable-build": true,
-            "repo-url":"git@github.com:apache/hbase.git",
-            "version":"2.0.0",
-            "no-partner":[
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/hbase.git",
+            "version": "2.0.0"
         },
         "hdp_select": {
-            "version": "0.0.0",
-            "enable-sync": false,
-            "enable-merge": false,
             "enable-blackduck-scan": false,
-            "repo-url":"git@github.com:apache/bigtop-new.git",
+            "enable-merge": false,
+            "enable-sync": false,
             "platforms": [
                 "debian9",
                 "ubuntu12",
                 "ubuntu16"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/bigtop-new.git",
+            "version": "0.0.0"
         },
-        "hive":{
-            "branch":"branch-3",
-            "depends-on":[
+        "hive": {
+            "branch": "branch-3",
+            "depends-on": [
                 "hadoop",
                 "zookeeper",
                 "hbase",
@@ -242,21 +243,45 @@
                 "arrow",
                 "parquet"
             ],
-            "enable-merge":false,
+            "enable-merge": false,
             "enable-sync": true,
-            "repo-url":"git@github.com:apache/hive.git",
-            "version":"3.1.0",
-            "no-partner":[
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/hive.git",
+            "version": "3.1.0"
+        },
+        "hive_warehouse_connector": {
+            "branch": "branch-2.3",
+            "depends-on": [
+                "hadoop",
+                "zookeeper",
+                "hive",
+                "spark2",
+                "tez"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "hive-warehouse-connector",
+            "maven-group-id": "com/hortonworks/hive",
+            "no-partner": [
+                "ulysses",
+                "essex",
+                "longwing",
+                "monarch",
+                "peacock",
+                "sasakia",
+                "tigereye",
+                "baronia"
+            ],
+            "repo-url": "git@github.com:hortonworks/hive-warehouse-connector.git",
+            "version": "1.0.0"
         },
         "isa_l": {
             "branch": "master",
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "master",
-            "repo-url": "git@github.com:01org/isa-l.git",
-            "version": "2.0.22",
             "platforms": [
                 "centos7",
                 "debian9",
@@ -265,22 +290,38 @@
                 "ubuntu16",
                 "amazonlinux2",
                 "snapshot"
-            ]
+            ],
+            "repo-url": "git@github.com:01org/isa-l.git",
+            "version": "2.0.22"
         },
-        "kafka":{
-            "branch":"1.0",
-            "depends-on":[
+        "kafka": {
+            "branch": "1.0",
+            "depends-on": [
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge":false,
+            "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "hdp-hdf-common",
-            "repo-url":"git@github.com:apache/kafka.git",
-            "version":"1.0.1",
-            "no-partner":[
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/kafka.git",
+            "version": "1.0.1"
+        },
+        "kite": {
+            "branch": "atlantic",
+            "depends-on": [
+                "hive"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-merge": false,
+            "enable-sync": false,
+            "maven-group-id": "org/kitesdk",
+            "no-partner": [
+                "ulysses"
+            ],
+            "repo-url": "git@github.com:apache/kite.git",
+            "version": "1.0.0"
         },
         "knox": {
             "branch": "master",
@@ -293,39 +334,23 @@
             "no-partner": [
                 "ulysses"
             ],
-            "internal-branch": "atlantic",
             "repo-url": "git@github.com:apache/knox.git",
             "version": "1.0.0"
         },
-        "kite": {
-            "branch": "atlantic",
-            "enable-merge": false,
-            "enable-sync": false,
-            "enable-blackduck-scan": false,
-            "maven-group-id": "org/kitesdk",
+        "livy": {
+            "branch": "branch-0.5",
             "depends-on": [
-                "hive"
+                "spark2"
             ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "livy",
+            "maven-group-id": "org/apache/livy",
             "no-partner": [
                 "ulysses"
             ],
-            "repo-url": "git@github.com:apache/kite.git",
-            "version": "1.0.0"
-        },
-        "livy": {
-          "branch": "branch-0.5",
-          "depends-on": [
-                "spark2"
-          ],
-          "enable-merge": false,
-          "enable-sync": true,
-          "internal-repo-name": "livy",
-          "maven-group-id": "org/apache/livy",
-          "no-partner": [
-                "ulysses"
-          ],
-          "repo-url": "git@github.com:apache/incubator-livy.git",
-          "version": "0.5.0"
+            "repo-url": "git@github.com:apache/incubator-livy.git",
+            "version": "0.5.0"
         },
         "oozie": {
             "branch": "branch-4.3",
@@ -347,26 +372,51 @@
             "repo-url": "git@github.com:apache/oozie.git",
             "version": "4.3.1"
         },
-        "orc":{
-            "branch":"branch-1.5",
-            "depends-on":[
+        "orc": {
+            "branch": "branch-1.5",
+            "depends-on": [
                 "zookeeper",
                 "hadoop",
                 "storage_api"
             ],
-            "enable-merge":false,
-            "enable-sync": true,
             "enable-blackduck-scan": false,
+            "enable-merge": false,
+            "enable-sync": true,
             "maven-group-id": "org/apache/orc",
-            "repo-url":"git@github.com:apache/orc.git",
-            "version":"1.5.1",
-            "no-partner":[
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/orc.git",
+            "version": "1.5.1"
         },
-        "phoenix":{
-            "branch":"5.x-HBase-2.0",
-            "depends-on":[
+        "parquet": {
+            "branch": "apache-parquet-1.10.0",
+            "depends-on": [
+                "hadoop"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-repo-name": "parquet-mr",
+            "no-partner": [
+                "ulysses"
+            ],
+            "platforms": [
+                "centos7",
+                "centos7-ppc",
+                "debian9",
+                "sles12",
+                "ubuntu16",
+                "amazonlinux2",
+                "snapshot"
+            ],
+            "repo-url": "git@github.com/hortonworks/parquet-mr.git",
+            "version": "1.10.0"
+        },
+        "phoenix": {
+            "branch": "5.x-HBase-2.0",
+            "depends-on": [
                 "avatica",
                 "hadoop",
                 "hbase",
@@ -377,11 +427,11 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "repo-url":"git@github.com:apache/phoenix.git",
-            "version":"5.0.0",
-            "no-partner":[
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/phoenix.git",
+            "version": "5.0.0"
         },
         "pig": {
             "branch": "branch-0.16",
@@ -401,75 +451,50 @@
             ],
             "repo-url": "git@github.com:apache/pig.git",
             "version": "0.16.0"
-       },
-	"pydruid":{
+        },
+        "pydruid": {
             "branch": "0.4",
             "depends-on": null,
+            "enable-blackduck-scan": false,
+            "enable-build": true,
             "enable-merge": false,
             "enable-sync": false,
-            "enable-build": true,
-            "enable-blackduck-scan": false,
+            "no-partner": [
+                "ulysses"
+            ],
             "repo-url": "git@github.com/druid-io/pydruid",
-            "version": "0.4.2",
-            "no-partner": [
-                "ulysses"
-            ]
+            "version": "0.4.2"
         },
-        "parquet":{
-            "branch": "apache-parquet-1.10.0",
+        "qe-examples": {
+            "branch": "master",
             "depends-on": [
-                "hadoop"
+                "hadoop",
+                "hbase",
+                "zookeeper",
+                "kafka",
+                "calcite",
+                "spark2"
             ],
+            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "enable-build": true,
-            "enable-blackduck-scan": false,
-            "internal-repo-name":"parquet-mr",
-            "repo-url": "git@github.com/hortonworks/parquet-mr.git",
-            "version": "1.10.0",
+            "maven-group-id": "com/hortonworks/qe-examples/spark2-examples-assembly",
             "no-partner": [
-                "ulysses"
+                "longwing",
+                "monarch",
+                "peacock",
+                "tigereye",
+                "sasakia",
+                "ulysses",
+                "essex",
+                "baronia"
             ],
-            "platforms": [
-                "centos7",
-                "centos7-ppc",
-                "debian9",
-                "sles12",
-                "ubuntu16",
-                "amazonlinux2",
-                "snapshot"
-            ]
+            "repo-url": "git@github.com:hortonworks/qe-examples.git",
+            "version": "0.1.0"
         },
-       "qe-examples": {
-          "branch": "master",
-          "depends-on": [
-              "hadoop",
-              "hbase",
-              "zookeeper",
-              "kafka",
-              "calcite",
-              "spark2"
-          ],
-          "enable-merge": false,
-          "enable-sync": false,
-          "enable-blackduck-scan": false,
-          "maven-group-id": "com/hortonworks/qe-examples/spark2-examples-assembly",
-          "no-partner": [
-              "longwing",
-              "monarch",
-              "peacock",
-              "tigereye",
-              "sasakia",
-              "ulysses",
-              "essex",
-              "baronia"
-              ],
-          "repo-url": "git@github.com:hortonworks/qe-examples.git",
-          "version": "0.1.0"
-        },
-        "ranger":{
-            "branch":"ranger-1.1",
-            "depends-on":[
+        "ranger": {
+            "branch": "ranger-1.1",
+            "depends-on": [
                 "atlas",
                 "hadoop",
                 "hbase",
@@ -481,12 +506,12 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "internal-repo-name":"ranger",
-            "repo-url":"git@github.com:apache/ranger.git",
-            "version":"1.1.0",
-            "no-partner":[
+            "internal-repo-name": "ranger",
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/ranger.git",
+            "version": "1.1.0"
         },
         "shc": {
             "branch": "branch-2.3_HBase2",
@@ -511,6 +536,28 @@
             "repo-url": "git@github.com:hortonworks-spark/shc.git",
             "version": "1.1.0"
         },
+        "spark2": {
+            "branch": "branch-2.3",
+            "depends-on": [
+                "hadoop",
+                "hbase",
+                "spark_hive2",
+                "zookeeper",
+                "kafka",
+                "arrow"
+            ],
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-merge": "hdp-master",
+            "internal-repo-name": "spark2",
+            "maven-group-id": "org/apache/spark",
+            "no-partner": [
+                "ulysses"
+            ],
+            "repo-url": "git@github.com:apache/spark2.git",
+            "version": "2.3.1"
+        },
         "spark_hive2": {
             "branch": "release-1.2.1-spark2",
             "depends-on": [
@@ -520,10 +567,9 @@
                 "zookeeper",
                 "accumulo"
             ],
+            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": true,
-            "enable-blackduck-scan": false,
-            "internal-branch": "release-1.2.1-spark2-atlantic",
             "internal-repo-name": "spark_hive2",
             "maven-group-id": "org/spark-project/hive",
             "no-partner": [
@@ -539,46 +585,36 @@
             "repo-url": "git@github.com:hortonworks/spark_hive2.git",
             "version": "1.21.2"
         },
-        "hive_warehouse_connector": {
-            "branch": "branch-2.3",
+        "sqoop": {
+            "branch": "branch-1.4.7",
             "depends-on": [
                 "hadoop",
-                "zookeeper",
+                "hbase",
+                "kite",
                 "hive",
-                "spark2",
-                "tez"
+                "orc",
+                "accumulo",
+                "zookeeper"
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "enable-blackduck-scan": false,
-            "internal-repo-name": "hive-warehouse-connector",
-            "maven-group-id": "com/hortonworks/hive",
             "no-partner": [
-                "ulysses",
-                "essex",
-                "longwing",
-                "monarch",
-                "peacock",
-                "sasakia",
-                "tigereye",
-                "baronia"
+                "ulysses"
             ],
-            "repo-url": "git@github.com:hortonworks/hive-warehouse-connector.git",
-            "version": "1.0.0"
+            "repo-url": "git@github.com:apache/sqoop.git",
+            "version": "1.4.7"
         },
-        "storage_api":{
-            "branch":"master",
-            "depends-on":[
+        "storage_api": {
+            "branch": "master",
+            "depends-on": [
                 "hadoop"
             ],
+            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": true,
-            "enable-blackduck-scan": false,
-            "internal-repo-name":"hive",
+            "internal-repo-name": "hive",
             "maven-group-id": "org/apache/hive",
-            "repo-url":"git@github.com:apache/hive.git",
-            "version":"2.3.0",
-            "no-partner":[
+            "no-partner": [
                 "ulysses",
                 "longwing",
                 "monarch",
@@ -587,7 +623,9 @@
                 "sasakia",
                 "essex",
                 "baronia"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/hive.git",
+            "version": "2.3.0"
         },
         "storm": {
             "branch": "master",
@@ -607,36 +645,14 @@
             "repo-url": "git@github.com:apache/storm.git",
             "version": "1.2.1"
         },
-        "spark2":{
-            "branch":"branch-2.3",
-            "depends-on":[
-                "hadoop",
-                "hbase",
-                "spark_hive2",
-                "zookeeper",
-                "kafka",
-                "arrow"
-            ],
-            "enable-sync": true,
-            "enable-merge":false,
-            "enable-build": true,
-            "internal-merge": "hdp-master",
-            "internal-repo-name": "spark2",
-            "maven-group-id": "org/apache/spark",
-            "repo-url":"git@github.com:apache/spark2.git",
-            "version":"2.3.1",
-            "no-partner":[
-                "ulysses"
-            ]
-        },
         "superset": {
             "branch": "0.23",
-            "depends-on":[
-		"pydruid"
-	     ],
+            "depends-on": [
+                "pydruid"
+            ],
             "enable-build": true,
-            "enable-sync": true,
             "enable-merge": false,
+            "enable-sync": true,
             "internal-repo-name": "superset",
             "no-partner": [
                 "ulysses",
@@ -660,84 +676,65 @@
             "repo-url": "git@github.com:apache/incubator-superset.git",
             "version": "0.23.3"
         },
-        "sqoop": {
-            "branch": "branch-1.4.7",
+        "tez": {
+            "branch": "master",
             "depends-on": [
                 "hadoop",
-                "hbase",
-                "kite",
-                "hive",
-                "orc",
-                "accumulo",
+                "gcs",
                 "zookeeper"
             ],
+            "enable-build": true,
             "enable-merge": false,
             "enable-sync": true,
             "no-partner": [
                 "ulysses"
             ],
-            "repo-url": "git@github.com:apache/sqoop.git",
-            "version": "1.4.7"
-        },
-        "tez":{
-            "branch":"master",
-            "depends-on":[
-                "hadoop",
-                "gcs",
-                "zookeeper"
-            ],
-            "enable-merge":false,
-            "enable-sync": true,
-            "enable-build": true,
-            "repo-url":"git@github.com:apache/tez.git",
-            "version":"0.9.1",
-            "no-partner":[
-                "ulysses"
-            ]
+            "repo-url": "git@github.com:apache/tez.git",
+            "version": "0.9.1"
         },
         "zeppelin": {
-          "branch": "branch-0.7",
-          "depends-on": [
-              "hadoop",
-              "gcs",
-              "hbase",
-              "spark2",
-              "zookeeper",
-              "hive",
-              "phoenix"
-          ],
-          "enable-build": true,
-          "enable-merge": false,
-          "enable-sync": true,
-          "internal-repo-name": "zeppelin",
-          "no-partner": [
-              "longwing",
-              "monarch",
-              "peacock",
-              "tigereye",
-              "sasakia",
-              "ulysses",
-              "essex",
-              "baronia"
-          ],
-          "repo-url": "git@github.com:apache/zeppelin.git",
-          "version": "0.8.0"
-        },
-        "zookeeper":{
-            "branch":"branch-3.4",
-            "depends-on":null,
-            "enable-merge":false,
-            "enable-sync": false,
+            "branch": "branch-0.7",
+            "depends-on": [
+                "hadoop",
+                "gcs",
+                "hbase",
+                "spark2",
+                "zookeeper",
+                "hive",
+                "phoenix"
+            ],
             "enable-build": true,
-            "repo-url":"git@github.com:apache/zookeeper.git",
-            "version":"3.4.6",
-            "no-partner":[
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "zeppelin",
+            "no-partner": [
+                "longwing",
+                "monarch",
+                "peacock",
+                "tigereye",
+                "sasakia",
+                "ulysses",
+                "essex",
+                "baronia"
+            ],
+            "repo-url": "git@github.com:apache/zeppelin.git",
+            "version": "0.8.0"
+        },
+        "zookeeper": {
+            "branch": "branch-3.4",
+            "depends-on": null,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": false,
+            "no-partner": [
                 "ulysses"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/zookeeper.git",
+            "version": "3.4.6"
         }
     },
-    "co-dev":{
-        "ro-partners":[
+    "co-dev": {
+        "ro-partners": [
             "ulysses",
             "longwing",
             "monarch",
@@ -749,8 +746,6 @@
         ]
     },
     "hwx": {
-        "stack-version": "3.0.0.0",
-        "poll-frequency": "240",
         "platforms": [
             "centos7",
             "centos7-ppc",
@@ -760,17 +755,19 @@
             "ubuntu16",
             "amazonlinux2",
             "snapshot"
-        ]
+        ],
+        "poll-frequency": "240",
+        "stack-version": "3.0.1.0"
     },
-    "remotes":{
-        "essex":"git@github.com:hortonworks/%s-essex.git",
-        "baronia":"git@github.com:hortonworks/%s-baronia.git",
-        "hwx":"git@github.com:hortonworks/%s.git",
-        "longwing":"git@github.com:hortonworks/%s-longwing.git",
-        "monarch":"git@github.com:hortonworks/%s-monarch.git",
-        "peacock":"git@github.com:hortonworks/%s-peacock.git",
-        "tigereye":"git@github.com:hortonworks/%s-tigereye.git",
-        "sasakia":"git@github.com:hortonworks/%s-sasakia.git",
-        "ulysses":"git@github.com:hortonworks/%s-ulysses.git"
+    "remotes": {
+        "baronia": "git@github.com:hortonworks/%s-baronia.git",
+        "essex": "git@github.com:hortonworks/%s-essex.git",
+        "hwx": "git@github.com:hortonworks/%s.git",
+        "longwing": "git@github.com:hortonworks/%s-longwing.git",
+        "monarch": "git@github.com:hortonworks/%s-monarch.git",
+        "peacock": "git@github.com:hortonworks/%s-peacock.git",
+        "sasakia": "git@github.com:hortonworks/%s-sasakia.git",
+        "tigereye": "git@github.com:hortonworks/%s-tigereye.git",
+        "ulysses": "git@github.com:hortonworks/%s-ulysses.git"
     }
 }
