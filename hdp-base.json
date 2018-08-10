@@ -186,7 +186,7 @@
             "enable-merge": true,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/hadoop.git",
-            "version": "3.1.0"
+            "version": "3.1.1"
         },
         "hadooplzo": {
             "branch": "master",
