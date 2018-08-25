@@ -244,7 +244,7 @@
                 "parquet"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "no-partner": [
                 "ulysses"
             ],
