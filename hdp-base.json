@@ -249,7 +249,7 @@
                 "ulysses"
             ],
             "repo-url": "git@github.com:apache/hive.git",
-            "internal-branch": "610d9cf3e32e2e24c8bda39f90eed7438fdd309a",
+            "internal-branch": "0adf8d7356dd3c294e0d2960b025ab88041fc056",
             "version": "3.1.0"
         },
         "hive_warehouse_connector": {
