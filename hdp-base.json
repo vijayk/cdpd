@@ -626,6 +626,7 @@
                 "baronia"
             ],
             "repo-url": "git@github.com:apache/hive.git",
+            "internal-branch": "0adf8d7356dd3c294e0d2960b025ab88041fc056",
             "version": "2.3.0"
         },
         "storm": {
