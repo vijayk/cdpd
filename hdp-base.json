@@ -249,6 +249,7 @@
                 "ulysses"
             ],
             "repo-url": "git@github.com:apache/hive.git",
+            "internal-branch": "HDP-3.0-maint",
             "version": "3.1.0"
         },
         "hive_warehouse_connector": {
@@ -625,6 +626,7 @@
                 "baronia"
             ],
             "repo-url": "git@github.com:apache/hive.git",
+            "internal-branch": "HDP-3.0-maint",
             "version": "2.3.0"
         },
         "storm": {
