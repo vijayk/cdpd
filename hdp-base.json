@@ -652,7 +652,7 @@
             "depends-on": [
                 "pydruid"
             ],
-            "enable-build": true,
+            "enable-build": false,
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "superset",
