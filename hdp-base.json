@@ -759,7 +759,7 @@
             "snapshot"
         ],
         "poll-frequency": "240",
-        "stack-version": "3.0.2.0"
+        "stack-version": "3.0.3.0"
     },
     "remotes": {
         "baronia": "git@github.com:hortonworks/%s-baronia.git",
