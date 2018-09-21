@@ -537,28 +537,6 @@
             "repo-url": "git@github.com:hortonworks-spark/shc.git",
             "version": "1.1.0"
         },
-        "spark_schema_registry": {
-            "branch": "master",
-            "depends-on": [
-                "spark2"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name": "spark-schema-registry",
-            "maven-group-id": "com/hortonworks/spark-schema-registry",
-            "no-partner": [
-                "ulysses",
-                "essex",
-                "longwing",
-                "monarch",
-                "peacock",
-                "sasakia",
-                "tigereye",
-                "baronia"
-            ],
-            "repo-url": "git@github.com:hortonworks-spark/spark-schema-registry.git",
-            "version": "1.1.0"
-        },
         "spark2": {
             "branch": "branch-2.3",
             "depends-on": [
