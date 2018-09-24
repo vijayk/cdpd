@@ -579,7 +579,7 @@
                 "ulysses"
             ],
             "repo-url": "git@github.com:apache/spark2.git",
-            "version": "2.3.1"
+            "version": "2.3.2"
         },
         "spark_hive2": {
             "branch": "release-1.2.1-spark2",
