@@ -249,7 +249,6 @@
                 "ulysses"
             ],
             "repo-url": "git@github.com:apache/hive.git",
-            "internal-branch": "HDP-3.0-maint",
             "version": "3.1.0"
         },
         "hive_warehouse_connector": {
@@ -537,28 +536,6 @@
             "repo-url": "git@github.com:hortonworks-spark/shc.git",
             "version": "1.1.0"
         },
-        "spark_schema_registry": {
-            "branch": "master",
-            "depends-on": [
-                "spark2"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name": "spark-schema-registry",
-            "maven-group-id": "com/hortonworks/spark-schema-registry",
-            "no-partner": [
-                "ulysses",
-                "essex",
-                "longwing",
-                "monarch",
-                "peacock",
-                "sasakia",
-                "tigereye",
-                "baronia"
-            ],
-            "repo-url": "git@github.com:hortonworks-spark/spark-schema-registry.git",
-            "version": "1.1.0"
-        },
         "spark2": {
             "branch": "branch-2.3",
             "depends-on": [
@@ -608,6 +585,28 @@
             "repo-url": "git@github.com:hortonworks/spark_hive2.git",
             "version": "1.21.2"
         },
+        "spark_schema_registry": {
+            "branch": "master",
+            "depends-on": [
+                "spark2"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "spark-schema-registry",
+            "maven-group-id": "com/hortonworks/spark-schema-registry",
+            "no-partner": [
+                "ulysses",
+                "essex",
+                "longwing",
+                "monarch",
+                "peacock",
+                "sasakia",
+                "tigereye",
+                "baronia"
+            ],
+            "repo-url": "git@github.com:hortonworks-spark/spark-schema-registry.git",
+            "version": "1.1.0"
+        },
         "sqoop": {
             "branch": "branch-1.4.7",
             "depends-on": [
@@ -648,7 +647,6 @@
                 "baronia"
             ],
             "repo-url": "git@github.com:apache/hive.git",
-            "internal-branch": "HDP-3.0-maint",
             "version": "2.3.0"
         },
         "storm": {
@@ -781,7 +779,7 @@
             "snapshot"
         ],
         "poll-frequency": "240",
-        "stack-version": "3.0.3.0"
+        "stack-version": "3.0.100.0"
     },
     "remotes": {
         "baronia": "git@github.com:hortonworks/%s-baronia.git",
