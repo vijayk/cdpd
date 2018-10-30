@@ -389,6 +389,30 @@
             "repo-url": "git@github.com:apache/orc.git",
             "version": "1.5.1"
         },
+        "ozone": {
+            "branch": "trunk",
+            "depends-on": [
+                "hadoop",
+                "zookeeper"
+            ],
+            "enable-build": true,
+            "enable-merge": true,
+            "enable-sync": true,
+            "maven-group-id": "org/apache/hadoop",
+            "internal-repo-name": "ozone",
+            "repo-url": "git@github.com:apache/hadoop.git",
+            "version": "0.4.0",
+            "platforms": [
+                "centos7",
+                "debian9",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16",
+                "ubuntu18",
+                "amazonlinux2",
+                "snapshot"
+            ]
+        },
         "parquet": {
             "branch": "apache-parquet-1.10.0",
             "depends-on": [
