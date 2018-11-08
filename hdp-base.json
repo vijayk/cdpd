@@ -147,6 +147,7 @@
             "depends-on": [
                 "hadoop",
                 "zookeeper",
+                "storage_api",
                 "kafka"
             ],
             "enable-merge": false,
