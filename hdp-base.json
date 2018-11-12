@@ -242,7 +242,8 @@
                 "storage_api",
                 "accumulo",
                 "arrow",
-                "parquet"
+                "parquet",
+                "kafka"
             ],
             "enable-merge": false,
             "enable-sync": false,
