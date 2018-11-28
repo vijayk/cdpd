@@ -584,6 +584,30 @@
             "repo-url": "git@github.com:apache/spark2.git",
             "version": "2.3.2"
         },
+        "spark_atlas_connector": {
+            "branch": "atlas-1.1",
+            "depends-on": [
+                "spark2",
+                "atlas",
+                "kafka"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "spark-atlas-connector",
+            "maven-group-id": "com/hortonworks/spark",
+            "no-partner": [
+                "ulysses",
+                "essex",
+                "longwing",
+                "monarch",
+                "peacock",
+                "sasakia",
+                "tigereye",
+                "baronia"
+            ],
+            "repo-url": "git@github.com:hortonworks-spark/spark-atlas-connector.git",
+            "version": "0.1.0"
+        },
         "spark_hive2": {
             "branch": "release-1.2.1-spark2",
             "depends-on": [
