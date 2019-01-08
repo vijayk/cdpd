@@ -394,6 +394,7 @@
         "ozone": {
             "branch": "trunk",
             "depends-on": [
+                "ratis",
                 "hadoop",
                 "zookeeper"
             ],
@@ -538,6 +539,28 @@
             ],
             "repo-url": "git@github.com:apache/ranger.git",
             "version": "1.2.0"
+        },
+        "ratis": {
+            "branch": "master",
+            "depends-on": null,
+            "enable-merge": true,
+            "enable-sync": true,
+            "internal-repo-name": "ratis",
+            "no-partner": [
+                "ulysses"
+            ],
+            "repo-url": "git@github.com:apache/incubator-ratis.git",
+            "version": "0.4.0",
+            "platforms": [
+                "centos7",
+                "debian9",
+                "sles12",
+                "ubuntu12",
+                "ubuntu16",
+                "ubuntu18",
+                "amazonlinux2",
+                "snapshot"
+            ]
         },
         "shc": {
             "branch": "branch-2.3_HBase2",
