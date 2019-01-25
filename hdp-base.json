@@ -401,10 +401,8 @@
             "enable-build": true,
             "enable-merge": true,
             "enable-sync": true,
-            "maven-group-id": "org/apache/hadoop",
             "internal-repo-name": "ozone",
-            "repo-url": "git@github.com:apache/hadoop.git",
-            "version": "0.4.0",
+            "maven-group-id": "org/apache/hadoop",
             "platforms": [
                 "centos7",
                 "debian9",
@@ -414,7 +412,9 @@
                 "ubuntu18",
                 "amazonlinux2",
                 "snapshot"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/hadoop.git",
+            "version": "0.4.0"
         },
         "parquet": {
             "branch": "apache-parquet-1.10.0",
@@ -549,8 +549,6 @@
             "no-partner": [
                 "ulysses"
             ],
-            "repo-url": "git@github.com:apache/incubator-ratis.git",
-            "version": "0.4.0",
             "platforms": [
                 "centos7",
                 "debian9",
@@ -560,7 +558,9 @@
                 "ubuntu18",
                 "amazonlinux2",
                 "snapshot"
-            ]
+            ],
+            "repo-url": "git@github.com:apache/incubator-ratis.git",
+            "version": "0.4.0"
         },
         "shc": {
             "branch": "branch-2.3_HBase2",
@@ -852,7 +852,7 @@
             "snapshot"
         ],
         "poll-frequency": "240",
-        "stack-version": "3.0.100.0"
+        "stack-version": "3.0.99.0"
     },
     "remotes": {
         "baronia": "git@github.com:hortonworks/%s-baronia.git",
