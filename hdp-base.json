@@ -843,13 +843,9 @@
     "hwx": {
         "platforms": [
             "centos7",
-            "centos7-ppc",
             "debian9",
             "sles12",
-            "ubuntu12",
-            "ubuntu16",
-            "amazonlinux2",
-            "snapshot"
+            "ubuntu16"
         ],
         "poll-frequency": "240",
         "stack-version": "3.0.99.0"
