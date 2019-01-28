@@ -843,8 +843,6 @@
     "hwx": {
         "platforms": [
             "centos7",
-            "debian9",
-            "sles12",
             "ubuntu16"
         ],
         "poll-frequency": "240",
