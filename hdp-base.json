@@ -259,7 +259,7 @@
                 "hadoop",
                 "zookeeper",
                 "hive",
-                "spark2",
+                "spark",
                 "tez"
             ],
             "enable-blackduck-scan": false,
@@ -342,7 +342,7 @@
         "livy": {
             "branch": "branch-0.5",
             "depends-on": [
-                "spark2"
+                "spark"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -364,7 +364,7 @@
                 "hive",
                 "pig",
                 "sqoop",
-                "spark2"
+                "spark"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -450,7 +450,7 @@
                 "hive",
                 "calcite",
                 "pig",
-                "spark2"
+                "spark"
             ],
             "enable-merge": false,
             "enable-sync": false,
@@ -500,7 +500,7 @@
                 "zookeeper",
                 "kafka",
                 "calcite",
-                "spark2"
+                "spark"
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
@@ -565,7 +565,7 @@
         "shc": {
             "branch": "branch-2.3_HBase2",
             "depends-on": [
-                "spark2",
+                "spark",
                 "hbase",
                 "phoenix"
             ],
@@ -585,7 +585,7 @@
             "repo-url": "git@github.com:hortonworks-spark/shc.git",
             "version": "1.1.0"
         },
-        "spark2": {
+        "spark": {
             "branch": "branch-2.3",
             "depends-on": [
                 "hadoop",
@@ -610,7 +610,7 @@
         "spark_atlas_connector": {
             "branch": "atlas-1.1",
             "depends-on": [
-                "spark2",
+                "spark",
                 "atlas",
                 "kafka"
             ],
@@ -661,7 +661,7 @@
         "spark_schema_registry": {
             "branch": "master",
             "depends-on": [
-                "spark2"
+                "spark"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -793,7 +793,7 @@
                 "hadoop",
                 "gcs",
                 "hbase",
-                "spark2",
+                "spark",
                 "zookeeper",
                 "hive",
                 "phoenix"

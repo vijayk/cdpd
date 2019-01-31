@@ -15,7 +15,7 @@
     "phoenix": [ ],
     "pig": [ "PIG" ],
     "ranger": [ "RANGER", "RANGER_KMS" ],
-    "spark2": [ "SPARK2" ],
+    "spark": [ "SPARK2" ],
     "sqoop": [ "SQOOP" ],
     "storm": [ "STORM" ],
     "tez": [ "TEZ" ],
