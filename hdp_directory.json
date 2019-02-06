@@ -3,6 +3,7 @@
   "components": {
     "accumulo": [ "ACCUMULO" ],
     "atlas": [ "ATLAS" ],
+    "avro": [ "AVRO" ],
     "calcite": [ ],
     "datafu": [ ],
     "druid" : ["DRUID"],
