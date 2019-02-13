@@ -853,8 +853,7 @@
     },
     "hwx": {
         "platforms": [
-            "centos7",
-            "ubuntu16"
+            "centos7"
         ],
         "poll-frequency": "240",
         "stack-version": "3.0.99.0"
