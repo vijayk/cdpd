@@ -84,6 +84,17 @@
             "repo-url": "git@github.com:apache/calcite-avatica.git",
             "version": "1.10.0"
         },
+        "avro": {
+            "branch": "cdh6.1.0",
+            "depends-on": null,
+            "enable-blackduck-scan": false,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": true,
+            "maven-group-id": "org/apache/avro",
+            "repo-url": "git@github.com:cloudera/avro.git",
+            "version": "1.8.2"
+        },
         "bigtop-jsvc": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
