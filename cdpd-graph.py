@@ -8,7 +8,7 @@ import json
 import argparse
 
 parser = argparse.ArgumentParser( description='Process JUnit file/tree' )
-parser.add_argument( '--file', '-f',  dest='infile', type=str, default="hdp-base.json" )
+parser.add_argument( '--file', '-f',  dest='infile', type=str, default="cdpd-base.json" )
 parser.add_argument( '--top-level', '-t',  dest='toplevel', type=str, default=None) 
 args = parser.parse_args( )
 

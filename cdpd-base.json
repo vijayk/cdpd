@@ -1,10 +1,10 @@
 {
     "apache": {
-        "HDP": {
+        "cdpd": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "repo-url": "git@github.com:hortonworks/hdp.git"
+            "repo-url": "git@github.infra.cloudera.com:CDH/cdpd.git"
         },
         "accumulo": {
             "branch": "branch-1.7.0",
