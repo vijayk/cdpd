@@ -3,7 +3,7 @@
         "cdpd": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "cldr_infra_git": true,
+            "cldr-infra-git": true,
             "enable-sync": false,
             "repo-url": "git@github.infra.cloudera.com:CDH/cdpd.git"
         },
@@ -880,7 +880,7 @@
             "centos7"
         ],
         "poll-frequency": "240",
-        "stack-version": "3.0.99.0"
+        "stack-version": "6.0.99.0"
     },
     "remotes": {
         "baronia": "git@github.com:hortonworks/%s-baronia.git",
