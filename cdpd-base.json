@@ -408,7 +408,8 @@
                 "ulysses"
             ],
             "repo-url": "git@github.com:apache/oozie.git",
-            "version": "4.3.1"
+            "internal-branch": "cdh6.2.x",
+            "version": "5.1.0"
         },
         "orc": {
             "branch": "branch-1.5",
