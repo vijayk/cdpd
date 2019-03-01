@@ -642,7 +642,7 @@
                 "ulysses"
             ],
             "repo-url": "git@github.com:apache/spark2.git",
-            "version": "2.3.2"
+            "version": "2.4.0"
         },
         "spark_atlas_connector": {
             "branch": "atlas-1.1",
