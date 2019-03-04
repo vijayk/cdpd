@@ -127,6 +127,7 @@
             "enable-merge": false,
             "enable-sync": false,
             "poll": false,
+            "internal-branch": "cloudera_migration_rebase",
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
         "calcite": {
