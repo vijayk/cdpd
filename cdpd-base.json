@@ -3,7 +3,6 @@
         "CDPD": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "cldr-infra-git": true,
             "enable-sync": false,
             "repo-url": "git@github.infra.cloudera.com:CDH/CDPD.git"
         },
@@ -368,7 +367,6 @@
                 "spark"
             ],
             "enable-merge": false,
-            "enable-build": false,
             "enable-sync": true,
             "no-partner": [
                 "ulysses"
@@ -888,7 +886,7 @@
     "remotes": {
         "baronia": "git@github.com:hortonworks/%s-baronia.git",
         "essex": "git@github.com:hortonworks/%s-essex.git",
-        "hwx": "git@github.com:hortonworks/%s.git",
+        "hwx": "git@github.infra.cloudera.com:CDH/%s.git",
         "longwing": "git@github.com:hortonworks/%s-longwing.git",
         "monarch": "git@github.com:hortonworks/%s-monarch.git",
         "peacock": "git@github.com:hortonworks/%s-peacock.git",
