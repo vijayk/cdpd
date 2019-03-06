@@ -298,6 +298,23 @@
             "repo-url": "git@github.com:hortonworks/hive-warehouse-connector.git",
             "version": "1.0.0"
         },
+        "impala": {
+            "branch": "cdh6.x",
+            "depends-on": [
+                "avro",
+                "hadoop",
+                "kudu",
+                "hive"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "no-partner": [
+                "ulysses"
+            ],
+            "repo-url": "git@github.com:cloudera/impala.git",
+            "internal-branch": "cdh6.x",
+            "version": "3.2.0"
+        },
         "isa_l": {
             "branch": "master",
             "enable-merge": false,
