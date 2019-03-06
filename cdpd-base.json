@@ -461,7 +461,6 @@
             "enable-build": true,
             "enable-merge": false,
             "enable-sync": false,
-            "internal-repo-name": "parquet-mr",
             "no-partner": [
                 "ulysses"
             ],
