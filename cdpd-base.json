@@ -492,7 +492,7 @@
                 "amazonlinux2",
                 "snapshot"
             ],
-            "repo-url": "git@github.com/hortonworks/parquet-mr.git",
+            "repo-url": "git@github.com/hortonworks/parquet.git",
             "version": "1.10.0"
         },
         "phoenix": {
