@@ -330,6 +330,23 @@
             "repo-url": "git@github.com:01org/isa-l.git",
             "version": "2.0.22"
         },
+        "hue": {
+            "branch": "cdh6.2.0",
+            "enable-merge": false,
+            "enable-sync": true,
+            "no-partner": [
+                "ulysses",
+                "essex",
+                "baronia"
+            ],
+            "platforms": [
+                "centos6",
+                "centos7",
+                "suse11sp3"
+            ],
+            "repo-url": "git@github.infra.cloudera.com:CDH/hue.git",
+            "version": "4.3.0"
+        },
         "kafka": {
             "branch": "2.0.0",
             "depends-on": [
