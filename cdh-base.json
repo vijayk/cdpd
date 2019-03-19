@@ -128,6 +128,23 @@
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
+        "crunch": {
+            "branch": "apache-crunch-0.11",
+            "depends-on": [
+                "avro",
+                "hive",
+                "parquet",
+                "hbase",
+                "spark",
+                "zookeeper"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:apache/crunch.git",
+            "version": "0.11.0"
+        },
         "calcite": {
             "branch": "branch-1.16",
             "depends-on": [
