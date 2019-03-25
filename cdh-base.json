@@ -213,6 +213,7 @@
                 "kite"
             ],
             "enable-merge": false,
+            "internal-repo-name": "flume-ng",
             "enable-sync": false,
             "repo-url": "git@github.com:apache/flume.git",
             "version": "1.9.0"
