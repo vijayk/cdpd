@@ -128,23 +128,6 @@
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
-        "crunch": {
-            "branch": "apache-crunch-0.11",
-            "depends-on": [
-                "avro",
-                "hive",
-                "parquet",
-                "hbase",
-                "spark",
-                "zookeeper"
-            ],
-            "enable-blackduck-scan": false,
-            "enable-build": true,
-            "enable-merge": false,
-            "enable-sync": false,
-            "repo-url": "git@github.com:apache/crunch.git",
-            "version": "0.11.0"
-        },
         "calcite": {
             "branch": "branch-1.16",
             "depends-on": [
@@ -239,19 +222,6 @@
             "enable-sync": true,
             "repo-url": "git@github.com:apache/hadoop.git",
             "version": "3.1.1"
-        },
-        "hadoop-lzo": {
-            "branch": "master",
-            "depends-on": [
-                "hadoop"
-            ],
-            "enable-blackduck-scan": false,
-            "enable-build": true,
-            "enable-merge": false,
-            "enable-sync": false,
-            "internal-repo-name": "hadoop-lzo",
-            "repo-url": "git@github.com:hortonworks/hadoop-lzo.git",
-            "version": "0.6.0"
         },
         "hbase": {
             "branch": "branch-2.0",
@@ -495,31 +465,6 @@
             "repo-url": "git@github.com:apache/orc.git",
             "version": "1.5.1"
         },
-        "ozone": {
-            "branch": "trunk",
-            "depends-on": [
-                "ratis",
-                "hadoop",
-                "zookeeper"
-            ],
-            "enable-build": true,
-            "enable-merge": true,
-            "enable-sync": true,
-            "internal-repo-name": "ozone",
-            "maven-group-id": "org/apache/hadoop",
-            "platforms": [
-                "centos7",
-                "debian9",
-                "sles12",
-                "ubuntu12",
-                "ubuntu16",
-                "ubuntu18",
-                "amazonlinux2",
-                "snapshot"
-            ],
-            "repo-url": "git@github.com:apache/hadoop.git",
-            "version": "0.4.0"
-        },
         "parquet": {
             "branch": "apache-parquet-1.10.0",
             "depends-on": [
@@ -642,28 +587,6 @@
             ],
             "repo-url": "git@github.com:apache/ranger.git",
             "version": "1.2.0"
-        },
-        "ratis": {
-            "branch": "master",
-            "depends-on": null,
-            "enable-merge": true,
-            "enable-sync": true,
-            "internal-repo-name": "ratis",
-            "no-partner": [
-                "ulysses"
-            ],
-            "platforms": [
-                "centos7",
-                "debian9",
-                "sles12",
-                "ubuntu12",
-                "ubuntu16",
-                "ubuntu18",
-                "amazonlinux2",
-                "snapshot"
-            ],
-            "repo-url": "git@github.com:apache/incubator-ratis.git",
-            "version": "0.4.0"
         },
         "shc": {
             "branch": "branch-2.3_HBase2",
@@ -824,55 +747,6 @@
             ],
             "repo-url": "git@github.com:apache/hive.git",
             "version": "2.3.0"
-        },
-        "storm": {
-            "branch": "master",
-            "depends-on": [
-                "zookeeper",
-                "gcs",
-                "hadoop",
-                "hive",
-                "hbase",
-                "kafka"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "no-partner": [
-                "ulysses"
-            ],
-            "repo-url": "git@github.com:apache/storm.git",
-            "version": "1.2.1"
-        },
-        "superset": {
-            "branch": "0.23",
-            "depends-on": [
-                "pydruid"
-            ],
-            "enable-build": true,
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name": "superset",
-            "no-partner": [
-                "ulysses",
-                "longwing",
-                "monarch",
-                "peacock",
-                "tigereye",
-                "sasakia",
-                "essex",
-                "baronia"
-            ],
-            "platforms": [
-                "centos7",
-                "amazonlinux2",
-                "centos7-ppc",
-                "debian9",
-                "sles12",
-                "ubuntu12",
-                "ubuntu16"
-            ],
-            "repo-url": "git@github.com:apache/incubator-superset.git",
-            "version": "0.23.3"
         },
         "tez": {
             "branch": "master",
