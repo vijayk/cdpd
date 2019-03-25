@@ -1,0 +1,93 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>${group_id}</groupId>
+  <artifactId>${artifact_id}</artifactId>
+  <version>${version}</version>
+  <packaging>pom</packaging>
+
+  <name>${distro} root</name>
+  <description>${distro} root</description>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>Cloudera</name>
+    <url>http://www.cloudera.com</url>
+  </organization>
+
+  <properties>
+% if components_dict:
+% for cmp,ver in components_dict.items():
+    <cdh.${cmp}.version>${ver}</cdh.${cmp}.version>
+% endfor
+% endif
+  </properties>
+
+  <scm>
+    <connection>scm:crepo:git@git.sf.cloudera.com:tucu.git</connection>
+    <url>git@git.sf.cloudera.com:tucu.git</url>
+  </scm>
+
+  <distributionManagement>
+% if repo_list:
+% for key in repo_list:
+    <repository>
+      <id>${repo_list[key]['id']}</id>
+      <url>${repo_list[key]['url']}</url>
+      <name>${repo_list[key]['name']}</name>
+    </repository>
+% endfor
+% endif
+  </distributionManagement>
+  <repositories>
+% if repo_list:
+% for key in repo_list:
+    <repository>
+      <id>${repo_list[key]['id']}</id>
+      <url>${repo_list[key]['url']}</url>
+      <name>${repo_list[key]['name']}</name>
+    </repository>
+% endfor
+% endif
+  </repositories>
+
+  <profiles>
+    <profile>
+      <id>prop</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <build>
+        <plugins>
+          <!-- Generate a properties file with the versions used in this build -->
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>properties-maven-plugin</artifactId>
+            <version>1.0.0</version>
+            <inherited>false</inherited>
+            <executions>
+              <execution>
+                <phase>generate-resources</phase>
+                <goals>
+                  <goal>write-project-properties</goal>
+                </goals>
+                <configuration>
+                  <outputFile>
+                    ${artifact_id}.properties
+                  </outputFile>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>
