@@ -34,24 +34,25 @@
     <url>git@git.sf.cloudera.com:tucu.git</url>
   </scm>
 
+% if repo_dict:
+% if 'mvn_repo' in repo_dict.keys():
   <distributionManagement>
-% if repo_list:
-% for key in repo_list:
     <repository>
-      <id>${repo_list[key]['id']}</id>
-      <url>${repo_list[key]['url']}</url>
-      <name>${repo_list[key]['name']}</name>
+      <id>${repo_dict['mvn_repo']['id']}</id>
+      <url>${repo_dict['mvn_repo']['url']}</url>
+      <name>${repo_dict['mvn_repo']['name']}</name>
     </repository>
-% endfor
-% endif
   </distributionManagement>
+% endif
+% endif
+
   <repositories>
-% if repo_list:
-% for key in repo_list:
+% if repo_dict:
+% for key in repo_dict:
     <repository>
-      <id>${repo_list[key]['id']}</id>
-      <url>${repo_list[key]['url']}</url>
-      <name>${repo_list[key]['name']}</name>
+      <id>${repo_dict[key]['id']}</id>
+      <url>${repo_dict[key]['url']}</url>
+      <name>${repo_dict[key]['name']}</name>
     </repository>
 % endfor
 % endif
