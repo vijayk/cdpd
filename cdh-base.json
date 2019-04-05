@@ -294,6 +294,7 @@
                 "accumulo",
                 "arrow",
                 "parquet",
+                "avatica",
                 "kafka"
             ],
             "enable-merge": false,
