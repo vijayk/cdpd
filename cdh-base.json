@@ -119,7 +119,8 @@
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "repo-url": "git@github.com:apache/accumulo.git"
+            "repo-url": "git@github.com:apache/accumulo.git",
+            "version": "0.7.0"
         },
         "build-support": {
             "enable-blackduck-scan": false,
