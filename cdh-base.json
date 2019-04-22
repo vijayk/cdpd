@@ -667,6 +667,20 @@
             "repo-url": "git@github.com:apache/incubator-ratis.git",
             "version": "0.4.0"
         },
+        "search": {
+            "branch": "cdh6.x",
+            "depends-on": [
+                "avro",
+                "kite"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": true,
+            "maven-group-id": "com/cloudera/search",
+            "repo-url": "git@github.infra.cloudera.com:CDH/search.git",
+            "version": "1.0.0"
+        },
         "shc": {
             "branch": "branch-2.3_HBase2",
             "depends-on": [
