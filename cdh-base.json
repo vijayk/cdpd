@@ -507,7 +507,8 @@
             "branch": "cdh6.x",
             "depends-on": [
                 "avro",
-                "kite"
+                "kite",
+                "crunch"
             ],
             "enable-blackduck-scan": false,
             "enable-build": true,
