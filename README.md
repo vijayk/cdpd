@@ -1,3 +1,4 @@
+
 ###If you modify this file, you need to make sure that it's proper by executing the following command.
 
 ```
@@ -40,3 +41,72 @@ platforms | List of platforms applicable to the component | list | Override the 
 poll | Trigger a build if the component changes  | (bool) default: true
 repo_url | Apache Repo URL | string | This is where where we are inheriting the opensource component from.
 version  | Apache version number or expected apache release version | string | 
+
+
+`components.ini`
+
+```[component]  ([accumulo]):
+COMMON_BUILD_OPTS : Values defined to be referenced in the below sections. 
+
+Builds Set the version for every project while building. The default versions in the pom will be replaced with the actual build versions. 
+
+setversion_cmd : Used when a single set version command is needed.
+    ex: 
+      setversion_cmd = ${MVN_CMD} ${MVN_SET_VERSION_CMD} -DnewVersion=${oozie_jar_version}
+
+[[setversion_cmd]] :
+    Used when a list of set version commands needs to be declared.
+    ex:
+      [[setversion_cmd]]
+          cmd_1 = ${MVN_CMD} ${MVN_SET_VERSION_CMD} -DnewVersion=${hive_jar_version}
+          cmd_2 = ${MVN_CMD} ${MVN_SET_VERSION_CMD} -DnewVersion=${hive_jar_version} , storage-api
+          cmd_3 = ${MVN_CMD} ${MVN_SET_VERSION_CMD} -DnewVersion=${hive_jar_version}, standalone-metastore
+          cmd_4 = ${MVN_CMD} ${MVN_SET_VERSION_CMD} -DnewVersion=${hive_jar_version}, upgrade-acid
+    # 'cmd_*' has no real value, just a identifier.
+
+[[artifacts]] :
+    List of artifacts to be archived.
+    ex:
+      [[artifacts]]
+        artifact_1 = build/hue-${hue_jar_version}.tar.gz
+        artifact_2 = desktop/desktop.db
+    
+    # 'artifact_*' has no real value, just a identifier.
+
+
+[[install_cmd]] : 
+    List of build commands in the order of execution.
+    ex:
+      [[install_cmd]]
+        cmd_0 = ${GRADLE4102_CMD}
+        cmd_1 = ./gradlew ${BUILD_KAFKA_SETVERSION_OPTS}
+        cmd_2 = ./gradlew ${BUILD_KAFKA_INSTALL_OPTS}
+        cmd_3 = ./gradlew ${BUILD_KAFKA_DOC_OPTS}
+
+    # 'cmd_*' has no real value, just a identifier.
+
+[[test_cmd]] :
+    List of unittest commands
+
+[[test_coverage_cmd]] :
+    List of test coverage commands
+
+[[fortify_cmd]] :
+    List of fortify commands
+
+[[text-replace]]
+    Construct to replace strings in files, my using either regex_replace or key_value
+    ex: [[text-replace]]
+        REPLACE_1 = 'cdhZookeeperVersion', '"${zookeeper_jar_version}"', gradle/dependencies.gradle , regex_replace
+        REPLACE_2 = "${hive_apache_base_maven_version}", ${hive_jar_version}, pom.xml , key_value
+
+[[xml-replace]]
+    Construct to replace xmltag values.
+    ex: [[xml-replace]]
+            REPLACE_1 = 'hadoop-two.version', ${hadoop_jar_version}, pom.xml
+            REPLACE_2 = 'hadoop.version', ${hadoop_jar_version}, pom.xml
+            REPLACE_3 = 'hbase.version', ${hbase_jar_version}, pom.xml
+
+    # "REPLACE_*" has no real value, just a identifier.
+
+```
