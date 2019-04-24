@@ -336,7 +336,7 @@
             "version": "1.0.0"
         },
         "kudu": {
-            "branch": "cdh6.1.0",
+            "branch": "cdh6.2.0",
             "depends-on": [
                 "avro",
                 "hadoop",
@@ -348,7 +348,7 @@
             "enable-sync": true,
             "node-label": "centos7_large",
             "repo-url": "git@github.com:cloudera/kudu.git",
-            "version": "1.8.0"
+            "version": "1.9.0"
         },
         "livy": {
             "branch": "branch-0.5",
