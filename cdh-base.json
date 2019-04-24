@@ -215,6 +215,7 @@
             ],
             "enable-merge": false,
             "internal-repo-name": "flume-ng",
+            "maven-group-id": "org/apache/flume",
             "enable-sync": false,
             "repo-url": "git@github.com:apache/flume.git",
             "version": "1.9.0"
