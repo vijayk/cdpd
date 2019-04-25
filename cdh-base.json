@@ -206,15 +206,15 @@
             "version": "0.6.0"
         },
         "hbase": {
-            "branch": "branch-2.0",
+            "branch": "branch-2.2",
             "depends-on": [
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/hbase.git",
-            "version": "2.0.0"
+            "version": "2.2.0"
         },
         "hdp_select": {
             "enable-blackduck-scan": false,
