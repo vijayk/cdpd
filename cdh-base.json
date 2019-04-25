@@ -268,16 +268,16 @@
             "version": "1.0.0"
         },
         "impala": {
-            "branch": "cdh6.x",
+            "branch": "master",
             "depends-on": [
                 "avro",
                 "hadoop",
                 "kudu",
                 "hive"
             ],
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
-            "repo-url": "git@github.com:cloudera/impala.git",
+            "repo-url": "git@github.com:apache/impala.git",
             "node-label": "centos7_large",
             "version": "3.2.0"
         },
