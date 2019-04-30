@@ -699,6 +699,7 @@
     },
     "hwx": {
         "platforms": [
+            "snapshot",
             "centos7"
         ],
         "poll-frequency": "240",
