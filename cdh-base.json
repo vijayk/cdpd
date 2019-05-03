@@ -508,7 +508,11 @@
             "depends-on": [
                 "avro",
                 "kite",
-                "crunch"
+                "crunch",
+                "zookeeper",
+                "hadoop",
+                "spark",
+                "parquet"
             ],
             "enable-blackduck-scan": false,
             "enable-build": true,
