@@ -336,19 +336,20 @@
             "version": "1.0.0"
         },
         "kudu": {
-            "branch": "cdh6.2.0",
+            "branch": "master",
             "depends-on": [
                 "avro",
+                "flume-ng",
                 "hadoop",
                 "hive",
                 "parquet",
                 "spark"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "node-label": "centos7_large",
-            "repo-url": "git@github.com:cloudera/kudu.git",
-            "version": "1.9.0"
+            "repo-url": "git@github.infra.cloudera.com:CDH/Kudu.git",
+            "version": "1.10.0"
         },
         "livy": {
             "branch": "branch-0.5",
