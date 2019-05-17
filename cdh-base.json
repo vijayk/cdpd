@@ -708,7 +708,7 @@
             "centos7"
         ],
         "poll-frequency": "240",
-        "stack-version": "6.0.99.0"
+        "stack-version": "7.0.0.0"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
