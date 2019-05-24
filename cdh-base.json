@@ -567,7 +567,7 @@
             "version": "2.4.0"
         },
         "spark_atlas_connector": {
-            "branch": "atlas-1.1",
+            "branch": "branch-2.4",
             "depends-on": [
                 "spark",
                 "atlas",
