@@ -412,12 +412,14 @@
         "parquet": {
             "branch": "apache-parquet-1.10.0",
             "depends-on": [
-                "hadoop"
+                "hadoop",
+                "avro"
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "repo-url": "git@github.com/hortonworks/parquet.git",
+            "maven-group-id": "org/apache/parquet",
+            "repo-url": "git@github.com:apache/parquet.git",
             "version": "1.10.0"
         },
         "phoenix": {
