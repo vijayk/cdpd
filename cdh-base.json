@@ -190,7 +190,7 @@
                 "gcs",
                 "isa_l"
             ],
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/hadoop.git",
             "version": "3.1.1"
