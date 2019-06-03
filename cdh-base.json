@@ -562,7 +562,8 @@
                 "spark_hive2",
                 "zookeeper",
                 "kafka",
-                "arrow"
+                "arrow",
+                "parquet"
             ],
             "enable-merge": false,
             "enable-sync": true,
