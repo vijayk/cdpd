@@ -22,7 +22,7 @@
             "depends-on": [
                 "hadoop"
             ],
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/arrow.git",
@@ -47,7 +47,7 @@
         "avatica": {
             "branch": "branch-release",
             "depends-on": null,
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "calcite_avatica",
@@ -58,7 +58,7 @@
         "avro": {
             "branch": "cdh6.1.0",
             "depends-on": null,
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": true,
             "maven-group-id": "org/apache/avro",
@@ -120,7 +120,7 @@
             "depends-on": [
                 "avatica"
             ],
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "calcite",
@@ -174,7 +174,7 @@
         },
         "gcs": {
             "branch": "v1.9.10",
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": false,
             "maven-group-id": "com/google",
@@ -275,6 +275,7 @@
                 "kudu",
                 "hive"
             ],
+            "enable-blackduck-scan": true,
             "enable-merge": true,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/impala.git",
@@ -317,7 +318,7 @@
             "depends-on": [
                 "hive"
             ],
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": false,
             "maven-group-id": "org/kitesdk",
@@ -388,7 +389,7 @@
                 "hadoop",
                 "storage_api"
             ],
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": true,
             "maven-group-id": "org/apache/orc",
@@ -415,7 +416,7 @@
                 "hadoop",
                 "avro"
             ],
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": false,
             "maven-group-id": "org/apache/parquet",
@@ -506,6 +507,7 @@
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
             "version": "0.4.0"
+            "enable-blackduck-scan": true,
         },
         "search": {
             "branch": "cdh6.x",
@@ -518,7 +520,7 @@
                 "spark",
                 "parquet"
             ],
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-build": true,
             "enable-merge": false,
             "enable-sync": true,
@@ -533,6 +535,7 @@
                 "hbase",
                 "phoenix"
             ],
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": true,
             "maven-group-id": "com/hortonworks/shc",
@@ -546,6 +549,7 @@
                 "avro",
                 "zookeeper"
             ],
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/lucene-solr.git",
@@ -632,7 +636,7 @@
             "depends-on": [
                 "hadoop"
             ],
-            "enable-blackduck-scan": false,
+            "enable-blackduck-scan": true,
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "hive",
