@@ -57,7 +57,9 @@
         },
         "avro": {
             "branch": "cdh6.1.0",
-            "depends-on": null,
+            "depends-on": [
+                "hadoop"
+            ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": true,
