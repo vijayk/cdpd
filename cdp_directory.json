@@ -9,6 +9,7 @@
     "druid" : ["DRUID"],
     "hadoop": [ "HDFS", "YARN", "MAPREDUCE2" ],
     "hbase": [ "HBASE" ],
+    "hbase-connectors": [ "HBASE_CONNECTORS" ],
     "hive": [ "HIVE" ],
     "kafka": [ "KAFKA" ],
     "knox": [ "KNOX" ],
