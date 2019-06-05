@@ -376,7 +376,8 @@
                 "hive",
                 "pig",
                 "sqoop",
-                "spark"
+                "spark",
+                "kite"
             ],
             "enable-merge": false,
             "enable-sync": true,
