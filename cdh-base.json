@@ -377,7 +377,9 @@
                 "pig",
                 "sqoop",
                 "spark",
-                "kite"
+                "kite",
+                "avro",
+                "parquet"
             ],
             "enable-merge": false,
             "enable-sync": true,
