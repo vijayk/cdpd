@@ -218,7 +218,7 @@
             "repo-url": "git@github.com:apache/hbase.git",
             "version": "2.2.0"
         },
-        "hbase-connectors": {
+        "hbase_connectors": {
             "branch": "master",
             "depends-on": [
                 "hbase",
