@@ -218,6 +218,19 @@
             "repo-url": "git@github.com:apache/hbase.git",
             "version": "2.2.0"
         },
+        "hbase_connectors": {
+            "branch": "master",
+            "depends-on": [
+                "hbase",
+                "spark"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "hbase-connectors",
+            "maven-group-id": "org/apache/hbase/connectors",
+            "repo-url": "git@github.com:apache/hbase-connectors.git",
+            "version": "1.0.0"
+        },
         "hdp_select": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
@@ -377,7 +390,9 @@
                 "pig",
                 "sqoop",
                 "spark",
-                "kite"
+                "kite",
+                "avro",
+                "parquet"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -562,7 +577,8 @@
                 "spark_hive2",
                 "zookeeper",
                 "kafka",
-                "arrow"
+                "arrow",
+                "parquet"
             ],
             "enable-merge": false,
             "enable-sync": true,
