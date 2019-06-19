@@ -314,7 +314,7 @@
             ],
             "maven-group-id": "com/cloudera/hue",
             "repo-url": "git@github.infra.cloudera.com:CDH/hue.git",
-            "version": "4.3.0"
+            "version": "4.4.0"
         },
         "kafka": {
             "branch": "2.1.0",
