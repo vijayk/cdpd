@@ -231,6 +231,20 @@
             "repo-url": "git@github.com:apache/hbase-connectors.git",
             "version": "1.0.0"
         },
+        "hbase_filesystem": {
+            "branch": "master",
+            "depends-on": [
+                "hadoop",
+                "zookeeper",
+                "hbase"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "hbase-filesystem",
+            "maven-group-id": "org/apache/hbase/filesystem",
+            "repo-url": "git@github.com:apache/hbase-filesystem.git",
+            "version": "1.0.0-alpha1"
+        },
         "hdp_select": {
             "enable-blackduck-scan": false,
             "enable-merge": false,

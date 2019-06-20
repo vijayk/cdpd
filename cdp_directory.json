@@ -10,6 +10,7 @@
     "hadoop": [ "HDFS", "YARN", "MAPREDUCE2" ],
     "hbase": [ "HBASE" ],
     "hbase_connectors": [ "HBASE_CONNECTORS" ],
+    "hbase_filesystem": [ "HBASE_FILESYSTEM" ],
     "hive": [ "HIVE" ],
     "kafka": [ "KAFKA" ],
     "knox": [ "KNOX" ],
