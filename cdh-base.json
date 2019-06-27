@@ -435,7 +435,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
