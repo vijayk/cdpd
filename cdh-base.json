@@ -243,7 +243,7 @@
             "internal-repo-name": "hbase-filesystem",
             "maven-group-id": "org/apache/hbase/filesystem",
             "repo-url": "git@github.com:apache/hbase-filesystem.git",
-            "version": "1.0.0-alpha1"
+            "version": "1.0.0"
         },
         "hdp_select": {
             "enable-blackduck-scan": false,
