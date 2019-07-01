@@ -448,7 +448,7 @@
             "version": "0.4.0"
         },
         "parquet": {
-            "branch": "apache-parquet-1.10.0",
+            "branch": "apache-parquet-1.11.0-rc6",
             "depends-on": [
                 "hadoop",
                 "avro"
@@ -458,7 +458,7 @@
             "enable-sync": false,
             "maven-group-id": "org/apache/parquet",
             "repo-url": "git@github.com:apache/parquet.git",
-            "version": "1.10.0"
+            "version": "1.10.99"
         },
         "phoenix": {
             "branch": "5.x-HBase-2.0",
