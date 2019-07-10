@@ -295,7 +295,12 @@
             "enable-merge": true,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/impala.git",
-            "node-label": "centos7_large",
+            "node-label": "#OS#_large",
+            "platforms": [
+                "centos6",
+                "centos7",
+                "suse11sp3"
+            ],
             "version": "3.2.0"
         },
         "isa_l": {
@@ -309,7 +314,7 @@
             "branch": "cdh6.2.0",
             "enable-merge": false,
             "enable-sync": true,
-            "node-label": "centos7_large",
+            "node-label": "#OS#_large",
             "platforms": [
                 "centos6",
                 "centos7",
@@ -366,7 +371,7 @@
             "enable-merge": false,
             "enable-sync": false,
             "internal-branch": "cdh6.2.0",
-            "node-label": "centos7_large",
+            "node-label": "#OS#_large",
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
             "version": "1.9.0"
         },
@@ -732,6 +737,7 @@
     "hwx": {
         "platforms": [
             "snapshot",
+            "debian9",
             "centos7"
         ],
         "poll-frequency": "240",
