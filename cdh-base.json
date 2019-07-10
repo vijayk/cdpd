@@ -296,6 +296,11 @@
             "enable-sync": true,
             "repo-url": "git@github.com:apache/impala.git",
             "node-label": "centos7_large",
+            "platforms": [
+                "centos6",
+                "centos7",
+                "suse11sp3"
+            ],
             "version": "3.2.0"
         },
         "isa_l": {
