@@ -737,6 +737,7 @@
     "hwx": {
         "platforms": [
             "snapshot",
+            "debian9",
             "centos7"
         ],
         "poll-frequency": "240",
