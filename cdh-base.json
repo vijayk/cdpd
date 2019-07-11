@@ -245,6 +245,18 @@
             "repo-url": "git@github.com:apache/hbase-filesystem.git",
             "version": "1.0.0"
         },
+        "cdh_select": {
+            "enable-blackduck-scan": false,
+            "enable-merge": false,
+            "enable-sync": false,
+            "platforms": [
+                "debian9",
+                "ubuntu12",
+                "ubuntu16"
+            ],
+            "repo-url": "git@github.com:apache/bigtop-new.git",
+            "version": "0.0.0"
+        },
         "hive": {
             "branch": "branch-3",
             "depends-on": [
