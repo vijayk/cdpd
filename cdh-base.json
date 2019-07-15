@@ -382,7 +382,7 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "cdh6.2.0",
+            "internal-branch": "cdh6.3.0",
             "node-label": "#OS#_large",
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
             "version": "1.9.0"
