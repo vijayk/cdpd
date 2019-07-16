@@ -699,9 +699,6 @@
             "depends-on": [
                 "pydruid"
             ],
-            "platforms": [
-                "centos7"
-            ],
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "superset",
