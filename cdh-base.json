@@ -371,7 +371,7 @@
             "version": "1.0.0"
         },
         "kudu": {
-            "branch": "branch-1.9.x",
+            "branch": "master",
             "depends-on": [
                 "avro",
                 "flume-ng",
@@ -382,10 +382,9 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "cdh6.3.0",
             "node-label": "#OS#_large",
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
-            "version": "1.9.0"
+            "version": "1.11.0"
         },
         "livy": {
             "branch": "branch-0.5",
