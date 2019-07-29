@@ -302,7 +302,8 @@
                 "avro",
                 "hadoop",
                 "kudu",
-                "hive"
+                "hive",
+                "ranger"
             ],
             "enable-merge": true,
             "enable-sync": true,
