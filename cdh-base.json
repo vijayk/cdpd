@@ -224,7 +224,7 @@
                 "hbase",
                 "spark"
             ],
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "internal-repo-name": "hbase-connectors",
             "maven-group-id": "org/apache/hbase/connectors",
