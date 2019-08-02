@@ -554,7 +554,8 @@
                 "zookeeper",
                 "hadoop",
                 "spark",
-                "parquet"
+                "parquet",
+                "solr"
             ],
             "enable-blackduck-scan": false,
             "enable-build": true,
