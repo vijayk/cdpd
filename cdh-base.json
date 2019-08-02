@@ -338,7 +338,7 @@
             "version": "4.4.0"
         },
         "kafka": {
-            "branch": "2.3.0",
+            "branch": "2.1.0",
             "depends-on": [
                 "hadoop",
                 "zookeeper"
@@ -346,7 +346,8 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/kafka.git",
-            "version": "2.3.0"
+            "version": "2.1.0",
+            "internal-branch": "cdpd-master-on-2.1.0-backup"
         },
         "kite": {
             "branch": "atlantic",
