@@ -346,8 +346,7 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/kafka.git",
-            "version": "2.1.0",
-            "internal-branch": "cdpd-master-on-2.1.0-backup"
+            "version": "2.1.0"
         },
         "kite": {
             "branch": "atlantic",
