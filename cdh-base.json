@@ -791,7 +791,7 @@
     },
     "hwx": {
         "platforms": [
-            "debian9"
+            "centos7"
         ],
         "poll-frequency": "240",
         "stack-version": "6.0.99.0"
