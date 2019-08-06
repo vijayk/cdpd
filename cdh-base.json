@@ -412,7 +412,8 @@
                 "spark",
                 "kite",
                 "avro",
-                "parquet"
+                "parquet",
+                "spark_hive2"
             ],
             "enable-merge": false,
             "enable-sync": true,
