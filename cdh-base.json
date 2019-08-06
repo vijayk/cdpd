@@ -555,7 +555,8 @@
                 "hadoop",
                 "spark",
                 "parquet",
-                "solr"
+                "solr",
+                "hive"
             ],
             "enable-blackduck-scan": false,
             "enable-build": true,
