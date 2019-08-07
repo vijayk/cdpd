@@ -213,7 +213,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/hbase.git",
             "version": "2.2.0"
@@ -224,7 +224,7 @@
                 "hbase",
                 "spark"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "hbase-connectors",
             "maven-group-id": "org/apache/hbase/connectors",
@@ -305,7 +305,7 @@
                 "hive",
                 "ranger"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/impala.git",
             "node-label": "#OS#_large",
@@ -325,7 +325,7 @@
         },
         "hue": {
             "branch": "master",
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "node-label": "#OS#_large",
             "platforms": [
@@ -440,7 +440,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
@@ -539,7 +539,7 @@
         "ratis": {
             "branch": "ratis-ozone",
             "depends-on": null,
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
@@ -746,7 +746,6 @@
     "hwx": {
         "platforms": [
             "snapshot",
-            "debian9",
             "centos7"
         ],
         "poll-frequency": "240",
