@@ -565,19 +565,6 @@
             "repo-url": "git@github.infra.cloudera.com:CDH/search.git",
             "version": "1.0.0"
         },
-        "shc": {
-            "branch": "branch-2.3_HBase2",
-            "depends-on": [
-                "spark",
-                "hbase",
-                "phoenix"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "maven-group-id": "com/hortonworks/shc",
-            "repo-url": "git@github.com:hortonworks-spark/shc.git",
-            "version": "1.1.0"
-        },
         "solr": {
             "branch": "branch_7_4",
             "depends-on": [
