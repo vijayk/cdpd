@@ -410,7 +410,6 @@
                 "pig",
                 "sqoop",
                 "spark",
-                "kite",
                 "avro",
                 "parquet",
                 "spark_hive2"
