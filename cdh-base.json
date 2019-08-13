@@ -142,7 +142,7 @@
             "version": "1.3.0"
         },
         "druid": {
-            "branch": "0.15.1-incubating",
+            "branch": "0.15.1",
             "depends-on": [
                 "hadoop",
                 "zookeeper",
