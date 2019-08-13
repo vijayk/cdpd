@@ -642,7 +642,6 @@
             "depends-on": [
                 "hadoop",
                 "hbase",
-                "kite",
                 "hive",
                 "orc",
                 "accumulo",
