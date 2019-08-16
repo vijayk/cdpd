@@ -277,7 +277,7 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/hive.git",
-            "version": "3.1.0"
+            "version": "3.1.2000"
         },
         "hive_warehouse_connector": {
             "branch": "branch-2.3",
