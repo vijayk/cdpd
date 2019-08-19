@@ -576,6 +576,18 @@
             "repo-url": "git@github.com:apache/lucene-solr.git",
             "version": "7.4.0"
         },
+        "lucene-solr": {
+            "branch": "branch_7_4",
+            "depends-on": [
+                "hadoop",
+                "avro",
+                "zookeeper"
+            ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:apache/lucene-solr.git",
+            "version": "7.4.0"
+        },
         "spark": {
             "branch": "branch-2.3",
             "depends-on": [
