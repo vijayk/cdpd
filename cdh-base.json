@@ -165,7 +165,7 @@
                 "hive",
                 "spark",
                 "kafka",
-                "kite"
+                "search"
             ],
             "enable-merge": false,
             "internal-repo-name": "flume-ng",
@@ -554,7 +554,9 @@
                 "zookeeper",
                 "hadoop",
                 "spark",
-                "parquet"
+                "parquet",
+                "solr",
+                "hive"
             ],
             "enable-blackduck-scan": false,
             "enable-build": true,
