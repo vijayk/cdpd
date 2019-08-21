@@ -585,7 +585,7 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "maven-group-id": "com/cloudera/lucene",
+            "maven-group-id": "org/apache/lucene",
             "repo-url": "git@github.com:apache/lucene-solr.git",
             "version": "7.4.0"
         },
