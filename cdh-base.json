@@ -554,7 +554,10 @@
                 "zookeeper",
                 "hadoop",
                 "spark",
-                "parquet"
+                "parquet",
+                "solr",
+                "lucene-solr",
+                "hive"
             ],
             "enable-blackduck-scan": false,
             "enable-build": true,
