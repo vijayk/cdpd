@@ -245,6 +245,24 @@
             "repo-url": "git@github.com:apache/hbase-filesystem.git",
             "version": "1.0.0"
         },
+        "hbase-indexer": {
+            "branch": "cdh6.x",
+            "depends-on": [
+                "solr",
+                "lucene-solr",
+                "hbase",
+                "hadoop",
+                "zookeeper",
+                "kite"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": true,
+            "maven-group-id": "com/ngdata/hbase-indexer",
+            "repo-url": "git@github.infra.cloudera.com:CDH/hbase-indexer.git",
+            "version": "1.5.0"
+        },
         "cdh_select": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
