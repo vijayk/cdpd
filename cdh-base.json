@@ -245,7 +245,7 @@
             "repo-url": "git@github.com:apache/hbase-filesystem.git",
             "version": "1.0.0"
         },
-        "hbase-indexer": {
+        "hbase-solr": {
             "branch": "cdh6.x",
             "depends-on": [
                 "solr",
