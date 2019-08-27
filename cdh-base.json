@@ -165,7 +165,7 @@
                 "hive",
                 "spark",
                 "kafka",
-                "kite"
+                "search"
             ],
             "enable-merge": false,
             "internal-repo-name": "flume-ng",
