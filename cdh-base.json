@@ -681,21 +681,6 @@
             "repo-url": "git@github.com:apache/hive.git",
             "version": "2.3.0"
         },
-        "storm": {
-            "branch": "master",
-            "depends-on": [
-                "zookeeper",
-                "gcs",
-                "hadoop",
-                "hive",
-                "hbase",
-                "kafka"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "repo-url": "git@github.com:apache/storm.git",
-            "version": "1.2.1"
-        },
         "superset": {
             "branch": "0.23",
             "depends-on": [
