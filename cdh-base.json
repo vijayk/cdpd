@@ -253,7 +253,8 @@
                 "hbase",
                 "hadoop",
                 "zookeeper",
-                "kite"
+                "kite",
+                "search"
             ],
             "enable-blackduck-scan": false,
             "enable-build": true,
