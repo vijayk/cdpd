@@ -412,7 +412,8 @@
                 "spark",
                 "avro",
                 "parquet",
-                "spark_hive2"
+                "spark_hive2",
+                "spark_atlas_connector"
             ],
             "enable-merge": false,
             "enable-sync": true,
