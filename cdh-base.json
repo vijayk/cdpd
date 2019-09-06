@@ -707,7 +707,7 @@
             "version": "0.9.1"
         },
         "zeppelin": {
-            "branch": "branch-0.7",
+            "branch": "branch-0.8",
             "depends-on": [
                 "hadoop",
                 "gcs",
