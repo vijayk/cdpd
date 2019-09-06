@@ -521,7 +521,7 @@
             "version": "0.1.0"
         },
         "ranger": {
-            "branch": "ranger-1.2",
+            "branch": "ranger-2.0",
             "depends-on": [
                 "atlas",
                 "hadoop",
@@ -536,7 +536,7 @@
             "enable-sync": false,
             "internal-repo-name": "ranger",
             "repo-url": "git@github.com:apache/ranger.git",
-            "version": "1.2.0"
+            "version": "2.0.0"
         },
         "ratis": {
             "branch": "ratis-ozone",
