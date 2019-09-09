@@ -399,7 +399,7 @@
             "enable-sync": false,
             "node-label": "#OS#_large",
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
-            "version": "1.11.0"
+            "version": "1.10.0"
         },
         "livy": {
             "branch": "branch-0.5",
