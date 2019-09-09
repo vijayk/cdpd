@@ -72,7 +72,7 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/accumulo.git",
-            "version": "1.0.10"
+            "version": "1.1.0"
         },
         "bigtop-new": {
             "enable-blackduck-scan": false,
