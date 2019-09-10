@@ -364,7 +364,8 @@
             "branch": "master",
             "depends-on": [
                 "hadoop",
-                "zookeeper"
+                "zookeeper",
+                "gcs"
             ],
             "enable-merge": false,
             "enable-sync": true,
