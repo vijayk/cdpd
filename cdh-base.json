@@ -312,7 +312,9 @@
             "platforms": [
                 "centos6",
                 "centos7",
-                "suse11sp3"
+                "suse11sp3",
+                "sles12",
+                "ubuntu18"
             ],
             "version": "3.2.0"
         },
@@ -331,7 +333,9 @@
             "platforms": [
                 "centos6",
                 "centos7",
-                "suse11sp3"
+                "suse11sp3",
+                "sles12",
+                "ubuntu18"
             ],
             "maven-group-id": "com/cloudera/hue",
             "repo-url": "git@github.com:cloudera/hue.git",
