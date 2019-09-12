@@ -740,12 +740,12 @@
             "version": "0.8.0"
         },
         "zookeeper": {
-            "branch": "branch-3.5",
+            "branch": "branch-3.4",
             "depends-on": null,
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/zookeeper.git",
-            "version": "3.5.5"
+            "version": "3.4.6"
         }
     },
     "hwx": {
