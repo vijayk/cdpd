@@ -325,7 +325,6 @@
             "node-label": "#OS#_large",
             "platforms": [
                 "centos6",
-                "centos7",
                 "suse11sp3"
             ],
             "version": "3.2.0"
@@ -344,7 +343,6 @@
             "node-label": "#OS#_large",
             "platforms": [
                 "centos6",
-                "centos7",
                 "suse11sp3"
             ],
             "maven-group-id": "com/cloudera/hue",
@@ -399,6 +397,10 @@
             "enable-merge": false,
             "enable-sync": false,
             "node-label": "#OS#_large",
+            "platforms": [
+                "centos6",
+                "suse11sp3"
+            ],
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
             "version": "1.10.0"
         },
@@ -431,6 +433,10 @@
                 "spark_atlas_connector"
             ],
             "enable-merge": false,
+            "platforms": [
+                "centos6",
+                "suse11sp3"
+            ],
             "enable-sync": true,
             "repo-url": "git@github.com:apache/oozie.git",
             "version": "5.1.0"
@@ -550,6 +556,10 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "platforms": [
+                "centos6",
+                "suse11sp3"
+            ],
             "internal-repo-name": "ranger",
             "repo-url": "git@github.com:apache/ranger.git",
             "version": "2.0.0"
@@ -735,6 +745,10 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "platforms": [
+                "centos6",
+                "suse11sp3"
+            ],
             "internal-repo-name": "zeppelin",
             "repo-url": "git@github.com:apache/zeppelin.git",
             "version": "0.8.0"
@@ -745,7 +759,7 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/zookeeper.git",
-            "version": "3.5.5"
+            "version": "3.5.6"
         }
     },
     "hwx": {
