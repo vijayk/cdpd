@@ -741,6 +741,7 @@
             "depends-on": null,
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "cdp-ubuntu18",
             "repo-url": "git@github.com:apache/zookeeper.git",
             "version": "3.5.5"
         }
