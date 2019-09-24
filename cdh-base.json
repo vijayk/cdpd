@@ -377,18 +377,6 @@
             "repo-url": "git@github.com:apache/kafka.git",
             "version": "2.3.0"
         },
-        "kite": {
-            "branch": "atlantic",
-            "depends-on": [
-                "hive"
-            ],
-            "enable-blackduck-scan": false,
-            "enable-merge": false,
-            "enable-sync": false,
-            "maven-group-id": "org/kitesdk",
-            "repo-url": "git@github.com:apache/kite.git",
-            "version": "1.0.0"
-        },
         "knox": {
             "branch": "master",
             "depends-on": [
@@ -581,7 +569,6 @@
             "branch": "cdh6.x",
             "depends-on": [
                 "avro",
-                "kite",
                 "crunch",
                 "zookeeper",
                 "hadoop",
