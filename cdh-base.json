@@ -569,6 +569,20 @@
             "repo-url": "git@github.com:apache/ranger.git",
             "version": "2.0.0"
         },
+        "ranger_cloud_storage": {
+            "branch": "master",
+            "depends-on": [
+                "hadoop",
+                "knox",
+                "ranger"
+            ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "maven-group-id": "com/cloudera/ranger-cloud",
+            "internal-repo-name": "ranger-cloud-storage",
+            "repo-url": "git@github.com:apache/ranger-cloud-storage.git",
+            "version": "1.0.0"
+        },
         "ratis": {
             "branch": "ratis-ozone",
             "depends-on": null,
