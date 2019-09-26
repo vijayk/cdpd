@@ -581,7 +581,6 @@
             "branch": "cdh6.x",
             "depends-on": [
                 "avro",
-                "kite",
                 "crunch",
                 "zookeeper",
                 "hadoop",
