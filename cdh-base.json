@@ -328,6 +328,7 @@
         "knox": {
             "branch": "master",
             "depends-on": [
+                "gcs",
                 "hadoop",
                 "zookeeper"
             ],
