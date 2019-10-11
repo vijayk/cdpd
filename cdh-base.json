@@ -369,7 +369,6 @@
         "kafka": {
             "branch": "2.3.0",
             "depends-on": [
-                "hadoop",
                 "zookeeper"
             ],
             "enable-merge": false,
