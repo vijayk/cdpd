@@ -538,6 +538,13 @@
             "repo-url": "git@github.com:hortonworks/qe-examples.git",
             "version": "0.1.0"
         },
+        "qm-parcel": {
+            "branch": "master",
+            "enable-merge": false,
+            "enable-sync": false,
+            "repo-url": "git@github.com:apache/qm-parcel.git",
+            "version": "1.0.0"
+        },
         "ranger": {
             "branch": "ranger-2.0",
             "depends-on": [
