@@ -464,7 +464,8 @@
             "maven-group-id": "org/apache/hadoop",
             "repo-url": "git@github.com:apache/hadoop-ozone.git",
             "platforms": [
-                "centos7"
+                "centos7",
+                "debian9"
             ],
             "version": "0.4.0"
         },
@@ -637,9 +638,6 @@
             "internal-merge": "hdp-master",
             "maven-group-id": "org/apache/spark",
             "repo-url": "git@github.com:apache/spark.git",
-            "platforms": [
-                "centos7"
-            ],
             "version": "2.4.0"
         },
         "spark_atlas_connector": {
