@@ -168,7 +168,7 @@
             "internal-repo-name": "druid",
             "maven-group-id": "org/apache/druid",
             "repo-url": "git@github.com:apache/incubator-druid.git",
-            "version": "0.12.1"
+            "version": "0.15.1"
         },
         "flume-ng": {
             "branch": "flume-1.9",
