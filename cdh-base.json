@@ -263,7 +263,6 @@
             "branch": "cdh6.x",
             "depends-on": [
                 "solr",
-                "lucene-solr",
                 "hbase",
                 "hadoop",
                 "zookeeper",
@@ -586,7 +585,6 @@
                 "spark",
                 "parquet",
                 "solr",
-                "lucene-solr",
                 "hive"
             ],
             "enable-blackduck-scan": false,
@@ -606,19 +604,10 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "repo-url": "git@github.com:apache/lucene-solr.git",
-            "version": "7.4.0"
-        },
-        "lucene-solr": {
-            "branch": "branch_7_4",
-            "depends-on": [
-                "hadoop",
-                "avro",
-                "zookeeper"
+            "maven-group-id": [
+              "org/apache/lucene",
+              "org/apache/solr"
             ],
-            "enable-merge": false,
-            "enable-sync": false,
-            "maven-group-id": "org/apache/lucene",
             "repo-url": "git@github.com:apache/lucene-solr.git",
             "version": "7.4.0"
         },
