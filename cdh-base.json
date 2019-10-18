@@ -603,7 +603,10 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "maven-group-id": "org/apache/lucene,org/apache/solr",
+            "maven-group-id": [
+              "org/apache/lucene",
+              "org/apache/solr"
+            ],
             "repo-url": "git@github.com:apache/lucene-solr.git",
             "version": "7.4.0"
         },
