@@ -720,7 +720,7 @@
             "enable-sync": true,
             "internal-repo-name": "superset",
             "repo-url": "git@github.com:apache/incubator-superset.git",
-            "version": "0.23.3"
+            "version": "0.34.0"
         },
         "tez": {
             "branch": "master",
