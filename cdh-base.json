@@ -341,8 +341,7 @@
             "repo-url": "git@github.com:apache/impala.git",
             "node-label": "#OS#_large",
             "platforms": [
-                "centos7",
-                "sles12"
+                "centos7"
             ],
             "version": "3.2.0"
         },
