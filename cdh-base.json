@@ -483,8 +483,7 @@
                 "calcite",
                 "pig",
                 "spark",
-                "kafka",
-                "flume-ng"
+                "kafka"
             ],
             "enable-merge": false,
             "enable-sync": false,
