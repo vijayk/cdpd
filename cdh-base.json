@@ -80,13 +80,6 @@
             "enable-sync": false,
             "repo-url": "git@github.com:hortonworks/bigtop-new.git"
         },
-        "bigtop-tomcat": {
-            "enable-blackduck-scan": false,
-            "enable-merge": false,
-            "enable-sync": false,
-            "repo-url": "git@github.com:apache/accumulo.git",
-            "version": "6.0.44"
-        },
         "bigtop-utils": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
