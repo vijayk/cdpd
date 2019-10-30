@@ -729,7 +729,7 @@
             "enable-sync": true,
             "internal-repo-name": "zeppelin",
             "repo-url": "git@github.com:apache/zeppelin.git",
-            "version": "0.8.0"
+            "version": "0.8.2"
         },
         "zookeeper": {
             "branch": "branch-3.5",
