@@ -744,8 +744,7 @@
         "platforms": [
             "snapshot",
             "debian9",
-            "centos7",
-            "sles12"
+            "centos7"
         ],
         "poll-frequency": "240",
         "stack-version": "7.1.0.0"
