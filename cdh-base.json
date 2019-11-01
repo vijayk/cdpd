@@ -99,6 +99,7 @@
             "enable-merge": false,
             "enable-sync": false,
             "poll": false,
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
         "crunch": {
@@ -762,11 +763,11 @@
     },
     "hwx": {
         "platforms": [
-            "snapshot",
             "centos7"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.0.2.0"
+        "stack-version": "7.0.2.1",
+        "internal-branch": "CDH-7.0.2.0"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
