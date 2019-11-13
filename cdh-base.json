@@ -720,7 +720,8 @@
             "depends-on": [
                 "hadoop",
                 "gcs",
-                "zookeeper"
+                "zookeeper",
+                "ozone"
             ],
             "enable-merge": false,
             "enable-sync": true,
