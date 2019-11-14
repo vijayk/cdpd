@@ -383,7 +383,6 @@
             "branch": "master",
             "depends-on": [
                 "avro",
-                "flume-ng",
                 "hadoop",
                 "hive",
                 "parquet",
