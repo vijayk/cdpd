@@ -453,10 +453,6 @@
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
             "repo-url": "git@github.com:apache/hadoop-ozone.git",
-            "platforms": [
-                "centos7",
-                "debian9"
-            ],
             "version": "0.4.0"
         },
         "parquet": {
