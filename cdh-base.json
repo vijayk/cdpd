@@ -745,7 +745,8 @@
             "snapshot",
             "debian9",
             "centos7",
-            "sles12"
+            "sles12",
+            "ubuntu18"
         ],
         "poll-frequency": "240",
         "stack-version": "7.1.0.0"
