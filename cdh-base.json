@@ -397,6 +397,8 @@
         "livy": {
             "branch": "branch-0.5",
             "depends-on": [
+                "hadoop",
+                "hive",
                 "spark"
             ],
             "enable-merge": false,
