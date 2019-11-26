@@ -755,11 +755,10 @@
     },
     "hwx": {
         "platforms": [
-            "snapshot",
             "centos7"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.0.2.0"
+        "stack-version": "7.0.2.2"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
