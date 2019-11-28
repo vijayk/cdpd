@@ -97,7 +97,7 @@
         "crunch": {
             "branch": "apache-crunch-0.11",
             "depends-on": [
-                "avro",
+                "hadoop",
                 "hive",
                 "parquet",
                 "hbase",
