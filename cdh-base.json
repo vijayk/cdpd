@@ -608,6 +608,7 @@
                 "zookeeper",
                 "kafka",
                 "arrow",
+                "avro",
                 "parquet"
             ],
             "enable-merge": false,
