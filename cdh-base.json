@@ -164,8 +164,6 @@
                 "avro",
                 "hadoop",
                 "hbase",
-                "hive",
-                "spark",
                 "kafka",
                 "solr",
                 "search"
