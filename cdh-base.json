@@ -222,7 +222,10 @@
         "hbase_connectors": {
             "branch": "master",
             "depends-on": [
+                "avro",
+                "hadoop",
                 "hbase",
+                "kafka",
                 "spark"
             ],
             "enable-merge": true,
