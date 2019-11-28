@@ -172,6 +172,7 @@
                 "hive",
                 "spark",
                 "kafka",
+                "solr",
                 "search"
             ],
             "enable-merge": false,
