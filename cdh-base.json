@@ -718,7 +718,7 @@
                 "hadoop",
                 "gcs",
                 "hbase",
-                "spark",
+                "spark_hive2",
                 "zookeeper",
                 "hive",
                 "phoenix"
