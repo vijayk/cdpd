@@ -635,7 +635,6 @@
         "spark_hive2": {
             "branch": "release-1.2.1-spark2",
             "depends-on": [
-                "hadoop",
                 "hbase",
                 "hive",
                 "zookeeper",
