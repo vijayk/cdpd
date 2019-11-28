@@ -540,10 +540,12 @@
         "ranger": {
             "branch": "ranger-2.0",
             "depends-on": [
+                "avro",
                 "atlas",
                 "hadoop",
                 "hbase",
                 "hive",
+                "kafka",
                 "knox",
                 "tez",
                 "calcite",
