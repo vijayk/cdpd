@@ -324,11 +324,13 @@
         "impala": {
             "branch": "master",
             "depends-on": [
-                "avro",
                 "hadoop",
+                "hbase",
+                "knox",
                 "kudu",
                 "hive",
-                "ranger"
+                "ranger",
+                "tez"
             ],
             "enable-merge": true,
             "enable-sync": true,
