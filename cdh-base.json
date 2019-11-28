@@ -607,7 +607,7 @@
                 "spark_hive2",
                 "zookeeper",
                 "kafka",
-                "arrow",
+                "orc",
                 "avro",
                 "parquet"
             ],
