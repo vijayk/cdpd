@@ -397,7 +397,8 @@
             "depends-on": [
                 "hadoop",
                 "hive",
-                "spark"
+                "spark",
+                "zookeeper"
             ],
             "enable-merge": false,
             "enable-sync": true,
