@@ -353,6 +353,15 @@
             "repo-url": "git@github.com:cloudera/hue.git",
             "version": "4.5.0"
         },
+        "schemaregistry": {
+            "branch": "cdpd-master",
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "maven-group-id": "com/hortonworks/registries",
+            "repo-url": "git@github.infra.cloudera.com:CDF/registry.git",
+            "version": "0.8.1"
+        },
         "kafka": {
             "branch": "2.4.0",
             "depends-on": [
@@ -362,6 +371,28 @@
             "enable-sync": false,
             "repo-url": "git@github.com:apache/kafka.git",
             "version": "2.4.0"
+        },
+        "kafka_connect_ext": {
+            "branch": "cdpd-master",
+            "depends-on": [
+                "kafka"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "repo-url": "git@github.infra.cloudera.com:CDF/kafka-connect-parent.git",
+            "version": "0.0.1"
+        },
+        "cruise_control": {
+            "branch": "cdpd-master",
+            "depends-on": [
+                "kafka"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "repo-url": "git@github.infra.cloudera.com:CDF/cruise-control.git",
+            "version": "2.0.69"
         },
         "knox": {
             "branch": "master",
@@ -581,6 +612,42 @@
             "enable-sync": true,
             "maven-group-id": "com/cloudera/search",
             "repo-url": "git@github.infra.cloudera.com:CDH/search.git",
+            "version": "1.0.0"
+        },
+        "streams_messaging_manager_ui": {
+            "branch": "cdpd-master",
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "internal-repo-name": "smm_app_private",
+            "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
+            "version": "0.0.1"
+        },
+        "streams_messaging_manager": {
+            "branch": "cdpd-master",
+            "depends-on": [
+                "kafka",
+                "schemaregistry"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "internal-repo-name": "smm_server_private",
+            "maven-group-id": "com/hortonworks/smm",
+            "repo-url": "git@github.infra.cloudera.com:CDF/smm_server_private.git",
+            "version": "2.1.0"
+        },
+        "streams_replication_manager": {
+            "branch": "cdpd-master",
+            "depends-on": [
+                "kafka"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "internal-repo-name": "SRM",
+            "maven-group-id": "com/cloudera/dim",
+            "repo-url": "git@github.infra.cloudera.com:CDF/SRM.git",
             "version": "1.0.0"
         },
         "solr": {
