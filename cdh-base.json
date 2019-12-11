@@ -588,6 +588,7 @@
         "solr": {
             "branch": "branch_7_4",
             "depends-on": [
+                "gcs",
                 "hadoop",
                 "zookeeper"
             ],
