@@ -359,6 +359,7 @@
             "branch": "cdpd-master",
             "enable-merge": false,
             "enable-sync": true,
+            "cldr-infra-git": true,
             "maven-group-id": "com/hortonworks/registries",
             "repo-url": "git@github.infra.cloudera.com:CDF/registry.git",
             "version": "0.8.1"
