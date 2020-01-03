@@ -357,14 +357,14 @@
             "version": "4.5.0"
         },
         "kafka": {
-            "branch": "2.3.0",
+            "branch": "2.4.0",
             "depends-on": [
                 "zookeeper"
             ],
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/kafka.git",
-            "version": "2.3.0"
+            "version": "2.4.0"
         },
         "knox": {
             "branch": "master",
