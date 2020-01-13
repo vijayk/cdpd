@@ -53,7 +53,7 @@
             "internal-repo-name": "calcite_avatica",
             "maven-group-id": "org/apache/calcite",
             "repo-url": "git@github.com:apache/calcite-avatica.git",
-            "version": "1.10.0"
+            "version": "1.16.0"
         },
         "avro": {
             "branch": "cdh6.1.0",
