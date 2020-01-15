@@ -761,7 +761,6 @@
     "hwx": {
         "platforms": [
             "snapshot",
-            "debian9",
             "centos7",
             "sles12",
             "ubuntu18"
