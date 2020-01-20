@@ -593,6 +593,8 @@
         "solr": {
             "branch": "branch_7_4",
             "depends-on": [
+                "gcs",
+                "knox",
                 "hadoop",
                 "avro",
                 "zookeeper"
@@ -605,6 +607,8 @@
         "lucene-solr": {
             "branch": "branch_7_4",
             "depends-on": [
+                "gcs",
+                "knox",
                 "hadoop",
                 "avro",
                 "zookeeper"
