@@ -120,6 +120,7 @@
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "calcite",
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/calcite.git",
             "version": "1.19.0"
         },
@@ -142,6 +143,7 @@
             "enable-merge": false,
             "enable-sync": false,
             "internal-repo-name": "data-analytics-studio",
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.infra.cloudera.com:CDH/data-analytics-studio.git",
             "version": "1.4.2"
         },
@@ -298,6 +300,7 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/hive.git",
             "version": "3.1.3000"
         },
@@ -330,6 +333,7 @@
             ],
             "enable-merge": true,
             "enable-sync": true,
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/impala.git",
             "node-label": "#OS#_large",
             "platforms": [
@@ -405,6 +409,7 @@
             "enable-sync": true,
             "internal-repo-name": "livy",
             "maven-group-id": "org/apache/livy",
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/incubator-livy.git",
             "version": "0.6.0"
         },
@@ -439,6 +444,7 @@
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": true,
+            "internal-branch": "cdpd-master",
             "maven-group-id": "org/apache/orc",
             "repo-url": "git@github.com:apache/orc.git",
             "version": "1.5.1"
@@ -466,6 +472,7 @@
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "cdpd-master",
             "maven-group-id": "org/apache/parquet",
             "repo-url": "git@github.com:apache/parquet.git",
             "version": "1.10.99"
@@ -618,6 +625,7 @@
             "enable-merge": false,
             "enable-sync": true,
             "internal-merge": "hdp-master",
+            "internal-branch": "cdpd-master",
             "maven-group-id": "org/apache/spark",
             "repo-url": "git@github.com:apache/spark.git",
             "version": "2.4.0"
@@ -708,6 +716,7 @@
             "enable-sync": true,
             "internal-repo-name": "hive",
             "maven-group-id": "org/apache/hive",
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/hive.git",
             "version": "2.3.0"
         },
@@ -732,6 +741,7 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/tez.git",
             "version": "0.9.1"
         },
@@ -749,6 +759,7 @@
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "zeppelin",
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/zeppelin.git",
             "version": "0.8.2"
         },
