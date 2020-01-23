@@ -310,6 +310,7 @@
                 "hadoop",
                 "hive",
                 "spark",
+                "spark_acid",
                 "tez"
             ],
             "enable-blackduck-scan": false,
