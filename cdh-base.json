@@ -353,7 +353,7 @@
             "repo-url": "git@github.com:cloudera/hue.git",
             "version": "4.5.0"
         },
-        "kafka_schema_registry": {
+        "schemaregistry": {
             "branch": "cdpd-master",
             "enable-merge": false,
             "enable-sync": true,
