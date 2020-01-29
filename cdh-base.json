@@ -458,6 +458,7 @@
             "repo-url": "git@github.com:apache/hadoop-ozone.git",
             "platforms": [
                 "centos7",
+                "snapshot",
                 "debian9"
             ],
             "version": "0.4.0"
