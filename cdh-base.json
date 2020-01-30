@@ -218,7 +218,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/hbase.git",
             "version": "2.2.0"
@@ -232,7 +232,7 @@
                 "kafka",
                 "spark"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "hbase-connectors",
             "maven-group-id": "org/apache/hbase/connectors",
@@ -301,7 +301,7 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "cdpd-master",
+            "internal-branch": "FENG",
             "repo-url": "git@github.com:apache/hive.git",
             "version": "3.1.3000"
         },
@@ -332,9 +332,9 @@
                 "ranger",
                 "tez"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
-            "internal-branch": "cdpd-master",
+            "internal-branch": "FENG",
             "repo-url": "git@github.com:apache/impala.git",
             "node-label": "#OS#_large",
             "platforms": [
@@ -351,7 +351,7 @@
         },
         "hue": {
             "branch": "master",
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "node-label": "#OS#_large",
             "platforms": [
@@ -457,7 +457,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
@@ -568,7 +568,7 @@
         "ratis": {
             "branch": "ratis-ozone",
             "depends-on": null,
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
