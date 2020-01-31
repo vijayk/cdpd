@@ -592,6 +592,16 @@
             "repo-url": "git@github.infra.cloudera.com:CDH/search.git",
             "version": "1.0.0"
         },
+        "streams_messaging_manager": {
+            "branch": "cdpd-master",
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "internal-repo-name": "smm_server_private",
+            "maven-group-id": "com/hortonworks/smm",
+            "repo-url": "git@github.infra.cloudera.com:CDF/smm_server_private.git",
+            "version": "2.1.0"
+        },
         "solr": {
             "branch": "branch_7_4",
             "depends-on": [
