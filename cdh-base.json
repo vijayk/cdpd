@@ -594,6 +594,9 @@
         },
         "streams_messaging_manager": {
             "branch": "cdpd-master",
+            "depends-on": [
+                "schemaregistry"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
