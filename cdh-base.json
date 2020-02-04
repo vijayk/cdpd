@@ -535,7 +535,7 @@
             "enable-sync": false,
             "maven-group-id": "com/hortonworks/qe-examples/spark2-examples-assembly",
             "repo-url": "git@github.com:hortonworks/qe-examples.git",
-            "version": "0.1.0"
+            "version": "2.4.0"
         },
         "qm-parcel": {
             "branch": "master",
