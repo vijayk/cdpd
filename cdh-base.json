@@ -372,6 +372,15 @@
             "repo-url": "git@github.com:apache/kafka.git",
             "version": "2.4.0"
         },
+        "kafka_connect": {
+            "branch": "cdpd-master",
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "maven-group-id": "com/hortonworks/dim",
+            "repo-url": "git@github.infra.cloudera.com:CDF/kafka-connect-parent.git",
+            "version": "0.0.1"
+        },
         "knox": {
             "branch": "master",
             "depends-on": [
