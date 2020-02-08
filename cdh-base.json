@@ -297,10 +297,37 @@
                 "arrow",
                 "parquet",
                 "avatica",
-                "kafka"
+                "kafka",
+                "impala"
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "FENG",
+            "repo-url": "git@github.com:apache/hive.git",
+            "version": "3.1.3000"
+        },
+        "hive_libs": {
+            "branch": "branch-3",
+            "depends-on": [
+                "hadoop",
+                "zookeeper",
+                "hbase",
+                "tez",
+                "calcite",
+                "orc",
+                "druid",
+                "storage_api",
+                "accumulo",
+                "arrow",
+                "parquet",
+                "avatica",
+                "kafka"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-repo-name": "hive",
+            "maven-group-id": "org/apache/hive",
             "internal-branch": "FENG",
             "repo-url": "git@github.com:apache/hive.git",
             "version": "3.1.3000"
@@ -328,9 +355,10 @@
                 "hbase",
                 "knox",
                 "kudu",
-                "hive",
+                "hive_libs",
                 "ranger",
-                "tez"
+                "tez",
+                "orc"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -388,7 +416,7 @@
             "depends-on": [
                 "avro",
                 "hadoop",
-                "hive",
+                "hive_libs",
                 "parquet",
                 "spark"
             ],
