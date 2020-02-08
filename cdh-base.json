@@ -493,6 +493,7 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "FENG",
             "repo-url": "git@github.com:apache/phoenix.git",
             "version": "5.0.0"
         },
@@ -508,7 +509,8 @@
                 "orc"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
+            "internal-branch": "FENG",
             "repo-url": "git@github.com:apache/pig.git",
             "version": "0.16.0"
         },
