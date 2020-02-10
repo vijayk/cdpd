@@ -699,7 +699,7 @@
             "branch": "release-1.2.1-spark2",
             "depends-on": [
                 "hbase",
-                "hive",
+                "hive_libs",
                 "zookeeper",
                 "accumulo"
             ],
