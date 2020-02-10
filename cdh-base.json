@@ -357,7 +357,6 @@
                 "knox",
                 "kudu",
                 "hive_libs",
-                "ranger",
                 "tez",
                 "orc"
             ],
