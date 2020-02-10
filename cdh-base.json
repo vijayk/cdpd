@@ -298,6 +298,7 @@
                 "parquet",
                 "avatica",
                 "kafka",
+                "hive_libs",
                 "impala"
             ],
             "enable-merge": false,
