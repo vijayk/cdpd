@@ -101,7 +101,7 @@
                 "hive",
                 "parquet",
                 "hbase",
-                "spark",
+                "spark2",
                 "zookeeper"
             ],
             "enable-blackduck-scan": false,
@@ -196,7 +196,7 @@
             "repo-url": "git@github.com:apache/hadoop.git",
             "version": "3.1.1"
         },
-        "hadoop-lzo": {
+        "hadooplzo": {
             "branch": "master",
             "depends-on": [
                 "hadoop"
@@ -204,7 +204,7 @@
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "internal-repo-name": "hadoop-lzo",
+            "internal-repo-name": "hadooplzo",
             "repo-url": "git@github.com:hortonworks/hadoop-lzo.git",
             "version": "0.6.0"
         },
@@ -226,7 +226,7 @@
                 "hadoop",
                 "hbase",
                 "kafka",
-                "spark"
+                "spark2"
             ],
             "enable-merge": true,
             "enable-sync": true,
@@ -305,8 +305,7 @@
             "depends-on": [
                 "hadoop",
                 "hive",
-                "spark",
-                "spark_acid",
+                "spark2",
                 "tez"
             ],
             "enable-blackduck-scan": false,
@@ -385,7 +384,7 @@
                 "hadoop",
                 "hive",
                 "parquet",
-                "spark"
+                "spark2"
             ],
             "enable-merge": false,
             "enable-sync": false,
@@ -418,7 +417,7 @@
                 "hive",
                 "pig",
                 "sqoop",
-                "spark",
+                "spark2",
                 "avro",
                 "parquet",
                 "spark_hive2",
@@ -479,7 +478,7 @@
                 "hive",
                 "calcite",
                 "pig",
-                "spark",
+                "spark2",
                 "tez",
                 "kafka"
             ],
@@ -521,14 +520,14 @@
                 "zookeeper",
                 "kafka",
                 "calcite",
-                "spark"
+                "spark2"
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
             "maven-group-id": "com/hortonworks/qe-examples/spark2-examples-assembly",
             "repo-url": "git@github.com:hortonworks/qe-examples.git",
-            "version": "2.4.0"
+            "version": "0.1.0"
         },
         "qm-parcel": {
             "branch": "master",
@@ -573,7 +572,7 @@
                 "crunch",
                 "zookeeper",
                 "hadoop",
-                "spark",
+                "spark2",
                 "parquet",
                 "solr",
                 "hive"
@@ -603,7 +602,7 @@
             "repo-url": "git@github.com:apache/lucene-solr.git",
             "version": "7.4.0"
         },
-        "spark": {
+        "spark2": {
             "branch": "branch-2.3",
             "depends-on": [
                 "hadoop",
@@ -625,7 +624,7 @@
         "spark_atlas_connector": {
             "branch": "branch-2.4",
             "depends-on": [
-                "spark",
+                "spark2",
                 "atlas",
                 "kafka"
             ],
@@ -639,10 +638,8 @@
         "spark_acid": {
             "branch": "master",
             "depends-on": [
-                "spark",
                 "hadoop",
-                "tez",
-                "hive"
+                "zookeeper"
             ],
             "enable-merge": false,
             "enable-sync": false,
@@ -674,7 +671,7 @@
         "spark_schema_registry": {
             "branch": "master",
             "depends-on": [
-                "spark"
+                "spark2"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -769,7 +766,7 @@
             "ubuntu18"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.1.1.0"
+        "stack-version": "7.1.0.1"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
