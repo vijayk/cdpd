@@ -758,6 +758,10 @@
             "version": "3.5.5"
         }
     },
+    "snapshots": {
+        "enable-snapshots": "true",
+        "skip_components": ["search", "datafu", "hadoop-lzo", "hue" , "parquet", "impala", "storage_api", "druid"]
+    },
     "hwx": {
         "platforms": [
             "snapshot",
