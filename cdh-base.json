@@ -357,6 +357,7 @@
             "platforms": [
                 "centos7"
             ],
+            "internal-branch": "cdpd-master",
             "maven-group-id": "com/cloudera/hue",
             "repo-url": "git@github.com:cloudera/hue.git",
             "version": "4.5.0"
