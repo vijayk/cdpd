@@ -374,12 +374,27 @@
         },
         "kafka_connect": {
             "branch": "cdpd-master",
+            "depends-on": [
+                "kafka"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
             "maven-group-id": "com/hortonworks/dim",
             "repo-url": "git@github.infra.cloudera.com:CDF/kafka-connect-parent.git",
             "version": "0.0.1"
+        },
+        "cruise-control": {
+            "branch": "cdpd-master",
+            "depends-on": [
+                "kafka"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "maven-group-id": "com/linkedin/kafka",
+            "repo-url": "git@github.infra.cloudera.com:CDF/cruise-control.git",
+            "version": "2.0.69"
         },
         "knox": {
             "branch": "master",
