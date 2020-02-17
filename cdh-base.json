@@ -372,7 +372,7 @@
             "repo-url": "git@github.com:apache/kafka.git",
             "version": "2.4.0"
         },
-        "kafka_connect": {
+        "kafka_connect_ext": {
             "branch": "cdpd-master",
             "depends-on": [
                 "kafka"
