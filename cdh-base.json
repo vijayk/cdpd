@@ -616,7 +616,7 @@
             "repo-url": "git@github.infra.cloudera.com:CDH/search.git",
             "version": "1.0.0"
         },
-        "smm_ui": {
+        "streams_messaging_manager_ui": {
             "branch": "cdpd-master",
             "enable-merge": false,
             "enable-sync": true,
