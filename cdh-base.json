@@ -626,7 +626,6 @@
         "streams_messaging_manager": {
             "branch": "cdpd-master",
             "depends-on": [
-                "smm-ui",
                 "kafka",
                 "schemaregistry"
             ],
