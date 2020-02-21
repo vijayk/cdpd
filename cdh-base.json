@@ -675,6 +675,25 @@
             "repo-url": "git@github.com:hortonworks-spark/spark-atlas-connector.git",
             "version": "0.1.0"
         },
+        "spark_acid": {
+            "branch": "master",
+            "depends-on": [
+                "spark",
+                "hadoop",
+                "tez",
+                "hive"
+            ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "no-partner": [
+                "monarch",
+                "ulysses"
+            ],
+            "internal-repo-name": "spark-acid",
+            "maven-group-id": "com/qubole",
+            "repo-url": "git@github.com:qubole/spark-acid.git",
+            "version": "0.4.4"
+        },
         "spark_hive2": {
             "branch": "release-1.2.1-spark2",
             "depends-on": [
