@@ -832,6 +832,7 @@
     "hwx": {
         "platforms": [
             "snapshot",
+            "centos8",
             "centos7",
             "sles12",
             "ubuntu18"
