@@ -158,23 +158,6 @@
             "repo-url": "git@github.com:apache/incubator-druid.git",
             "version": "0.15.1"
         },
-        "flume-ng": {
-            "branch": "flume-1.9",
-            "depends-on": [
-                "avro",
-                "hadoop",
-                "hbase",
-                "kafka",
-                "solr",
-                "search"
-            ],
-            "enable-merge": false,
-            "internal-repo-name": "flume-ng",
-            "maven-group-id": "org/apache/flume",
-            "enable-sync": false,
-            "repo-url": "git@github.com:apache/flume.git",
-            "version": "1.9.0"
-        },
         "gcs": {
             "branch": "v1.9.10",
             "enable-blackduck-scan": false,
