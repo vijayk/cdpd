@@ -338,6 +338,9 @@
         },
         "schemaregistry": {
             "branch": "cdpd-master",
+            "depends-on": [
+                "hadoop"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
