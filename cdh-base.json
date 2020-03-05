@@ -339,7 +339,8 @@
         "schemaregistry": {
             "branch": "cdpd-master",
             "depends-on": [
-                "hadoop"
+                "hadoop",
+                "ranger"
             ],
             "enable-merge": false,
             "enable-sync": true,
