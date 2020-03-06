@@ -233,7 +233,6 @@
             "version": "1.0.0"
         },
         "hbase-solr": {
-            "branch": "cdh6.x",
             "depends-on": [
                 "solr",
                 "hbase",
@@ -244,7 +243,7 @@
             "enable-blackduck-scan": false,
             "enable-build": true,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "maven-group-id": "com/ngdata/hbase-indexer",
             "repo-url": "git@github.infra.cloudera.com:CDH/hbase-indexer.git",
             "version": "1.5.0"
@@ -582,7 +581,6 @@
             "version": "0.4.0"
         },
         "search": {
-            "branch": "cdh6.x",
             "depends-on": [
                 "avro",
                 "crunch",
@@ -596,7 +594,7 @@
             "enable-blackduck-scan": false,
             "enable-build": true,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "maven-group-id": "com/cloudera/search",
             "repo-url": "git@github.infra.cloudera.com:CDH/search.git",
             "version": "1.0.0"
@@ -638,7 +636,7 @@
             "version": "1.0.0"
         },
         "solr": {
-            "branch": "branch_7_4",
+            "branch": "branch_8x",
             "depends-on": [
                 "gcs",
                 "knox",
