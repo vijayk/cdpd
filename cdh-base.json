@@ -62,7 +62,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "maven-group-id": "org/apache/avro",
             "repo-url": "git@github.com:cloudera/avro.git",
             "version": "1.8.2"
@@ -118,16 +118,15 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "calcite",
-            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/calcite.git",
             "version": "1.19.0"
         },
         "datafu": {
             "branch": "1.3.0",
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "datafu",
             "repo-url": "git@github.com:apache/incubator-datafu.git",
             "version": "1.3.0"
@@ -143,7 +142,6 @@
             "enable-merge": false,
             "enable-sync": false,
             "internal-repo-name": "data-analytics-studio",
-            "internal-branch": "cdpd-master",
             "repo-url": "git@github.infra.cloudera.com:CDH/data-analytics-studio.git",
             "version": "1.4.2"
         },
@@ -155,7 +153,7 @@
                 "storage_api"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "druid",
             "maven-group-id": "org/apache/druid",
             "repo-url": "git@github.com:apache/incubator-druid.git",
@@ -195,7 +193,7 @@
                 "isa_l"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/hadoop.git",
             "version": "3.1.1"
         },
@@ -217,8 +215,8 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
+            "enable-merge": false,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/hbase.git",
             "version": "2.2.0"
         },
@@ -231,8 +229,8 @@
                 "kafka",
                 "spark"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
+            "enable-merge": false,
+            "enable-sync": false,
             "internal-repo-name": "hbase-connectors",
             "maven-group-id": "org/apache/hbase/connectors",
             "repo-url": "git@github.com:apache/hbase-connectors.git",
@@ -246,7 +244,7 @@
                 "hbase"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "hbase-filesystem",
             "maven-group-id": "org/apache/hbase/filesystem",
             "repo-url": "git@github.com:apache/hbase-filesystem.git",
@@ -264,7 +262,7 @@
             "enable-blackduck-scan": false,
             "enable-build": true,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "maven-group-id": "com/ngdata/hbase-indexer",
             "repo-url": "git@github.infra.cloudera.com:CDH/hbase-indexer.git",
             "version": "1.5.0"
@@ -300,7 +298,6 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/hive.git",
             "version": "3.1.3000"
         },
@@ -315,7 +312,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "hive-warehouse-connector",
             "maven-group-id": "com/hortonworks/hive",
             "repo-url": "git@github.com:hortonworks/hive-warehouse-connector.git",
@@ -332,9 +329,8 @@
                 "ranger",
                 "tez"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
-            "internal-branch": "cdpd-master",
+            "enable-merge": false,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/impala.git",
             "node-label": "#OS#_large",
             "platforms": [
@@ -351,13 +347,12 @@
         },
         "hue": {
             "branch": "master",
-            "enable-merge": true,
-            "enable-sync": true,
+            "enable-merge": false,
+            "enable-sync": false,
             "node-label": "#OS#_large",
             "platforms": [
                 "centos7"
             ],
-            "internal-branch": "cdpd-master",
             "maven-group-id": "com/cloudera/hue",
             "repo-url": "git@github.com:cloudera/hue.git",
             "version": "4.5.0"
@@ -380,7 +375,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/knox.git",
             "version": "1.3.0"
         },
@@ -408,10 +403,9 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "livy",
             "maven-group-id": "org/apache/livy",
-            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/incubator-livy.git",
             "version": "0.6.0"
         },
@@ -432,7 +426,7 @@
                 "spark_atlas_connector"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/oozie.git",
             "version": "5.1.0"
         },
@@ -445,8 +439,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
-            "internal-branch": "cdpd-master",
+            "enable-sync": false,
             "maven-group-id": "org/apache/orc",
             "repo-url": "git@github.com:apache/orc.git",
             "version": "1.5.1"
@@ -458,8 +451,8 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
+            "enable-merge": false,
+            "enable-sync": false,
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
             "repo-url": "git@github.com:apache/hadoop-ozone.git",
@@ -474,7 +467,6 @@
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "cdpd-master",
             "maven-group-id": "org/apache/parquet",
             "repo-url": "git@github.com:apache/parquet.git",
             "version": "1.10.99"
@@ -509,7 +501,7 @@
                 "orc"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/pig.git",
             "version": "0.16.0"
         },
@@ -569,8 +561,8 @@
         "ratis": {
             "branch": "ratis-ozone",
             "depends-on": null,
-            "enable-merge": true,
-            "enable-sync": true,
+            "enable-merge": false,
+            "enable-sync": false,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
             "version": "0.4.0"
@@ -590,7 +582,7 @@
             "enable-blackduck-scan": false,
             "enable-build": true,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "maven-group-id": "com/cloudera/search",
             "repo-url": "git@github.infra.cloudera.com:CDH/search.git",
             "version": "1.0.0"
@@ -604,7 +596,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "maven-group-id": [
               "org/apache/lucene",
               "org/apache/solr"
@@ -625,9 +617,8 @@
                 "parquet"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-merge": "hdp-master",
-            "internal-branch": "cdpd-master",
             "maven-group-id": "org/apache/spark",
             "repo-url": "git@github.com:apache/spark.git",
             "version": "2.4.0"
@@ -640,7 +631,7 @@
                 "kafka"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "spark-atlas-connector",
             "maven-group-id": "com/hortonworks/spark",
             "repo-url": "git@github.com:hortonworks-spark/spark-atlas-connector.git",
@@ -675,7 +666,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "spark_hive2",
             "maven-group-id": "org/spark-project/hive",
             "repo-url": "git@github.com:hortonworks/spark_hive2.git",
@@ -687,7 +678,7 @@
                 "spark"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "spark-schema-registry",
             "maven-group-id": "com/hortonworks/spark-schema-registry",
             "repo-url": "git@github.com:hortonworks-spark/spark-schema-registry.git",
@@ -704,7 +695,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/sqoop.git",
             "version": "1.4.7"
         },
@@ -715,10 +706,9 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "hive",
             "maven-group-id": "org/apache/hive",
-            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/hive.git",
             "version": "2.3.0"
         },
@@ -728,7 +718,7 @@
                 "pydruid"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "superset",
             "repo-url": "git@github.com:apache/incubator-superset.git",
             "version": "0.34.0"
@@ -742,8 +732,7 @@
                 "ozone"
             ],
             "enable-merge": false,
-            "enable-sync": true,
-            "internal-branch": "cdpd-master",
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/tez.git",
             "version": "0.9.1"
         },
@@ -759,9 +748,8 @@
                 "phoenix"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "zeppelin",
-            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:apache/zeppelin.git",
             "version": "0.8.2"
         },
@@ -776,11 +764,10 @@
     },
     "hwx": {
         "platforms": [
-            "snapshot",
             "centos7"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.1.0.0"
+        "stack-version": "7.1.0.1"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
