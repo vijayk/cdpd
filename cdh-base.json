@@ -121,7 +121,8 @@
             "enable-sync": false,
             "internal-repo-name": "calcite",
             "repo-url": "git@github.com:apache/calcite.git",
-            "version": "1.19.0"
+            "version": "1.19.0",
+            "internal-branch": "cdpd-master"
         },
         "datafu": {
             "branch": "1.3.0",
@@ -143,7 +144,8 @@
             "enable-sync": false,
             "internal-repo-name": "data-analytics-studio",
             "repo-url": "git@github.infra.cloudera.com:CDH/data-analytics-studio.git",
-            "version": "1.4.2"
+            "version": "1.4.2",
+            "internal-branch": "cdpd-master"
         },
         "druid": {
             "branch": "0.15.1-incubating",
@@ -299,7 +301,8 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/hive.git",
-            "version": "3.1.3000"
+            "version": "3.1.3000",
+            "internal-branch": "cdpd-master"
         },
         "hive_warehouse_connector": {
             "branch": "branch-2.3",
@@ -336,7 +339,8 @@
             "platforms": [
                 "centos7"
             ],
-            "version": "3.2.0"
+            "version": "3.2.0",
+            "internal-branch": "cdpd-master"
         },
         "isa_l": {
             "branch": "master",
@@ -355,7 +359,8 @@
             ],
             "maven-group-id": "com/cloudera/hue",
             "repo-url": "git@github.com:cloudera/hue.git",
-            "version": "4.5.0"
+            "version": "4.5.0",
+            "internal-branch": "cdpd-master"
         },
         "kafka": {
             "branch": "2.3.0",
@@ -407,7 +412,8 @@
             "internal-repo-name": "livy",
             "maven-group-id": "org/apache/livy",
             "repo-url": "git@github.com:apache/incubator-livy.git",
-            "version": "0.6.0"
+            "version": "0.6.0",
+            "internal-branch": "cdpd-master"
         },
         "oozie": {
             "branch": "master",
@@ -442,7 +448,8 @@
             "enable-sync": false,
             "maven-group-id": "org/apache/orc",
             "repo-url": "git@github.com:apache/orc.git",
-            "version": "1.5.1"
+            "version": "1.5.1",
+            "internal-branch": "cdpd-master"
         },
         "ozone": {
             "branch": "master",
@@ -469,7 +476,8 @@
             "enable-sync": false,
             "maven-group-id": "org/apache/parquet",
             "repo-url": "git@github.com:apache/parquet.git",
-            "version": "1.10.99"
+            "version": "1.10.99",
+            "internal-branch": "cdpd-master"
         },
         "phoenix": {
             "branch": "5.x-HBase-2.0",
@@ -621,7 +629,8 @@
             "internal-merge": "hdp-master",
             "maven-group-id": "org/apache/spark",
             "repo-url": "git@github.com:apache/spark.git",
-            "version": "2.4.0"
+            "version": "2.4.0",
+            "internal-branch": "cdpd-master"
         },
         "spark_atlas_connector": {
             "branch": "branch-2.4",
@@ -710,7 +719,8 @@
             "internal-repo-name": "hive",
             "maven-group-id": "org/apache/hive",
             "repo-url": "git@github.com:apache/hive.git",
-            "version": "2.3.0"
+            "version": "2.3.0",
+            "internal-branch": "cdpd-master"
         },
         "superset": {
             "branch": "0.23",
@@ -734,7 +744,8 @@
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/tez.git",
-            "version": "0.9.1"
+            "version": "0.9.1",
+            "internal-branch": "cdpd-master"
         },
         "zeppelin": {
             "branch": "branch-0.8",
@@ -751,7 +762,8 @@
             "enable-sync": false,
             "internal-repo-name": "zeppelin",
             "repo-url": "git@github.com:apache/zeppelin.git",
-            "version": "0.8.2"
+            "version": "0.8.2",
+            "internal-branch": "cdpd-master"
         },
         "zookeeper": {
             "branch": "branch-3.5",
