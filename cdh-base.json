@@ -13,7 +13,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com:apache/accumulo.git",
             "version": "1.7.0"
         },
@@ -24,7 +24,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com:apache/arrow.git",
             "version": "0.8.0"
         },
@@ -39,7 +39,7 @@
                 "kafka"
             ],
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "internal-repo-name": "atlas",
             "repo-url": "git@github.com:apache/atlas.git",
             "version": "2.0.0"
@@ -49,7 +49,7 @@
             "depends-on": null,
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "internal-repo-name": "calcite_avatica",
             "maven-group-id": "org/apache/calcite",
             "repo-url": "git@github.com:apache/calcite-avatica.git",
@@ -106,7 +106,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com:apache/crunch.git",
             "version": "0.11.0"
         },
@@ -171,7 +171,7 @@
             "enable-merge": false,
             "internal-repo-name": "flume-ng",
             "maven-group-id": "org/apache/flume",
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com:apache/flume.git",
             "version": "1.9.0"
         },
@@ -179,7 +179,7 @@
             "branch": "v1.9.10",
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "maven-group-id": "com/google",
             "repo-url": "git@github.com:GoogleCloudPlatform/bigdata-interop.git",
             "version": "1.9.10"
@@ -296,7 +296,7 @@
                 "kafka"
             ],
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com:apache/hive.git",
             "version": "3.1.3000"
         },
@@ -365,7 +365,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com:apache/kafka.git",
             "version": "2.4.0"
         },
@@ -471,7 +471,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "maven-group-id": "org/apache/parquet",
             "repo-url": "git@github.com:apache/parquet.git",
             "version": "1.10.99"
@@ -490,7 +490,7 @@
                 "kafka"
             ],
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com:apache/phoenix.git",
             "version": "5.0.0"
         },
@@ -515,7 +515,7 @@
             "depends-on": null,
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com/druid-io/pydruid",
             "version": "0.4.2"
         },
@@ -558,7 +558,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "internal-repo-name": "ranger",
             "repo-url": "git@github.com:apache/ranger.git",
             "version": "2.0.0"
@@ -651,7 +651,7 @@
                 "hive"
             ],
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "internal-repo-name": "spark-acid",
             "maven-group-id": "com/qubole",
             "repo-url": "git@github.com:qubole/spark-acid.git",
@@ -758,10 +758,15 @@
             "branch": "branch-3.5",
             "depends-on": null,
             "enable-merge": false,
-            "enable-sync": false,
+            "enable-sync": true,
             "repo-url": "git@github.com:apache/zookeeper.git",
             "version": "3.5.5"
         }
+    },
+    "co-dev": {
+        "ro-partners": [
+            "baronia"
+        ]
     },
     "hwx": {
         "platforms": [
