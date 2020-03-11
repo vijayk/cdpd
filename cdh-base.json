@@ -472,8 +472,8 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
-            "internal-branch": "cdpd-master",
+            "enable-sync": false,
+            "internal-branch": "CDH-7.1.0.0",
             "maven-group-id": "org/apache/orc",
             "repo-url": "git@github.com:apache/orc.git",
             "version": "1.5.1"
@@ -724,10 +724,10 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "hive",
             "maven-group-id": "org/apache/hive",
-            "internal-branch": "cdpd-master",
+            "internal-branch": "FENG",
             "repo-url": "git@github.com:apache/hive.git",
             "version": "2.3.0"
         },
