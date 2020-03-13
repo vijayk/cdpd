@@ -518,6 +518,14 @@
             "repo-url": "git@github.com:apache/pig.git",
             "version": "0.16.0"
         },
+        "prometheus": {
+            "enable-blackduck-scan": false,
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-repo-name": "ozone",
+            "repo-url": "git@github.com:prometheus/prometheus.git",
+            "version": "2.16.0"
+        },
         "pydruid": {
             "branch": "0.4",
             "depends-on": null,
