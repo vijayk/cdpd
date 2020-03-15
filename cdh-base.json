@@ -399,6 +399,7 @@
                 "hadoop",
                 "hive",
                 "parquet",
+                "ranger",
                 "spark"
             ],
             "enable-merge": false,
