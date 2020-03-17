@@ -768,6 +768,16 @@
             "baronia"
         ]
     },
+    "dependent-stack": {
+        "COMPUTEX": {
+            "stack-name": "COMPUTEX",
+            "internal-branch": "master",
+            "os": "centos7",
+            "components": [
+                "cpx"
+            ]
+        }
+    },
     "hwx": {
         "platforms": [
             "snapshot",
