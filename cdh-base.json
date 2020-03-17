@@ -783,16 +783,6 @@
             "version": "3.5.5"
         }
     },
-    "dependent-stack": {
-        "COMPUTEX": {
-            "stack-name": "COMPUTEX",
-            "internal-branch": "master",
-            "os": "centos7",
-            "components": [
-                "cpx"
-            ]
-        }
-    },
     "hwx": {
         "platforms": [
             "centos7"
