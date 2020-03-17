@@ -361,7 +361,10 @@
         "kafka_connect_ext": {
             "branch": "cdpd-master",
             "depends-on": [
-                "kafka"
+                "hadoop",
+                "kafka",
+                "schemaregistry",
+                "parquet"
             ],
             "enable-merge": false,
             "enable-sync": true,
