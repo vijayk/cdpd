@@ -493,7 +493,6 @@
                 "hbase",
                 "hive",
                 "calcite",
-                "pig",
                 "spark",
                 "tez",
                 "kafka"
