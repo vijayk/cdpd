@@ -654,9 +654,8 @@
                 "parquet"
             ],
             "enable-merge": false,
-            "enable-sync": true,
-            "internal-merge": "hdp-master",
-            "internal-branch": "cdpd-master",
+            "enable-sync": false,
+            "internal-branch": "CDH-7.1.0.0",
             "maven-group-id": "org/apache/spark",
             "repo-url": "git@github.com:apache/spark.git",
             "version": "2.4.0"
