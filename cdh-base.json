@@ -369,6 +369,7 @@
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
+            "maven-group-id": "com/cloudera/dim",
             "repo-url": "git@github.infra.cloudera.com:CDF/kafka-connect-parent.git",
             "version": "0.0.1"
         },
