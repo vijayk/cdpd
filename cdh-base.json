@@ -380,12 +380,13 @@
         "hue": {
             "branch": "master",
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "node-label": "#OS#_large",
             "platforms": [
                 "centos7"
             ],
             "maven-group-id": "com/cloudera/hue",
+            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:cloudera/hue.git",
             "version": "4.5.0"
         },
