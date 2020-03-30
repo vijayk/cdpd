@@ -435,7 +435,6 @@
                 "hbase",
                 "tez",
                 "hive",
-                "pig",
                 "sqoop",
                 "spark",
                 "avro",
