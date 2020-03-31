@@ -349,14 +349,14 @@
             "version": "0.8.1"
         },
         "kafka": {
-            "branch": "2.4.0",
+            "branch": "2.4.1",
             "depends-on": [
                 "zookeeper"
             ],
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/kafka.git",
-            "version": "2.4.0"
+            "version": "2.4.1"
         },
         "kafka_connect_ext": {
             "branch": "cdpd-master",
