@@ -717,7 +717,9 @@
                 "knox",
                 "hadoop",
                 "zookeeper",
-                "ranger"
+                "ranger",
+                "calcite",
+                "avatica"
             ],
             "enable-merge": false,
             "enable-sync": true,
