@@ -439,7 +439,6 @@
                 "spark",
                 "avro",
                 "parquet",
-                "spark_hive2",
                 "spark_atlas_connector"
             ],
             "enable-merge": false,
@@ -668,7 +667,6 @@
             "depends-on": [
                 "hadoop",
                 "hbase",
-                "spark_hive2",
                 "zookeeper",
                 "kafka",
                 "orc",
@@ -714,22 +712,6 @@
             "maven-group-id": "com/qubole",
             "repo-url": "git@github.com:qubole/spark-acid.git",
             "version": "0.4.4"
-        },
-        "spark_hive2": {
-            "branch": "release-1.2.1-spark2",
-            "depends-on": [
-                "hbase",
-                "hive",
-                "zookeeper",
-                "accumulo"
-            ],
-            "enable-blackduck-scan": false,
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name": "spark_hive2",
-            "maven-group-id": "org/spark-project/hive",
-            "repo-url": "git@github.com:hortonworks/spark_hive2.git",
-            "version": "1.21.2"
         },
         "spark_schema_registry": {
             "branch": "master",
@@ -801,7 +783,6 @@
                 "hadoop",
                 "gcs",
                 "hbase",
-                "spark_hive2",
                 "zookeeper",
                 "hive",
                 "phoenix"
