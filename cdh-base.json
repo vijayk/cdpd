@@ -60,7 +60,6 @@
             "depends-on": [
                 "hadoop"
             ],
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": true,
             "maven-group-id": "org/apache/avro",
@@ -240,7 +239,6 @@
                 "zookeeper",
                 "search"
             ],
-            "enable-blackduck-scan": false,
             "enable-build": true,
             "enable-merge": false,
             "enable-sync": false,
@@ -291,7 +289,6 @@
                 "spark_acid",
                 "tez"
             ],
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "hive-warehouse-connector",
@@ -601,7 +598,6 @@
                 "solr",
                 "hive"
             ],
-            "enable-blackduck-scan": false,
             "enable-build": true,
             "enable-merge": false,
             "enable-sync": false,
