@@ -151,6 +151,11 @@
                 "zookeeper",
                 "storage_api"
             ],
+           "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "druid",
@@ -312,6 +317,11 @@
             ],
             "enable-merge": true,
             "enable-sync": true,
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "repo-url": "git@github.com:apache/impala.git",
             "node-label": "#OS#_large",
             "version": "3.2.0"
@@ -408,6 +418,11 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "node-label": "#OS#_large",
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
             "version": "1.11.0"
@@ -469,6 +484,11 @@
             ],
             "enable-merge": true,
             "enable-sync": true,
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
             "repo-url": "git@github.com:apache/hadoop-ozone.git",
@@ -760,6 +780,11 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "internal-repo-name": "superset",
             "repo-url": "git@github.com:apache/incubator-superset.git",
             "version": "0.34.0"
@@ -811,7 +836,8 @@
             "snapshot",
             "centos7",
             "sles12",
-            "ubuntu18"
+            "ubuntu18",
+            "centos7-ppc"
         ],
         "poll-frequency": "240",
         "stack-version": "7.1.1.0"
