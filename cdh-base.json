@@ -804,7 +804,7 @@
     },
     "snapshots": {
         "enable-snapshots": "true",
-        "skip_components": ["datafu", "hadoop-lzo", "hue" , "parquet", "impala", "storage_api", "druid", "schemaregistry", "kafka_connect_ext", "streams_messaging_manager_ui", "streams_messaging_manager", "streams_replication_manager", "cruise_control"]
+        "skip_components": ["datafu", "hadoop-lzo", "hue" , "parquet", "storage_api", "druid", "schemaregistry", "kafka_connect_ext", "streams_messaging_manager_ui", "streams_messaging_manager", "streams_replication_manager", "cruise_control"]
     },
     "hwx": {
         "platforms": [
