@@ -667,6 +667,7 @@
             "depends-on": [
                 "hadoop",
                 "hbase",
+                "hive",
                 "zookeeper",
                 "kafka",
                 "orc",
