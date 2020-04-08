@@ -626,7 +626,8 @@
             "branch": "cdpd-master",
             "depends-on": [
                 "kafka",
-                "schemaregistry"
+                "schemaregistry",
+                "avro"
             ],
             "enable-merge": false,
             "enable-sync": true,
