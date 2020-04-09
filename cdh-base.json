@@ -502,7 +502,7 @@
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "cdpd-master",
+            "internal-branch": "CDH-7.1.0.0",
             "maven-group-id": "org/apache/parquet",
             "repo-url": "git@github.com:apache/parquet.git",
             "version": "1.10.99"
@@ -751,8 +751,8 @@
                 "ozone"
             ],
             "enable-merge": false,
-            "enable-sync": true,
-            "internal-branch": "cdpd-master",
+            "enable-sync": false,
+            "internal-branch": "CDH-7.1.0.0",
             "repo-url": "git@github.com:apache/tez.git",
             "version": "0.9.1"
         },
