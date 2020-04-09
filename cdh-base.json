@@ -464,7 +464,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
@@ -582,7 +582,7 @@
             "branch": "ratis-ozone",
             "depends-on": null,
             "enable-merge": true,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
             "version": "0.4.0"
