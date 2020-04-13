@@ -761,13 +761,21 @@
             "version": "3.5.5"
         }
     },
+    "dependent-stack": {
+        "COMPUTEX": {
+            "stack-name": "COMPUTEX",
+            "stack-version": "1.1.0.0",
+            "os": "centos7",
+            "components": "cpx"
+        }
+    },
     "hwx": {
         "platforms": [
-            "snapshot",
             "centos7"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.1.0.2"
+        "stack-version": "7.1.0.2",
+        "base-version": "7.1.0.0-714"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
