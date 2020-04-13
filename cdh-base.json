@@ -92,7 +92,8 @@
             "enable-merge": false,
             "enable-sync": false,
             "poll": false,
-            "repo-url": "git@github.com:hortonworks/build-support.git"
+            "repo-url": "git@github.com:hortonworks/build-support.git",
+            "internal-branch": "trial_2pass"
         },
         "calcite": {
             "branch": "branch-1.19",
