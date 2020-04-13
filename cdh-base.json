@@ -150,6 +150,11 @@
                 "zookeeper",
                 "storage_api"
             ],
+           "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "druid",
@@ -338,6 +343,11 @@
                 "hadoop",
                 "ranger"
             ],
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
@@ -363,6 +373,11 @@
                 "schemaregistry",
                 "parquet"
             ],
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
@@ -374,6 +389,11 @@
             "branch": "cdpd-master",
             "depends-on": [
                 "kafka"
+            ],
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -466,6 +486,11 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
             "repo-url": "git@github.com:apache/hadoop-ozone.git",
@@ -609,6 +634,11 @@
             "branch": "cdpd-master",
             "enable-merge": false,
             "enable-sync": true,
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "cldr-infra-git": true,
             "internal-repo-name": "smm_app_private",
             "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
@@ -620,6 +650,11 @@
                 "kafka",
                 "schemaregistry",
                 "avro"
+            ],
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -633,6 +668,11 @@
             "branch": "cdpd-master",
             "depends-on": [
                 "kafka"
+            ],
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -758,6 +798,11 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "platforms": [
+               "centos7",
+               "sles12",
+               "ubuntu18"
+            ],
             "internal-repo-name": "superset",
             "repo-url": "git@github.com:apache/incubator-superset.git",
             "version": "0.34.0"
