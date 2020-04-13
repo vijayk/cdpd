@@ -484,7 +484,7 @@
                 "hadoop",
                 "zookeeper"
             ],
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "platforms": [
                "centos7",
@@ -607,7 +607,7 @@
             "branch": "ratis-ozone",
             "depends-on": null,
             "enable-merge": true,
-            "enable-sync": false,
+            "enable-sync": true,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
             "version": "0.4.0"
