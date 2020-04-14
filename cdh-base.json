@@ -807,7 +807,8 @@
     "hwx": {
         "platforms": [
             "snapshot",
-            "centos7"
+            "centos7",
+            "ubuntu18"
         ],
         "poll-frequency": "240",
         "stack-version": "7.1.1.0"
