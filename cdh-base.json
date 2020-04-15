@@ -691,7 +691,8 @@
                 "gcs",
                 "knox",
                 "hadoop",
-                "zookeeper"
+                "zookeeper",
+                "ranger"
             ],
             "enable-merge": false,
             "enable-sync": true,
