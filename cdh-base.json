@@ -144,7 +144,7 @@
             "version": "1.4.2"
         },
         "druid": {
-            "branch": "0.15.1-incubating",
+            "branch": "0.17.1",
             "depends-on": [
                 "hadoop",
                 "zookeeper",
@@ -162,7 +162,7 @@
             "internal-repo-name": "druid",
             "maven-group-id": "org/apache/druid",
             "repo-url": "git@github.com:apache/incubator-druid.git",
-            "version": "0.15.1"
+            "version": "0.17.1"
         },
         "gcs": {
             "branch": "v1.9.10",
