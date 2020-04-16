@@ -148,7 +148,9 @@
             "depends-on": [
                 "hadoop",
                 "zookeeper",
-                "storage_api"
+                "storage_api",
+                "avro",
+                "parquet"
             ],
            "platforms": [
                "centos7",
