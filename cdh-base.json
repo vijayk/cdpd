@@ -374,7 +374,8 @@
         "cruise_control": {
             "branch": "cdpd-master",
             "depends-on": [
-                "kafka"
+                "kafka",
+                "zookeeper"
             ],
             "enable-merge": false,
             "enable-sync": true,
