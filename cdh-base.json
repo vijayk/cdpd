@@ -388,7 +388,8 @@
         "cruise_control": {
             "branch": "cdpd-master",
             "depends-on": [
-                "kafka"
+                "kafka",
+                "zookeeper"
             ],
             "platforms": [
                "centos7",
