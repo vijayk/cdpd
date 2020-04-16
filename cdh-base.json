@@ -737,7 +737,10 @@
                 "hive",
                 "orc",
                 "accumulo",
-                "zookeeper"
+                "zookeeper",
+                "avro",
+                "calcite",
+                "parquet"
             ],
             "enable-merge": false,
             "enable-sync": true,
