@@ -3,6 +3,7 @@
         "CDPD": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
+            "internal-branch": "CDH-7.1.0.3"
             "enable-sync": false,
             "repo-url": "git@github.infra.cloudera.com:CDH/CDPD.git"
         },
