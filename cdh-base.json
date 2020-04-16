@@ -93,7 +93,7 @@
             "enable-sync": false,
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git",
-            "internal-branch": "trial_2pass"
+            "internal-branch": "cdpd-master"
         },
         "calcite": {
             "branch": "branch-1.19",
