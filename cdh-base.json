@@ -309,7 +309,8 @@
                 "kudu",
                 "hive",
                 "ranger",
-                "tez"
+                "tez",
+                "ozone"
             ],
             "enable-merge": true,
             "enable-sync": true,
