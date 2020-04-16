@@ -468,7 +468,8 @@
             "depends-on": [
                 "ratis",
                 "hadoop",
-                "zookeeper"
+                "zookeeper",
+                "avro"
             ],
             "enable-merge": false,
             "enable-sync": true,
