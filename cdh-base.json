@@ -93,7 +93,7 @@
             "enable-sync": false,
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git",
-            "internal-branch": "cdpd-master"
+            "internal-branch": "trial_2pass"
         },
         "calcite": {
             "branch": "branch-1.19",
@@ -775,9 +775,10 @@
         "platforms": [
             "centos7"
         ],
-        "poll-frequency": "240",
-        "stack-version": "7.1.0.2",
-        "base-version": "7.1.0.0-714"
+        "poll-frequency": "24000",
+        "stack-version": "7.1.0.3",
+        "base-version": "7.1.0.2-4",
+        "internal-branch": "CDH-7.1.0.2"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
