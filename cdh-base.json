@@ -277,7 +277,8 @@
                 "arrow",
                 "parquet",
                 "avatica",
-                "kafka"
+                "kafka",
+                "avro"
             ],
             "enable-merge": false,
             "enable-sync": false,
