@@ -200,6 +200,7 @@
         "hbase": {
             "branch": "branch-2.2",
             "depends-on": [
+                "avro",
                 "hadoop",
                 "zookeeper"
             ],
