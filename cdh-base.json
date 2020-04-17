@@ -329,7 +329,7 @@
         },
         "hue": {
             "branch": "master",
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "node-label": "#OS#_large",
             "platforms": [
