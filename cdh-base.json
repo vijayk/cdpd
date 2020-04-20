@@ -767,7 +767,8 @@
                 "spark",
                 "hadoop",
                 "tez",
-                "hive"
+                "hive",
+                "orc"
             ],
             "enable-merge": false,
             "enable-sync": false,
