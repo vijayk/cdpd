@@ -155,6 +155,7 @@
            "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "enable-merge": false,
@@ -320,6 +321,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "enable-merge": true,
@@ -356,6 +358,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "enable-merge": false,
@@ -386,6 +389,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "enable-merge": false,
@@ -404,6 +408,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "enable-merge": false,
@@ -437,6 +442,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "enable-merge": false,
@@ -506,6 +512,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "internal-repo-name": "ozone",
@@ -654,6 +661,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "cldr-infra-git": true,
@@ -671,6 +679,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "enable-merge": false,
@@ -689,6 +698,7 @@
             "platforms": [
                "centos7",
                "sles12",
+               "snapshot",
                "ubuntu18"
             ],
             "enable-merge": false,
