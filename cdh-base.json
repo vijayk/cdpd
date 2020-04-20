@@ -353,6 +353,7 @@
             "branch": "cdpd-master",
             "depends-on": [
                 "hadoop",
+                "kafka",
                 "ranger"
             ],
             "platforms": [
