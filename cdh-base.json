@@ -470,7 +470,7 @@
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
             "repo-url": "git@github.com:apache/hadoop-ozone.git",
-            "version": "0.4.0"
+            "version": "0.5.0"
         },
         "parquet": {
             "branch": "apache-parquet-1.11.0-rc6",
@@ -586,7 +586,7 @@
             "enable-sync": false,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
-            "version": "0.4.0"
+            "version": "0.5.0"
         },
         "search": {
             "depends-on": [
