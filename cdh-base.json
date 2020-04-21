@@ -327,7 +327,8 @@
                 "hive",
                 "ranger",
                 "tez",
-                "ozone"
+                "ozone",
+                "atlas"
             ],
             "platforms": [
                "centos7",
