@@ -861,7 +861,8 @@
                 "hbase",
                 "zookeeper",
                 "hive",
-                "phoenix"
+                "phoenix",
+                "spark"
             ],
             "enable-merge": false,
             "enable-sync": true,
