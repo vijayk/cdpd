@@ -356,12 +356,6 @@
                 "kafka",
                 "ranger"
             ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
-            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
@@ -387,12 +381,6 @@
                 "schemaregistry",
                 "parquet"
             ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
-            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
@@ -405,12 +393,6 @@
             "depends-on": [
                 "kafka",
                 "zookeeper"
-            ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -659,12 +641,6 @@
             "branch": "cdpd-master",
             "enable-merge": false,
             "enable-sync": true,
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
-            ],
             "cldr-infra-git": true,
             "internal-repo-name": "smm_app_private",
             "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
@@ -676,12 +652,6 @@
                 "kafka",
                 "schemaregistry",
                 "avro"
-            ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -695,12 +665,6 @@
             "branch": "cdpd-master",
             "depends-on": [
                 "kafka"
-            ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
