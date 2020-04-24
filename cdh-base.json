@@ -508,7 +508,7 @@
                 "zookeeper",
                 "avro"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "platforms": [
                "centos7",
