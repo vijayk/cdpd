@@ -13,7 +13,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/accumulo.git",
             "version": "1.7.0"
         },
@@ -24,7 +24,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/arrow.git",
             "version": "0.8.0"
         },
@@ -179,7 +179,7 @@
             "branch": "v1.9.10",
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "maven-group-id": "com/google",
             "repo-url": "git@github.com:GoogleCloudPlatform/bigdata-interop.git",
             "version": "1.9.10"
@@ -365,7 +365,7 @@
                 "zookeeper"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/kafka.git",
             "version": "2.4.0"
         },
@@ -471,7 +471,7 @@
             ],
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "maven-group-id": "org/apache/parquet",
             "repo-url": "git@github.com:apache/parquet.git",
             "version": "1.10.99"
@@ -490,7 +490,7 @@
                 "kafka"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com:apache/phoenix.git",
             "version": "5.0.0"
         },
@@ -515,7 +515,7 @@
             "depends-on": null,
             "enable-blackduck-scan": false,
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "repo-url": "git@github.com/druid-io/pydruid",
             "version": "0.4.2"
         },
