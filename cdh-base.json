@@ -53,7 +53,7 @@
             "internal-repo-name": "calcite_avatica",
             "maven-group-id": "org/apache/calcite",
             "repo-url": "git@github.com:apache/calcite-avatica.git",
-            "version": "1.10.0"
+            "version": "1.16.0"
         },
         "avro": {
             "branch": "cdh6.1.0",
@@ -120,6 +120,17 @@
             "internal-repo-name": "calcite",
             "repo-url": "git@github.com:apache/calcite.git",
             "version": "1.19.0"
+        },
+        "curator": {
+            "branch": "apache-curator-4.3.0",
+            "depends-on": [
+                "zookeeper"
+            ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-repo-name": "curator",
+            "repo-url": "git@github.com:apache/curator.git",
+            "version": "4.3.0"
         },
         "datafu": {
             "branch": "1.3.0",
@@ -356,12 +367,6 @@
                 "kafka",
                 "ranger"
             ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
-            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
@@ -387,12 +392,6 @@
                 "schemaregistry",
                 "parquet"
             ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
-            ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
@@ -405,12 +404,6 @@
             "depends-on": [
                 "kafka",
                 "zookeeper"
-            ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -508,7 +501,7 @@
                 "zookeeper",
                 "avro"
             ],
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "platforms": [
                "centos7",
@@ -631,7 +624,7 @@
         "ratis": {
             "branch": "ratis-ozone",
             "depends-on": null,
-            "enable-merge": true,
+            "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
@@ -659,12 +652,6 @@
             "branch": "cdpd-master",
             "enable-merge": false,
             "enable-sync": true,
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
-            ],
             "cldr-infra-git": true,
             "internal-repo-name": "smm_app_private",
             "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
@@ -676,12 +663,6 @@
                 "kafka",
                 "schemaregistry",
                 "avro"
-            ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -695,12 +676,6 @@
             "branch": "cdpd-master",
             "depends-on": [
                 "kafka"
-            ],
-            "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -717,7 +692,9 @@
                 "knox",
                 "hadoop",
                 "zookeeper",
-                "ranger"
+                "ranger",
+                "calcite",
+                "avatica"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -767,7 +744,8 @@
                 "spark",
                 "hadoop",
                 "tez",
-                "hive"
+                "hive",
+                "orc"
             ],
             "enable-merge": false,
             "enable-sync": false,
@@ -860,7 +838,8 @@
                 "hbase",
                 "zookeeper",
                 "hive",
-                "phoenix"
+                "phoenix",
+                "spark"
             ],
             "enable-merge": false,
             "enable-sync": true,
