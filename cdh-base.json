@@ -88,7 +88,7 @@
         },
         "build-support": {
             "enable-blackduck-scan": false,
-            "internal-branch": "cdpd-master",
+            "internal-branch": "RELENG-9122",
             "enable-merge": false,
             "enable-sync": false,
             "poll": false,
