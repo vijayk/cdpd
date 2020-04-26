@@ -860,6 +860,15 @@
         "enable-snapshots": "true",
         "skip_components": ["datafu", "hadoop-lzo", "hue" , "parquet", "storage_api", "druid", "schemaregistry", "kafka_connect_ext", "streams_messaging_manager_ui", "streams_messaging_manager", "streams_replication_manager", "cruise_control"]
     },
+    "dependent-stack": {
+        "COMPUTEX": {
+            "stack-name": "COMPUTEX",
+            "stack-version": "1.1.0.0",
+            "poll": false,
+            "os": "centos7",
+            "components": "cpx"
+        }
+    },
     "hwx": {
         "platforms": [
             "snapshot",
