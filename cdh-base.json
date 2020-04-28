@@ -188,7 +188,6 @@
         "hadoop": {
             "branch": "branch-3.1",
             "depends-on": [
-                "curator",
                 "zookeeper",
                 "gcs",
                 "isa_l"
@@ -215,7 +214,6 @@
             "depends-on": [
                 "avro",
                 "hadoop",
-                "curator",
                 "zookeeper"
             ],
             "enable-merge": true,
@@ -228,7 +226,6 @@
             "depends-on": [
                 "avro",
                 "hadoop",
-                "curator",
                 "hbase",
                 "kafka",
                 "spark"
@@ -244,7 +241,6 @@
             "branch": "master",
             "depends-on": [
                 "hadoop",
-                "curator",
                 "zookeeper",
                 "hbase"
             ],
@@ -261,7 +257,6 @@
                 "hbase",
                 "hadoop",
                 "zookeeper",
-                "curator",
                 "search"
             ],
             "enable-build": true,
@@ -287,7 +282,6 @@
             "branch": "branch-3",
             "depends-on": [
                 "hadoop",
-                "curator",
                 "zookeeper",
                 "hbase",
                 "tez",
@@ -370,7 +364,6 @@
         "schemaregistry": {
             "branch": "cdpd-master",
             "depends-on": [
-                "curator",
                 "hadoop",
                 "kafka",
                 "ranger"
@@ -423,7 +416,6 @@
             "branch": "master",
             "depends-on": [
                 "gcs",
-                "curator",
                 "hadoop",
                 "zookeeper"
             ],
@@ -460,7 +452,6 @@
                 "hadoop",
                 "hive",
                 "spark",
-                "curator",
                 "zookeeper"
             ],
             "enable-merge": false,
@@ -473,7 +464,6 @@
         "oozie": {
             "branch": "master",
             "depends-on": [
-                "curator",
                 "hadoop",
                 "gcs",
                 "hbase",
@@ -542,7 +532,6 @@
             "branch": "5.x-HBase-2.0",
             "depends-on": [
                 "avatica",
-                "curator",
                 "hadoop",
                 "hbase",
                 "hive",
@@ -560,7 +549,6 @@
             "branch": "branch-0.16",
             "depends-on": [
                 "hadoop",
-                "curator",
                 "zookeeper",
                 "accumulo",
                 "hbase",
@@ -647,7 +635,6 @@
             "depends-on": [
                 "avro",
                 "crunch",
-                "curator",
                 "zookeeper",
                 "hadoop",
                 "spark",
@@ -705,7 +692,6 @@
                 "gcs",
                 "knox",
                 "hadoop",
-                "curator",
                 "zookeeper",
                 "ranger",
                 "calcite",
@@ -726,7 +712,6 @@
                 "hadoop",
                 "hbase",
                 "hive",
-                "curator",
                 "zookeeper",
                 "kafka",
                 "orc",
@@ -838,7 +823,6 @@
             "depends-on": [
                 "hadoop",
                 "gcs",
-                "curator",
                 "zookeeper",
                 "ozone"
             ],
