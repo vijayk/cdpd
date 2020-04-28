@@ -251,6 +251,15 @@
             "repo-url": "git@github.com:apache/hbase-filesystem.git",
             "version": "1.0.0"
         },
+        "hbase_thirdparty": {
+            "branch": "master",
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "hbase-thirdparty",
+            "maven-group-id": "org/apache/hbase/thirdparty",
+            "repo-url": "git@github.com:apache/hbase-thirdparty.git",
+            "version": "3.2.0"
+        },
         "hbase-solr": {
             "depends-on": [
                 "solr",
