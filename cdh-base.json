@@ -717,7 +717,8 @@
                 "kafka",
                 "orc",
                 "avro",
-                "parquet"
+                "parquet",
+                "ranger"
             ],
             "enable-merge": false,
             "enable-sync": true,
