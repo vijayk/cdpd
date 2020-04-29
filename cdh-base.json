@@ -114,7 +114,6 @@
             "depends-on": [
                 "avatica"
             ],
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "calcite",
@@ -501,7 +500,6 @@
                 "hadoop",
                 "storage_api"
             ],
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": true,
             "maven-group-id": "org/apache/orc",
@@ -533,7 +531,6 @@
                 "hadoop",
                 "avro"
             ],
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
             "maven-group-id": "org/apache/parquet",
