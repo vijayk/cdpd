@@ -468,9 +468,7 @@
             "branch": "master",
             "depends-on": [
                 "ratis",
-                "hadoop",
-                "zookeeper",
-                "avro"
+                "hadoop"
             ],
             "enable-merge": false,
             "enable-sync": true,
