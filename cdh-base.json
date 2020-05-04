@@ -873,10 +873,7 @@
     "hwx": {
         "platforms": [
             "snapshot",
-            "centos7",
-            "sles12",
-            "ubuntu18",
-            "centos7-ppc"
+            "centos7"
         ],
         "poll-frequency": "240",
         "stack-version": "7.2.0.0"
