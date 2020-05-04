@@ -588,7 +588,9 @@
         },
         "ratis": {
             "branch": "ratis-ozone",
-            "depends-on": null,
+            "depends-on": [
+                "hadoop"
+            ],
             "enable-merge": true,
             "enable-sync": false,
             "internal-repo-name": "ratis",
