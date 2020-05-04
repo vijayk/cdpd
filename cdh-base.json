@@ -89,6 +89,7 @@
         "build-support": {
             "enable-blackduck-scan": false,
             "enable-merge": false,
+            "internal-branch": "cdpd-master",
             "enable-sync": false,
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
