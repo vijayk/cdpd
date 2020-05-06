@@ -5,7 +5,6 @@
     "atlas": [ "ATLAS" ],
     "avro": [ "AVRO" ],
     "calcite": [ ],
-    "datafu": [ ],
     "druid" : ["DRUID"],
     "hadoop": [ "HDFS", "YARN", "MAPREDUCE2" ],
     "hbase": [ "HBASE" ],
