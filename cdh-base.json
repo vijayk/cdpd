@@ -501,7 +501,7 @@
                 "ratis",
                 "hadoop"
             ],
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "platforms": [
                "centos7",
@@ -616,7 +616,7 @@
         "ratis": {
             "branch": "ratis-ozone",
             "depends-on": null,
-            "enable-merge": false,
+            "enable-merge": true,
             "enable-sync": true,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
