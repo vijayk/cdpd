@@ -717,7 +717,8 @@
                 "orc",
                 "avro",
                 "parquet",
-                "ranger"
+                "ranger",
+                "tez"
             ],
             "enable-merge": false,
             "enable-sync": true,
