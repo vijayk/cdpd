@@ -15,7 +15,6 @@
     "knox": [ "KNOX" ],
     "oozie": [ "OOZIE" ],
     "phoenix": [ ],
-    "pig": [ "PIG" ],
     "ranger": [ "RANGER", "RANGER_KMS" ],
     "spark": [ "SPARK2" ],
     "sqoop": [ "SQOOP" ],
