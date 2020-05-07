@@ -206,6 +206,7 @@
             "depends-on": [
                 "avro",
                 "hadoop",
+                "hbase_thirdparty",
                 "zookeeper"
             ],
             "enable-merge": true,
@@ -219,6 +220,7 @@
                 "avro",
                 "hadoop",
                 "hbase",
+                "hbase_thirdparty",
                 "kafka",
                 "spark"
             ],
@@ -233,8 +235,9 @@
             "branch": "master",
             "depends-on": [
                 "hadoop",
-                "zookeeper",
-                "hbase"
+                "hbase",
+                "hbase_thirdparty",
+                "zookeeper"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -584,6 +587,7 @@
                 "atlas",
                 "hadoop",
                 "hbase",
+                "hbase_thirdparty",
                 "hive",
                 "kafka",
                 "knox",
