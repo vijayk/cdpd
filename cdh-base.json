@@ -679,7 +679,8 @@
                 "kafka",
                 "orc",
                 "avro",
-                "parquet"
+                "parquet",
+                "tez"
             ],
             "enable-merge": false,
             "enable-sync": true,
