@@ -768,9 +768,9 @@
                 "phoenix"
             ],
             "enable-merge": false,
-            "enable-sync": true,
+            "enable-sync": false,
             "internal-repo-name": "zeppelin",
-            "internal-branch": "cdpd-master",
+            "internal-branch": "CDH-7.1.0.0",
             "repo-url": "git@github.com:apache/zeppelin.git",
             "version": "0.8.2"
         },
