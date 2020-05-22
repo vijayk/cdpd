@@ -765,7 +765,8 @@
         "spark_schema_registry": {
             "branch": "master",
             "depends-on": [
-                "spark"
+                "spark",
+                "schemaregistry"
             ],
             "enable-merge": false,
             "enable-sync": true,
