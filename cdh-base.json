@@ -829,6 +829,7 @@
             "ubuntu18"
         ],
         "poll-frequency": "240",
+        "base-version": "7.1.1.0-565",
         "stack-version": "7.1.2.0"
     },
     "remotes": {
