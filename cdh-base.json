@@ -92,7 +92,6 @@
             "internal-branch": "cdpd-master",
             "enable-sync": false,
             "poll": false,
-            "internal-branch": "cdpd-master",
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
         "crunch": {
