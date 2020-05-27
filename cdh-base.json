@@ -213,7 +213,7 @@
             "enable-merge": true,
             "enable-sync": true,
             "repo-url": "git@github.com:apache/hbase.git",
-            "version": "2.2.3"
+            "version": "2.2.5"
         },
         "hbase_connectors": {
             "branch": "master",
