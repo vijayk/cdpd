@@ -829,12 +829,10 @@
     },
     "hwx": {
         "platforms": [
-            "snapshot",
-            "centos7",
-            "ubuntu18"
+            "centos7"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.1.1.0"
+        "stack-version": "7.1.1.2000"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
