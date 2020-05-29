@@ -156,7 +156,6 @@
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "druid",
-            "internal-branch": "cdpd-master",
             "maven-group-id": "org/apache/druid",
             "repo-url": "git@github.com:apache/incubator-druid.git",
             "version": "0.15.1"
@@ -818,6 +817,15 @@
     "snapshots": {
         "enable-snapshots": "true",
         "skip_components": ["datafu", "hadoop-lzo", "hue" , "parquet", "storage_api", "druid", "schemaregistry", "kafka_connect_ext", "streams_messaging_manager_ui", "streams_messaging_manager", "streams_replication_manager", "cruise_control"]
+    },
+    "dependent-stack": {
+        "COMPUTEX": {
+            "stack-name": "COMPUTEX",
+            "stack-version": "1.1.0.0",
+            "poll": false,
+            "os": "centos7",
+            "components": "cpx"
+        }
     },
     "hwx": {
         "platforms": [
