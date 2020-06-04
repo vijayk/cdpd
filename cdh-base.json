@@ -704,7 +704,7 @@
               "org/apache/solr"
             ],
             "repo-url": "git@github.com:apache/lucene-solr.git",
-            "version": "8.4.1"
+            "version": "8.5.2"
         },
         "spark": {
             "branch": "branch-2.4",
