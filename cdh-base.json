@@ -317,6 +317,9 @@
             "enable-sync": true,
             "repo-url": "git@github.com:apache/impala.git",
             "node-label": "#OS#_large",
+            "no-partner": [
+                "baronia"
+            ],
             "version": "3.2.0"
         },
         "isa_l": {
@@ -414,6 +417,9 @@
             "enable-sync": false,
             "node-label": "#OS#_large",
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
+            "no-partner": [
+                "baronia"
+            ],
             "version": "1.12.0"
         },
         "livy": {
@@ -713,10 +719,6 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "no-partner": [
-                "monarch",
-                "ulysses"
-            ],
             "internal-repo-name": "spark-acid",
             "maven-group-id": "com/qubole",
             "repo-url": "git@github.com:qubole/spark-acid.git",
@@ -837,6 +839,7 @@
         "stack-version": "7.1.1.0"
     },
     "remotes": {
-        "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
+        "hwx": "git@github.infra.cloudera.com:CDH/%s.git",
+        "baronia": "git@github.com:hortonworks/%s-baronia.git"
     }
 }
