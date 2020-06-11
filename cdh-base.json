@@ -714,7 +714,6 @@
                 "hive",
                 "curator",
                 "zookeeper",
-                "kafka",
                 "orc",
                 "avro",
                 "parquet",
