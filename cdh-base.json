@@ -731,8 +731,7 @@
             "branch": "branch-2.4",
             "depends-on": [
                 "spark",
-                "atlas",
-                "kafka"
+                "atlas"
             ],
             "enable-merge": false,
             "enable-sync": true,
