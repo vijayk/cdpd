@@ -753,7 +753,7 @@
             ],
             "enable-merge": false,
             "enable-sync": false,
-            "internal-branch": "CDH-7.1.0.0",
+            "internal-branch": "FENG",
             "repo-url": "git@github.com:apache/tez.git",
             "version": "0.9.1"
         },
