@@ -878,8 +878,7 @@
             "snapshot",
             "centos7",
             "sles12",
-            "ubuntu18",
-            "centos7-ppc"
+            "ubuntu18"
         ],
         "poll-frequency": "240",
         "stack-version": "7.2.1.0"
