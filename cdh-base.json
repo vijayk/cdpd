@@ -325,6 +325,20 @@
             "repo-url": "git@github.com:hortonworks/hive-warehouse-connector.git",
             "version": "1.0.0"
         },
+        "hive-solr": {
+            "depends-on": [
+                "solr",
+                "hive",
+                "hadoop"
+            ],
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": false,
+            "maven-group-id": "com/lucidworks/hadoop",
+            "repo-url": "git@github.infra.cloudera.com:CDH/hive-solr.git",
+            "version": "4.0.0"
+        },
+
         "impala": {
             "branch": "master",
             "depends-on": [
