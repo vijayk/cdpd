@@ -320,7 +320,8 @@
             "maven-group-id": "com/cloudera/hue",
             "node-label": "#OS#_large",
             "platforms": [
-                "centos7"
+                "centos7",
+                "centos7-ppc"
             ],
             "repo-url": "git@github.com:cloudera/hue.git",
             "version": "4.5.0"
@@ -336,6 +337,10 @@
                 "ranger",
                 "tez",
                 "ozone"
+            ],
+            "platforms": [
+                "centos7",
+                "ubuntu18"
             ],
             "enable-merge": true,
             "enable-sync": true,
@@ -396,6 +401,10 @@
                 "parquet",
                 "ranger",
                 "spark"
+            ],
+            "platforms": [
+                "centos7",
+                "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": false,
@@ -458,6 +467,10 @@
                 "hadoop",
                 "zookeeper",
                 "avro"
+            ],
+            "platforms": [
+                "centos7",
+                "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -827,6 +840,7 @@
         "platforms": [
             "snapshot",
             "centos7",
+            "centos7-ppc",
             "ubuntu18"
         ],
         "poll-frequency": "240",
