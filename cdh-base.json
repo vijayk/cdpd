@@ -177,6 +177,10 @@
                 "avro",
                 "parquet"
             ],
+            "platforms": [
+                "centos7",
+                "ubuntu18"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "druid",
@@ -782,6 +786,10 @@
             "branch": "0.23",
             "depends-on": [
                 "pydruid"
+            ],
+            "platforms": [
+                "centos7",
+                "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
