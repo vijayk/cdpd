@@ -797,7 +797,7 @@
         "platforms": [
             "centos7"
         ],
-        "poll-frequency": "720",
+        "poll-frequency": "360",
         "stack-version": "7.0.2.1",
         "internal-branch": "CDH-7.1.0.0"
     },
