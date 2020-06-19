@@ -394,7 +394,7 @@
             "cldr-infra-git": true,
             "maven-group-id": "com/hortonworks/registries",
             "repo-url": "git@github.infra.cloudera.com:CDF/registry.git",
-            "version": "0.9.0"
+            "version": "0.9.1"
         },
         "kafka": {
             "branch": "2.5.0",
