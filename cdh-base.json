@@ -35,8 +35,7 @@
                 "hbase",
                 "calcite",
                 "zookeeper",
-                "hive",
-                "kafka"
+                "hive"
             ],
             "enable-merge": false,
             "enable-sync": false,
