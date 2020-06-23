@@ -90,8 +90,8 @@
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
-            "poll": false,
             "internal-branch": "cdpd-master",
+            "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
         "calcite": {
@@ -177,14 +177,14 @@
                 "avro",
                 "parquet"
             ],
-            "platforms": [
-                "centos7",
-                "ubuntu18"
-            ],
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "druid",
             "maven-group-id": "org/apache/druid",
+            "platforms": [
+                "centos7",
+                "ubuntu18"
+            ],
             "repo-url": "git@github.com:apache/incubator-druid.git",
             "version": "0.17.1"
         },
@@ -342,13 +342,13 @@
                 "tez",
                 "ozone"
             ],
+            "enable-merge": true,
+            "enable-sync": true,
+            "node-label": "#OS#_large",
             "platforms": [
                 "centos7",
                 "ubuntu18"
             ],
-            "enable-merge": true,
-            "enable-sync": true,
-            "node-label": "#OS#_large",
             "repo-url": "git@github.com:apache/impala.git",
             "version": "3.2.0"
         },
@@ -406,13 +406,13 @@
                 "ranger",
                 "spark"
             ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "node-label": "#OS#_large",
             "platforms": [
                 "centos7",
                 "ubuntu18"
             ],
-            "enable-merge": false,
-            "enable-sync": false,
-            "node-label": "#OS#_large",
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
             "version": "1.12.0"
         },
@@ -472,14 +472,14 @@
                 "zookeeper",
                 "avro"
             ],
-            "platforms": [
-                "centos7",
-                "ubuntu18"
-            ],
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
+            "platforms": [
+                "centos7",
+                "ubuntu18"
+            ],
             "repo-url": "git@github.com:apache/hadoop-ozone.git",
             "version": "0.5.0"
         },
@@ -787,13 +787,13 @@
             "depends-on": [
                 "pydruid"
             ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "superset",
             "platforms": [
                 "centos7",
                 "ubuntu18"
             ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name": "superset",
             "repo-url": "git@github.com:apache/incubator-superset.git",
             "version": "0.34.0"
         },
@@ -845,6 +845,7 @@
         }
     },
     "hwx": {
+        "base-version": "7.1.1.0-565",
         "platforms": [
             "snapshot",
             "centos7",
@@ -852,8 +853,7 @@
             "ubuntu18"
         ],
         "poll-frequency": "240",
-        "base-version": "7.1.1.0-565",
-        "stack-version": "7.1.2.0"
+        "stack-version": "7.1.3.0"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
