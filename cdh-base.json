@@ -342,11 +342,13 @@
         "impala": {
             "branch": "master",
             "depends-on": [
+                "avro",
                 "hadoop",
                 "hbase",
                 "knox",
                 "kudu",
                 "hive",
+                "parquet",
                 "ranger",
                 "tez",
                 "ozone",
