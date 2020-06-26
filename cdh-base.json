@@ -841,7 +841,7 @@
             "os": "centos7",
             "poll": false,
             "stack-name": "COMPUTEX",
-            "stack-version": "1.1.0.0"
+            "stack-version": "1.1.1.0"
         }
     },
     "hwx": {
