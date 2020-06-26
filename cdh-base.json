@@ -521,7 +521,8 @@
             "branch": "master",
             "depends-on": [
                 "ratis",
-                "hadoop"
+                "hadoop",
+                "ratis-thirdparty"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -622,7 +623,10 @@
         },
         "ratis": {
             "branch": "ratis-ozone",
-            "depends-on": null,
+            "depends-on": [
+                "ratis-thirdparty",
+                "hadoop"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "internal-repo-name": "ratis",
