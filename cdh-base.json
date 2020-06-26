@@ -468,7 +468,8 @@
             "branch": "master",
             "depends-on": [
                 "ratis",
-                "hadoop"
+                "hadoop",
+                "ratis-thirdparty"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -591,10 +592,11 @@
         "ratis": {
             "branch": "ratis-ozone",
             "depends-on": [
+                "ratis-thirdparty",
                 "hadoop"
             ],
-            "enable-merge": true,
-            "enable-sync": false,
+            "enable-merge": false,
+            "enable-sync": true,
             "internal-repo-name": "ratis",
             "repo-url": "git@github.com:apache/incubator-ratis.git",
             "version": "0.5.0"
