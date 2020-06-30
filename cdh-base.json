@@ -22,7 +22,6 @@
             "depends-on": [
                 "hadoop"
             ],
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/arrow.git",
@@ -46,7 +45,6 @@
         "avatica": {
             "branch": "branch-release",
             "depends-on": null,
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
             "internal-repo-name": "calcite_avatica",
@@ -102,7 +100,6 @@
                 "spark",
                 "zookeeper"
             ],
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
             "repo-url": "git@github.com:apache/crunch.git",
@@ -168,7 +165,6 @@
         },
         "gcs": {
             "branch": "v1.9.10",
-            "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
             "maven-group-id": "com/google",
