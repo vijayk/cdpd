@@ -152,7 +152,6 @@
             ],
            "platforms": [
                "centos7",
-               "centos8",
                "sles12",
                "snapshot",
                "ubuntu18"
@@ -352,7 +351,6 @@
             ],
             "platforms": [
                "centos7",
-               "centos8",
                "sles12",
                "snapshot",
                "ubuntu18"
@@ -377,7 +375,6 @@
             "node-label": "#OS#_large",
             "platforms": [
                 "centos7",
-                "centos8",
                 "centos7-ppc"
             ],
             "maven-group-id": "com/cloudera/hue",
@@ -461,7 +458,6 @@
             ],
             "platforms": [
                "centos7",
-               "cenos8",
                "sles12",
                "snapshot",
                "ubuntu18"
@@ -531,7 +527,6 @@
             "enable-sync": true,
             "platforms": [
                "centos7",
-               "centos8",
                "sles12",
                "snapshot",
                "ubuntu18"
@@ -828,7 +823,6 @@
             "enable-sync": true,
             "platforms": [
                "centos7",
-               "centos8",
                "sles12",
                "ubuntu18"
             ],
@@ -893,7 +887,6 @@
         "platforms": [
             "snapshot",
             "centos7",
-            "centos8",
             "sles12",
             "ubuntu18"
         ],
