@@ -333,6 +333,19 @@
             "repo-url": "git@github.infra.cloudera.com:CDH/hive-solr.git",
             "version": "4.0.0"
         },
+        "spark-solr": {
+            "depends-on": [
+                "solr",
+                "spark",
+                "hadoop"
+            ],
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": false,
+            "maven-group-id": "com/lucidworks/spark",
+            "repo-url": "git@github.infra.cloudera.com:CDH/spark-solr.git",
+            "version": "3.9.0"
+        },
 
         "impala": {
             "branch": "master",
