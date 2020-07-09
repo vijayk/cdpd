@@ -298,6 +298,7 @@
                 "arrow",
                 "parquet",
                 "avatica",
+                "kafka",
                 "avro"
             ],
             "enable-merge": false,
