@@ -388,7 +388,6 @@
             "node-label": "#OS#_large",
             "platforms": [
                 "centos7",
-                "sles12",
                 "centos7-ppc"
             ],
             "maven-group-id": "com/cloudera/hue",
