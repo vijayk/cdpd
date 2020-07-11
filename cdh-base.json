@@ -691,7 +691,9 @@
             "depends-on": [
                 "kafka",
                 "schemaregistry",
-                "avro"
+                "avro",
+                "hadoop",
+                "ranger"
             ],
             "enable-merge": false,
             "enable-sync": true,
