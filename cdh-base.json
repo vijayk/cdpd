@@ -756,38 +756,40 @@
             "repo-url": "git@github.com:apache/hive.git",
             "version": "3.1.3000"
         },
+        "streams_messaging_manager_ui": {
+            "branch": "cdpd-master",
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "internal-repo-name": "smm_app_private",
+            "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
+            "version": "0.0.1"
+        },
         "streams_messaging_manager": {
             "branch": "cdpd-master",
-            "cldr-infra-git": true,
             "depends-on": [
                 "kafka",
                 "schemaregistry",
-                "avro"
+                "avro",
+                "hadoop",
+                "ranger"
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "cldr-infra-git": true,
             "internal-repo-name": "smm_server_private",
             "maven-group-id": "com/hortonworks/smm",
             "repo-url": "git@github.infra.cloudera.com:CDF/smm_server_private.git",
             "version": "2.1.0"
         },
-        "streams_messaging_manager_ui": {
-            "branch": "cdpd-master",
-            "cldr-infra-git": true,
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name": "smm_app_private",
-            "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
-            "version": "0.0.1"
-        },
         "streams_replication_manager": {
             "branch": "cdpd-master",
-            "cldr-infra-git": true,
             "depends-on": [
                 "kafka"
             ],
             "enable-merge": false,
             "enable-sync": true,
+            "cldr-infra-git": true,
             "internal-repo-name": "SRM",
             "maven-group-id": "com/cloudera/dim",
             "repo-url": "git@github.infra.cloudera.com:CDF/SRM.git",
