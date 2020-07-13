@@ -325,6 +325,7 @@
             "node-label": "#OS#_large",
             "platforms": [
                 "centos7",
+                "ubuntu18",
                 "centos7-ppc"
             ],
             "repo-url": "git@github.com:cloudera/hue.git",
