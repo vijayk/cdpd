@@ -91,6 +91,17 @@
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
+        "cloudera-opdb-replication": {
+            "branch": "cdpd-master",
+            "depends-on": [
+                "hbase"
+            ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-repo-name": "cloudera-opdb-replication",
+            "repo-url": "git@github.infra.cloudera.com:CDH/cloudera-opdb-replication.git",
+            "version": "1.0.0"
+        },
         "crunch": {
             "branch": "apache-crunch-0.11",
             "depends-on": [
