@@ -151,11 +151,11 @@
                 "avro",
                 "parquet"
             ],
-           "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
+            "platforms": [
+                "centos7",
+                "sles12",
+                "snapshot",
+                "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -348,7 +348,6 @@
             "repo-url": "git@github.infra.cloudera.com:CDH/spark-solr.git",
             "version": "3.9.0"
         },
-
         "impala": {
             "branch": "master",
             "depends-on": [
@@ -365,10 +364,10 @@
                 "atlas"
             ],
             "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
+                "centos7",
+                "sles12",
+                "snapshot",
+                "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": true,
@@ -472,10 +471,10 @@
                 "spark"
             ],
             "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
+                "centos7",
+                "sles12",
+                "snapshot",
+                "ubuntu18"
             ],
             "enable-merge": false,
             "enable-sync": false,
@@ -542,10 +541,10 @@
             "enable-merge": false,
             "enable-sync": true,
             "platforms": [
-               "centos7",
-               "sles12",
-               "snapshot",
-               "ubuntu18"
+                "centos7",
+                "sles12",
+                "snapshot",
+                "ubuntu18"
             ],
             "internal-repo-name": "ozone",
             "maven-group-id": "org/apache/hadoop",
@@ -731,8 +730,8 @@
             "enable-merge": false,
             "enable-sync": true,
             "maven-group-id": [
-              "org/apache/lucene",
-              "org/apache/solr"
+                "org/apache/lucene",
+                "org/apache/solr"
             ],
             "repo-url": "git@github.com:apache/lucene-solr.git",
             "version": "8.4.1"
@@ -843,9 +842,9 @@
             "enable-merge": false,
             "enable-sync": true,
             "platforms": [
-               "centos7",
-               "sles12",
-               "ubuntu18"
+                "centos7",
+                "sles12",
+                "ubuntu18"
             ],
             "internal-repo-name": "superset",
             "repo-url": "git@github.com:apache/incubator-superset.git",
@@ -893,7 +892,13 @@
     },
     "snapshots": {
         "enable-snapshots": "true",
-        "skip_components": ["hadoop-lzo", "hue" , "parquet", "storage_api", "druid"]
+        "skip_components": [
+            "hadoop-lzo",
+            "hue",
+            "parquet",
+            "storage_api",
+            "druid"
+        ]
     },
     "dependent-stack": {
         "COMPUTEX": {
@@ -912,7 +917,7 @@
             "ubuntu18"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.2.1.0"
+        "stack-version": "7.2.2.0"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
