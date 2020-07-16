@@ -94,7 +94,9 @@
         "cloudera-opdb-replication": {
             "branch": "cdpd-master",
             "depends-on": [
-                "hbase"
+                "hbase",
+                "hadoop",
+                "hbase_thirdparty"
             ],
             "enable-merge": false,
             "enable-sync": false,
