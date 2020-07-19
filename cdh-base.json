@@ -413,14 +413,28 @@
             "depends-on": [
                 "curator",
                 "hadoop",
-                "kafka",
-                "ranger"
+                "kafka",         
+                "schema_registry_shaded"
             ],
             "enable-merge": false,
             "enable-sync": true,
             "cldr-infra-git": true,
             "maven-group-id": "com/hortonworks/registries",
             "repo-url": "git@github.infra.cloudera.com:CDF/registry.git",
+            "version": "0.9.1"
+        },
+        "schema_registry_shaded": {
+            "branch": "cdpd-master",
+            "depends-on": [
+                "curator",
+                "hadoop",
+                "ranger"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "cldr-infra-git": true,
+            "maven-group-id": "com/hortonworks/registries",
+            "repo-url": "git@github.infra.cloudera.com:CDF/schema-registry-shaded.git",
             "version": "0.9.1"
         },
         "kafka": {
