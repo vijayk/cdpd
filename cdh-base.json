@@ -792,6 +792,9 @@
                 "hive",
                 "orc"
             ],
+            "build-group": [
+                "hive_warehouse_connector"
+            ],
             "enable-merge": false,
             "enable-sync": false,
             "no-partner": [
