@@ -554,9 +554,6 @@
                 "hadoop",
                 "ratis-thirdparty"
             ],
-            "build-group": [
-                "ratis"
-            ],
             "enable-merge": false,
             "enable-sync": true,
             "platforms": [
