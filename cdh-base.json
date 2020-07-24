@@ -483,6 +483,9 @@
                 "ranger",
                 "spark"
             ],
+            "build-group": [
+                "impala"
+            ],
             "platforms": [
                 "centos7",
                 "sles12",
