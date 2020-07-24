@@ -551,6 +551,9 @@
                 "hadoop",
                 "ratis-thirdparty"
             ],
+            "build-group": [
+                "ratis"
+            ],
             "enable-merge": false,
             "enable-sync": true,
             "platforms": [
@@ -653,6 +656,9 @@
             "depends-on": [
                 "ratis-thirdparty",
                 "hadoop"
+            ],
+            "build-group": [
+                "ozone"
             ],
             "enable-merge": false,
             "enable-sync": true,
