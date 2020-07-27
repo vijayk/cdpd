@@ -90,6 +90,7 @@
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
+            "internal-branch": "cdpd-master",
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
         },
@@ -601,6 +602,16 @@
             "repo-url": "git@github.com:apache/incubator-ratis.git",
             "version": "0.5.0"
         },
+        "ratis-thirdparty": {
+            "branch": "master",
+            "depends-on": null,
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "ratis-thirdparty",
+            "maven-group-id": "org/apache/ratis",
+            "repo-url": "git@github.com:apache/incubator-ratis-thirdparty.git",
+            "version": "0.4.0"
+        },
         "schemaregistry": {
             "branch": "cdpd-master",
             "cldr-infra-git": true,
@@ -613,16 +624,6 @@
             "maven-group-id": "com/hortonworks/registries",
             "repo-url": "git@github.infra.cloudera.com:CDF/registry.git",
             "version": "0.8.1"
-        },
-        "ratis-thirdparty": {
-            "branch": "master",
-            "depends-on": null,
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name": "ratis-thirdparty",
-            "maven-group-id": "org/apache/ratis",
-            "repo-url": "git@github.com:apache/incubator-ratis-thirdparty.git",
-            "version": "0.4.0"
         },
         "search": {
             "depends-on": [
@@ -755,17 +756,9 @@
             "repo-url": "git@github.com:apache/hive.git",
             "version": "3.1.3000"
         },
-        "streams_messaging_manager_ui": {
-            "branch": "cdpd-master",
-            "enable-merge": false,
-            "enable-sync": true,
-            "cldr-infra-git": true,
-            "internal-repo-name": "smm_app_private",
-            "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
-            "version": "0.0.1"
-        },
         "streams_messaging_manager": {
             "branch": "cdpd-master",
+            "cldr-infra-git": true,
             "depends-on": [
                 "kafka",
                 "schemaregistry",
@@ -775,20 +768,28 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "cldr-infra-git": true,
             "internal-repo-name": "smm_server_private",
             "maven-group-id": "com/hortonworks/smm",
             "repo-url": "git@github.infra.cloudera.com:CDF/smm_server_private.git",
             "version": "2.1.0"
         },
+        "streams_messaging_manager_ui": {
+            "branch": "cdpd-master",
+            "cldr-infra-git": true,
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "smm_app_private",
+            "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
+            "version": "0.0.1"
+        },
         "streams_replication_manager": {
             "branch": "cdpd-master",
+            "cldr-infra-git": true,
             "depends-on": [
                 "kafka"
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "cldr-infra-git": true,
             "internal-repo-name": "SRM",
             "maven-group-id": "com/cloudera/dim",
             "repo-url": "git@github.infra.cloudera.com:CDF/SRM.git",
@@ -857,7 +858,7 @@
         }
     },
     "hwx": {
-        "base-version": "7.1.2.0-70",
+        "base-version": "7.1.3.0-87",
         "platforms": [
             "snapshot",
             "centos7",
@@ -865,7 +866,7 @@
             "ubuntu18"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.1.3.0"
+        "stack-version": "CDH-7.1.3.0"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
