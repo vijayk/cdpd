@@ -857,7 +857,7 @@
         }
     },
     "hwx": {
-        "base-version": "7.1.2.0-70",
+        "base-version": "7.1.3.0-87",
         "platforms": [
             "snapshot",
             "centos7",
@@ -865,7 +865,7 @@
             "ubuntu18"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.1.3.0"
+        "stack-version": "7.1.4.0"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
