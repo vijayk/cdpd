@@ -88,11 +88,60 @@
         },
         "build-support": {
             "enable-blackduck-scan": false,
-            "internal-branch": "RELENG-9122",
             "enable-merge": false,
             "enable-sync": false,
             "poll": false,
             "repo-url": "git@github.com:hortonworks/build-support.git"
+        },
+        "calcite": {
+            "branch": "branch-1.19",
+            "depends-on": [
+                "avatica"
+            ],
+            "enable-blackduck-scan": false,
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "calcite",
+            "repo-url": "git@github.com:apache/calcite.git",
+            "version": "1.19.0"
+        },
+        "cdh_select": {
+            "enable-blackduck-scan": false,
+            "enable-merge": false,
+            "enable-sync": false,
+            "platforms": [
+                "debian9",
+                "ubuntu12",
+                "ubuntu16"
+            ],
+            "repo-url": "git@github.com:apache/bigtop-new.git",
+            "version": "0.0.0"
+        },
+        "cdp_data_analytics_studio": {
+            "branch": "master",
+            "depends-on": [
+                "hadoop",
+                "hive",
+                "tez",
+                "ranger"
+            ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-repo-name": "data-analytics-studio",
+            "repo-url": "git@github.infra.cloudera.com:CDH/data-analytics-studio.git",
+            "version": "1.4.2"
+        },
+        "cruise_control": {
+            "branch": "cdpd-master",
+            "cldr-infra-git": true,
+            "depends-on": [
+                "kafka",
+                "zookeeper"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "repo-url": "git@github.infra.cloudera.com:CDF/cruise-control.git",
+            "version": "2.0.100"
         },
         "crunch": {
             "branch": "apache-crunch-0.11",
@@ -110,18 +159,6 @@
             "repo-url": "git@github.com:apache/crunch.git",
             "version": "0.11.0"
         },
-        "calcite": {
-            "branch": "branch-1.19",
-            "depends-on": [
-                "avatica"
-            ],
-            "enable-blackduck-scan": false,
-            "enable-merge": false,
-            "enable-sync": true,
-            "internal-repo-name": "calcite",
-            "repo-url": "git@github.com:apache/calcite.git",
-            "version": "1.19.0"
-        },
         "datafu": {
             "branch": "1.3.0",
             "enable-merge": false,
@@ -129,20 +166,6 @@
             "internal-repo-name": "datafu",
             "repo-url": "git@github.com:apache/incubator-datafu.git",
             "version": "1.3.0"
-        },
-        "cdp_data_analytics_studio": {
-            "branch": "master",
-            "depends-on": [
-                "hadoop",
-                "hive",
-                "tez",
-                "ranger"
-            ],
-            "enable-merge": false,
-            "enable-sync": false,
-            "internal-repo-name": "data-analytics-studio",
-            "repo-url": "git@github.infra.cloudera.com:CDH/data-analytics-studio.git",
-            "version": "1.4.2"
         },
         "druid": {
             "branch": "0.15.1-incubating",
@@ -205,6 +228,21 @@
             "repo-url": "git@github.com:apache/hbase.git",
             "version": "2.2.3"
         },
+        "hbase-solr": {
+            "depends-on": [
+                "solr",
+                "hbase",
+                "hadoop",
+                "zookeeper",
+                "search"
+            ],
+            "enable-build": true,
+            "enable-merge": false,
+            "enable-sync": false,
+            "maven-group-id": "com/ngdata/hbase-indexer",
+            "repo-url": "git@github.infra.cloudera.com:CDH/hbase-indexer.git",
+            "version": "1.5.0"
+        },
         "hbase_connectors": {
             "branch": "master",
             "depends-on": [
@@ -234,33 +272,6 @@
             "maven-group-id": "org/apache/hbase/filesystem",
             "repo-url": "git@github.com:apache/hbase-filesystem.git",
             "version": "1.0.0"
-        },
-        "hbase-solr": {
-            "depends-on": [
-                "solr",
-                "hbase",
-                "hadoop",
-                "zookeeper",
-                "search"
-            ],
-            "enable-build": true,
-            "enable-merge": false,
-            "enable-sync": false,
-            "maven-group-id": "com/ngdata/hbase-indexer",
-            "repo-url": "git@github.infra.cloudera.com:CDH/hbase-indexer.git",
-            "version": "1.5.0"
-        },
-        "cdh_select": {
-            "enable-blackduck-scan": false,
-            "enable-merge": false,
-            "enable-sync": false,
-            "platforms": [
-                "debian9",
-                "ubuntu12",
-                "ubuntu16"
-            ],
-            "repo-url": "git@github.com:apache/bigtop-new.git",
-            "version": "0.0.0"
         },
         "hive": {
             "branch": "branch-3",
@@ -301,6 +312,18 @@
             "repo-url": "git@github.com:hortonworks/hive-warehouse-connector.git",
             "version": "1.0.0"
         },
+        "hue": {
+            "branch": "master",
+            "enable-merge": true,
+            "enable-sync": true,
+            "maven-group-id": "com/cloudera/hue",
+            "node-label": "#OS#_large",
+            "platforms": [
+                "centos7"
+            ],
+            "repo-url": "git@github.com:cloudera/hue.git",
+            "version": "4.5.0"
+        },
         "impala": {
             "branch": "master",
             "depends-on": [
@@ -315,8 +338,8 @@
             ],
             "enable-merge": true,
             "enable-sync": true,
-            "repo-url": "git@github.com:apache/impala.git",
             "node-label": "#OS#_large",
+            "repo-url": "git@github.com:apache/impala.git",
             "version": "3.2.0"
         },
         "isa_l": {
@@ -325,31 +348,6 @@
             "enable-sync": false,
             "repo-url": "git@github.com:01org/isa-l.git",
             "version": "2.0.22"
-        },
-        "hue": {
-            "branch": "master",
-            "enable-merge": true,
-            "enable-sync": true,
-            "node-label": "#OS#_large",
-            "platforms": [
-                "centos7"
-            ],
-            "maven-group-id": "com/cloudera/hue",
-            "repo-url": "git@github.com:cloudera/hue.git",
-            "version": "4.5.0"
-        },
-        "schemaregistry": {
-            "branch": "cdpd-master",
-            "depends-on": [
-                "hadoop",
-                "ranger"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "cldr-infra-git": true,
-            "maven-group-id": "com/hortonworks/registries",
-            "repo-url": "git@github.infra.cloudera.com:CDF/registry.git",
-            "version": "0.8.1"
         },
         "kafka": {
             "branch": "2.4.1",
@@ -363,6 +361,7 @@
         },
         "kafka_connect_ext": {
             "branch": "cdpd-master",
+            "cldr-infra-git": true,
             "depends-on": [
                 "hadoop",
                 "kafka",
@@ -371,22 +370,9 @@
             ],
             "enable-merge": false,
             "enable-sync": true,
-            "cldr-infra-git": true,
             "maven-group-id": "com/cloudera/dim",
             "repo-url": "git@github.infra.cloudera.com:CDF/kafka-connect-parent.git",
             "version": "0.0.1"
-        },
-        "cruise_control": {
-            "branch": "cdpd-master",
-            "depends-on": [
-                "kafka",
-                "zookeeper"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "cldr-infra-git": true,
-            "repo-url": "git@github.infra.cloudera.com:CDF/cruise-control.git",
-            "version": "2.0.100"
         },
         "knox": {
             "branch": "master",
@@ -597,6 +583,19 @@
             "repo-url": "git@github.com:apache/incubator-ratis.git",
             "version": "0.5.0"
         },
+        "schemaregistry": {
+            "branch": "cdpd-master",
+            "cldr-infra-git": true,
+            "depends-on": [
+                "hadoop",
+                "ranger"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "maven-group-id": "com/hortonworks/registries",
+            "repo-url": "git@github.infra.cloudera.com:CDF/registry.git",
+            "version": "0.8.1"
+        },
         "search": {
             "depends-on": [
                 "avro",
@@ -615,43 +614,6 @@
             "repo-url": "git@github.infra.cloudera.com:CDH/search.git",
             "version": "1.0.0"
         },
-        "streams_messaging_manager_ui": {
-            "branch": "cdpd-master",
-            "enable-merge": false,
-            "enable-sync": true,
-            "cldr-infra-git": true,
-            "internal-repo-name": "smm_app_private",
-            "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
-            "version": "0.0.1"
-        },
-        "streams_messaging_manager": {
-            "branch": "cdpd-master",
-            "depends-on": [
-                "kafka",
-                "schemaregistry",
-                "avro"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "cldr-infra-git": true,
-            "internal-repo-name": "smm_server_private",
-            "maven-group-id": "com/hortonworks/smm",
-            "repo-url": "git@github.infra.cloudera.com:CDF/smm_server_private.git",
-            "version": "2.1.0"
-        },
-        "streams_replication_manager": {
-            "branch": "cdpd-master",
-            "depends-on": [
-                "kafka"
-            ],
-            "enable-merge": false,
-            "enable-sync": true,
-            "cldr-infra-git": true,
-            "internal-repo-name": "SRM",
-            "maven-group-id": "com/cloudera/dim",
-            "repo-url": "git@github.infra.cloudera.com:CDF/SRM.git",
-            "version": "1.0.0"
-        },
         "solr": {
             "branch": "branch_8x",
             "depends-on": [
@@ -663,8 +625,8 @@
             "enable-merge": false,
             "enable-sync": true,
             "maven-group-id": [
-              "org/apache/lucene",
-              "org/apache/solr"
+                "org/apache/lucene",
+                "org/apache/solr"
             ],
             "repo-url": "git@github.com:apache/lucene-solr.git",
             "version": "8.4.1"
@@ -689,6 +651,25 @@
             "repo-url": "git@github.com:apache/spark.git",
             "version": "2.4.0"
         },
+        "spark_acid": {
+            "branch": "master",
+            "depends-on": [
+                "spark",
+                "hadoop",
+                "tez",
+                "hive"
+            ],
+            "enable-merge": false,
+            "enable-sync": false,
+            "internal-repo-name": "spark-acid",
+            "maven-group-id": "com/qubole",
+            "no-partner": [
+                "monarch",
+                "ulysses"
+            ],
+            "repo-url": "git@github.com:qubole/spark-acid.git",
+            "version": "0.4.4"
+        },
         "spark_atlas_connector": {
             "branch": "branch-2.4",
             "depends-on": [
@@ -702,25 +683,6 @@
             "maven-group-id": "com/hortonworks/spark",
             "repo-url": "git@github.com:hortonworks-spark/spark-atlas-connector.git",
             "version": "0.1.0"
-        },
-        "spark_acid": {
-            "branch": "master",
-            "depends-on": [
-                "spark",
-                "hadoop",
-                "tez",
-                "hive"
-            ],
-            "enable-merge": false,
-            "enable-sync": false,
-            "no-partner": [
-                "monarch",
-                "ulysses"
-            ],
-            "internal-repo-name": "spark-acid",
-            "maven-group-id": "com/qubole",
-            "repo-url": "git@github.com:qubole/spark-acid.git",
-            "version": "0.4.4"
         },
         "spark_schema_registry": {
             "branch": "master",
@@ -764,6 +726,43 @@
             "maven-group-id": "org/apache/hive",
             "repo-url": "git@github.com:apache/hive.git",
             "version": "3.1.3000"
+        },
+        "streams_messaging_manager": {
+            "branch": "cdpd-master",
+            "cldr-infra-git": true,
+            "depends-on": [
+                "kafka",
+                "schemaregistry",
+                "avro"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "smm_server_private",
+            "maven-group-id": "com/hortonworks/smm",
+            "repo-url": "git@github.infra.cloudera.com:CDF/smm_server_private.git",
+            "version": "2.1.0"
+        },
+        "streams_messaging_manager_ui": {
+            "branch": "cdpd-master",
+            "cldr-infra-git": true,
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "smm_app_private",
+            "repo-url": "git@github.infra.cloudera.com:CDF/smm_app_private.git",
+            "version": "0.0.1"
+        },
+        "streams_replication_manager": {
+            "branch": "cdpd-master",
+            "cldr-infra-git": true,
+            "depends-on": [
+                "kafka"
+            ],
+            "enable-merge": false,
+            "enable-sync": true,
+            "internal-repo-name": "SRM",
+            "maven-group-id": "com/cloudera/dim",
+            "repo-url": "git@github.infra.cloudera.com:CDF/SRM.git",
+            "version": "1.0.0"
         },
         "superset": {
             "branch": "0.23",
@@ -814,29 +813,43 @@
             "version": "3.5.5"
         }
     },
-    "snapshots": {
-        "enable-snapshots": "true",
-        "skip_components": ["datafu", "hadoop-lzo", "hue" , "parquet", "storage_api", "druid", "schemaregistry", "kafka_connect_ext", "streams_messaging_manager_ui", "streams_messaging_manager", "streams_replication_manager", "cruise_control"]
-    },
     "dependent-stack": {
         "COMPUTEX": {
-            "stack-name": "COMPUTEX",
-            "stack-version": "1.1.0.0",
-            "poll": false,
+            "components": "cpx",
             "os": "centos7",
-            "components": "cpx"
+            "poll": false,
+            "stack-name": "COMPUTEX",
+            "stack-version": "1.1.0.0"
         }
     },
     "hwx": {
+        "base-version": "7.1.1.0-565",
         "platforms": [
             "snapshot",
             "centos7",
             "ubuntu18"
         ],
         "poll-frequency": "240",
-        "stack-version": "7.1.1.0"
+        "stack-version": "7.1.1.2001"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
+    },
+    "snapshots": {
+        "enable-snapshots": "true",
+        "skip_components": [
+            "datafu",
+            "hadoop-lzo",
+            "hue",
+            "parquet",
+            "storage_api",
+            "druid",
+            "schemaregistry",
+            "kafka_connect_ext",
+            "streams_messaging_manager_ui",
+            "streams_messaging_manager",
+            "streams_replication_manager",
+            "cruise_control"
+        ]
     }
 }
