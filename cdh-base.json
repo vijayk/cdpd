@@ -866,7 +866,7 @@
             "ubuntu18"
         ],
         "poll-frequency": "240",
-        "stack-version": "CDH-7.1.3.0"
+        "stack-version": "7.1.3.0"
     },
     "remotes": {
         "hwx": "git@github.infra.cloudera.com:CDH/%s.git"
