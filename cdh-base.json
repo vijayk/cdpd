@@ -188,13 +188,13 @@
             "version": "0.17.1"
         },
         "gcs": {
-            "branch": "v1.9.10",
+            "branch": "v2.1.2",
             "enable-blackduck-scan": false,
             "enable-merge": false,
             "enable-sync": false,
             "maven-group-id": "com/google",
             "repo-url": "git@github.com:GoogleCloudPlatform/bigdata-interop.git",
-            "version": "1.9.10"
+            "version": "2.1.2"
         },
         "hadoop": {
             "branch": "branch-3.1",
