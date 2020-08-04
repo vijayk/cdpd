@@ -348,6 +348,7 @@
             "node-label": "#OS#_large",
             "platforms": [
                 "centos7",
+                "sles12",
                 "ubuntu18"
             ],
             "repo-url": "git@github.com:apache/impala.git",
@@ -412,6 +413,7 @@
             "node-label": "#OS#_large",
             "platforms": [
                 "centos7",
+                "sles12",
                 "ubuntu18"
             ],
             "repo-url": "git@github.infra.cloudera.com:CDH/kudu.git",
@@ -863,6 +865,7 @@
             "snapshot",
             "centos7",
             "centos7-ppc",
+            "sles12",
             "ubuntu18"
         ],
         "poll-frequency": "240",
