@@ -484,7 +484,9 @@
                 "spark",
                 "avro",
                 "parquet",
-                "spark_atlas_connector"
+                "spark_atlas_connector",
+                "zookeeper",
+                "orc"
             ],
             "enable-merge": false,
             "enable-sync": true,
