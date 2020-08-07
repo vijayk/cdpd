@@ -191,7 +191,8 @@
                 "curator",
                 "zookeeper",
                 "gcs",
-                "isa_l"
+                "isa_l",
+                "t9000_core"
             ],
             "enable-merge": false,
             "enable-sync": true,
