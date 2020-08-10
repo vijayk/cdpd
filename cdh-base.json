@@ -400,10 +400,6 @@
             "enable-merge": false,
             "enable-sync": true,
             "node-label": "#OS#_large",
-            "platforms": [
-                "centos7",
-                "centos7-ppc"
-            ],
             "maven-group-id": "com/cloudera/hue",
             "repo-url": "git@github.com:cloudera/hue.git",
             "version": "4.5.0"
@@ -413,7 +409,7 @@
             "depends-on": [
                 "curator",
                 "hadoop",
-                "kafka",         
+                "kafka",
                 "schema_registry_shaded"
             ],
             "enable-merge": false,
