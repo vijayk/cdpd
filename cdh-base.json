@@ -323,11 +323,6 @@
             "enable-sync": true,
             "maven-group-id": "com/cloudera/hue",
             "node-label": "#OS#_large",
-            "platforms": [
-                "centos7",
-                "ubuntu18",
-                "centos7-ppc"
-            ],
             "repo-url": "git@github.com:cloudera/hue.git",
             "version": "4.5.0"
         },
