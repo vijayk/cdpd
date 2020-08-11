@@ -856,7 +856,6 @@
         }
     },
     "hwx": {
-        "base-version": "7.1.3.0-87",
         "platforms": [
             "snapshot",
             "centos7",
